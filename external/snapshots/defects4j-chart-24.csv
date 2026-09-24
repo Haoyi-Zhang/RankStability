@@ -1,0 +1,11 @@
+test_type,test_name,bug,mutant_1,mutant_2,mutant_3,mutant_4,mutant_5,mutant_6,mutant_7,mutant_8,mutant_9,mutant_10,mutant_11,mutant_12
+operator,-,-,LVR,LVR,LVR,LVR,ROR,ROR,ROR,ROR,ROR,ROR,ROR,STD
+dev,dev__0__org.jfree.chart.renderer.junit.GrayPaintScaleTests::testConstructor,0,1,1,1,1,1,1,1,0,0,0,1,0
+dev,dev__0__org.jfree.chart.renderer.junit.GrayPaintScaleTests::testEquals,0,1,0,1,1,1,1,1,0,0,0,1,1
+dev,dev__0__org.jfree.chart.renderer.junit.GrayPaintScaleTests::testCloning,0,1,0,1,1,1,1,1,0,0,0,1,0
+dev,dev__0__org.jfree.chart.renderer.junit.GrayPaintScaleTests::testSerialization,0,1,0,1,1,1,1,1,0,0,0,1,0
+dev,dev__0__org.jfree.chart.renderer.xy.junit.XYBlockRendererTests::testEquals,0,0,0,0,0,1,1,1,0,0,0,1,0
+dev,dev__0__org.jfree.chart.renderer.xy.junit.XYBlockRendererTests::testHashcode,0,0,0,0,0,0,0,0,0,0,0,0,0
+dev,dev__0__org.jfree.chart.renderer.xy.junit.XYBlockRendererTests::testCloning,0,0,0,0,0,0,0,0,0,0,0,0,0
+dev,dev__0__org.jfree.chart.renderer.xy.junit.XYBlockRendererTests::testSerialization,0,0,0,0,0,0,0,0,0,0,0,0,0
+dev,dev__0__org.jfree.chart.renderer.junit.GrayPaintScaleTests::testGetPaint,1,1,1,1,1,1,1,1,0,0,0,1,0

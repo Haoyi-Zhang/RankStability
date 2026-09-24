@@ -1,0 +1,7 @@
+{
+  "category": "fixture",
+  "description": "Bottom floor distinguishes absence from a selected zero-score mutant",
+  "expected_minimum": 1,
+  "expected_status": "counterexample",
+  "id": "fixture-06"
+}

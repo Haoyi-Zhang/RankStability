@@ -1,0 +1,58 @@
+{
+  "blob": "d52ab7f04c855578cee6e7764f73da4a33485ce2",
+  "bug_id": 54,
+  "id": "defects4j-lang-54",
+  "official_triggers": [
+    "org.apache.commons.lang.LocaleUtilsTest::testLang328"
+  ],
+  "operators": [
+    "ROR",
+    "ROR",
+    "ROR",
+    "LVR",
+    "LVR",
+    "ROR",
+    "ROR",
+    "ROR",
+    "ROR",
+    "ROR",
+    "ROR",
+    "ROR"
+  ],
+  "path": "resources/matrices/Lang/Lang.54f.big.all.Matrix.csv",
+  "project": "Lang",
+  "reported_trigger_tests": 1,
+  "selected_failing_rule": "all official Defects4J trigger tests present as dev bug=1 rows, capped at two",
+  "selected_failing_tests": [
+    "dev__0__org.apache.commons.lang.LocaleUtilsTest::testLang328"
+  ],
+  "selected_mutant_columns": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "selected_passing_rule": "first eight dev rows with bug=0 in upstream file order",
+  "selected_passing_tests": [
+    "dev__0__org.apache.commons.lang.LocaleUtilsTest::testConstructor",
+    "dev__0__org.apache.commons.lang.LocaleUtilsTest::testToLocale_1Part",
+    "dev__0__org.apache.commons.lang.LocaleUtilsTest::testToLocale_2Part",
+    "dev__0__org.apache.commons.lang.LocaleUtilsTest::testToLocale_3Part",
+    "dev__0__org.apache.commons.lang.LocaleUtilsTest::testLocaleLookupList_Locale",
+    "dev__0__org.apache.commons.lang.LocaleUtilsTest::testLocaleLookupList_LocaleLocale",
+    "dev__0__org.apache.commons.lang.LocaleUtilsTest::testAvailableLocaleList",
+    "dev__0__org.apache.commons.lang.LocaleUtilsTest::testAvailableLocaleSet"
+  ],
+  "total_mutants": 344,
+  "total_tests": 44,
+  "upstream_commit": "f8d8376e0efe345161f26ff6483a404c8548fe1c",
+  "upstream_url": "https://github.com/donghwan-shin/Diversity-aware-Mutation-Testing/blob/f8d8376e0efe345161f26ff6483a404c8548fe1c/resources/matrices/Lang/Lang.54f.big.all.Matrix.csv"
+}

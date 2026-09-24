@@ -1,0 +1,903 @@
+{
+  "commands": [
+    {
+      "command": "python src/limited.py tests/pilot.py",
+      "elapsed_reported": "0:00.62",
+      "max_rss_kib": 94064,
+      "name": "pilot",
+      "ordinal": 1,
+      "returncode": 0,
+      "stderr_bytes": 0,
+      "stdout_bytes": 420,
+      "stdout_json": {
+        "cases": 256,
+        "checker_steps": 15630,
+        "cpu_seconds": 0.06399870100000005,
+        "deleted_branch_rejections": 71,
+        "oracle_subsets": 15788,
+        "peak_rss_kib": 93936,
+        "producer": {
+          "augmentations": 990,
+          "edge_scans": 26448,
+          "networks": 1029,
+          "search_states": 6989
+        },
+        "seed": 715,
+        "status_counts": {
+          "counterexample": 66,
+          "infeasible_policy": 157,
+          "stable": 33
+        },
+        "workers": 1
+      },
+      "system_seconds": 0.05,
+      "time_exit_status": 0,
+      "user_seconds": 0.97,
+      "wall_seconds": 0.6257343000002038
+    },
+    {
+      "command": "python src/limited.py tests/exhaustive.py",
+      "elapsed_reported": "0:01.99",
+      "max_rss_kib": 92588,
+      "name": "exhaustive",
+      "ordinal": 2,
+      "returncode": 0,
+      "stderr_bytes": 0,
+      "stdout_bytes": 345,
+      "stdout_json": {
+        "cases": 12288,
+        "checker_steps": 357328,
+        "cpu_seconds": 1.327977152,
+        "oracle_subsets": 98304,
+        "peak_rss_kib": 92588,
+        "producer": {
+          "augmentations": 36968,
+          "edge_scans": 694708,
+          "networks": 60368,
+          "search_states": 229108
+        },
+        "status_counts": {
+          "counterexample": 8256,
+          "stable": 4032
+        },
+        "workers": 1
+      },
+      "system_seconds": 0.06,
+      "time_exit_status": 0,
+      "user_seconds": 2.33,
+      "wall_seconds": 2.0002173150001
+    },
+    {
+      "command": "python src/limited.py tests/semantics.py",
+      "elapsed_reported": "0:00.67",
+      "max_rss_kib": 93104,
+      "name": "semantics",
+      "ordinal": 3,
+      "returncode": 0,
+      "stderr_bytes": 0,
+      "stdout_bytes": 310,
+      "stdout_json": {
+        "cnf_formulas": 512,
+        "cpu_seconds": 0.03999729299999999,
+        "extended_samples_enumerated": 4096,
+        "floor_regression": "stable",
+        "peak_rss_kib": 92848,
+        "sat_assignments_enumerated": 2048,
+        "schema_rejections": 12,
+        "three_partition_instances": 320,
+        "three_partition_selections_enumerated": 7513
+      },
+      "system_seconds": 0.05,
+      "time_exit_status": 0,
+      "user_seconds": 1.01,
+      "wall_seconds": 0.6791269770001236
+    },
+    {
+      "command": "python src/limited.py tests/stress.py",
+      "elapsed_reported": "0:02.87",
+      "max_rss_kib": 93872,
+      "name": "stress",
+      "ordinal": 4,
+      "returncode": 0,
+      "stderr_bytes": 0,
+      "stdout_bytes": 566,
+      "stdout_json": {
+        "cases": 2048,
+        "certificate_mutations_rejected": 25463,
+        "checker_steps": 430319,
+        "cpu_seconds": 2.176100258,
+        "empty_mutant_universes": 173,
+        "maximum_branches": 30,
+        "oracle_subset_visits": 383907,
+        "peak_rss_kib": 93744,
+        "producer": {
+          "augmentations": 3923,
+          "edge_scans": 110016,
+          "networks": 13437,
+          "search_states": 28736
+        },
+        "proof_kind_counts": {
+          "cut": 740,
+          "interval": 5389
+        },
+        "seed": 20260916,
+        "status_counts": {
+          "counterexample": 738,
+          "infeasible_policy": 468,
+          "stable": 842
+        },
+        "workers": 1
+      },
+      "system_seconds": 0.07,
+      "time_exit_status": 0,
+      "user_seconds": 3.2,
+      "wall_seconds": 2.871379801999865
+    },
+    {
+      "command": "python src/limited.py tests/reference_audit.py",
+      "elapsed_reported": "0:00.61",
+      "max_rss_kib": 93484,
+      "name": "reference_audit",
+      "ordinal": 5,
+      "returncode": 0,
+      "stderr_bytes": 0,
+      "stdout_bytes": 698,
+      "stdout_json": {
+        "audit_scope": "frozen bibliography, live-resolution ledger, citation coverage, and calibration consistency",
+        "calibration_counts": {
+          "adjacent": 5,
+          "influential": 5,
+          "same-venue": 12
+        },
+        "corrected_metadata_entries": [
+          "zhang10random",
+          "zhang13together"
+        ],
+        "doi_identifiers": 61,
+        "isbn_identifiers": 0,
+        "live_resolution_rows": 61,
+        "manuscript_cited_keys": 61,
+        "maximum_citation_cluster": 7,
+        "network_resolution_scope": "live metadata comparison was performed on 2026-09-21 and frozen in reference-live-audit.csv",
+        "placeholder_scan": "passed",
+        "provenance_rows": 61,
+        "references": 61,
+        "unique_identifiers": 61,
+        "unique_normalized_titles": 61
+      },
+      "system_seconds": 0.04,
+      "time_exit_status": 0,
+      "user_seconds": 0.96,
+      "wall_seconds": 0.6112356230000842
+    },
+    {
+      "command": "python src/limited.py tests/protocol_audit.py",
+      "elapsed_reported": "0:01.02",
+      "max_rss_kib": 93856,
+      "name": "protocol_audit",
+      "ordinal": 6,
+      "returncode": 0,
+      "stderr_bytes": 0,
+      "stdout_bytes": 1879,
+      "stdout_json": {
+        "confirmatory_programs": 200,
+        "confirmatory_variants_per_family": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          20
+        ],
+        "cpu_seconds": 0.030377635999999986,
+        "development_subjects": [
+          {
+            "failing_tests": 49,
+            "family": "affine",
+            "id": "development-00",
+            "variant": 19
+          },
+          {
+            "failing_tests": 49,
+            "family": "clamp",
+            "id": "development-01",
+            "variant": 19
+          },
+          {
+            "failing_tests": 49,
+            "family": "tariff",
+            "id": "development-02",
+            "variant": 19
+          },
+          {
+            "failing_tests": 15,
+            "family": "median",
+            "id": "development-03",
+            "variant": 19
+          },
+          {
+            "failing_tests": 49,
+            "family": "interval",
+            "id": "development-04",
+            "variant": 19
+          },
+          {
+            "failing_tests": 19,
+            "family": "predicate",
+            "id": "development-05",
+            "variant": 19
+          },
+          {
+            "failing_tests": 49,
+            "family": "accumulator",
+            "id": "development-06",
+            "variant": 19
+          },
+          {
+            "failing_tests": 49,
+            "family": "remainder",
+            "id": "development-07",
+            "variant": 19
+          },
+          {
+            "failing_tests": 7,
+            "family": "bucket",
+            "id": "development-08",
+            "variant": 19
+          },
+          {
+            "failing_tests": 46,
+            "family": "polynomial",
+            "id": "development-09",
+            "variant": 19
+          }
+        ],
+        "development_subjects_recompiled": 10,
+        "external_cases": 15,
+        "external_commit": "f8d8376e0efe345161f26ff6483a404c8548fe1c",
+        "external_profiles": [
+          "balanced",
+          "exact",
+          "relaxed"
+        ],
+        "external_projects": [
+          "Chart",
+          "Closure",
+          "Lang",
+          "Math",
+          "Time"
+        ],
+        "external_snapshots": 5,
+        "families": 10,
+        "peak_rss_kib": 93728,
+        "reserved_development_variant": 19
+      },
+      "system_seconds": 0.14,
+      "time_exit_status": 0,
+      "user_seconds": 1.28,
+      "wall_seconds": 1.0263191559997722
+    },
+    {
+      "command": "python src/limited.py tests/generated_oracle_audit.py",
+      "elapsed_reported": "0:05.35",
+      "max_rss_kib": 94356,
+      "name": "generated_oracle_audit",
+      "ordinal": 7,
+      "returncode": 0,
+      "stderr_bytes": 0,
+      "stdout_bytes": 1250,
+      "stdout_json": {
+        "cases": 200,
+        "cpu_seconds": 4.707676985,
+        "family_status_counts": {
+          "accumulator": {
+            "counterexample": 15,
+            "stable": 5
+          },
+          "affine": {
+            "counterexample": 17,
+            "stable": 3
+          },
+          "bucket": {
+            "counterexample": 17,
+            "stable": 3
+          },
+          "clamp": {
+            "counterexample": 12,
+            "stable": 8
+          },
+          "interval": {
+            "counterexample": 16,
+            "stable": 4
+          },
+          "median": {
+            "counterexample": 11,
+            "stable": 9
+          },
+          "polynomial": {
+            "counterexample": 19,
+            "stable": 1
+          },
+          "predicate": {
+            "counterexample": 13,
+            "stable": 7
+          },
+          "remainder": {
+            "counterexample": 15,
+            "stable": 5
+          },
+          "tariff": {
+            "counterexample": 20
+          }
+        },
+        "feasible_samples": 281918,
+        "independence": "enumerates all masks and reimplements score, quota, tie, and top-set semantics without importing producer, checker, or oracle",
+        "maximum_refuter_fraction": 0.7927063339731286,
+        "minimum_counts": {
+          "6": 155
+        },
+        "minimum_nonzero_refuter_fraction": 0.0712166172106825,
+        "peak_rss_kib": 94228,
+        "refuting_samples": 71151,
+        "status_counts": {
+          "counterexample": 155,
+          "stable": 45
+        },
+        "subsets_enumerated": 6553600
+      },
+      "system_seconds": 0.06,
+      "time_exit_status": 0,
+      "user_seconds": 5.71,
+      "wall_seconds": 5.360294276999866
+    },
+    {
+      "command": "python src/limited.py tests/external_matrices.py",
+      "elapsed_reported": "0:01.54",
+      "max_rss_kib": 93740,
+      "name": "external_matrices",
+      "ordinal": 8,
+      "returncode": 0,
+      "stderr_bytes": 0,
+      "stdout_bytes": 10516,
+      "stdout_json": {
+        "all_subsets_enumerated": 61440,
+        "cases": 15,
+        "certificate_mutations_rejected": 90,
+        "cpu_seconds": 0.8799539849999999,
+        "feasible_samples": 27423,
+        "interval_stable": 0,
+        "peak_rss_kib": 93484,
+        "profile_status_counts": {
+          "balanced:counterexample": 5,
+          "exact:counterexample": 5,
+          "relaxed:counterexample": 5
+        },
+        "profiles": [
+          "balanced",
+          "exact",
+          "relaxed"
+        ],
+        "projects": [
+          "Chart",
+          "Closure",
+          "Lang",
+          "Math",
+          "Time"
+        ],
+        "protocol": "five projects x three predeclared profiles; twelve first-order mutant columns and all 4096 subsets per case",
+        "random_counterexamples": 15,
+        "records": [
+          {
+            "bug_id": 24,
+            "certificate_bytes": 1661,
+            "distinct_top_sets": 84,
+            "failing_tests": 1,
+            "feasible_samples": 2044,
+            "id": "defects4j-chart-24-balanced",
+            "interval_result": "unknown",
+            "minimum": 5,
+            "mutants": 12,
+            "profile": "balanced",
+            "project": "Chart",
+            "random_accepted": 64,
+            "random_attempts": 90,
+            "random_minimum": 5,
+            "random_result": "observed_counterexample",
+            "refuter_fraction_denominator": 2044,
+            "refuter_fraction_numerator": 1898,
+            "refuting_samples": 1898,
+            "status": "counterexample",
+            "tests": 9
+          },
+          {
+            "bug_id": 24,
+            "certificate_bytes": 1660,
+            "distinct_top_sets": 18,
+            "failing_tests": 1,
+            "feasible_samples": 108,
+            "id": "defects4j-chart-24-exact",
+            "interval_result": "unknown",
+            "minimum": 6,
+            "mutants": 12,
+            "profile": "exact",
+            "project": "Chart",
+            "random_accepted": 64,
+            "random_attempts": 591,
+            "random_minimum": 6,
+            "random_result": "observed_counterexample",
+            "refuter_fraction_denominator": 108,
+            "refuter_fraction_numerator": 108,
+            "refuting_samples": 108,
+            "status": "counterexample",
+            "tests": 9
+          },
+          {
+            "bug_id": 24,
+            "certificate_bytes": 1658,
+            "distinct_top_sets": 165,
+            "failing_tests": 1,
+            "feasible_samples": 3718,
+            "id": "defects4j-chart-24-relaxed",
+            "interval_result": "unknown",
+            "minimum": 4,
+            "mutants": 12,
+            "profile": "relaxed",
+            "project": "Chart",
+            "random_accepted": 64,
+            "random_attempts": 64,
+            "random_minimum": 4,
+            "random_result": "observed_counterexample",
+            "refuter_fraction_denominator": 3718,
+            "refuter_fraction_numerator": 3253,
+            "refuting_samples": 3253,
+            "status": "counterexample",
+            "tests": 9
+          },
+          {
+            "bug_id": 28,
+            "certificate_bytes": 2765,
+            "distinct_top_sets": 86,
+            "failing_tests": 2,
+            "feasible_samples": 808,
+            "id": "defects4j-closure-28-balanced",
+            "interval_result": "unknown",
+            "minimum": 5,
+            "mutants": 12,
+            "profile": "balanced",
+            "project": "Closure",
+            "random_accepted": 64,
+            "random_attempts": 221,
+            "random_minimum": 5,
+            "random_result": "observed_counterexample",
+            "refuter_fraction_denominator": 808,
+            "refuter_fraction_numerator": 755,
+            "refuting_samples": 755,
+            "status": "counterexample",
+            "tests": 10
+          },
+          {
+            "bug_id": 28,
+            "certificate_bytes": 2764,
+            "distinct_top_sets": 3,
+            "failing_tests": 2,
+            "feasible_samples": 9,
+            "id": "defects4j-closure-28-exact",
+            "interval_result": "unknown",
+            "minimum": 6,
+            "mutants": 12,
+            "profile": "exact",
+            "project": "Closure",
+            "random_accepted": 38,
+            "random_attempts": 4096,
+            "random_minimum": 6,
+            "random_result": "observed_counterexample",
+            "refuter_fraction_denominator": 9,
+            "refuter_fraction_numerator": 9,
+            "refuting_samples": 9,
+            "status": "counterexample",
+            "tests": 10
+          },
+          {
+            "bug_id": 28,
+            "certificate_bytes": 2762,
+            "distinct_top_sets": 165,
+            "failing_tests": 2,
+            "feasible_samples": 3718,
+            "id": "defects4j-closure-28-relaxed",
+            "interval_result": "unknown",
+            "minimum": 4,
+            "mutants": 12,
+            "profile": "relaxed",
+            "project": "Closure",
+            "random_accepted": 64,
+            "random_attempts": 64,
+            "random_minimum": 4,
+            "random_result": "observed_counterexample",
+            "refuter_fraction_denominator": 3718,
+            "refuter_fraction_numerator": 3253,
+            "refuting_samples": 3253,
+            "status": "counterexample",
+            "tests": 10
+          },
+          {
+            "bug_id": 54,
+            "certificate_bytes": 1660,
+            "distinct_top_sets": 109,
+            "failing_tests": 1,
+            "feasible_samples": 1992,
+            "id": "defects4j-lang-54-balanced",
+            "interval_result": "unknown",
+            "minimum": 5,
+            "mutants": 12,
+            "profile": "balanced",
+            "project": "Lang",
+            "random_accepted": 64,
+            "random_attempts": 103,
+            "random_minimum": 5,
+            "random_result": "observed_counterexample",
+            "refuter_fraction_denominator": 1992,
+            "refuter_fraction_numerator": 1806,
+            "refuting_samples": 1806,
+            "status": "counterexample",
+            "tests": 9
+          },
+          {
+            "bug_id": 54,
+            "certificate_bytes": 1659,
+            "distinct_top_sets": 37,
+            "failing_tests": 1,
+            "feasible_samples": 144,
+            "id": "defects4j-lang-54-exact",
+            "interval_result": "unknown",
+            "minimum": 6,
+            "mutants": 12,
+            "profile": "exact",
+            "project": "Lang",
+            "random_accepted": 64,
+            "random_attempts": 360,
+            "random_minimum": 6,
+            "random_result": "observed_counterexample",
+            "refuter_fraction_denominator": 144,
+            "refuter_fraction_numerator": 132,
+            "refuting_samples": 132,
+            "status": "counterexample",
+            "tests": 9
+          },
+          {
+            "bug_id": 54,
+            "certificate_bytes": 1657,
+            "distinct_top_sets": 165,
+            "failing_tests": 1,
+            "feasible_samples": 3718,
+            "id": "defects4j-lang-54-relaxed",
+            "interval_result": "unknown",
+            "minimum": 4,
+            "mutants": 12,
+            "profile": "relaxed",
+            "project": "Lang",
+            "random_accepted": 64,
+            "random_attempts": 64,
+            "random_minimum": 4,
+            "random_result": "observed_counterexample",
+            "refuter_fraction_denominator": 3718,
+            "refuter_fraction_numerator": 3253,
+            "refuting_samples": 3253,
+            "status": "counterexample",
+            "tests": 9
+          },
+          {
+            "bug_id": 32,
+            "certificate_bytes": 2124,
+            "distinct_top_sets": 85,
+            "failing_tests": 1,
+            "feasible_samples": 1766,
+            "id": "defects4j-math-32-balanced",
+            "interval_result": "unknown",
+            "minimum": 5,
+            "mutants": 12,
+            "profile": "balanced",
+            "project": "Math",
+            "random_accepted": 64,
+            "random_attempts": 130,
+            "random_minimum": 5,
+            "random_result": "observed_counterexample",
+            "refuter_fraction_denominator": 1766,
+            "refuter_fraction_numerator": 1560,
+            "refuting_samples": 1560,
+            "status": "counterexample",
+            "tests": 9
+          },
+          {
+            "bug_id": 32,
+            "certificate_bytes": 2124,
+            "distinct_top_sets": 21,
+            "failing_tests": 1,
+            "feasible_samples": 90,
+            "id": "defects4j-math-32-exact",
+            "interval_result": "unknown",
+            "minimum": 6,
+            "mutants": 12,
+            "profile": "exact",
+            "project": "Math",
+            "random_accepted": 64,
+            "random_attempts": 825,
+            "random_minimum": 6,
+            "random_result": "observed_counterexample",
+            "refuter_fraction_denominator": 90,
+            "refuter_fraction_numerator": 78,
+            "refuting_samples": 78,
+            "status": "counterexample",
+            "tests": 9
+          },
+          {
+            "bug_id": 32,
+            "certificate_bytes": 2121,
+            "distinct_top_sets": 165,
+            "failing_tests": 1,
+            "feasible_samples": 3718,
+            "id": "defects4j-math-32-relaxed",
+            "interval_result": "unknown",
+            "minimum": 4,
+            "mutants": 12,
+            "profile": "relaxed",
+            "project": "Math",
+            "random_accepted": 64,
+            "random_attempts": 64,
+            "random_minimum": 4,
+            "random_result": "observed_counterexample",
+            "refuter_fraction_denominator": 3718,
+            "refuter_fraction_numerator": 3253,
+            "refuting_samples": 3253,
+            "status": "counterexample",
+            "tests": 9
+          },
+          {
+            "bug_id": 10,
+            "certificate_bytes": 2530,
+            "distinct_top_sets": 89,
+            "failing_tests": 2,
+            "feasible_samples": 1764,
+            "id": "defects4j-time-10-balanced",
+            "interval_result": "unknown",
+            "minimum": 5,
+            "mutants": 12,
+            "profile": "balanced",
+            "project": "Time",
+            "random_accepted": 64,
+            "random_attempts": 128,
+            "random_minimum": 5,
+            "random_result": "observed_counterexample",
+            "refuter_fraction_denominator": 1764,
+            "refuter_fraction_numerator": 1724,
+            "refuting_samples": 1724,
+            "status": "counterexample",
+            "tests": 10
+          },
+          {
+            "bug_id": 10,
+            "certificate_bytes": 2529,
+            "distinct_top_sets": 18,
+            "failing_tests": 2,
+            "feasible_samples": 108,
+            "id": "defects4j-time-10-exact",
+            "interval_result": "unknown",
+            "minimum": 6,
+            "mutants": 12,
+            "profile": "exact",
+            "project": "Time",
+            "random_accepted": 64,
+            "random_attempts": 550,
+            "random_minimum": 6,
+            "random_result": "observed_counterexample",
+            "refuter_fraction_denominator": 108,
+            "refuter_fraction_numerator": 108,
+            "refuting_samples": 108,
+            "status": "counterexample",
+            "tests": 10
+          },
+          {
+            "bug_id": 10,
+            "certificate_bytes": 2527,
+            "distinct_top_sets": 165,
+            "failing_tests": 2,
+            "feasible_samples": 3718,
+            "id": "defects4j-time-10-relaxed",
+            "interval_result": "unknown",
+            "minimum": 4,
+            "mutants": 12,
+            "profile": "relaxed",
+            "project": "Time",
+            "random_accepted": 64,
+            "random_attempts": 64,
+            "random_minimum": 4,
+            "random_result": "observed_counterexample",
+            "refuter_fraction_denominator": 3718,
+            "refuter_fraction_numerator": 3253,
+            "refuting_samples": 3253,
+            "status": "counterexample",
+            "tests": 10
+          }
+        ],
+        "refuting_samples": 24443,
+        "rejection_categories": {
+          "branch_completeness": 15,
+          "branch_identity": 15,
+          "case_binding": 15,
+          "proof_validity": 15,
+          "sample_uniqueness": 15,
+          "unknown_root_field": 15
+        },
+        "scope_limit": "mutant-level specialisation; no source-location map, prevalence estimate, or localization-accuracy claim",
+        "status_counts": {
+          "counterexample": 15
+        }
+      },
+      "system_seconds": 0.09,
+      "time_exit_status": 0,
+      "user_seconds": 1.86,
+      "wall_seconds": 1.5467621890002192
+    },
+    {
+      "command": "python src/limited.py tests/metamorphic.py",
+      "elapsed_reported": "0:02.50",
+      "max_rss_kib": 94248,
+      "name": "metamorphic",
+      "ordinal": 9,
+      "returncode": 0,
+      "stderr_bytes": 0,
+      "stdout_bytes": 523,
+      "stdout_json": {
+        "cases": 512,
+        "cpu_seconds": 1.799947898,
+        "metamorphic_checks": 2560,
+        "peak_rss_kib": 94120,
+        "scope": "representation-preserving metamorphic relations; not an independent proof of the algorithm",
+        "seed": 20260921,
+        "status_counts": {
+          "counterexample": 179,
+          "infeasible_policy": 113,
+          "stable": 220
+        },
+        "transformations": [
+          "location_relabel",
+          "mutant_permutation",
+          "partition_group_relabel",
+          "test_row_permutation",
+          "zero_passing_row"
+        ],
+        "transformations_per_case": 5
+      },
+      "system_seconds": 0.06,
+      "time_exit_status": 0,
+      "user_seconds": 2.77,
+      "wall_seconds": 2.5096627709999666
+    },
+    {
+      "command": "python src/limited.py tests/verify_all.py data results/campaign",
+      "elapsed_reported": "0:01.47",
+      "max_rss_kib": 94124,
+      "name": "verify_all",
+      "ordinal": 10,
+      "returncode": 0,
+      "stderr_bytes": 0,
+      "stdout_bytes": 148,
+      "stdout_json": {
+        "accepted_certificates": 1241,
+        "checker_steps": 791797,
+        "matrices_reconstructed": 240,
+        "primary_cases": 260,
+        "secondary_queries": 981
+      },
+      "system_seconds": 0.07,
+      "time_exit_status": 0,
+      "user_seconds": 1.79,
+      "wall_seconds": 1.4800122259998716
+    },
+    {
+      "command": "python src/limited.py tests/check_tables.py",
+      "elapsed_reported": "0:00.70",
+      "max_rss_kib": 97196,
+      "name": "check_tables",
+      "ordinal": 11,
+      "returncode": 0,
+      "stderr_bytes": 0,
+      "stdout_bytes": 914,
+      "stdout_json": {
+        "certificate_bytes_min_median_max": [
+          73,
+          844.0,
+          1552
+        ],
+        "confirmatory_generated_cases": 200,
+        "confirmatory_generated_subsets": 6553600,
+        "exact_interval_stable": 95,
+        "external_cases": 15,
+        "external_status_counts": {
+          "counterexample": 15
+        },
+        "external_subsets": 61440,
+        "matrix_entries": 153288,
+        "metamorphic_cases": 512,
+        "metamorphic_checks": 2560,
+        "primary_counts": {
+          "counterexample": 162,
+          "infeasible_policy": 2,
+          "stable": 96
+        },
+        "program_random_minimum_larger": 11,
+        "random_counterexamples": 161,
+        "rare_fixture_sample_space": 137846528820,
+        "references": 61,
+        "relaxation_stable_to_refuter": 46,
+        "secondary_queries": 981,
+        "stress_cases": 2048,
+        "stress_certificate_mutations_rejected": 25463,
+        "stress_oracle_subset_visits": 383907,
+        "table_reconciliation": "passed",
+        "unique_reference_identifiers": 61,
+        "unique_reference_titles": 61
+      },
+      "system_seconds": 0.05,
+      "time_exit_status": 0,
+      "user_seconds": 1.05,
+      "wall_seconds": 0.7058832899997469
+    },
+    {
+      "command": "python src/limited.py tests/reproduce.py",
+      "elapsed_reported": "0:13.77",
+      "max_rss_kib": 95024,
+      "name": "clean_reproduction",
+      "ordinal": 12,
+      "returncode": 0,
+      "stderr_bytes": 0,
+      "stdout_bytes": 408,
+      "stdout_json": {
+        "cpu_seconds": 12.846215025,
+        "exact_observation_and_certificate_agreement": true,
+        "peak_rss_kib": 94896,
+        "primary_cases": 260,
+        "program_schemas_recompiled": 220,
+        "replay_checker_steps": 928295,
+        "replay_producer": {
+          "augmentations": 56581,
+          "edge_scans": 2583747,
+          "networks": 41423,
+          "search_states": 502165
+        },
+        "scientific_files_compared": 2463,
+        "secondary_queries": 981
+      },
+      "system_seconds": 1.92,
+      "time_exit_status": 0,
+      "user_seconds": 11.99,
+      "wall_seconds": 13.77815551499998
+    }
+  ],
+  "measurement_tool": "GNU /usr/bin/time -v; each scientific command executes through src/limited.py",
+  "not_scope": "whole research-lifetime accounting or a toolchain/environment fingerprint",
+  "scope": "one fresh sequential pass over all documented scientific entry points",
+  "summary": {
+    "commands": 12,
+    "cpu_seconds_sum": 37.58,
+    "largest_command_max_rss_kib": 97196,
+    "successful_commands": 12,
+    "system_seconds_sum": 2.66,
+    "user_seconds_sum": 34.92,
+    "wall_seconds_sum": 33.1947834409998,
+    "workers": 1
+  }
+}

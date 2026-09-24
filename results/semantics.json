@@ -1,0 +1,11 @@
+{
+  "cnf_formulas": 512,
+  "sat_assignments_enumerated": 2048,
+  "extended_samples_enumerated": 4096,
+  "three_partition_instances": 320,
+  "three_partition_selections_enumerated": 7513,
+  "schema_rejections": 12,
+  "floor_regression": "stable",
+  "cpu_seconds": 0.031990647999999955,
+  "peak_rss_kib": 92840
+}

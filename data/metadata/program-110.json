@@ -1,0 +1,95 @@
+{
+  "category": "program",
+  "cpu_seconds": 0.03968344299999993,
+  "failing_tests": 46,
+  "family": "predicate",
+  "family_index": 5,
+  "fault_delta": 1,
+  "fault_location": 4,
+  "id": "program-110",
+  "mutants": [
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      2,
+      2
+    ],
+    [
+      3,
+      1
+    ],
+    [
+      3,
+      2
+    ],
+    [
+      3,
+      3
+    ],
+    [
+      4,
+      0
+    ],
+    [
+      4,
+      2
+    ],
+    [
+      5,
+      1
+    ],
+    [
+      5,
+      2
+    ],
+    [
+      5,
+      3
+    ]
+  ],
+  "parameters": [
+    -1,
+    1,
+    0
+  ],
+  "peak_child_rss_kib": 93484,
+  "policy_seed_sample": [
+    0,
+    3,
+    6,
+    9,
+    10,
+    12
+  ],
+  "protocol_role": "confirmatory",
+  "screening": [
+    {
+      "failing_tests": 46,
+      "fault_location": 4
+    }
+  ],
+  "tests": 49,
+  "variant": 10
+}

@@ -1,0 +1,7 @@
+{
+  "category": "fixture",
+  "description": "All locations in the reference set: internal order irrelevant",
+  "expected_minimum": null,
+  "expected_status": "stable",
+  "id": "fixture-09"
+}

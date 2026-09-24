@@ -1,0 +1,21 @@
+{
+  "branches": [
+    {
+      "branch": [
+        0,
+        1,
+        1
+      ],
+      "proof": {
+        "edge": 4,
+        "kind": "interval"
+      }
+    }
+  ],
+  "case_id": "fixture-06",
+  "sample": [
+    1
+  ],
+  "size": 1,
+  "status": "counterexample"
+}

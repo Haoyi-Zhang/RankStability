@@ -1,0 +1,7 @@
+{
+  "category": "fixture",
+  "description": "Top-two set protected while the score levels change",
+  "expected_minimum": null,
+  "expected_status": "stable",
+  "id": "fixture-15"
+}

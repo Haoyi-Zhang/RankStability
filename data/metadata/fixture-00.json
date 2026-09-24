@@ -1,0 +1,7 @@
+{
+  "category": "fixture",
+  "description": "Crossed matchings: stable despite overlapping marginal intervals",
+  "expected_minimum": null,
+  "expected_status": "stable",
+  "id": "fixture-00"
+}

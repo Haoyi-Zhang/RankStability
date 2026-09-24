@@ -1,0 +1,7 @@
+{
+  "category": "fixture",
+  "description": "Locally valid quotas globally infeasible",
+  "expected_minimum": null,
+  "expected_status": "infeasible_policy",
+  "id": "fixture-08"
+}

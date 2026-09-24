@@ -1,0 +1,47 @@
+{
+  "a": [
+    0
+  ],
+  "a_bounds": [
+    [
+      0,
+      1
+    ]
+  ],
+  "b": [
+    0
+  ],
+  "b_bounds": [
+    [
+      0,
+      1
+    ]
+  ],
+  "empty": "zero",
+  "fail": [
+    1
+  ],
+  "forbid": [],
+  "force": [],
+  "id": "fixture-11",
+  "kill": [
+    [
+      0
+    ]
+  ],
+  "location": [
+    1
+  ],
+  "locations": 2,
+  "reference": [
+    0
+  ],
+  "size": [
+    0,
+    1
+  ],
+  "tie": [
+    0,
+    1
+  ]
+}

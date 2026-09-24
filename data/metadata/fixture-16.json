@@ -1,0 +1,7 @@
+{
+  "category": "fixture",
+  "description": "Positive quota on an isolated group",
+  "expected_minimum": null,
+  "expected_status": "infeasible_policy",
+  "id": "fixture-16"
+}

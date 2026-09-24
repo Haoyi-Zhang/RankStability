@@ -1,0 +1,7 @@
+{
+  "category": "fixture",
+  "description": "Fixed reversed tie priority",
+  "expected_minimum": null,
+  "expected_status": "stable",
+  "id": "fixture-10"
+}

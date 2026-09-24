@@ -1,0 +1,7 @@
+{
+  "category": "fixture",
+  "description": "Unique reversal among all forty-choose-twenty samples",
+  "expected_minimum": 20,
+  "expected_status": "counterexample",
+  "id": "fixture-03"
+}

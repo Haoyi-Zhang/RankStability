@@ -1,0 +1,16 @@
+{
+  "scientific_files_compared": 2463,
+  "primary_cases": 260,
+  "secondary_queries": 981,
+  "program_schemas_recompiled": 220,
+  "exact_observation_and_certificate_agreement": true,
+  "cpu_seconds": 12.237287498,
+  "peak_rss_kib": 95024,
+  "replay_producer": {
+    "networks": 41295,
+    "augmentations": 56225,
+    "edge_scans": 2569825,
+    "search_states": 499075
+  },
+  "replay_checker_steps": 924689
+}

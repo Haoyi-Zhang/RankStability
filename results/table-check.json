@@ -1,0 +1,35 @@
+{
+  "certificate_bytes_min_median_max": [
+    73,
+    844.0,
+    1552
+  ],
+  "confirmatory_generated_cases": 200,
+  "confirmatory_generated_subsets": 6553600,
+  "exact_interval_stable": 95,
+  "external_cases": 15,
+  "external_status_counts": {
+    "counterexample": 15
+  },
+  "external_subsets": 61440,
+  "matrix_entries": 153288,
+  "metamorphic_cases": 512,
+  "metamorphic_checks": 2560,
+  "primary_counts": {
+    "counterexample": 162,
+    "infeasible_policy": 2,
+    "stable": 96
+  },
+  "program_random_minimum_larger": 11,
+  "random_counterexamples": 161,
+  "rare_fixture_sample_space": 137846528820,
+  "references": 61,
+  "relaxation_stable_to_refuter": 46,
+  "secondary_queries": 981,
+  "stress_cases": 2048,
+  "stress_certificate_mutations_rejected": 25463,
+  "stress_oracle_subset_visits": 383907,
+  "table_reconciliation": "passed",
+  "unique_reference_identifiers": 61,
+  "unique_reference_titles": 61
+}

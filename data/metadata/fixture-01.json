@@ -1,0 +1,7 @@
+{
+  "category": "fixture",
+  "description": "Removing the second partition admits a reversal",
+  "expected_minimum": 2,
+  "expected_status": "counterexample",
+  "id": "fixture-01"
+}

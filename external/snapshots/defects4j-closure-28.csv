@@ -1,0 +1,12 @@
+test_type,test_name,bug,mutant_1,mutant_2,mutant_3,mutant_4,mutant_5,mutant_6,mutant_7,mutant_8,mutant_9,mutant_10,mutant_11,mutant_12
+operator,-,-,STD,LVR,LVR,LVR,STD,STD,LVR,LVR,AOR,AOR,AOR,AOR
+dev,dev__0__com.google.javascript.jscomp.IntegrationTest::testBug1949424,0,0,0,0,0,0,0,0,0,0,0,0,0
+dev,dev__0__com.google.javascript.jscomp.IntegrationTest::testBug1949424_v2,0,0,0,0,0,0,0,0,0,0,0,0,0
+dev,dev__0__com.google.javascript.jscomp.IntegrationTest::testBug1956277,0,0,0,0,0,0,0,0,0,0,0,0,0
+dev,dev__0__com.google.javascript.jscomp.IntegrationTest::testBug1962380,0,0,0,0,0,0,0,0,0,0,0,0,0
+dev,dev__0__com.google.javascript.jscomp.IntegrationTest::testBug2410122,0,0,0,0,0,0,0,0,0,0,0,0,0
+dev,dev__0__com.google.javascript.jscomp.IntegrationTest::testIssue90,0,0,0,0,0,0,0,0,0,0,0,0,0
+dev,dev__0__com.google.javascript.jscomp.IntegrationTest::testClosurePassOff,0,0,0,0,0,0,0,0,0,0,0,0,0
+dev,dev__0__com.google.javascript.jscomp.IntegrationTest::testClosurePassOn,0,0,0,0,0,0,0,0,0,0,0,0,0
+dev,dev__0__com.google.javascript.jscomp.InlineCostEstimatorTest::testCost,1,1,1,1,1,1,1,1,1,1,1,1,1
+dev,dev__0__com.google.javascript.jscomp.InlineFunctionsTest::testIssue728,1,0,0,0,0,0,0,1,1,0,1,1,1

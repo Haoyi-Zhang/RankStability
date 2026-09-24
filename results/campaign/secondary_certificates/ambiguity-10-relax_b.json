@@ -1,0 +1,54 @@
+{
+  "base_sample": [
+    0,
+    4
+  ],
+  "branches": [
+    {
+      "branch": [
+        0,
+        1,
+        4
+      ],
+      "proof": {
+        "edge": 4,
+        "kind": "interval"
+      }
+    },
+    {
+      "branch": [
+        0,
+        1,
+        5
+      ],
+      "proof": {
+        "edge": 4,
+        "kind": "interval"
+      }
+    },
+    {
+      "branch": [
+        0,
+        1,
+        6
+      ],
+      "proof": {
+        "edge": 4,
+        "kind": "interval"
+      }
+    },
+    {
+      "branch": [
+        0,
+        1,
+        7
+      ],
+      "proof": {
+        "edge": 4,
+        "kind": "interval"
+      }
+    }
+  ],
+  "case_id": "ambiguity-10-relax_b",
+  "status": "stable"
+}

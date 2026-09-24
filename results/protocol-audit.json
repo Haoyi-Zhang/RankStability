@@ -1,0 +1,107 @@
+{
+  "confirmatory_programs": 200,
+  "confirmatory_variants_per_family": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    20
+  ],
+  "cpu_seconds": 0.026113454999999952,
+  "development_subjects": [
+    {
+      "failing_tests": 49,
+      "family": "affine",
+      "id": "development-00",
+      "variant": 19
+    },
+    {
+      "failing_tests": 49,
+      "family": "clamp",
+      "id": "development-01",
+      "variant": 19
+    },
+    {
+      "failing_tests": 49,
+      "family": "tariff",
+      "id": "development-02",
+      "variant": 19
+    },
+    {
+      "failing_tests": 15,
+      "family": "median",
+      "id": "development-03",
+      "variant": 19
+    },
+    {
+      "failing_tests": 49,
+      "family": "interval",
+      "id": "development-04",
+      "variant": 19
+    },
+    {
+      "failing_tests": 19,
+      "family": "predicate",
+      "id": "development-05",
+      "variant": 19
+    },
+    {
+      "failing_tests": 49,
+      "family": "accumulator",
+      "id": "development-06",
+      "variant": 19
+    },
+    {
+      "failing_tests": 49,
+      "family": "remainder",
+      "id": "development-07",
+      "variant": 19
+    },
+    {
+      "failing_tests": 7,
+      "family": "bucket",
+      "id": "development-08",
+      "variant": 19
+    },
+    {
+      "failing_tests": 46,
+      "family": "polynomial",
+      "id": "development-09",
+      "variant": 19
+    }
+  ],
+  "development_subjects_recompiled": 10,
+  "external_cases": 15,
+  "external_commit": "f8d8376e0efe345161f26ff6483a404c8548fe1c",
+  "external_profiles": [
+    "balanced",
+    "exact",
+    "relaxed"
+  ],
+  "external_projects": [
+    "Chart",
+    "Closure",
+    "Lang",
+    "Math",
+    "Time"
+  ],
+  "external_snapshots": 5,
+  "families": 10,
+  "peak_rss_kib": 92972,
+  "reserved_development_variant": 19
+}

@@ -1,0 +1,7 @@
+{
+  "category": "fixture",
+  "description": "Mandatory highest-scoring insider",
+  "expected_minimum": null,
+  "expected_status": "stable",
+  "id": "fixture-04"
+}

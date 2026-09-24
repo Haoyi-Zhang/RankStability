@@ -1,0 +1,313 @@
+{
+  "base_sample": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19
+  ],
+  "branches": [
+    {
+      "branch": [
+        0,
+        1,
+        21
+      ],
+      "proof": {
+        "kind": "cut",
+        "vertices": [
+          0,
+          2,
+          4
+        ]
+      }
+    },
+    {
+      "branch": [
+        0,
+        1,
+        22
+      ],
+      "proof": {
+        "kind": "cut",
+        "vertices": [
+          0,
+          2,
+          4
+        ]
+      }
+    },
+    {
+      "branch": [
+        0,
+        1,
+        23
+      ],
+      "proof": {
+        "kind": "cut",
+        "vertices": [
+          0,
+          2,
+          4
+        ]
+      }
+    },
+    {
+      "branch": [
+        0,
+        1,
+        24
+      ],
+      "proof": {
+        "kind": "cut",
+        "vertices": [
+          0,
+          2,
+          4
+        ]
+      }
+    },
+    {
+      "branch": [
+        0,
+        1,
+        25
+      ],
+      "proof": {
+        "kind": "cut",
+        "vertices": [
+          0,
+          2,
+          4
+        ]
+      }
+    },
+    {
+      "branch": [
+        0,
+        1,
+        26
+      ],
+      "proof": {
+        "kind": "cut",
+        "vertices": [
+          0,
+          2,
+          4
+        ]
+      }
+    },
+    {
+      "branch": [
+        0,
+        1,
+        27
+      ],
+      "proof": {
+        "kind": "cut",
+        "vertices": [
+          0,
+          2,
+          4
+        ]
+      }
+    },
+    {
+      "branch": [
+        0,
+        1,
+        28
+      ],
+      "proof": {
+        "kind": "cut",
+        "vertices": [
+          0,
+          2,
+          4
+        ]
+      }
+    },
+    {
+      "branch": [
+        0,
+        1,
+        29
+      ],
+      "proof": {
+        "kind": "cut",
+        "vertices": [
+          0,
+          2,
+          4
+        ]
+      }
+    },
+    {
+      "branch": [
+        0,
+        1,
+        30
+      ],
+      "proof": {
+        "kind": "cut",
+        "vertices": [
+          0,
+          2,
+          4
+        ]
+      }
+    },
+    {
+      "branch": [
+        0,
+        1,
+        31
+      ],
+      "proof": {
+        "kind": "cut",
+        "vertices": [
+          0,
+          2,
+          4
+        ]
+      }
+    },
+    {
+      "branch": [
+        0,
+        1,
+        32
+      ],
+      "proof": {
+        "kind": "cut",
+        "vertices": [
+          0,
+          2,
+          4
+        ]
+      }
+    },
+    {
+      "branch": [
+        0,
+        1,
+        33
+      ],
+      "proof": {
+        "kind": "cut",
+        "vertices": [
+          0,
+          2,
+          4
+        ]
+      }
+    },
+    {
+      "branch": [
+        0,
+        1,
+        34
+      ],
+      "proof": {
+        "kind": "cut",
+        "vertices": [
+          0,
+          2,
+          4
+        ]
+      }
+    },
+    {
+      "branch": [
+        0,
+        1,
+        35
+      ],
+      "proof": {
+        "kind": "cut",
+        "vertices": [
+          0,
+          2,
+          4
+        ]
+      }
+    },
+    {
+      "branch": [
+        0,
+        1,
+        36
+      ],
+      "proof": {
+        "kind": "cut",
+        "vertices": [
+          0,
+          2,
+          4
+        ]
+      }
+    },
+    {
+      "branch": [
+        0,
+        1,
+        37
+      ],
+      "proof": {
+        "kind": "cut",
+        "vertices": [
+          0,
+          2,
+          4
+        ]
+      }
+    },
+    {
+      "branch": [
+        0,
+        1,
+        38
+      ],
+      "proof": {
+        "kind": "cut",
+        "vertices": [
+          0,
+          2,
+          4
+        ]
+      }
+    },
+    {
+      "branch": [
+        0,
+        1,
+        39
+      ],
+      "proof": {
+        "kind": "cut",
+        "vertices": [
+          0,
+          2,
+          4
+        ]
+      }
+    }
+  ],
+  "case_id": "fixture-17",
+  "status": "stable"
+}

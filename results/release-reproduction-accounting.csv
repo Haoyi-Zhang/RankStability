@@ -1,0 +1,13 @@
+ordinal,name,command,returncode,user_seconds,system_seconds,wall_seconds,max_rss_kib,stdout_bytes,stderr_bytes
+1,pilot,python src/limited.py tests/pilot.py,0,0.97,0.05,0.6257343000002038,94064,420,0
+2,exhaustive,python src/limited.py tests/exhaustive.py,0,2.33,0.06,2.0002173150001,92588,345,0
+3,semantics,python src/limited.py tests/semantics.py,0,1.01,0.05,0.6791269770001236,93104,310,0
+4,stress,python src/limited.py tests/stress.py,0,3.2,0.07,2.871379801999865,93872,566,0
+5,reference_audit,python src/limited.py tests/reference_audit.py,0,0.96,0.04,0.6112356230000842,93484,698,0
+6,protocol_audit,python src/limited.py tests/protocol_audit.py,0,1.28,0.14,1.0263191559997722,93856,1879,0
+7,generated_oracle_audit,python src/limited.py tests/generated_oracle_audit.py,0,5.71,0.06,5.360294276999866,94356,1250,0
+8,external_matrices,python src/limited.py tests/external_matrices.py,0,1.86,0.09,1.5467621890002192,93740,10516,0
+9,metamorphic,python src/limited.py tests/metamorphic.py,0,2.77,0.06,2.5096627709999666,94248,523,0
+10,verify_all,python src/limited.py tests/verify_all.py data results/campaign,0,1.79,0.07,1.4800122259998716,94124,148,0
+11,check_tables,python src/limited.py tests/check_tables.py,0,1.05,0.05,0.7058832899997469,97196,914,0
+12,clean_reproduction,python src/limited.py tests/reproduce.py,0,11.99,1.92,13.77815551499998,95024,408,0

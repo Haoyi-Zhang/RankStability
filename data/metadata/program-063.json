@@ -1,0 +1,95 @@
+{
+  "category": "program",
+  "cpu_seconds": 0.03482111699999979,
+  "failing_tests": 35,
+  "family": "median",
+  "family_index": 3,
+  "fault_delta": -1,
+  "fault_location": 3,
+  "id": "program-063",
+  "mutants": [
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      2,
+      0
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      2,
+      2
+    ],
+    [
+      3,
+      1
+    ],
+    [
+      3,
+      3
+    ],
+    [
+      4,
+      0
+    ],
+    [
+      4,
+      1
+    ],
+    [
+      4,
+      2
+    ],
+    [
+      5,
+      0
+    ],
+    [
+      5,
+      1
+    ]
+  ],
+  "parameters": [
+    0,
+    2,
+    -2
+  ],
+  "peak_child_rss_kib": 93484,
+  "policy_seed_sample": [
+    0,
+    3,
+    7,
+    9,
+    10,
+    14
+  ],
+  "protocol_role": "confirmatory",
+  "screening": [
+    {
+      "failing_tests": 35,
+      "fault_location": 3
+    }
+  ],
+  "tests": 49,
+  "variant": 3
+}

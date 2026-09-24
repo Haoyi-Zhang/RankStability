@@ -1,0 +1,334 @@
+{
+  "branches": [
+    {
+      "branch": [
+        0,
+        1,
+        3
+      ],
+      "proof": {
+        "edge": 25,
+        "kind": "interval"
+      }
+    },
+    {
+      "branch": [
+        0,
+        1,
+        4
+      ],
+      "proof": {
+        "edge": 25,
+        "kind": "interval"
+      }
+    },
+    {
+      "branch": [
+        0,
+        2,
+        5
+      ],
+      "proof": {
+        "edge": 25,
+        "kind": "interval"
+      }
+    },
+    {
+      "branch": [
+        0,
+        2,
+        6
+      ],
+      "proof": {
+        "edge": 25,
+        "kind": "interval"
+      }
+    },
+    {
+      "branch": [
+        0,
+        2,
+        7
+      ],
+      "proof": {
+        "edge": 25,
+        "kind": "interval"
+      }
+    },
+    {
+      "branch": [
+        0,
+        4,
+        10
+      ],
+      "proof": {
+        "edge": 25,
+        "kind": "interval"
+      }
+    },
+    {
+      "branch": [
+        0,
+        4,
+        11
+      ],
+      "proof": {
+        "edge": 25,
+        "kind": "interval"
+      }
+    },
+    {
+      "branch": [
+        0,
+        4,
+        12
+      ],
+      "proof": {
+        "edge": 25,
+        "kind": "interval"
+      }
+    },
+    {
+      "branch": [
+        3,
+        1,
+        -1
+      ],
+      "proof": {
+        "edge": 25,
+        "kind": "interval"
+      }
+    },
+    {
+      "branch": [
+        3,
+        1,
+        3
+      ],
+      "proof": {
+        "edge": 25,
+        "kind": "interval"
+      }
+    },
+    {
+      "branch": [
+        3,
+        1,
+        4
+      ],
+      "proof": {
+        "edge": 25,
+        "kind": "interval"
+      }
+    },
+    {
+      "branch": [
+        3,
+        2,
+        -1
+      ],
+      "proof": {
+        "edge": 25,
+        "kind": "interval"
+      }
+    },
+    {
+      "branch": [
+        3,
+        2,
+        5
+      ],
+      "proof": {
+        "edge": 25,
+        "kind": "interval"
+      }
+    },
+    {
+      "branch": [
+        3,
+        2,
+        6
+      ],
+      "proof": {
+        "edge": 25,
+        "kind": "interval"
+      }
+    },
+    {
+      "branch": [
+        3,
+        2,
+        7
+      ],
+      "proof": {
+        "edge": 25,
+        "kind": "interval"
+      }
+    },
+    {
+      "branch": [
+        3,
+        4,
+        10
+      ],
+      "proof": {
+        "edge": 25,
+        "kind": "interval"
+      }
+    },
+    {
+      "branch": [
+        3,
+        4,
+        11
+      ],
+      "proof": {
+        "edge": 25,
+        "kind": "interval"
+      }
+    },
+    {
+      "branch": [
+        3,
+        4,
+        12
+      ],
+      "proof": {
+        "edge": 25,
+        "kind": "interval"
+      }
+    },
+    {
+      "branch": [
+        5,
+        1,
+        -1
+      ],
+      "proof": {
+        "edge": 25,
+        "kind": "interval"
+      }
+    },
+    {
+      "branch": [
+        5,
+        1,
+        3
+      ],
+      "proof": {
+        "edge": 25,
+        "kind": "interval"
+      }
+    },
+    {
+      "branch": [
+        5,
+        1,
+        4
+      ],
+      "proof": {
+        "edge": 25,
+        "kind": "interval"
+      }
+    },
+    {
+      "branch": [
+        5,
+        2,
+        -1
+      ],
+      "proof": {
+        "edge": 25,
+        "kind": "interval"
+      }
+    },
+    {
+      "branch": [
+        5,
+        2,
+        5
+      ],
+      "proof": {
+        "edge": 25,
+        "kind": "interval"
+      }
+    },
+    {
+      "branch": [
+        5,
+        2,
+        6
+      ],
+      "proof": {
+        "edge": 25,
+        "kind": "interval"
+      }
+    },
+    {
+      "branch": [
+        5,
+        2,
+        7
+      ],
+      "proof": {
+        "edge": 25,
+        "kind": "interval"
+      }
+    },
+    {
+      "branch": [
+        5,
+        4,
+        -1
+      ],
+      "proof": {
+        "edge": 25,
+        "kind": "interval"
+      }
+    },
+    {
+      "branch": [
+        5,
+        4,
+        10
+      ],
+      "proof": {
+        "edge": 25,
+        "kind": "interval"
+      }
+    },
+    {
+      "branch": [
+        5,
+        4,
+        11
+      ],
+      "proof": {
+        "edge": 25,
+        "kind": "interval"
+      }
+    },
+    {
+      "branch": [
+        5,
+        4,
+        12
+      ],
+      "proof": {
+        "edge": 25,
+        "kind": "interval"
+      }
+    }
+  ],
+  "case_id": "program-065-k3",
+  "sample": [
+    0,
+    4,
+    5,
+    8,
+    11,
+    14
+  ],
+  "size": 6,
+  "status": "counterexample"
+}

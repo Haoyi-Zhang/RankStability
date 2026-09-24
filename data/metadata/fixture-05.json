@@ -1,0 +1,7 @@
+{
+  "category": "fixture",
+  "description": "Zero-score floor cannot be beaten by a later zero-score pivot",
+  "expected_minimum": null,
+  "expected_status": "stable",
+  "id": "fixture-05"
+}

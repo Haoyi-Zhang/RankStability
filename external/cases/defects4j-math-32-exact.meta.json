@@ -1,0 +1,39 @@
+{
+  "bug_id": 32,
+  "category": "external_matrix",
+  "id": "defects4j-math-32-exact",
+  "kill_counts": [
+    2,
+    1,
+    2,
+    1,
+    0,
+    2,
+    2,
+    1,
+    2,
+    0,
+    1,
+    0
+  ],
+  "location_semantics": "one location per selected mutant because source locations are absent from the public CSV",
+  "operator_order": [
+    "LVR",
+    "ROR"
+  ],
+  "policy_seed_sample": [
+    2,
+    3,
+    4,
+    5,
+    7,
+    9
+  ],
+  "profile": "exact",
+  "project": "Math",
+  "second_partition_semantics": "three equal strata after sorting selected mutants by total kill count and identity",
+  "source_snapshot": "snapshots/defects4j-math-32.csv",
+  "upstream_blob": "c62d1d1bd2efd28ebd80673cb8b09936752897f6",
+  "upstream_commit": "f8d8376e0efe345161f26ff6483a404c8548fe1c",
+  "upstream_path": "resources/matrices/Math/Math.32f.big.all.Matrix.csv"
+}

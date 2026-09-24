@@ -1,0 +1,11 @@
+{
+  "case_id": "fixture-16-zero_floor",
+  "proof": {
+    "kind": "cut",
+    "vertices": [
+      3,
+      5
+    ]
+  },
+  "status": "infeasible_policy"
+}

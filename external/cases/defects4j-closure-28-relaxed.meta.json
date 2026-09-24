@@ -1,0 +1,40 @@
+{
+  "bug_id": 28,
+  "category": "external_matrix",
+  "id": "defects4j-closure-28-relaxed",
+  "kill_counts": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    2,
+    2,
+    1,
+    2,
+    2,
+    2
+  ],
+  "location_semantics": "one location per selected mutant because source locations are absent from the public CSV",
+  "operator_order": [
+    "STD",
+    "LVR",
+    "AOR"
+  ],
+  "policy_seed_sample": [
+    0,
+    1,
+    4,
+    5,
+    7,
+    9
+  ],
+  "profile": "relaxed",
+  "project": "Closure",
+  "second_partition_semantics": "three equal strata after sorting selected mutants by total kill count and identity",
+  "source_snapshot": "snapshots/defects4j-closure-28.csv",
+  "upstream_blob": "4f84f0e30ba7fbdd52b2cf414c52f0d83a4de9b7",
+  "upstream_commit": "f8d8376e0efe345161f26ff6483a404c8548fe1c",
+  "upstream_path": "resources/matrices/Closure/Closure.28f.big.all.Matrix.csv"
+}

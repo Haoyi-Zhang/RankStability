@@ -1,0 +1,7 @@
+{
+  "category": "fixture",
+  "description": "Global cardinality forces both mutants",
+  "expected_minimum": null,
+  "expected_status": "stable",
+  "id": "fixture-18"
+}

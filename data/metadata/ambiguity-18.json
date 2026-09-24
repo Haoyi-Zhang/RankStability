@@ -1,0 +1,12 @@
+{
+  "category": "ambiguity",
+  "correction_location": 0,
+  "cpu_seconds": 0.03730786799999998,
+  "expected_status": "stable",
+  "id": "ambiguity-18",
+  "observations": "ambiguity-pair-09.csv",
+  "pair": 9,
+  "peak_child_rss_kib": 93612,
+  "source": "ambiguity-pair-09.c",
+  "world": 0
+}

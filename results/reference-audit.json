@@ -1,0 +1,23 @@
+{
+  "audit_scope": "frozen bibliography, live-resolution ledger, citation coverage, and calibration consistency",
+  "calibration_counts": {
+    "adjacent": 5,
+    "influential": 5,
+    "same-venue": 12
+  },
+  "corrected_metadata_entries": [
+    "zhang10random",
+    "zhang13together"
+  ],
+  "doi_identifiers": 61,
+  "isbn_identifiers": 0,
+  "live_resolution_rows": 61,
+  "manuscript_cited_keys": 61,
+  "maximum_citation_cluster": 7,
+  "network_resolution_scope": "live metadata comparison was performed on 2026-09-21 and frozen in reference-live-audit.csv",
+  "placeholder_scan": "passed",
+  "provenance_rows": 61,
+  "references": 61,
+  "unique_identifiers": 61,
+  "unique_normalized_titles": 61
+}

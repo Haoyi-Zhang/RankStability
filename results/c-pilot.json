@@ -1,0 +1,962 @@
+{
+  "cases": [
+    {
+      "id": "program-019",
+      "family": "affine",
+      "variant": 19,
+      "parameters": [
+        2,
+        -2,
+        0
+      ],
+      "fault_location": 1,
+      "fault_delta": -1,
+      "mutants": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          5,
+          0
+        ],
+        [
+          5,
+          1
+        ]
+      ],
+      "screening": [
+        {
+          "fault_location": 1,
+          "failing_tests": 49
+        }
+      ],
+      "tests": 49,
+      "failing_tests": 49,
+      "policy_seed_sample": [
+        0,
+        3,
+        7,
+        9,
+        10,
+        14
+      ],
+      "cpu_seconds": 0.05805444799999999,
+      "peak_child_rss_kib": 93100,
+      "status": "counterexample",
+      "certificate_bytes": 908,
+      "certification_cpu_seconds": 0.0008371329999999899
+    },
+    {
+      "id": "program-039",
+      "family": "clamp",
+      "variant": 19,
+      "parameters": [
+        -2,
+        -2,
+        0
+      ],
+      "fault_location": 1,
+      "fault_delta": -1,
+      "mutants": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          5,
+          3
+        ]
+      ],
+      "screening": [
+        {
+          "fault_location": 1,
+          "failing_tests": 49
+        }
+      ],
+      "tests": 49,
+      "failing_tests": 49,
+      "policy_seed_sample": [
+        0,
+        4,
+        6,
+        9,
+        10,
+        13
+      ],
+      "cpu_seconds": 0.034342437999999996,
+      "peak_child_rss_kib": 93100,
+      "status": "stable",
+      "certificate_bytes": 1531,
+      "certification_cpu_seconds": 0.0021710019999999774
+    },
+    {
+      "id": "program-059",
+      "family": "tariff",
+      "variant": 19,
+      "parameters": [
+        0,
+        -1,
+        1
+      ],
+      "fault_location": 1,
+      "fault_delta": -1,
+      "mutants": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          5,
+          2
+        ]
+      ],
+      "screening": [
+        {
+          "fault_location": 1,
+          "failing_tests": 49
+        }
+      ],
+      "tests": 49,
+      "failing_tests": 49,
+      "policy_seed_sample": [
+        0,
+        3,
+        6,
+        9,
+        10,
+        13
+      ],
+      "cpu_seconds": 0.03378412800000001,
+      "peak_child_rss_kib": 93100,
+      "status": "counterexample",
+      "certificate_bytes": 908,
+      "certification_cpu_seconds": 0.0007159230000000072
+    },
+    {
+      "id": "program-079",
+      "family": "median",
+      "variant": 19,
+      "parameters": [
+        0,
+        2,
+        -2
+      ],
+      "fault_location": 1,
+      "fault_delta": -1,
+      "mutants": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          5,
+          2
+        ]
+      ],
+      "screening": [
+        {
+          "fault_location": 1,
+          "failing_tests": 15
+        }
+      ],
+      "tests": 49,
+      "failing_tests": 15,
+      "policy_seed_sample": [
+        0,
+        4,
+        7,
+        9,
+        10,
+        13
+      ],
+      "cpu_seconds": 0.033586663,
+      "peak_child_rss_kib": 93100,
+      "status": "stable",
+      "certificate_bytes": 1531,
+      "certification_cpu_seconds": 0.0020581749999999954
+    },
+    {
+      "id": "program-099",
+      "family": "interval",
+      "variant": 19,
+      "parameters": [
+        2,
+        -2,
+        -2
+      ],
+      "fault_location": 1,
+      "fault_delta": -1,
+      "mutants": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          5,
+          3
+        ]
+      ],
+      "screening": [
+        {
+          "fault_location": 1,
+          "failing_tests": 49
+        }
+      ],
+      "tests": 49,
+      "failing_tests": 49,
+      "policy_seed_sample": [
+        0,
+        4,
+        6,
+        9,
+        10,
+        13
+      ],
+      "cpu_seconds": 0.03145218300000002,
+      "peak_child_rss_kib": 93100,
+      "status": "counterexample",
+      "certificate_bytes": 908,
+      "certification_cpu_seconds": 0.0007583349999999989
+    },
+    {
+      "id": "program-119",
+      "family": "predicate",
+      "variant": 19,
+      "parameters": [
+        2,
+        -1,
+        1
+      ],
+      "fault_location": 1,
+      "fault_delta": -1,
+      "mutants": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          5,
+          3
+        ]
+      ],
+      "screening": [
+        {
+          "fault_location": 1,
+          "failing_tests": 19
+        }
+      ],
+      "tests": 49,
+      "failing_tests": 19,
+      "policy_seed_sample": [
+        0,
+        3,
+        7,
+        9,
+        10,
+        13
+      ],
+      "cpu_seconds": 0.030314851999999996,
+      "peak_child_rss_kib": 93100,
+      "status": "counterexample",
+      "certificate_bytes": 908,
+      "certification_cpu_seconds": 0.0007601890000000222
+    },
+    {
+      "id": "program-139",
+      "family": "accumulator",
+      "variant": 19,
+      "parameters": [
+        -2,
+        -2,
+        2
+      ],
+      "fault_location": 1,
+      "fault_delta": -1,
+      "mutants": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          5,
+          2
+        ]
+      ],
+      "screening": [
+        {
+          "fault_location": 1,
+          "failing_tests": 49
+        }
+      ],
+      "tests": 49,
+      "failing_tests": 49,
+      "policy_seed_sample": [
+        0,
+        4,
+        6,
+        9,
+        10,
+        13
+      ],
+      "cpu_seconds": 0.030180945,
+      "peak_child_rss_kib": 93100,
+      "status": "counterexample",
+      "certificate_bytes": 908,
+      "certification_cpu_seconds": 0.0006877909999999932
+    },
+    {
+      "id": "program-159",
+      "family": "remainder",
+      "variant": 19,
+      "parameters": [
+        -2,
+        -2,
+        2
+      ],
+      "fault_location": 1,
+      "fault_delta": -1,
+      "mutants": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          5,
+          3
+        ]
+      ],
+      "screening": [
+        {
+          "fault_location": 1,
+          "failing_tests": 49
+        }
+      ],
+      "tests": 49,
+      "failing_tests": 49,
+      "policy_seed_sample": [
+        0,
+        4,
+        6,
+        9,
+        10,
+        13
+      ],
+      "cpu_seconds": 0.031084350999999975,
+      "peak_child_rss_kib": 93100,
+      "status": "counterexample",
+      "certificate_bytes": 908,
+      "certification_cpu_seconds": 0.0006859280000000023
+    },
+    {
+      "id": "program-179",
+      "family": "bucket",
+      "variant": 19,
+      "parameters": [
+        1,
+        -2,
+        -2
+      ],
+      "fault_location": 1,
+      "fault_delta": -1,
+      "mutants": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          5,
+          0
+        ],
+        [
+          5,
+          1
+        ]
+      ],
+      "screening": [
+        {
+          "fault_location": 1,
+          "failing_tests": 7
+        }
+      ],
+      "tests": 49,
+      "failing_tests": 7,
+      "policy_seed_sample": [
+        0,
+        3,
+        6,
+        9,
+        10,
+        14
+      ],
+      "cpu_seconds": 0.028928648,
+      "peak_child_rss_kib": 93100,
+      "status": "stable",
+      "certificate_bytes": 1923,
+      "certification_cpu_seconds": 0.0026388869999999787
+    },
+    {
+      "id": "program-199",
+      "family": "polynomial",
+      "variant": 19,
+      "parameters": [
+        0,
+        0,
+        -1
+      ],
+      "fault_location": 1,
+      "fault_delta": -1,
+      "mutants": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          5,
+          3
+        ]
+      ],
+      "screening": [
+        {
+          "fault_location": 1,
+          "failing_tests": 46
+        }
+      ],
+      "tests": 49,
+      "failing_tests": 46,
+      "policy_seed_sample": [
+        0,
+        3,
+        6,
+        9,
+        10,
+        13
+      ],
+      "cpu_seconds": 0.029692591000000018,
+      "peak_child_rss_kib": 93100,
+      "status": "counterexample",
+      "certificate_bytes": 908,
+      "certification_cpu_seconds": 0.000725797000000028
+    }
+  ],
+  "producer_counters": {
+    "networks": 270,
+    "augmentations": 524,
+    "edge_scans": 24598
+  },
+  "checker_steps": 7078,
+  "peak_rss_kib": 93100,
+  "workers": 1
+}

@@ -1,0 +1,11 @@
+{
+  "case_id": "fixture-16-relax_b",
+  "proof": {
+    "kind": "cut",
+    "vertices": [
+      3,
+      5
+    ]
+  },
+  "status": "infeasible_policy"
+}

@@ -1,0 +1,21 @@
+{
+  "cases": 256,
+  "seed": 715,
+  "oracle_subsets": 15788,
+  "status_counts": {
+    "infeasible_policy": 157,
+    "counterexample": 66,
+    "stable": 33
+  },
+  "deleted_branch_rejections": 71,
+  "producer": {
+    "networks": 1029,
+    "augmentations": 990,
+    "edge_scans": 26448,
+    "search_states": 6989
+  },
+  "checker_steps": 15630,
+  "cpu_seconds": 0.06390173499999996,
+  "peak_rss_kib": 93872,
+  "workers": 1
+}

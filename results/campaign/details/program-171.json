@@ -1,0 +1,39 @@
+{
+  "interval": {
+    "bounds": [
+      [
+        "33/49",
+        "6/7"
+      ],
+      [
+        "5/7",
+        "40/49"
+      ],
+      [
+        "19/49",
+        "33/49"
+      ],
+      [
+        "5/49",
+        "33/49"
+      ],
+      [
+        "19/49",
+        "47/49"
+      ],
+      [
+        "45/49",
+        "1"
+      ]
+    ],
+    "cpu_seconds": 0.003999830999999787,
+    "result": "unknown"
+  },
+  "random": {
+    "accepted": 64,
+    "attempts": 1357,
+    "cpu_seconds": 0.011999501000000024,
+    "observed_minimum": 7,
+    "result": "observed_counterexample"
+  }
+}

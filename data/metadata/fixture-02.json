@@ -1,0 +1,7 @@
+{
+  "category": "fixture",
+  "description": "Deleting the sole high scorer raises the minimum edge-cover cardinality from three to four",
+  "expected_minimum": 4,
+  "expected_status": "counterexample",
+  "id": "fixture-02"
+}

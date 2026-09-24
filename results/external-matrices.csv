@@ -1,0 +1,16 @@
+id,project,bug_id,profile,status,minimum,tests,failing_tests,mutants,feasible_samples,refuting_samples,refuter_fraction_numerator,refuter_fraction_denominator,distinct_top_sets,interval_result,random_result,random_accepted,random_attempts,random_minimum,certificate_bytes
+defects4j-chart-24-balanced,Chart,24,balanced,counterexample,5,9,1,12,2044,1898,1898,2044,84,unknown,observed_counterexample,64,90,5,1661
+defects4j-chart-24-exact,Chart,24,exact,counterexample,6,9,1,12,108,108,108,108,18,unknown,observed_counterexample,64,591,6,1660
+defects4j-chart-24-relaxed,Chart,24,relaxed,counterexample,4,9,1,12,3718,3253,3253,3718,165,unknown,observed_counterexample,64,64,4,1658
+defects4j-closure-28-balanced,Closure,28,balanced,counterexample,5,10,2,12,808,755,755,808,86,unknown,observed_counterexample,64,221,5,2765
+defects4j-closure-28-exact,Closure,28,exact,counterexample,6,10,2,12,9,9,9,9,3,unknown,observed_counterexample,38,4096,6,2764
+defects4j-closure-28-relaxed,Closure,28,relaxed,counterexample,4,10,2,12,3718,3253,3253,3718,165,unknown,observed_counterexample,64,64,4,2762
+defects4j-lang-54-balanced,Lang,54,balanced,counterexample,5,9,1,12,1992,1806,1806,1992,109,unknown,observed_counterexample,64,103,5,1660
+defects4j-lang-54-exact,Lang,54,exact,counterexample,6,9,1,12,144,132,132,144,37,unknown,observed_counterexample,64,360,6,1659
+defects4j-lang-54-relaxed,Lang,54,relaxed,counterexample,4,9,1,12,3718,3253,3253,3718,165,unknown,observed_counterexample,64,64,4,1657
+defects4j-math-32-balanced,Math,32,balanced,counterexample,5,9,1,12,1766,1560,1560,1766,85,unknown,observed_counterexample,64,130,5,2124
+defects4j-math-32-exact,Math,32,exact,counterexample,6,9,1,12,90,78,78,90,21,unknown,observed_counterexample,64,825,6,2124
+defects4j-math-32-relaxed,Math,32,relaxed,counterexample,4,9,1,12,3718,3253,3253,3718,165,unknown,observed_counterexample,64,64,4,2121
+defects4j-time-10-balanced,Time,10,balanced,counterexample,5,10,2,12,1764,1724,1724,1764,89,unknown,observed_counterexample,64,128,5,2530
+defects4j-time-10-exact,Time,10,exact,counterexample,6,10,2,12,108,108,108,108,18,unknown,observed_counterexample,64,550,6,2529
+defects4j-time-10-relaxed,Time,10,relaxed,counterexample,4,10,2,12,3718,3253,3253,3718,165,unknown,observed_counterexample,64,64,4,2527

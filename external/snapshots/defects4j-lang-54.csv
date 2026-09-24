@@ -1,0 +1,11 @@
+test_type,test_name,bug,mutant_1,mutant_2,mutant_3,mutant_4,mutant_5,mutant_6,mutant_7,mutant_8,mutant_9,mutant_10,mutant_11,mutant_12
+operator,-,-,ROR,ROR,ROR,LVR,LVR,ROR,ROR,ROR,ROR,ROR,ROR,ROR
+dev,dev__0__org.apache.commons.lang.LocaleUtilsTest::testConstructor,0,0,0,0,0,0,0,0,0,0,0,0,0
+dev,dev__0__org.apache.commons.lang.LocaleUtilsTest::testToLocale_1Part,0,1,1,1,1,1,1,1,1,1,1,1,1
+dev,dev__0__org.apache.commons.lang.LocaleUtilsTest::testToLocale_2Part,0,1,0,1,0,0,0,0,0,0,0,0,0
+dev,dev__0__org.apache.commons.lang.LocaleUtilsTest::testToLocale_3Part,0,1,0,1,0,0,1,1,1,0,0,1,0
+dev,dev__0__org.apache.commons.lang.LocaleUtilsTest::testLocaleLookupList_Locale,0,0,0,0,0,0,0,0,0,0,0,0,0
+dev,dev__0__org.apache.commons.lang.LocaleUtilsTest::testLocaleLookupList_LocaleLocale,0,0,0,0,0,0,0,0,0,0,0,0,0
+dev,dev__0__org.apache.commons.lang.LocaleUtilsTest::testAvailableLocaleList,0,0,0,0,0,0,0,0,0,0,0,0,0
+dev,dev__0__org.apache.commons.lang.LocaleUtilsTest::testAvailableLocaleSet,0,0,0,0,0,0,0,0,0,0,0,0,0
+dev,dev__0__org.apache.commons.lang.LocaleUtilsTest::testLang328,1,1,0,1,0,0,0,0,0,0,0,0,0

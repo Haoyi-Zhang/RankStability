@@ -1,0 +1,58 @@
+{
+  "blob": "c62d1d1bd2efd28ebd80673cb8b09936752897f6",
+  "bug_id": 32,
+  "id": "defects4j-math-32",
+  "official_triggers": [
+    "org.apache.commons.math3.geometry.euclidean.threed.PolyhedronsSetTest::testIssue780"
+  ],
+  "operators": [
+    "LVR",
+    "LVR",
+    "ROR",
+    "ROR",
+    "ROR",
+    "ROR",
+    "ROR",
+    "ROR",
+    "ROR",
+    "LVR",
+    "ROR",
+    "ROR"
+  ],
+  "path": "resources/matrices/Math/Math.32f.big.all.Matrix.csv",
+  "project": "Math",
+  "reported_trigger_tests": 2,
+  "selected_failing_rule": "all official Defects4J trigger tests present as dev bug=1 rows, capped at two",
+  "selected_failing_tests": [
+    "dev__0__org.apache.commons.math3.geometry.euclidean.threed.PolyhedronsSetTest::testIssue780"
+  ],
+  "selected_mutant_columns": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "selected_passing_rule": "first eight dev rows with bug=0 in upstream file order",
+  "selected_passing_tests": [
+    "dev__0__org.apache.commons.math3.geometry.euclidean.twod.PolygonsSetTest::testSimplyConnected",
+    "dev__0__org.apache.commons.math3.geometry.euclidean.twod.PolygonsSetTest::testStair",
+    "dev__0__org.apache.commons.math3.geometry.euclidean.twod.PolygonsSetTest::testHole",
+    "dev__0__org.apache.commons.math3.geometry.euclidean.twod.PolygonsSetTest::testDisjointPolygons",
+    "dev__0__org.apache.commons.math3.geometry.euclidean.twod.PolygonsSetTest::testOppositeHyperplanes",
+    "dev__0__org.apache.commons.math3.geometry.euclidean.twod.PolygonsSetTest::testSingularPoint",
+    "dev__0__org.apache.commons.math3.geometry.euclidean.twod.PolygonsSetTest::testLineIntersection",
+    "dev__0__org.apache.commons.math3.geometry.euclidean.twod.PolygonsSetTest::testUnlimitedSubHyperplane"
+  ],
+  "total_mutants": 400,
+  "total_tests": 33,
+  "upstream_commit": "f8d8376e0efe345161f26ff6483a404c8548fe1c",
+  "upstream_url": "https://github.com/donghwan-shin/Diversity-aware-Mutation-Testing/blob/f8d8376e0efe345161f26ff6483a404c8548fe1c/resources/matrices/Math/Math.32f.big.all.Matrix.csv"
+}

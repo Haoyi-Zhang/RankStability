@@ -1,0 +1,11 @@
+test_type,test_name,bug,mutant_1,mutant_2,mutant_3,mutant_4,mutant_5,mutant_6,mutant_7,mutant_8,mutant_9,mutant_10,mutant_11,mutant_12
+operator,-,-,LVR,LVR,ROR,ROR,ROR,ROR,ROR,ROR,ROR,LVR,ROR,ROR
+dev,dev__0__org.apache.commons.math3.geometry.euclidean.twod.PolygonsSetTest::testSimplyConnected,0,0,0,0,0,0,0,0,0,0,0,0,0
+dev,dev__0__org.apache.commons.math3.geometry.euclidean.twod.PolygonsSetTest::testStair,0,1,0,1,0,0,1,1,0,1,0,0,0
+dev,dev__0__org.apache.commons.math3.geometry.euclidean.twod.PolygonsSetTest::testHole,0,0,0,0,0,0,0,0,0,0,0,0,0
+dev,dev__0__org.apache.commons.math3.geometry.euclidean.twod.PolygonsSetTest::testDisjointPolygons,0,0,0,0,0,0,0,0,0,0,0,0,0
+dev,dev__0__org.apache.commons.math3.geometry.euclidean.twod.PolygonsSetTest::testOppositeHyperplanes,0,0,0,0,0,0,0,0,0,0,0,0,0
+dev,dev__0__org.apache.commons.math3.geometry.euclidean.twod.PolygonsSetTest::testSingularPoint,0,0,0,0,0,0,0,0,0,0,0,0,0
+dev,dev__0__org.apache.commons.math3.geometry.euclidean.twod.PolygonsSetTest::testLineIntersection,0,0,0,0,0,0,0,0,0,0,0,0,0
+dev,dev__0__org.apache.commons.math3.geometry.euclidean.twod.PolygonsSetTest::testUnlimitedSubHyperplane,0,0,0,0,0,0,0,0,0,0,0,0,0
+dev,dev__0__org.apache.commons.math3.geometry.euclidean.threed.PolyhedronsSetTest::testIssue780,1,1,1,1,1,0,1,1,1,1,0,1,0

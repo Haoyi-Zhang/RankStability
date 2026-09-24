@@ -1,0 +1,95 @@
+{
+  "category": "program",
+  "cpu_seconds": 0.03661238600000005,
+  "failing_tests": 49,
+  "family": "accumulator",
+  "family_index": 6,
+  "fault_delta": 1,
+  "fault_location": 4,
+  "id": "program-130",
+  "mutants": [
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      2,
+      2
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      3,
+      0
+    ],
+    [
+      3,
+      2
+    ],
+    [
+      3,
+      3
+    ],
+    [
+      4,
+      0
+    ],
+    [
+      4,
+      3
+    ],
+    [
+      5,
+      0
+    ],
+    [
+      5,
+      1
+    ],
+    [
+      5,
+      2
+    ]
+  ],
+  "parameters": [
+    -2,
+    1,
+    2
+  ],
+  "peak_child_rss_kib": 93484,
+  "policy_seed_sample": [
+    0,
+    2,
+    5,
+    9,
+    10,
+    13
+  ],
+  "protocol_role": "confirmatory",
+  "screening": [
+    {
+      "failing_tests": 49,
+      "fault_location": 4
+    }
+  ],
+  "tests": 49,
+  "variant": 10
+}

@@ -1,0 +1,39 @@
+{
+  "bug_id": 54,
+  "category": "external_matrix",
+  "id": "defects4j-lang-54-balanced",
+  "kill_counts": [
+    4,
+    1,
+    4,
+    1,
+    1,
+    2,
+    2,
+    2,
+    1,
+    1,
+    2,
+    1
+  ],
+  "location_semantics": "one location per selected mutant because source locations are absent from the public CSV",
+  "operator_order": [
+    "ROR",
+    "LVR"
+  ],
+  "policy_seed_sample": [
+    1,
+    3,
+    7,
+    9,
+    10,
+    11
+  ],
+  "profile": "balanced",
+  "project": "Lang",
+  "second_partition_semantics": "three equal strata after sorting selected mutants by total kill count and identity",
+  "source_snapshot": "snapshots/defects4j-lang-54.csv",
+  "upstream_blob": "d52ab7f04c855578cee6e7764f73da4a33485ce2",
+  "upstream_commit": "f8d8376e0efe345161f26ff6483a404c8548fe1c",
+  "upstream_path": "resources/matrices/Lang/Lang.54f.big.all.Matrix.csv"
+}

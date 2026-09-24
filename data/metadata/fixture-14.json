@@ -1,0 +1,7 @@
+{
+  "category": "fixture",
+  "description": "Empty mutant universe with nonmatching reference",
+  "expected_minimum": 0,
+  "expected_status": "counterexample",
+  "id": "fixture-14"
+}

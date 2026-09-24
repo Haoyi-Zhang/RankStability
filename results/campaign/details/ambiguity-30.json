@@ -1,0 +1,23 @@
+{
+  "interval": {
+    "bounds": [
+      [
+        "1",
+        "1"
+      ],
+      [
+        "1",
+        "1"
+      ]
+    ],
+    "cpu_seconds": 0.00409186699999986,
+    "result": "stable"
+  },
+  "random": {
+    "accepted": 64,
+    "attempts": 217,
+    "cpu_seconds": 0.0,
+    "observed_minimum": null,
+    "result": "unknown"
+  }
+}

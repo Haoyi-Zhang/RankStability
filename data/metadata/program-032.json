@@ -1,0 +1,95 @@
+{
+  "category": "program",
+  "cpu_seconds": 0.035914980999999846,
+  "failing_tests": 21,
+  "family": "clamp",
+  "family_index": 1,
+  "fault_delta": 1,
+  "fault_location": 0,
+  "id": "program-032",
+  "mutants": [
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      2,
+      2
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      3,
+      0
+    ],
+    [
+      3,
+      1
+    ],
+    [
+      3,
+      3
+    ],
+    [
+      4,
+      0
+    ],
+    [
+      4,
+      2
+    ],
+    [
+      5,
+      1
+    ],
+    [
+      5,
+      2
+    ],
+    [
+      5,
+      3
+    ]
+  ],
+  "parameters": [
+    2,
+    -2,
+    2
+  ],
+  "peak_child_rss_kib": 93484,
+  "policy_seed_sample": [
+    0,
+    3,
+    5,
+    9,
+    10,
+    12
+  ],
+  "protocol_role": "confirmatory",
+  "screening": [
+    {
+      "failing_tests": 21,
+      "fault_location": 0
+    }
+  ],
+  "tests": 49,
+  "variant": 12
+}

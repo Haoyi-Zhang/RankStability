@@ -1,0 +1,100 @@
+[
+  {
+    "argv": [
+      "src/limited.py",
+      "tests/pilot.py"
+    ],
+    "name": "pilot",
+    "purpose": "seeded random finite agreement"
+  },
+  {
+    "argv": [
+      "src/limited.py",
+      "tests/exhaustive.py"
+    ],
+    "name": "exhaustive",
+    "purpose": "complete tiny-domain agreement"
+  },
+  {
+    "argv": [
+      "src/limited.py",
+      "tests/semantics.py"
+    ],
+    "name": "semantics",
+    "purpose": "boundary reductions and floor regression"
+  },
+  {
+    "argv": [
+      "src/limited.py",
+      "tests/stress.py"
+    ],
+    "name": "stress",
+    "purpose": "independent random oracle and adversarial certificates"
+  },
+  {
+    "argv": [
+      "src/limited.py",
+      "tests/reference_audit.py"
+    ],
+    "name": "reference_audit",
+    "purpose": "bibliography, citation-use, and calibration consistency"
+  },
+  {
+    "argv": [
+      "src/limited.py",
+      "tests/protocol_audit.py"
+    ],
+    "name": "protocol_audit",
+    "purpose": "development/confirmation separation and external protocol"
+  },
+  {
+    "argv": [
+      "src/limited.py",
+      "tests/generated_oracle_audit.py"
+    ],
+    "name": "generated_oracle_audit",
+    "purpose": "all subsets for all 200 confirmatory generated subjects"
+  },
+  {
+    "argv": [
+      "src/limited.py",
+      "tests/external_matrices.py"
+    ],
+    "name": "external_matrices",
+    "purpose": "frozen public Defects4J matrix challenge"
+  },
+  {
+    "name": "metamorphic",
+    "argv": [
+      "src/limited.py",
+      "tests/metamorphic.py"
+    ],
+    "purpose": "representation-preserving metamorphic invariance"
+  },
+  {
+    "argv": [
+      "src/limited.py",
+      "tests/verify_all.py",
+      "data",
+      "results/campaign"
+    ],
+    "name": "verify_all",
+    "purpose": "retained campaign certificate verification"
+  },
+  {
+    "argv": [
+      "src/limited.py",
+      "tests/check_tables.py"
+    ],
+    "name": "check_tables",
+    "purpose": "paper-facing numerical reconciliation"
+  },
+  {
+    "argv": [
+      "src/limited.py",
+      "tests/reproduce.py"
+    ],
+    "name": "clean_reproduction",
+    "purpose": "clean regeneration of owned observations and certificates"
+  }
+]

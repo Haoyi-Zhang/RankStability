@@ -1,0 +1,60 @@
+{
+  "blob": "4f84f0e30ba7fbdd52b2cf414c52f0d83a4de9b7",
+  "bug_id": 28,
+  "id": "defects4j-closure-28",
+  "official_triggers": [
+    "com.google.javascript.jscomp.InlineCostEstimatorTest::testCost",
+    "com.google.javascript.jscomp.InlineFunctionsTest::testIssue728"
+  ],
+  "operators": [
+    "STD",
+    "LVR",
+    "LVR",
+    "LVR",
+    "STD",
+    "STD",
+    "LVR",
+    "LVR",
+    "AOR",
+    "AOR",
+    "AOR",
+    "AOR"
+  ],
+  "path": "resources/matrices/Closure/Closure.28f.big.all.Matrix.csv",
+  "project": "Closure",
+  "reported_trigger_tests": 4,
+  "selected_failing_rule": "all official Defects4J trigger tests present as dev bug=1 rows, capped at two",
+  "selected_failing_tests": [
+    "dev__0__com.google.javascript.jscomp.InlineCostEstimatorTest::testCost",
+    "dev__0__com.google.javascript.jscomp.InlineFunctionsTest::testIssue728"
+  ],
+  "selected_mutant_columns": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "selected_passing_rule": "first eight dev rows with bug=0 in upstream file order",
+  "selected_passing_tests": [
+    "dev__0__com.google.javascript.jscomp.IntegrationTest::testBug1949424",
+    "dev__0__com.google.javascript.jscomp.IntegrationTest::testBug1949424_v2",
+    "dev__0__com.google.javascript.jscomp.IntegrationTest::testBug1956277",
+    "dev__0__com.google.javascript.jscomp.IntegrationTest::testBug1962380",
+    "dev__0__com.google.javascript.jscomp.IntegrationTest::testBug2410122",
+    "dev__0__com.google.javascript.jscomp.IntegrationTest::testIssue90",
+    "dev__0__com.google.javascript.jscomp.IntegrationTest::testClosurePassOff",
+    "dev__0__com.google.javascript.jscomp.IntegrationTest::testClosurePassOn"
+  ],
+  "total_mutants": 25,
+  "total_tests": 1798,
+  "upstream_commit": "f8d8376e0efe345161f26ff6483a404c8548fe1c",
+  "upstream_url": "https://github.com/donghwan-shin/Diversity-aware-Mutation-Testing/blob/f8d8376e0efe345161f26ff6483a404c8548fe1c/resources/matrices/Closure/Closure.28f.big.all.Matrix.csv"
+}

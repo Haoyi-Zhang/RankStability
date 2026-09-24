@@ -1,0 +1,58 @@
+{
+  "blob": "93e5e3f608e528f6fbc090bcb256781ed24b8bf8",
+  "bug_id": 24,
+  "id": "defects4j-chart-24",
+  "official_triggers": [
+    "org.jfree.chart.renderer.junit.GrayPaintScaleTests::testGetPaint"
+  ],
+  "operators": [
+    "LVR",
+    "LVR",
+    "LVR",
+    "LVR",
+    "ROR",
+    "ROR",
+    "ROR",
+    "ROR",
+    "ROR",
+    "ROR",
+    "ROR",
+    "STD"
+  ],
+  "path": "resources/matrices/Chart/Chart.24f.big.all.Matrix.csv",
+  "project": "Chart",
+  "reported_trigger_tests": 371,
+  "selected_failing_rule": "all official Defects4J trigger tests present as dev bug=1 rows, capped at two",
+  "selected_failing_tests": [
+    "dev__0__org.jfree.chart.renderer.junit.GrayPaintScaleTests::testGetPaint"
+  ],
+  "selected_mutant_columns": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "selected_passing_rule": "first eight dev rows with bug=0 in upstream file order",
+  "selected_passing_tests": [
+    "dev__0__org.jfree.chart.renderer.junit.GrayPaintScaleTests::testConstructor",
+    "dev__0__org.jfree.chart.renderer.junit.GrayPaintScaleTests::testEquals",
+    "dev__0__org.jfree.chart.renderer.junit.GrayPaintScaleTests::testCloning",
+    "dev__0__org.jfree.chart.renderer.junit.GrayPaintScaleTests::testSerialization",
+    "dev__0__org.jfree.chart.renderer.xy.junit.XYBlockRendererTests::testEquals",
+    "dev__0__org.jfree.chart.renderer.xy.junit.XYBlockRendererTests::testHashcode",
+    "dev__0__org.jfree.chart.renderer.xy.junit.XYBlockRendererTests::testCloning",
+    "dev__0__org.jfree.chart.renderer.xy.junit.XYBlockRendererTests::testSerialization"
+  ],
+  "total_mutants": 54,
+  "total_tests": 920,
+  "upstream_commit": "f8d8376e0efe345161f26ff6483a404c8548fe1c",
+  "upstream_url": "https://github.com/donghwan-shin/Diversity-aware-Mutation-Testing/blob/f8d8376e0efe345161f26ff6483a404c8548fe1c/resources/matrices/Chart/Chart.24f.big.all.Matrix.csv"
+}

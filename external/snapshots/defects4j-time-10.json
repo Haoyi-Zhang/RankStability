@@ -1,0 +1,60 @@
+{
+  "blob": "2413a65b4f7b0490baa4f794ca9f88b41445114c",
+  "bug_id": 10,
+  "id": "defects4j-time-10",
+  "official_triggers": [
+    "org.joda.time.TestDays::testFactory_daysBetween_RPartial_MonthDay",
+    "org.joda.time.TestMonths::testFactory_monthsBetween_RPartial_MonthDay"
+  ],
+  "operators": [
+    "ROR",
+    "ROR",
+    "ROR",
+    "ROR",
+    "ROR",
+    "AOR",
+    "AOR",
+    "AOR",
+    "AOR",
+    "AOR",
+    "AOR",
+    "AOR"
+  ],
+  "path": "resources/matrices/Time/Time.10f.big.all.Matrix.csv",
+  "project": "Time",
+  "reported_trigger_tests": 2,
+  "selected_failing_rule": "all official Defects4J trigger tests present as dev bug=1 rows, capped at two",
+  "selected_failing_tests": [
+    "dev__0__org.joda.time.TestDays::testFactory_daysBetween_RPartial_MonthDay",
+    "dev__0__org.joda.time.TestMonths::testFactory_monthsBetween_RPartial_MonthDay"
+  ],
+  "selected_mutant_columns": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "selected_passing_rule": "first eight dev rows with bug=0 in upstream file order",
+  "selected_passing_tests": [
+    "dev__0__org.joda.time.TestBaseSingleFieldPeriod::testFactory_between_RInstant",
+    "dev__0__org.joda.time.TestBaseSingleFieldPeriod::testFactory_between_RPartial",
+    "dev__0__org.joda.time.TestBaseSingleFieldPeriod::testFactory_standardSecondsIn_RInterval",
+    "dev__0__org.joda.time.TestBaseSingleFieldPeriod::testFactory_standardMinutesIn_RInterval",
+    "dev__0__org.joda.time.TestBaseSingleFieldPeriod::testFactory_standardHoursIn_RInterval",
+    "dev__0__org.joda.time.TestBaseSingleFieldPeriod::testFactory_standardDaysIn_RInterval",
+    "dev__0__org.joda.time.TestBaseSingleFieldPeriod::testFactory_standardWeeksIn_RInterval",
+    "dev__0__org.joda.time.TestBaseSingleFieldPeriod::testConstants"
+  ],
+  "total_mutants": 197,
+  "total_tests": 1270,
+  "upstream_commit": "f8d8376e0efe345161f26ff6483a404c8548fe1c",
+  "upstream_url": "https://github.com/donghwan-shin/Diversity-aware-Mutation-Testing/blob/f8d8376e0efe345161f26ff6483a404c8548fe1c/resources/matrices/Time/Time.10f.big.all.Matrix.csv"
+}

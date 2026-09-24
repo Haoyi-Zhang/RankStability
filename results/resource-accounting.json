@@ -1,0 +1,35 @@
+{
+  "fresh_release_pass": {
+    "commands": 12,
+    "cpu_seconds_sum": 37.58,
+    "largest_command_max_rss_kib": 97196,
+    "successful_commands": 12,
+    "system_seconds_sum": 2.66,
+    "user_seconds_sum": 34.92,
+    "wall_seconds_sum": 33.1947834409998,
+    "workers": 1
+  },
+  "limitations": [
+    "Early exploration, web transfers, typesetting, and packaging were not completely metered.",
+    "Per-command RSS is a process peak, not simultaneous whole-system memory.",
+    "Operation counters use different units and are not summed into a synthetic optimization-state total.",
+    "Timing is machine-specific and is not a performance comparison."
+  ],
+  "limits": {
+    "address_space_limit_bytes": 2684354560,
+    "per_case_wall_limit_seconds": 45,
+    "whole_command_cpu_limit_seconds": 2700,
+    "workers": 1
+  },
+  "measurement_tool": "GNU /usr/bin/time -v; each scientific command executes through src/limited.py",
+  "operation_counts": {
+    "campaign_certificates_rechecked": 1241,
+    "confirmatory_generated_subsets": 6553600,
+    "external_subsets": 61440,
+    "metamorphic_checks": 2560,
+    "scientific_files_compared": 2463,
+    "stress_subsets": 383907,
+    "tiny_exhaustive_subsets": 98304
+  },
+  "scope": "final release-pass accounting and retained scientific operation counts; not whole research-lifetime accounting"
+}

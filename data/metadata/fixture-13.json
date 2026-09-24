@@ -1,0 +1,7 @@
+{
+  "category": "fixture",
+  "description": "Empty mutant universe with matching reference",
+  "expected_minimum": null,
+  "expected_status": "stable",
+  "id": "fixture-13"
+}

@@ -1,0 +1,25 @@
+{
+  "base_sample": [
+    0,
+    1
+  ],
+  "branches": [
+    {
+      "branch": [
+        0,
+        1,
+        1
+      ],
+      "proof": {
+        "kind": "cut",
+        "vertices": [
+          0,
+          2,
+          4
+        ]
+      }
+    }
+  ],
+  "case_id": "fixture-18",
+  "status": "stable"
+}

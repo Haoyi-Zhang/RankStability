@@ -1,0 +1,13 @@
+{
+  "interval": {
+    "cpu_seconds": 0.0,
+    "result": "infeasible_policy"
+  },
+  "random": {
+    "accepted": 0,
+    "attempts": 4096,
+    "cpu_seconds": 0.015991019999999967,
+    "observed_minimum": null,
+    "result": "unknown"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "category": "fixture",
+  "description": "Same matrix with bottom floor",
+  "expected_minimum": 1,
+  "expected_status": "counterexample",
+  "id": "fixture-12"
+}

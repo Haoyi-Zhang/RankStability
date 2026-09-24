@@ -1,0 +1,7 @@
+{
+  "category": "fixture",
+  "description": "Supplied reference differs from the full-universe ranking",
+  "expected_minimum": 0,
+  "expected_status": "counterexample",
+  "id": "fixture-19"
+}

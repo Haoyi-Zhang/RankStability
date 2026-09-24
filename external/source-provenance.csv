@@ -1,0 +1,6 @@
+case_id,project,bug_id,upstream_commit,upstream_path,git_blob_sha,total_tests,total_mutants,reported_trigger_tests,selected_mutants,selected_passing_tests,selected_failing_tests,license
+defects4j-chart-24,Chart,24,f8d8376e0efe345161f26ff6483a404c8548fe1c,resources/matrices/Chart/Chart.24f.big.all.Matrix.csv,93e5e3f608e528f6fbc090bcb256781ed24b8bf8,920,54,371,12,8,1,MIT
+defects4j-closure-28,Closure,28,f8d8376e0efe345161f26ff6483a404c8548fe1c,resources/matrices/Closure/Closure.28f.big.all.Matrix.csv,4f84f0e30ba7fbdd52b2cf414c52f0d83a4de9b7,1798,25,4,12,8,2,MIT
+defects4j-lang-54,Lang,54,f8d8376e0efe345161f26ff6483a404c8548fe1c,resources/matrices/Lang/Lang.54f.big.all.Matrix.csv,d52ab7f04c855578cee6e7764f73da4a33485ce2,44,344,1,12,8,1,MIT
+defects4j-math-32,Math,32,f8d8376e0efe345161f26ff6483a404c8548fe1c,resources/matrices/Math/Math.32f.big.all.Matrix.csv,c62d1d1bd2efd28ebd80673cb8b09936752897f6,33,400,2,12,8,1,MIT
+defects4j-time-10,Time,10,f8d8376e0efe345161f26ff6483a404c8548fe1c,resources/matrices/Time/Time.10f.big.all.Matrix.csv,2413a65b4f7b0490baa4f794ca9f88b41445114c,1270,197,2,12,8,2,MIT
