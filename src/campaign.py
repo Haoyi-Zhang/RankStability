@@ -37,6 +37,9 @@ def corruptions(c,cert):
     return counts
 
 def run(data,out):
+    for key in certify.COUNTERS:
+        certify.COUNTERS[key]=0
+    checker.STEPS=0
     data=Path(data);out=Path(out);start=time.process_time();rows=[];secondary=[];corrupt=Counter();status=Counter();generation_cpu=0
     casepaths=sorted((data/'cases').glob('*.json'))
     require(len(casepaths) == 260, "primary campaign must contain exactly 260 cases")
@@ -73,7 +76,7 @@ def run(data,out):
             if name.startswith('k') and c['locations']<int(name[1:]):continue
             d=copy.deepcopy(c)
             if name=='relax_b':d['b_bounds']=[[0,n] for _ in d['b_bounds']]
-            elif name=='zero_floor':d['empty']='zero';d['reference']=certify.top(d,list(range(n)))
+            elif name=='zero_floor':d['empty']='zero'
             else:d['reference']=list(range(int(name[1:])));d['reference']=certify.top(d,list(range(n)))
             d['id']+='-'+name;answer=certify.produce(d);checker.check(d,answer)
             if name == 'relax_b' and observed == 'counterexample':

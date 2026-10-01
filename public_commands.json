@@ -1,100 +1,197 @@
 [
   {
+    "name": "pilot",
+    "source": "tests/pilot.py",
     "argv": [
       "src/limited.py",
       "tests/pilot.py"
     ],
-    "name": "pilot",
+    "inputs": [
+      "src/certify.py",
+      "src/checker.py",
+      "src/oracle.py"
+    ],
+    "output": "results/pilot.json",
     "purpose": "seeded random finite agreement"
   },
   {
+    "name": "exhaustive",
+    "source": "tests/exhaustive.py",
     "argv": [
       "src/limited.py",
       "tests/exhaustive.py"
     ],
-    "name": "exhaustive",
+    "inputs": [
+      "src/certify.py",
+      "src/checker.py",
+      "src/oracle.py"
+    ],
+    "output": "results/exhaustive.json",
     "purpose": "complete tiny-domain agreement"
   },
   {
+    "name": "semantics",
+    "source": "tests/semantics.py",
     "argv": [
       "src/limited.py",
       "tests/semantics.py"
     ],
-    "name": "semantics",
-    "purpose": "boundary reductions and floor regression"
+    "inputs": [
+      "tests/zero-floor-tie.json",
+      "data/cases/fixture-00.json",
+      "data/cases/fixture-13.json",
+      "results/campaign/certificates/fixture-00.json",
+      "results/campaign/certificates/fixture-13.json"
+    ],
+    "output": "results/semantics.json",
+    "purpose": "boundary reductions, floor regression, and strict-schema regressions"
   },
   {
+    "name": "stress",
+    "source": "tests/stress.py",
     "argv": [
       "src/limited.py",
       "tests/stress.py"
     ],
-    "name": "stress",
+    "inputs": [
+      "src/certify.py",
+      "src/checker.py"
+    ],
+    "output": "results/stress.json",
     "purpose": "independent random oracle and adversarial certificates"
   },
   {
+    "name": "reference_audit",
+    "source": "tests/reference_audit.py",
     "argv": [
       "src/limited.py",
       "tests/reference_audit.py"
     ],
-    "name": "reference_audit",
+    "inputs": [
+      "literature/references.bib",
+      "literature/reference-provenance.csv",
+      "literature/reference-live-audit.csv",
+      "literature-calibration.csv",
+      "literature/manuscript-citations.json"
+    ],
+    "output": "results/reference-audit.json",
     "purpose": "bibliography, citation-use, and calibration consistency"
   },
   {
+    "name": "protocol_audit",
+    "source": "tests/protocol_audit.py",
     "argv": [
       "src/limited.py",
       "tests/protocol_audit.py"
     ],
-    "name": "protocol_audit",
+    "inputs": [
+      "data/cases",
+      "data/metadata",
+      "src/programs.py",
+      "src/external_cases.py",
+      "external/snapshots",
+      "external/source-provenance.csv"
+    ],
+    "output": "results/protocol-audit.json",
     "purpose": "development/confirmation separation and external protocol"
   },
   {
+    "name": "generated_oracle_audit",
+    "source": "tests/generated_oracle_audit.py",
     "argv": [
       "src/limited.py",
       "tests/generated_oracle_audit.py"
     ],
-    "name": "generated_oracle_audit",
+    "inputs": [
+      "data/cases",
+      "data/metadata"
+    ],
+    "output": "results/generated-oracle-audit.json",
     "purpose": "all subsets for all 200 confirmatory generated subjects"
   },
   {
+    "name": "external_matrices",
+    "source": "tests/external_matrices.py",
     "argv": [
       "src/limited.py",
       "tests/external_matrices.py"
     ],
-    "name": "external_matrices",
+    "inputs": [
+      "external/snapshots",
+      "external/selection-protocol.md",
+      "external/source-provenance.csv",
+      "src/external_cases.py"
+    ],
+    "output": "results/external-matrices.json",
     "purpose": "frozen public Defects4J matrix challenge"
   },
   {
     "name": "metamorphic",
+    "source": "tests/metamorphic.py",
     "argv": [
       "src/limited.py",
       "tests/metamorphic.py"
     ],
+    "inputs": [
+      "src/certify.py",
+      "src/checker.py"
+    ],
+    "output": "results/metamorphic.json",
     "purpose": "representation-preserving metamorphic invariance"
   },
   {
+    "name": "verify_all",
+    "source": "tests/verify_all.py",
     "argv": [
       "src/limited.py",
       "tests/verify_all.py",
       "data",
       "results/campaign"
     ],
-    "name": "verify_all",
+    "inputs": [
+      "data",
+      "results/campaign"
+    ],
+    "output": "results/verification.json",
     "purpose": "retained campaign certificate verification"
   },
   {
-    "argv": [
-      "src/limited.py",
-      "tests/check_tables.py"
-    ],
-    "name": "check_tables",
-    "purpose": "paper-facing numerical reconciliation"
-  },
-  {
+    "name": "clean_reproduction",
+    "source": "tests/reproduce.py",
     "argv": [
       "src/limited.py",
       "tests/reproduce.py"
     ],
-    "name": "clean_reproduction",
-    "purpose": "clean regeneration of owned observations and certificates"
+    "inputs": [
+      "src/programs.py",
+      "src/controls.py",
+      "src/campaign.py",
+      "data",
+      "results/campaign"
+    ],
+    "output": "results/clean-reproduction.json",
+    "purpose": "clean regeneration of owned observations, certificates, and operation counts"
+  },
+  {
+    "name": "check_tables",
+    "source": "tests/check_tables.py",
+    "argv": [
+      "src/limited.py",
+      "tests/check_tables.py"
+    ],
+    "inputs": [
+      "data",
+      "results/campaign",
+      "results/stress.json",
+      "results/semantics.json",
+      "results/reference-audit.json",
+      "results/protocol-audit.json",
+      "results/generated-oracle-audit.json",
+      "results/external-matrices.json",
+      "results/metamorphic.json",
+      "results/clean-reproduction.json"
+    ],
+    "output": "results/table-check.json",
+    "purpose": "paper-facing numerical and reproduction-chain reconciliation"
   }
 ]

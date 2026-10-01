@@ -5,8 +5,10 @@ from collections import Counter
 from pathlib import Path
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'src'))
 import checker
+from result_io import emit
 
 def run(data,out):
+    checker.STEPS=0
     data=Path(data);out=Path(out);counts=Counter();checks=0;matrix_checks=0
     table={r['id']:r for r in csv.DictReader((out/'primary.csv').open())}
     second={ (r['id'],r['change']):r for r in csv.DictReader((out/'secondary.csv').open()) }
@@ -29,9 +31,11 @@ def run(data,out):
             d=copy.deepcopy(c);n=len(c['location'])
             if name=='relax_b':d['b_bounds']=[[0,n] for _ in d['b_bounds']]
             else:
-                if name=='zero_floor':d['empty']='zero'
-                else:d['reference']=list(range(int(name[1:])))
-                ratios=checker.prepare(d);d['reference']=sorted(checker.ranked(d,list(range(n)),ratios))
+                if name=='zero_floor':
+                    d['empty']='zero'
+                else:
+                    d['reference']=list(range(int(name[1:])))
+                    ratios=checker.prepare(d);d['reference']=sorted(checker.ranked(d,list(range(n)),ratios))
             d['id']+='-'+name
             proof=json.loads((out/'secondary_certificates'/(d['id']+'.json')).read_text())
             s=checker.check(d,proof);row=second[(c['id'],name)]
@@ -42,4 +46,5 @@ def run(data,out):
     assert {a+':'+b:v for (a,b),v in sorted(counts.items())}==summary['status_counts']
     return dict(accepted_certificates=checks,matrices_reconstructed=matrix_checks,primary_cases=len(table),secondary_queries=len(second),checker_steps=checker.STEPS)
 if __name__=='__main__':
-    p=argparse.ArgumentParser(description=__doc__);p.add_argument('data',type=Path);p.add_argument('results',type=Path);a=p.parse_args();print(json.dumps(run(a.data,a.results),indent=2))
+    p=argparse.ArgumentParser(description=__doc__);p.add_argument('data',type=Path);p.add_argument('results',type=Path);a=p.parse_args()
+    emit(Path(a.results).parents[0]/'verification.json',run(a.data,a.results))

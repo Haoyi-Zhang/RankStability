@@ -4,6 +4,7 @@ under three specified policies. This is finite validation, not a general proof."
 import sys,json,itertools,time,resource
 from pathlib import Path
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'src'))
+from result_io import emit
 import certify,checker,oracle
 
 def run():
@@ -22,4 +23,4 @@ def run():
             if observed=='counterexample':assert cert['size']==minimum
             total+=1;counts[observed]=counts.get(observed,0)+1
     return {'cases':total,'oracle_subsets':total*8,'status_counts':counts,'producer':certify.COUNTERS,'checker_steps':checker.STEPS,'cpu_seconds':time.process_time()-start,'peak_rss_kib':resource.getrusage(resource.RUSAGE_SELF).ru_maxrss,'workers':1}
-if __name__=='__main__':print(json.dumps(run(),indent=2))
+if __name__=='__main__':emit(Path(__file__).resolve().parents[1]/'results'/'exhaustive.json',run())

@@ -1,5 +1,5 @@
 {
-  "checker_steps": 928295,
+  "checker_steps": 928296,
   "corruption_rejections": {
     "duplicate_sample": 253,
     "invalid_cut": 255,
@@ -8,7 +8,7 @@
     "wrong_case": 260,
     "wrong_minimum": 162
   },
-  "cpu_seconds": 5.587829471,
+  "cpu_seconds": 5.103776064,
   "dimensions": {
     "max_locations": 6,
     "max_mutants": 40,
@@ -17,13 +17,13 @@
   "generation_cpu_seconds": 8.190763250999993,
   "interval_stable": 95,
   "matrix_entries": 153288,
-  "peak_rss_kib": 93996,
+  "peak_rss_kib": 93956,
   "primary_cases": 260,
   "producer": {
-    "augmentations": 56581,
-    "edge_scans": 2583747,
-    "networks": 41423,
-    "search_states": 502165
+    "augmentations": 56580,
+    "edge_scans": 2583719,
+    "networks": 41426,
+    "search_states": 502155
   },
   "random_counterexamples": 161,
   "random_short_budget": 4,

@@ -1,21 +1,21 @@
 {
   "cases": 256,
-  "seed": 715,
-  "oracle_subsets": 15788,
-  "status_counts": {
-    "infeasible_policy": 157,
-    "counterexample": 66,
-    "stable": 33
-  },
+  "checker_steps": 15630,
+  "cpu_seconds": 0.06396253600000001,
   "deleted_branch_rejections": 71,
+  "oracle_subsets": 15788,
+  "peak_rss_kib": 92716,
   "producer": {
-    "networks": 1029,
     "augmentations": 990,
     "edge_scans": 26448,
+    "networks": 1029,
     "search_states": 6989
   },
-  "checker_steps": 15630,
-  "cpu_seconds": 0.06390173499999996,
-  "peak_rss_kib": 93872,
+  "seed": 715,
+  "status_counts": {
+    "counterexample": 66,
+    "infeasible_policy": 157,
+    "stable": 33
+  },
   "workers": 1
 }

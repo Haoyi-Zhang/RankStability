@@ -23,10 +23,11 @@ def prepare(c):
     insist(isinstance(c,dict),"case must be an object")
     insist(set(c)=={"id","fail","kill","location","locations","tie","a","b","a_bounds","b_bounds","size","force","forbid","reference","empty"},"unknown or missing input fields")
     insist(isinstance(c["id"],str) and 1<=len(c["id"])<=200,"case id")
+    insist(isinstance(c["location"],list),"location labels must be a list")
     n=len(c["location"]); ell=c["locations"]
     insist(integer(ell) and 1<=ell<=100 and n<=40,"dimensions")
     insist(all(integer(x) and 0<=x<ell for x in c["location"]),"location labels")
-    insist(all(integer(x) for x in c["tie"]) and sorted(c["tie"])==list(range(ell)),"tie permutation")
+    insist(isinstance(c["tie"],list) and all(integer(x) for x in c["tie"]) and sorted(c["tie"])==list(range(ell)),"tie permutation")
     f=c["fail"]; mat=c["kill"]
     insist(isinstance(f,list) and 1<=len(f)<=200 and all(integer(x) and x in [0,1] for x in f) and sum(f)>0,"failing tests")
     insist(isinstance(mat,list) and len(mat)==len(f),"matrix rows")
@@ -34,7 +35,7 @@ def prepare(c):
     for side in ["a","b"]:
         quota=c[side+"_bounds"]; labels=c[side]
         insist(isinstance(quota,list) and 1<=len(quota)<=40,"group count")
-        insist(len(labels)==n and all(integer(x) and 0<=x<len(quota) for x in labels),"group labels")
+        insist(isinstance(labels,list) and len(labels)==n and all(integer(x) and 0<=x<len(quota) for x in labels),"group labels")
         insist(all(isinstance(x,list) and len(x)==2 and all(integer(y) for y in x) and 0<=x[0]<=x[1]<=n for x in quota),"quotas")
     insist(isinstance(c["size"],list) and len(c["size"])==2 and all(integer(x) for x in c["size"]) and 0<=c["size"][0]<=c["size"][1]<=n,"size interval")
     for name in ["force","forbid"]:
@@ -169,7 +170,10 @@ def check(c,cert):
                 expected.append(([a,b,m],blocks,[] if m==-1 else [m]))
     insist(len(records)==len(expected),"missing or extra branch proof")
     for record,(ident,blocks,forced) in zip(records,expected):
-        insist(isinstance(record,dict) and set(record)=={"branch","proof"} and record.get("branch")==ident,"branch identity, order, or fields")
+        insist(isinstance(record,dict) and set(record)=={"branch","proof"},"branch fields")
+        branch=record.get("branch")
+        insist(isinstance(branch,list) and len(branch)==3 and all(integer(x) for x in branch),"branch labels")
+        insist(branch==ident,"branch identity or order")
         verify_impossible(c,blocks,forced,upper,record["proof"])
     return status
 

@@ -26,13 +26,13 @@
         "11/21"
       ]
     ],
-    "cpu_seconds": 0.004000281000000161,
+    "cpu_seconds": 0.0039981940000002325,
     "result": "stable"
   },
   "random": {
     "accepted": 64,
     "attempts": 1227,
-    "cpu_seconds": 0.011998269999999867,
+    "cpu_seconds": 0.012001823999999939,
     "observed_minimum": null,
     "result": "unknown"
   }

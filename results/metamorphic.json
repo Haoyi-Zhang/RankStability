@@ -1,8 +1,8 @@
 {
   "cases": 512,
-  "cpu_seconds": 1.709874991,
+  "cpu_seconds": 1.659838073,
   "metamorphic_checks": 2560,
-  "peak_rss_kib": 92848,
+  "peak_rss_kib": 92844,
   "scope": "representation-preserving metamorphic relations; not an independent proof of the algorithm",
   "seed": 20260921,
   "status_counts": {

@@ -22,7 +22,7 @@
     18,
     20
   ],
-  "cpu_seconds": 0.026113454999999952,
+  "cpu_seconds": 0.023970212000000046,
   "development_subjects": [
     {
       "failing_tests": 49,

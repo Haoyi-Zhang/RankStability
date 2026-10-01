@@ -1,0 +1,166 @@
+{
+  "audit_date": "2026-09-25",
+  "blind_review": {
+    "internally_closed": [
+      "formal model and proofs",
+      "producer/checker schema",
+      "independent finite semantics",
+      "development/confirmation separation",
+      "public challenge",
+      "metamorphic invariance",
+      "live reference metadata and citation coverage",
+      "paper/artifact numerical reconciliation",
+      "12-page manuscript and separate appendix"
+    ],
+    "overall_internal_disposition": "complete restricted research packet; honest negative empirical comparison; externally reviewable but not guaranteed acceptable",
+    "residual_external": [
+      "mechanized proof",
+      "natural-defect line-level effectiveness study",
+      "developer study",
+      "probability-sampled project population",
+      "independent third-party reproduction and peer review",
+      "author approval and public archival DOI"
+    ]
+  },
+  "candidate": {
+    "abstract_words": 195,
+    "appendix_pages": 2,
+    "figures_native_tikz": 2,
+    "main_pages": 12,
+    "references": 61
+  },
+  "correctness": {
+    "branch_label_type_confusions": 2,
+    "branch_label_type_rejections": 2,
+    "campaign_invalid_variants_rejected": 1436,
+    "campaign_primary_certificates": 260,
+    "external_cases": 15,
+    "external_subsets": 61440,
+    "generated_cases": 200,
+    "generated_subsets": 6553600,
+    "invalid_certificates_rejected": 26989,
+    "metamorphic_cases": 512,
+    "metamorphic_checks": 2560,
+    "non_timing_tamper_detection": true,
+    "pilot_cases": 256,
+    "retained_certificates_accepted": 1241,
+    "scientific_files_compared": 2463,
+    "stress_cases": 2048,
+    "stress_subsets": 383907,
+    "strict_empty_vector_entry_rejections": 12,
+    "strict_empty_vector_inputs": 6,
+    "tiny_exhaustive_cases": 12288,
+    "tiny_oracle_subsets": 98304
+  },
+  "delivery_verification": {
+    "citation_snapshot_matches_current_tex": true,
+    "figure_sources_unchanged": true,
+    "fonts_embedded_and_subset": true,
+    "forbidden_cache_build_archive_files_in_delivery": "none",
+    "fresh_extract": true,
+    "ghostscript_parse": "passed",
+    "non_timing_tamper_detection": true,
+    "normalized_text_equal": true,
+    "project_root_entries": [
+      "CURRENT-STATE.md",
+      "artifact",
+      "paper",
+      "research-plan.md"
+    ],
+    "public_commands_run": 12,
+    "public_commands_successful": 12,
+    "rebuilt_appendix_pages": 2,
+    "rebuilt_main_pages": 12,
+    "rebuilt_references": 61,
+    "render_changed_pages_appendix": 0,
+    "render_changed_pages_main": 0,
+    "same_run_outputs_verified": 12,
+    "standalone_embedded_byte_identical": true
+  },
+  "protocol": {
+    "confirmatory_programs": 200,
+    "development_subjects": 10,
+    "external_cases": 15,
+    "external_projects": [
+      "Chart",
+      "Closure",
+      "Lang",
+      "Math",
+      "Time"
+    ],
+    "reserved_variant": 19
+  },
+  "references": {
+    "audit_scope": "frozen bibliography, live-resolution ledger, citation coverage, and calibration consistency",
+    "calibration_counts": {
+      "adjacent": 5,
+      "influential": 5,
+      "same-venue": 12
+    },
+    "corrected_metadata_entries": [
+      "zhang10random",
+      "zhang13together"
+    ],
+    "doi_identifiers": 61,
+    "isbn_identifiers": 0,
+    "live_resolution_rows": 61,
+    "manuscript_cited_keys": 61,
+    "maximum_citation_cluster": 7,
+    "network_resolution_scope": "live metadata comparison was performed on 2026-09-21 and frozen in reference-live-audit.csv",
+    "placeholder_scan": "passed",
+    "provenance_rows": 61,
+    "references": 61,
+    "unique_identifiers": 61,
+    "unique_normalized_titles": 61
+  },
+  "resources": {
+    "commands": 12,
+    "cpu_seconds_sum": 34.52,
+    "largest_command_max_rss_kib": 97580,
+    "non_timing_tamper_detection": true,
+    "same_run_outputs_verified": 12,
+    "successful_commands": 12,
+    "system_seconds_sum": 2.27,
+    "user_seconds_sum": 32.25,
+    "wall_seconds_sum": 30.387832315999958,
+    "workers": 1
+  },
+  "results": {
+    "external_feasible_samples": 27423,
+    "external_refuting_samples": 24443,
+    "external_status_counts": {
+      "counterexample": 15
+    },
+    "generated_minimum_counts": {
+      "6": 155
+    },
+    "generated_status_counts": {
+      "counterexample": 155,
+      "stable": 45
+    },
+    "interval_stable_primary": 95,
+    "joint_quota_incremental_stable_cases": 1,
+    "primary_status_counts": {
+      "ambiguity:stable": 40,
+      "fixture:counterexample": 7,
+      "fixture:infeasible_policy": 2,
+      "fixture:stable": 11,
+      "program:counterexample": 155,
+      "program:stable": 45
+    },
+    "program_random_minimum_overestimates": 11,
+    "random_counterexamples_primary": 161,
+    "zero_floor_fixture_14": {
+      "minimum": 0,
+      "reference": [
+        1
+      ],
+      "status": "counterexample"
+    },
+    "zero_floor_status_counts": {
+      "counterexample": 160,
+      "infeasible_policy": 2,
+      "stable": 98
+    }
+  }
+}

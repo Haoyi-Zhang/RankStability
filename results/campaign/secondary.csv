@@ -162,7 +162,7 @@ fixture-13,relax_b,stable,
 fixture-13,zero_floor,stable,
 fixture-13,k2,stable,
 fixture-14,relax_b,counterexample,0
-fixture-14,zero_floor,stable,
+fixture-14,zero_floor,counterexample,0
 fixture-14,k2,stable,
 fixture-15,relax_b,stable,
 fixture-15,zero_floor,stable,
@@ -178,7 +178,7 @@ fixture-18,relax_b,stable,
 fixture-18,zero_floor,stable,
 fixture-18,k2,stable,
 fixture-19,relax_b,counterexample,0
-fixture-19,zero_floor,counterexample,1
+fixture-19,zero_floor,counterexample,0
 fixture-19,k2,stable,
 program-000,relax_b,counterexample,6
 program-000,zero_floor,counterexample,6

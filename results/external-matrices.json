@@ -2,7 +2,7 @@
   "all_subsets_enumerated": 61440,
   "cases": 15,
   "certificate_mutations_rejected": 90,
-  "cpu_seconds": 0.9189214089999999,
+  "cpu_seconds": 0.8279045220000001,
   "feasible_samples": 27423,
   "interval_stable": 0,
   "peak_rss_kib": 93484,

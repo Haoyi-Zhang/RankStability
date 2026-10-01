@@ -1,13 +1,34 @@
 {
+  "branch_label_type_rejections": 2,
+  "campaign_checker_steps": 928296,
+  "campaign_operation_counts": {
+    "augmentations": 56580,
+    "edge_scans": 2583719,
+    "networks": 41426,
+    "search_states": 502155
+  },
   "certificate_bytes_min_median_max": [
     73,
     844.0,
     1552
   ],
+  "clean_reproduction_binding": "passed",
   "confirmatory_generated_cases": 200,
   "confirmatory_generated_subsets": 6553600,
   "exact_interval_stable": 95,
   "external_cases": 15,
+  "external_relaxed_feasible_per_case": [
+    3718,
+    3718,
+    3718,
+    3718,
+    3718
+  ],
+  "external_relaxed_feasible_total": 18590,
+  "external_relaxed_size_range": [
+    4,
+    9
+  ],
   "external_status_counts": {
     "counterexample": 15
   },
@@ -15,6 +36,7 @@
   "matrix_entries": 153288,
   "metamorphic_cases": 512,
   "metamorphic_checks": 2560,
+  "non_timing_tamper_detection": true,
   "primary_counts": {
     "counterexample": 162,
     "infeasible_policy": 2,
@@ -26,10 +48,43 @@
   "references": 61,
   "relaxation_stable_to_refuter": 46,
   "secondary_queries": 981,
+  "secondary_status_counts": {
+    "k2": {
+      "counterexample": 193,
+      "infeasible_policy": 2,
+      "stable": 65
+    },
+    "k3": {
+      "counterexample": 198,
+      "infeasible_policy": 0,
+      "stable": 3
+    },
+    "relax_b": {
+      "counterexample": 208,
+      "infeasible_policy": 2,
+      "stable": 50
+    },
+    "zero_floor": {
+      "counterexample": 160,
+      "infeasible_policy": 2,
+      "stable": 98
+    }
+  },
   "stress_cases": 2048,
   "stress_certificate_mutations_rejected": 25463,
   "stress_oracle_subset_visits": 383907,
+  "strict_empty_vector_entry_rejections": 12,
+  "strict_empty_vector_inputs": 6,
   "table_reconciliation": "passed",
   "unique_reference_identifiers": 61,
-  "unique_reference_titles": 61
+  "unique_reference_titles": 61,
+  "zero_floor_fixture_14": {
+    "bottom_minimum": 0,
+    "bottom_status": "counterexample",
+    "reference": [
+      1
+    ],
+    "zero_minimum": 0,
+    "zero_status": "counterexample"
+  }
 }

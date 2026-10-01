@@ -1,12 +1,14 @@
 {
   "fresh_release_pass": {
     "commands": 12,
-    "cpu_seconds_sum": 37.58,
-    "largest_command_max_rss_kib": 97196,
+    "cpu_seconds_sum": 34.52,
+    "largest_command_max_rss_kib": 97580,
+    "non_timing_tamper_detection": true,
+    "same_run_outputs_verified": 12,
     "successful_commands": 12,
-    "system_seconds_sum": 2.66,
-    "user_seconds_sum": 34.92,
-    "wall_seconds_sum": 33.1947834409998,
+    "system_seconds_sum": 2.27,
+    "user_seconds_sum": 32.25,
+    "wall_seconds_sum": 30.387832315999958,
     "workers": 1
   },
   "limitations": [
@@ -23,7 +25,12 @@
   },
   "measurement_tool": "GNU /usr/bin/time -v; each scientific command executes through src/limited.py",
   "operation_counts": {
+    "campaign_augmentations": 56580,
     "campaign_certificates_rechecked": 1241,
+    "campaign_checker_steps": 928296,
+    "campaign_edge_scans": 2583719,
+    "campaign_networks": 41426,
+    "campaign_search_states": 502155,
     "confirmatory_generated_subsets": 6553600,
     "external_subsets": 61440,
     "metamorphic_checks": 2560,

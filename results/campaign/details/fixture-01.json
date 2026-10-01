@@ -16,7 +16,7 @@
   "random": {
     "accepted": 64,
     "attempts": 94,
-    "cpu_seconds": 0.003992961000000017,
+    "cpu_seconds": 0.0,
     "observed_minimum": 2,
     "result": "observed_counterexample"
   }

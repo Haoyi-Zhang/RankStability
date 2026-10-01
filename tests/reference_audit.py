@@ -3,7 +3,7 @@
 
 The executable audit checks the frozen evidence packet: exact key coverage, 61
 unique entries, identifier syntax/uniqueness, title/year/venue agreement, the
-2026-09-21 live-resolution record, exact manuscript citation coverage, bounded
+2026-09-21 live-resolution record, exact frozen manuscript-citation snapshot coverage, bounded
 citation clusters, and the required 12+5+5 complete-paper calibration matrix.
 """
 from __future__ import annotations
@@ -18,7 +18,7 @@ BIB = ROOT / "literature" / "references.bib"
 LEDGER = ROOT / "literature" / "reference-provenance.csv"
 CALIBRATION = ROOT / "literature-calibration.csv"
 LIVE_AUDIT = ROOT / "literature" / "reference-live-audit.csv"
-CITATION_SNAPSHOT = ROOT / "literature" / "manuscript-citations.txt"
+CITATION_SNAPSHOT = ROOT / "literature" / "manuscript-citations.json"
 EXPECTED_REFERENCES = 61
 EXPECTED_CALIBRATION = {"same-venue": 12, "influential": 5, "adjacent": 5}
 
@@ -206,21 +206,20 @@ def run() -> dict[str, object]:
     corrected = {r["bib_key"] for r in live_rows if r["metadata_match"] == "corrected_then_matched"}
     assert corrected == {"zhang10random", "zhang13together"}
 
-    paper_root = ROOT.parent / "paper"
-    tex_files = [paper_root / "main.tex", *sorted((paper_root / "sections").glob("*.tex"))]
-    if all(path.exists() for path in tex_files):
-        manuscript = "\n".join(path.read_text(encoding="utf-8") for path in tex_files)
-        clusters = [tuple(k.strip() for k in match.group(1).split(",") if k.strip())
-                    for match in re.finditer(r"\\cite\{([^}]+)\}", manuscript)]
-        cited = [key for cluster in clusters for key in cluster]
-        assert set(cited) == set(entries), (set(entries) - set(cited), set(cited) - set(entries))
-        assert max(map(len, clusters), default=0) <= 8
-        snapshot = "\n".join(sorted(set(cited))) + "\n"
-        CITATION_SNAPSHOT.write_text(snapshot, encoding="utf-8")
-    else:
-        cited = [line.strip() for line in CITATION_SNAPSHOT.read_text(encoding="utf-8").splitlines() if line.strip()]
-        assert set(cited) == set(entries)
-        clusters = []
+    citation_snapshot = json.loads(CITATION_SNAPSHOT.read_text(encoding="utf-8"))
+    assert set(citation_snapshot) == {"source_files", "cited_keys", "citation_clusters", "maximum_citation_cluster"}
+    cited = citation_snapshot["cited_keys"]
+    clusters = citation_snapshot["citation_clusters"]
+    assert isinstance(cited, list) and all(isinstance(key, str) for key in cited)
+    assert isinstance(clusters, list) and all(
+        isinstance(cluster, list) and all(isinstance(key, str) for key in cluster)
+        for cluster in clusters
+    )
+    flattened = [key for cluster in clusters for key in cluster]
+    assert set(cited) == set(flattened) == set(entries), (set(entries) - set(cited), set(cited) - set(entries))
+    assert cited == sorted(set(cited))
+    maximum_cluster = max(map(len, clusters), default=0)
+    assert citation_snapshot["maximum_citation_cluster"] == maximum_cluster <= 8
 
     calibration = list(csv.DictReader(CALIBRATION.open(encoding="utf-8", newline="")))
     counts = {name: 0 for name in EXPECTED_CALIBRATION}
@@ -242,7 +241,7 @@ def run() -> dict[str, object]:
         "live_resolution_rows": len(live_rows),
         "corrected_metadata_entries": sorted(corrected),
         "manuscript_cited_keys": len(set(cited)),
-        "maximum_citation_cluster": max(map(len, clusters), default=None),
+        "maximum_citation_cluster": maximum_cluster,
         "calibration_counts": counts,
         "placeholder_scan": "passed",
         "audit_scope": "frozen bibliography, live-resolution ledger, citation coverage, and calibration consistency",

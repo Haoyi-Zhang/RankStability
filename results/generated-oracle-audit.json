@@ -1,6 +1,6 @@
 {
   "cases": 200,
-  "cpu_seconds": 4.782906217,
+  "cpu_seconds": 4.507235388,
   "family_status_counts": {
     "accumulator": {
       "counterexample": 15,
@@ -49,7 +49,7 @@
     "6": 155
   },
   "minimum_nonzero_refuter_fraction": 0.0712166172106825,
-  "peak_rss_kib": 94248,
+  "peak_rss_kib": 94380,
   "refuting_samples": 71151,
   "status_counts": {
     "counterexample": 155,

@@ -28,6 +28,8 @@ def run() -> dict[str, object]:
     generated = json.loads((ROOT / "results/generated-oracle-audit.json").read_text())
     external = json.loads((ROOT / "results/external-matrices.json").read_text())
     metamorphic = json.loads((ROOT / "results/metamorphic.json").read_text())
+    semantics = json.loads((ROOT / "results/semantics.json").read_text())
+    clean = json.loads((ROOT / "results/clean-reproduction.json").read_text())
     cases = [json.loads(path.read_text()) for path in sorted((ROOT / "data/cases").glob("*.json"))]
 
     statuses = Counter(row["status"] for row in primary)
@@ -63,14 +65,20 @@ def run() -> dict[str, object]:
     require(max(case["locations"] for case in cases) == 6, "max locations")
 
     counts = Counter((row["change"], row["status"]) for row in secondary)
+    lookup = {row["id"]: row for row in primary}
     expected_secondary = {
-        "relax_b": (50, 208, 2), "zero_floor": (99, 159, 2),
+        "relax_b": (50, 208, 2), "zero_floor": (98, 160, 2),
         "k2": (65, 193, 2), "k3": (3, 198, 0),
     }
     for change, values in expected_secondary.items():
         actual = tuple(counts[(change, outcome)] for outcome in ["stable", "counterexample", "infeasible_policy"])
         require(actual == values, (change, actual, values))
-    lookup = {row["id"]: row for row in primary}
+    zero_floor_fixture = next(row for row in secondary if row["id"] == "fixture-14" and row["change"] == "zero_floor")
+    fixture14_case = next(case for case in cases if case["id"] == "fixture-14")
+    primary_fixture14 = lookup["fixture-14"]
+    require(fixture14_case["reference"] == [1] and fixture14_case["empty"] == "bottom", fixture14_case)
+    require(primary_fixture14["status"] == "counterexample" and primary_fixture14["minimum"] == "0", primary_fixture14)
+    require(zero_floor_fixture["status"] == "counterexample" and zero_floor_fixture["minimum"] == "0", zero_floor_fixture)
     changes = [row["id"] for row in secondary if row["change"] == "relax_b" and lookup[row["id"]]["status"] == "stable" and row["status"] == "counterexample"]
     require(len(changes) == 46 and sum(lookup[item]["category"] == "program" for item in changes) == 45, changes)
     attempts = Counter(len(json.loads((ROOT / "data/metadata" / f"{row['id']}.json").read_text())["screening"]) for row in programs)
@@ -91,8 +99,20 @@ def run() -> dict[str, object]:
     require(external["status_counts"] == {"counterexample": 15}, external["status_counts"])
     require(external["certificate_mutations_rejected"] == 90, external)
     require(external["interval_stable"] == 0 and external["random_counterexamples"] == 15, external)
+    relaxed_external = [row for row in external["records"] if row["profile"] == "relaxed"]
+    require(len(relaxed_external) == 5 and all(row["feasible_samples"] == 3718 for row in relaxed_external), relaxed_external)
+    require(sum(row["feasible_samples"] for row in relaxed_external) == 18590, relaxed_external)
+    require(all(row["minimum"] == 4 for row in relaxed_external), relaxed_external)
     require(metamorphic["cases"] == 512 and metamorphic["metamorphic_checks"] == 2560, metamorphic)
     require(metamorphic["transformations_per_case"] == 5, metamorphic)
+    require(semantics["strict_empty_vector_inputs"] == 6, semantics)
+    require(semantics["strict_empty_vector_entry_rejections"] == 12, semantics)
+    require(semantics["branch_label_type_confusions"] == 2 and semantics["branch_label_type_rejections"] == 2, semantics)
+    require(semantics["contract_invalid_inputs"] == 6 and semantics["contract_entry_rejections"] == 12, semantics)
+    require(clean["primary_cases"] == 260 and clean["secondary_queries"] == 981, clean)
+    require(clean["replay_producer"] == summary["producer"], (clean["replay_producer"], summary["producer"]))
+    require(clean["replay_checker_steps"] == summary["checker_steps"], (clean["replay_checker_steps"], summary["checker_steps"]))
+    require(clean["non_timing_tamper_detection"] is True, clean)
 
     require(reference_audit["references"] == 61, reference_audit)
     require(reference_audit["unique_identifiers"] == 61 and reference_audit["unique_normalized_titles"] == 61, reference_audit)
@@ -117,6 +137,20 @@ def run() -> dict[str, object]:
         "random_counterexamples": random_hits,
         "program_random_minimum_larger": larger,
         "relaxation_stable_to_refuter": len(changes),
+        "secondary_status_counts": {
+            change: {outcome: counts[(change, outcome)] for outcome in ["stable", "counterexample", "infeasible_policy"]}
+            for change in ["relax_b", "zero_floor", "k2", "k3"]
+        },
+        "zero_floor_fixture_14": {
+            "reference": fixture14_case["reference"],
+            "bottom_status": primary_fixture14["status"],
+            "bottom_minimum": int(primary_fixture14["minimum"]),
+            "zero_status": zero_floor_fixture["status"],
+            "zero_minimum": int(zero_floor_fixture["minimum"]),
+        },
+        "external_relaxed_size_range": [4, 9],
+        "external_relaxed_feasible_per_case": [row["feasible_samples"] for row in relaxed_external],
+        "external_relaxed_feasible_total": sum(row["feasible_samples"] for row in relaxed_external),
         "matrix_entries": entries,
         "certificate_bytes_min_median_max": [min(sizes), statistics.median(sizes), max(sizes)],
         "rare_fixture_sample_space": math.comb(40, 20),
@@ -130,6 +164,13 @@ def run() -> dict[str, object]:
         "external_status_counts": external["status_counts"],
         "metamorphic_cases": metamorphic["cases"],
         "metamorphic_checks": metamorphic["metamorphic_checks"],
+        "strict_empty_vector_inputs": semantics["strict_empty_vector_inputs"],
+        "strict_empty_vector_entry_rejections": semantics["strict_empty_vector_entry_rejections"],
+        "branch_label_type_rejections": semantics["branch_label_type_rejections"],
+        "clean_reproduction_binding": "passed",
+        "non_timing_tamper_detection": clean["non_timing_tamper_detection"],
+        "campaign_operation_counts": summary["producer"],
+        "campaign_checker_steps": summary["checker_steps"],
         "references": reference_audit["references"],
         "unique_reference_identifiers": reference_audit["unique_identifiers"],
         "unique_reference_titles": reference_audit["unique_normalized_titles"],

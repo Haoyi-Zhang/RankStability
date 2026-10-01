@@ -1,16 +1,17 @@
 {
-  "scientific_files_compared": 2463,
-  "primary_cases": 260,
-  "secondary_queries": 981,
-  "program_schemas_recompiled": 220,
+  "cpu_seconds": 11.963760027000001,
   "exact_observation_and_certificate_agreement": true,
-  "cpu_seconds": 12.237287498,
-  "peak_rss_kib": 95024,
+  "non_timing_tamper_detection": true,
+  "peak_rss_kib": 94256,
+  "primary_cases": 260,
+  "program_schemas_recompiled": 220,
+  "replay_checker_steps": 928296,
   "replay_producer": {
-    "networks": 41295,
-    "augmentations": 56225,
-    "edge_scans": 2569825,
-    "search_states": 499075
+    "augmentations": 56580,
+    "edge_scans": 2583719,
+    "networks": 41426,
+    "search_states": 502155
   },
-  "replay_checker_steps": 924689
+  "scientific_files_compared": 2463,
+  "secondary_queries": 981
 }

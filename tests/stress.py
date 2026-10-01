@@ -18,6 +18,7 @@ from collections import Counter
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "src"))
+from result_io import emit
 import certify  # noqa: E402
 import checker  # noqa: E402
 import oracle  # noqa: E402
@@ -382,4 +383,4 @@ def run() -> dict:
 
 
 if __name__ == "__main__":
-    print(json.dumps(run(), indent=2, sort_keys=True))
+    emit(Path(__file__).resolve().parents[1]/"results"/"stress.json",run())

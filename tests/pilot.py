@@ -3,6 +3,7 @@
 import sys,json,random,itertools,time,resource
 from pathlib import Path
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]/"src"))
+from result_io import emit
 import certify,checker
 
 from oracle import solve as oracle
@@ -37,4 +38,4 @@ def run():
             else:raise AssertionError("deleted branch accepted")
     return {"cases":256,"seed":715,"oracle_subsets":nsubset,"status_counts":counts,"deleted_branch_rejections":negative,"producer":certify.COUNTERS,"checker_steps":checker.STEPS,"cpu_seconds":time.process_time()-start,"peak_rss_kib":resource.getrusage(resource.RUSAGE_SELF).ru_maxrss,"workers":1}
 if __name__=="__main__":
-    out=run();print(json.dumps(out,indent=2))
+    emit(Path(__file__).resolve().parents[1]/"results"/"pilot.json",run())

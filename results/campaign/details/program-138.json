@@ -32,7 +32,7 @@
   "random": {
     "accepted": 64,
     "attempts": 834,
-    "cpu_seconds": 0.01200071299999994,
+    "cpu_seconds": 0.00800242700000009,
     "observed_minimum": null,
     "result": "unknown"
   }

@@ -2,11 +2,11 @@
   "cases": 2048,
   "certificate_mutations_rejected": 25463,
   "checker_steps": 430319,
-  "cpu_seconds": 2.528699019,
+  "cpu_seconds": 2.019904573,
   "empty_mutant_universes": 173,
   "maximum_branches": 30,
   "oracle_subset_visits": 383907,
-  "peak_rss_kib": 93740,
+  "peak_rss_kib": 93744,
   "producer": {
     "augmentations": 3923,
     "edge_scans": 110016,

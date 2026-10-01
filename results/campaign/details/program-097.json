@@ -26,13 +26,13 @@
         "1"
       ]
     ],
-    "cpu_seconds": 0.0,
+    "cpu_seconds": 0.003993126999999763,
     "result": "unknown"
   },
   "random": {
     "accepted": 64,
     "attempts": 1458,
-    "cpu_seconds": 0.019997689999999846,
+    "cpu_seconds": 0.011996946000000008,
     "observed_minimum": 6,
     "result": "observed_counterexample"
   }

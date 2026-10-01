@@ -31,8 +31,8 @@ python src/limited.py tests/generated_oracle_audit.py
 python src/limited.py tests/external_matrices.py
 python src/limited.py tests/metamorphic.py
 python src/limited.py tests/verify_all.py data results/campaign
-python src/limited.py tests/check_tables.py
 python src/limited.py tests/reproduce.py
+python src/limited.py tests/check_tables.py
 ```
 
 The final release pass reports:
@@ -40,21 +40,25 @@ The final release pass reports:
 - 12,288 exhaustive tiny cases and 98,304 subset visits;
 - 256 seeded pilot cases;
 - 2,048 independently generated stress cases, 383,907 subset visits, and 25,463 rejected invalid certificate variants;
-- 512 finite CNF instances and 320 finite three-partition reduction instances;
+- 512 finite CNF instances, 320 finite three-partition reduction instances, six malformed empty-vector inputs rejected at two entry points (12 events), and two noninteger branch-label rejections;
 - 200 confirmatory generated programs with all 6,553,600 subsets independently enumerated;
 - 15 result-blind public kill-matrix cases from five Defects4J projects with all 61,440 subsets enumerated;
 - 512 cases under five representation-preserving transformations, for 2,560 metamorphic checks;
-- 1,241 retained campaign certificates rechecked and 1,436 campaign corruptions rejected;
-- 220 C schemas recompiled and 2,463 retained scientific files compared semantically;
+- all 1,241 legal campaign certificates rechecked; 1,436 invalid variants generated from the 260 primary certificates and rejected;
+- 220 C schemas recompiled, 2,463 retained scientific files and all non-timing operation counts compared, with a changed network count detected;
 - 61 live-resolved manuscript references and an exact 12+5+5 full-paper calibration.
 
-`python tests/release_accounting.py` reruns all twelve commands under GNU `time -v`. The retained pass succeeded 12/12 with 37.58 CPU seconds, 33.195 summed wall seconds, and a largest per-command maximum RSS of 97,196 KiB. These values describe that release pass only.
+`public_commands.json` declares each command's source, inputs, and canonical output. `python tests/release_accounting.py` deletes each prior output, reruns all twelve commands under GNU `time -v`, requires the recreated file to equal same-run stdout, and verifies that a non-timing count change is detected. The retained pass matched 12/12 outputs and succeeded with 34.52 CPU seconds, 30.388 summed wall seconds, and a largest per-command maximum RSS of 97,580 KiB. These values describe that release pass only. The bibliography audit uses `literature/manuscript-citations.json`, a frozen snapshot regenerated from the current paper before packaging, so the standalone repository does not depend on a sibling `paper/` directory.
 
 ## Development/confirmation separation
 
 Variant 19 of each of the ten owned program templates is reserved as a development subject. The 200 confirmatory programs use variants 0–18 and 20; `tests/protocol_audit.py` recompiles all ten development subjects and rejects overlap. The confirmation set is still a controlled template corpus, not 200 independent projects.
 
 The independent confirmation audit in `tests/generated_oracle_audit.py` imports no producer, checker, or original oracle. It enumerates every subset, reimplements scores, quotas, ties, and top-set semantics, and confirms 45 stable and 155 refutable programs; every refuter has minimum size six.
+
+## Floor sensitivity
+
+The `zero_floor` sensitivity changes only the empty-location convention and keeps the supplied reference fixed. Its outcomes are 98 stable, 160 refutable, and 2 infeasible. In particular, the empty-universe `fixture-14` keeps `reference=[1]` and remains a minimum-zero refuter under both floor conventions.
 
 ## Public-matrix challenge
 
