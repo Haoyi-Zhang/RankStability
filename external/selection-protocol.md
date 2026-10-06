@@ -10,4 +10,4 @@ The challenge set is a deterministic, result-blind slice of the public Diversity
 6. The supplied claim is the full-universe top-three set, with mutant order as the deterministic tie order and bottom empty floor.
 7. Enumerate all 4096 subsets independently, run the producer and checker, exact marginal intervals, and the frozen random baseline. Keep every result.
 
-No outcome, suspiciousness value, or stability result is read while selecting projects, bugs, rows, columns, or policy profiles. The snapshots preserve only the selected rows/columns and therefore do not redistribute the full upstream matrices.
+No certification outcome or suspiciousness value is used to select the corpus or tune policy profiles; passing/failing labels and predeclared kill-density strata are used as specified above. The snapshots preserve only the selected rows/columns and therefore do not redistribute the full upstream matrices.
