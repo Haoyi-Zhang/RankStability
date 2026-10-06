@@ -1,0 +1,12 @@
+{
+  "primary_cases": 260,
+  "secondary_queries": 981,
+  "status_counts": {
+    "ambiguity:stable": 40,
+    "fixture:counterexample": 7,
+    "fixture:infeasible_policy": 2,
+    "fixture:stable": 11,
+    "program:counterexample": 155,
+    "program:stable": 45
+  }
+}

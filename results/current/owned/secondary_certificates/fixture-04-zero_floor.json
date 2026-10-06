@@ -1,0 +1,20 @@
+{
+  "base_sample": [
+    0
+  ],
+  "branches": [
+    {
+      "branch": [
+        0,
+        1,
+        1
+      ],
+      "proof": {
+        "edge": 1,
+        "kind": "interval"
+      }
+    }
+  ],
+  "case_id": "fixture-04-zero_floor",
+  "status": "stable"
+}

@@ -1,0 +1,231 @@
+{
+  "command_wall_seconds_sum": 24.075071078000022,
+  "commands": 7,
+  "limits": {
+    "per_command_wall_seconds": [
+      90,
+      90,
+      90,
+      90,
+      90,
+      120,
+      180
+    ],
+    "whole_campaign_wall_seconds": 420
+  },
+  "memory_limit_enforced": false,
+  "platform": "Linux-6.17.0-1022-azure-x86_64-with-glibc2.39",
+  "python": "3.12.14 (main, Aug 13 2026, 02:47:42) [GCC 13.3.0]",
+  "results": {
+    "exhaustive": {
+      "cases": 12288,
+      "checker_steps": 357328,
+      "cpu_seconds": 2.67312824,
+      "oracle_subsets": 98304,
+      "peak_rss_kib": 15484,
+      "producer": {
+        "augmentations": 36968,
+        "edge_scans": 694708,
+        "networks": 60368,
+        "search_states": 229108
+      },
+      "status_counts": {
+        "counterexample": 8256,
+        "stable": 4032
+      },
+      "workers": 1
+    },
+    "generated_oracle_audit": {
+      "cases": 200,
+      "cpu_seconds": 7.185774029,
+      "family_status_counts": {
+        "accumulator": {
+          "counterexample": 15,
+          "stable": 5
+        },
+        "affine": {
+          "counterexample": 17,
+          "stable": 3
+        },
+        "bucket": {
+          "counterexample": 17,
+          "stable": 3
+        },
+        "clamp": {
+          "counterexample": 12,
+          "stable": 8
+        },
+        "interval": {
+          "counterexample": 16,
+          "stable": 4
+        },
+        "median": {
+          "counterexample": 11,
+          "stable": 9
+        },
+        "polynomial": {
+          "counterexample": 19,
+          "stable": 1
+        },
+        "predicate": {
+          "counterexample": 13,
+          "stable": 7
+        },
+        "remainder": {
+          "counterexample": 15,
+          "stable": 5
+        },
+        "tariff": {
+          "counterexample": 20
+        }
+      },
+      "feasible_samples": 281918,
+      "independence": "enumerates all masks and reimplements score, quota, tie, and top-set semantics without importing producer, checker, or oracle",
+      "maximum_refuter_fraction": 0.7927063339731286,
+      "minimum_counts": {
+        "6": 155
+      },
+      "minimum_nonzero_refuter_fraction": 0.0712166172106825,
+      "peak_rss_kib": 15832,
+      "refuting_samples": 71151,
+      "status_counts": {
+        "counterexample": 155,
+        "stable": 45
+      },
+      "subsets_enumerated": 6553600
+    },
+    "metamorphic": {
+      "cases": 512,
+      "cpu_seconds": 2.4877999209999997,
+      "metamorphic_checks": 2560,
+      "peak_rss_kib": 16052,
+      "scope": "representation-preserving metamorphic relations; not an independent proof of the algorithm",
+      "seed": 20260921,
+      "status_counts": {
+        "counterexample": 179,
+        "infeasible_policy": 113,
+        "stable": 220
+      },
+      "transformations": [
+        "location_relabel",
+        "mutant_permutation",
+        "partition_group_relabel",
+        "test_row_permutation",
+        "zero_passing_row"
+      ],
+      "transformations_per_case": 5
+    },
+    "owned_replay": {
+      "accepted_certificates": 1241,
+      "certificate_mutations_rejected": 4279,
+      "cpu_seconds": 8.237672969,
+      "exact_interval_stable": 95,
+      "matrices_reconstructed_from_retained_observations": 240,
+      "primary_cases": 260,
+      "program_random_minimum_larger": 11,
+      "random_counterexamples": 161,
+      "scope": "current algorithms on retained owned observations; no C execution and no external data",
+      "secondary_queries": 981,
+      "secondary_status_counts": {
+        "k2": {
+          "counterexample": 193,
+          "infeasible_policy": 2,
+          "stable": 65
+        },
+        "k3": {
+          "counterexample": 198,
+          "stable": 3
+        },
+        "relax_b": {
+          "counterexample": 208,
+          "infeasible_policy": 2,
+          "stable": 50
+        },
+        "zero_floor": {
+          "counterexample": 160,
+          "infeasible_policy": 2,
+          "stable": 98
+        }
+      },
+      "status_counts": {
+        "ambiguity:stable": 40,
+        "fixture:counterexample": 7,
+        "fixture:infeasible_policy": 2,
+        "fixture:stable": 11,
+        "program:counterexample": 155,
+        "program:stable": 45
+      }
+    },
+    "pilot": {
+      "cases": 256,
+      "checker_steps": 15630,
+      "cpu_seconds": 0.09751695700000002,
+      "deleted_branch_rejections": 71,
+      "oracle_subsets": 15788,
+      "peak_rss_kib": 15884,
+      "producer": {
+        "augmentations": 990,
+        "edge_scans": 26448,
+        "networks": 1029,
+        "search_states": 6989
+      },
+      "seed": 715,
+      "status_counts": {
+        "counterexample": 66,
+        "infeasible_policy": 157,
+        "stable": 33
+      },
+      "workers": 1
+    },
+    "semantics": {
+      "branch_label_type_confusions": 2,
+      "branch_label_type_rejections": 2,
+      "cnf_formulas": 512,
+      "contract_entry_rejections": 12,
+      "contract_invalid_inputs": 6,
+      "cpu_seconds": 0.066199208,
+      "extended_samples_enumerated": 4096,
+      "floor_regression": "stable",
+      "peak_rss_kib": 16140,
+      "sat_assignments_enumerated": 2048,
+      "schema_rejections": 12,
+      "strict_empty_vector_entry_rejections": 12,
+      "strict_empty_vector_inputs": 6,
+      "three_partition_instances": 320,
+      "three_partition_selections_enumerated": 7513,
+      "well_formed_reduction_selections_enumerated": 3303,
+      "well_formed_three_partition_reduction_checks": 321
+    },
+    "stress": {
+      "cases": 2048,
+      "certificate_mutations_rejected": 25463,
+      "checker_steps": 430319,
+      "cpu_seconds": 2.936620174,
+      "empty_mutant_universes": 173,
+      "maximum_branches": 30,
+      "oracle_subset_visits": 383907,
+      "peak_rss_kib": 16844,
+      "producer": {
+        "augmentations": 3923,
+        "edge_scans": 110016,
+        "networks": 13437,
+        "search_states": 28736
+      },
+      "proof_kind_counts": {
+        "cut": 740,
+        "interval": 5389
+      },
+      "seed": 20260916,
+      "status_counts": {
+        "counterexample": 738,
+        "infeasible_policy": 468,
+        "stable": 842
+      },
+      "workers": 1
+    }
+  },
+  "scope": "finite authored-input replay; not fresh C execution, external validation, mechanized proof, or hostile-input assurance",
+  "successful_commands": 7,
+  "wall_seconds": 24.080337994999994,
+  "workers": 1
+}

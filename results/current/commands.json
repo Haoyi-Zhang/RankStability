@@ -1,0 +1,109 @@
+[
+  {
+    "argv": [
+      "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python",
+      "-B",
+      "tests/pilot.py",
+      "--output",
+      "/home/runner/work/RankStability/RankStability/scientific-results/pilot.json"
+    ],
+    "canonical_output": "/home/runner/work/RankStability/RankStability/scientific-results/pilot.json",
+    "name": "pilot",
+    "returncode": 0,
+    "same_run_output_match": true,
+    "timeout_seconds": 90,
+    "wall_seconds": 0.15902024100000745
+  },
+  {
+    "argv": [
+      "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python",
+      "-B",
+      "tests/exhaustive.py",
+      "--output",
+      "/home/runner/work/RankStability/RankStability/scientific-results/exhaustive.json"
+    ],
+    "canonical_output": "/home/runner/work/RankStability/RankStability/scientific-results/exhaustive.json",
+    "name": "exhaustive",
+    "returncode": 0,
+    "same_run_output_match": true,
+    "timeout_seconds": 90,
+    "wall_seconds": 2.725949975000006
+  },
+  {
+    "argv": [
+      "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python",
+      "-B",
+      "tests/semantics.py",
+      "--output",
+      "/home/runner/work/RankStability/RankStability/scientific-results/semantics.json"
+    ],
+    "canonical_output": "/home/runner/work/RankStability/RankStability/scientific-results/semantics.json",
+    "name": "semantics",
+    "returncode": 0,
+    "same_run_output_match": true,
+    "timeout_seconds": 90,
+    "wall_seconds": 0.12147962000000234
+  },
+  {
+    "argv": [
+      "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python",
+      "-B",
+      "tests/stress.py",
+      "--output",
+      "/home/runner/work/RankStability/RankStability/scientific-results/stress.json"
+    ],
+    "canonical_output": "/home/runner/work/RankStability/RankStability/scientific-results/stress.json",
+    "name": "stress",
+    "returncode": 0,
+    "same_run_output_match": true,
+    "timeout_seconds": 90,
+    "wall_seconds": 2.992184094999999
+  },
+  {
+    "argv": [
+      "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python",
+      "-B",
+      "tests/metamorphic.py",
+      "--output",
+      "/home/runner/work/RankStability/RankStability/scientific-results/metamorphic.json"
+    ],
+    "canonical_output": "/home/runner/work/RankStability/RankStability/scientific-results/metamorphic.json",
+    "name": "metamorphic",
+    "returncode": 0,
+    "same_run_output_match": true,
+    "timeout_seconds": 90,
+    "wall_seconds": 2.54674729300001
+  },
+  {
+    "argv": [
+      "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python",
+      "-B",
+      "tests/owned_replay.py",
+      "--output-dir",
+      "/home/runner/work/RankStability/RankStability/scientific-results/owned"
+    ],
+    "canonical_output": "/home/runner/work/RankStability/RankStability/scientific-results/owned/owned-replay.json",
+    "name": "owned_replay",
+    "returncode": 0,
+    "same_run_output_match": true,
+    "timeout_seconds": 120,
+    "wall_seconds": 8.299315898000003
+  },
+  {
+    "argv": [
+      "/opt/hostedtoolcache/Python/3.12.14/x64/bin/python",
+      "-B",
+      "tests/generated_oracle_audit.py",
+      "--output-dir",
+      "/home/runner/work/RankStability/RankStability/scientific-results",
+      "--campaign-csv",
+      "/home/runner/work/RankStability/RankStability/scientific-results/owned/primary.csv"
+    ],
+    "canonical_output": "/home/runner/work/RankStability/RankStability/scientific-results/generated-oracle-audit.json",
+    "name": "generated_oracle_audit",
+    "returncode": 0,
+    "same_run_output_match": true,
+    "timeout_seconds": 180,
+    "wall_seconds": 7.230373955999994
+  }
+]

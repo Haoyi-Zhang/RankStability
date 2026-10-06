@@ -1,0 +1,21 @@
+{
+  "cases": 512,
+  "cpu_seconds": 2.4877999209999997,
+  "metamorphic_checks": 2560,
+  "peak_rss_kib": 16052,
+  "scope": "representation-preserving metamorphic relations; not an independent proof of the algorithm",
+  "seed": 20260921,
+  "status_counts": {
+    "counterexample": 179,
+    "infeasible_policy": 113,
+    "stable": 220
+  },
+  "transformations": [
+    "location_relabel",
+    "mutant_permutation",
+    "partition_group_relabel",
+    "test_row_permutation",
+    "zero_passing_row"
+  ],
+  "transformations_per_case": 5
+}

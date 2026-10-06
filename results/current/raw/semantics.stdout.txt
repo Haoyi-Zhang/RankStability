@@ -1,0 +1,19 @@
+{
+  "branch_label_type_confusions": 2,
+  "branch_label_type_rejections": 2,
+  "cnf_formulas": 512,
+  "contract_entry_rejections": 12,
+  "contract_invalid_inputs": 6,
+  "cpu_seconds": 0.066199208,
+  "extended_samples_enumerated": 4096,
+  "floor_regression": "stable",
+  "peak_rss_kib": 16140,
+  "sat_assignments_enumerated": 2048,
+  "schema_rejections": 12,
+  "strict_empty_vector_entry_rejections": 12,
+  "strict_empty_vector_inputs": 6,
+  "three_partition_instances": 320,
+  "three_partition_selections_enumerated": 7513,
+  "well_formed_reduction_selections_enumerated": 3303,
+  "well_formed_three_partition_reduction_checks": 321
+}

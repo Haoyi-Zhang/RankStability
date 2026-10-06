@@ -1,0 +1,17 @@
+{
+  "cpu_seconds": 14.495884686,
+  "exact_observation_and_certificate_agreement": true,
+  "non_timing_tamper_detection": true,
+  "peak_rss_kib": 23612,
+  "primary_cases": 260,
+  "program_schemas_recompiled": 220,
+  "replay_checker_steps": 928296,
+  "replay_producer": {
+    "augmentations": 56580,
+    "edge_scans": 2583719,
+    "networks": 41426,
+    "search_states": 502155
+  },
+  "scientific_files_compared": 2463,
+  "secondary_queries": 981
+}

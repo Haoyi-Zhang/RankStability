@@ -1,0 +1,41 @@
+{
+  "accepted_certificates": 1241,
+  "certificate_mutations_rejected": 4279,
+  "cpu_seconds": 8.237672969,
+  "exact_interval_stable": 95,
+  "matrices_reconstructed_from_retained_observations": 240,
+  "primary_cases": 260,
+  "program_random_minimum_larger": 11,
+  "random_counterexamples": 161,
+  "scope": "current algorithms on retained owned observations; no C execution and no external data",
+  "secondary_queries": 981,
+  "secondary_status_counts": {
+    "k2": {
+      "counterexample": 193,
+      "infeasible_policy": 2,
+      "stable": 65
+    },
+    "k3": {
+      "counterexample": 198,
+      "stable": 3
+    },
+    "relax_b": {
+      "counterexample": 208,
+      "infeasible_policy": 2,
+      "stable": 50
+    },
+    "zero_floor": {
+      "counterexample": 160,
+      "infeasible_policy": 2,
+      "stable": 98
+    }
+  },
+  "status_counts": {
+    "ambiguity:stable": 40,
+    "fixture:counterexample": 7,
+    "fixture:infeasible_policy": 2,
+    "fixture:stable": 11,
+    "program:counterexample": 155,
+    "program:stable": 45
+  }
+}

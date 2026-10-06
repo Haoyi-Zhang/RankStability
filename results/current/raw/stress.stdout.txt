@@ -1,0 +1,27 @@
+{
+  "cases": 2048,
+  "certificate_mutations_rejected": 25463,
+  "checker_steps": 430319,
+  "cpu_seconds": 2.936620174,
+  "empty_mutant_universes": 173,
+  "maximum_branches": 30,
+  "oracle_subset_visits": 383907,
+  "peak_rss_kib": 16844,
+  "producer": {
+    "augmentations": 3923,
+    "edge_scans": 110016,
+    "networks": 13437,
+    "search_states": 28736
+  },
+  "proof_kind_counts": {
+    "cut": 740,
+    "interval": 5389
+  },
+  "seed": 20260916,
+  "status_counts": {
+    "counterexample": 738,
+    "infeasible_policy": 468,
+    "stable": 842
+  },
+  "workers": 1
+}

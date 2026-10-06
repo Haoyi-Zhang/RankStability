@@ -1,0 +1,59 @@
+{
+  "cases": 200,
+  "cpu_seconds": 7.185774029,
+  "family_status_counts": {
+    "accumulator": {
+      "counterexample": 15,
+      "stable": 5
+    },
+    "affine": {
+      "counterexample": 17,
+      "stable": 3
+    },
+    "bucket": {
+      "counterexample": 17,
+      "stable": 3
+    },
+    "clamp": {
+      "counterexample": 12,
+      "stable": 8
+    },
+    "interval": {
+      "counterexample": 16,
+      "stable": 4
+    },
+    "median": {
+      "counterexample": 11,
+      "stable": 9
+    },
+    "polynomial": {
+      "counterexample": 19,
+      "stable": 1
+    },
+    "predicate": {
+      "counterexample": 13,
+      "stable": 7
+    },
+    "remainder": {
+      "counterexample": 15,
+      "stable": 5
+    },
+    "tariff": {
+      "counterexample": 20
+    }
+  },
+  "feasible_samples": 281918,
+  "independence": "enumerates all masks and reimplements score, quota, tie, and top-set semantics without importing producer, checker, or oracle",
+  "maximum_refuter_fraction": 0.7927063339731286,
+  "minimum_counts": {
+    "6": 155
+  },
+  "minimum_nonzero_refuter_fraction": 0.0712166172106825,
+  "peak_rss_kib": 15832,
+  "refuting_samples": 71151,
+  "status_counts": {
+    "counterexample": 155,
+    "stable": 45
+  },
+  "subsets_enumerated": 6553600
+}

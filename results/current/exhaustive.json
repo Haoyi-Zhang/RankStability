@@ -1,0 +1,18 @@
+{
+  "cases": 12288,
+  "checker_steps": 357328,
+  "cpu_seconds": 2.67312824,
+  "oracle_subsets": 98304,
+  "peak_rss_kib": 15484,
+  "producer": {
+    "augmentations": 36968,
+    "edge_scans": 694708,
+    "networks": 60368,
+    "search_states": 229108
+  },
+  "status_counts": {
+    "counterexample": 8256,
+    "stable": 4032
+  },
+  "workers": 1
+}
