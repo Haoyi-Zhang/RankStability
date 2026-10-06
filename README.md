@@ -12,7 +12,7 @@ The producer returns exactly one of:
 
 ## Requirements
 
-Linux, Python 3.11 or later, and a C11 compiler available as `cc`. Scientific code uses only the Python standard library. Runs are serial, bounded by `src/limited.py`, and require no GPU, remote solver, model API, credential, or private service.
+Full reconstruction requires Linux, Python 3.11 or later, and a C11 compiler available as `cc`. Scientific code uses only the Python standard library. The portable finite campaign also runs on Windows without a compiler. Runs are serial and require no GPU, remote solver, model API, credential, or private service. The Linux reconstruction is bounded by `src/limited.py`; the portable runner enforces wall-clock timeouts and reports unavailable RSS as null, without claiming a memory cap or CPU affinity.
 
 Do not invoke Python with `-O` or `PYTHONOPTIMIZE`; the limiter rejects optimized execution.
 
@@ -35,7 +35,7 @@ python src/limited.py tests/reproduce.py
 python src/limited.py tests/check_tables.py
 ```
 
-The final release pass reports:
+The retained historical Linux release pass reports:
 
 - 12,288 exhaustive tiny cases and 98,304 subset visits;
 - 256 seeded pilot cases;
@@ -48,7 +48,21 @@ The final release pass reports:
 - 220 C schemas recompiled, 2,463 retained scientific files and all non-timing operation counts compared, with a changed network count detected;
 - 61 live-resolved manuscript references and an exact 12+5+5 full-paper calibration.
 
-`public_commands.json` declares each command's source, inputs, and canonical output. `python tests/release_accounting.py` deletes each prior output, reruns all twelve commands under GNU `time -v`, requires the recreated file to equal same-run stdout, and verifies that a non-timing count change is detected. The retained pass matched 12/12 outputs and succeeded with 34.52 CPU seconds, 30.388 summed wall seconds, and a largest per-command maximum RSS of 97,580 KiB. These values describe that release pass only. The bibliography audit uses `literature/manuscript-citations.json`, a frozen snapshot regenerated from the current paper before packaging, so the standalone repository does not depend on a sibling `paper/` directory.
+`public_commands.json` declares each command's source, inputs, and canonical output. `python tests/release_accounting.py` deletes each prior output, reruns all twelve commands under GNU `time -v`, requires the recreated file to equal same-run stdout, and verifies that a non-timing count change is detected. The retained historical pass matched 12/12 outputs and succeeded with 34.52 CPU seconds, 30.388 summed wall seconds, and a largest per-command maximum RSS of 97,580 KiB. These values describe that release pass only. The bibliography audit uses `literature/manuscript-citations.json`, a frozen citation snapshot, so the standalone repository does not depend on a sibling `paper/` directory. Metadata resolution and offline consistency do not establish claim-to-source entailment.
+
+## Portable owned-input replay
+
+From the standalone artifact root, choose a new output directory outside retained `results/`:
+
+```text
+python -B tests/local_campaign.py --out /path/to/new/owned-evidence
+```
+
+The seven commands rerun pilot, tiny exhaustive, semantic, stress, and metamorphic checks, recompute the 260 owned primary and 981 secondary certificates, and independently enumerate all 6,553,600 confirmatory subsets against the same-run primary table. Raw stdout/stderr, exact command arguments, durations, canonical JSON, and the fresh certificate packet are saved under that output directory. Existing result files are preserved. The runner has a 420-second total wall budget and 90/120/180-second child limits; its reviewed children create no subprocesses. This replay reconstructs matrices from retained observations but does not execute C or use external matrices.
+
+The final October 6, 2026 Windows pass completed 7/7 commands in 17.469 seconds (17.453 summed command seconds) and reproduced the 45 stable / 155 refutable program outcomes and every secondary-table count. Stress perturbations of the owned primary packet rejected 4,279 variants. This collection differs from the historical 1,436 variants; the historical total of 26,989 remains labelled separately. The CNF suite now actually evaluates all four assignments for each of its 512 formulas. Another 321 checks validate well-formed three-partition reduction outputs, with 3,303 additional selection visits kept separate from the historical 7,513 direct matching/quota visits.
+
+`.github/workflows/scientific-checks.yml` is a prepared, pinned-action Linux workflow for push to `main` or manual dispatch. It runs this finite campaign and the existing owned C reconstruction, then uploads actual outputs. It uses the runner's existing `cc`, installs no research dependencies, and does not run the external-matrix challenge or TeX. Preparation is not evidence that CI has run or passed.
 
 ## Development/confirmation separation
 
@@ -89,7 +103,6 @@ The JSON input schema and all three certificate objects are documented in the se
 - `proofs/`: self-contained model and proof record.
 - `literature-calibration.{md,csv}`: 22 complete-paper calibration records.
 - `claim_evidence_ledger.csv`: claim-to-evidence mapping and limits.
-- `reviewer-risk-ledger.md`: nine-perspective blind-review findings and dispositions.
 
 ## Scope and limitations
 

@@ -11,14 +11,13 @@ from __future__ import annotations
 import copy
 import json
 import random
-import resource
 import sys
 import time
 from collections import Counter
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "src"))
-from result_io import emit
+from result_io import emit, output_path, peak_rss_kib
 import certify  # noqa: E402
 import checker  # noqa: E402
 import oracle  # noqa: E402
@@ -377,10 +376,10 @@ def run() -> dict:
         "producer": dict(certify.COUNTERS),
         "checker_steps": checker.STEPS,
         "cpu_seconds": time.process_time() - start,
-        "peak_rss_kib": resource.getrusage(resource.RUSAGE_SELF).ru_maxrss,
+        "peak_rss_kib": peak_rss_kib(),
         "workers": 1,
     }
 
 
 if __name__ == "__main__":
-    emit(Path(__file__).resolve().parents[1]/"results"/"stress.json",run())
+    emit(output_path(Path(__file__).resolve().parents[1]/"results"/"stress.json"),run())

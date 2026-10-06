@@ -22,7 +22,7 @@ sys.path.insert(0, str(ROOT / "src"))
 import campaign
 import controls
 import programs
-from result_io import assert_scientific_equal, emit
+from result_io import assert_scientific_equal, emit, output_path
 
 
 def run() -> dict[str, object]:
@@ -120,4 +120,4 @@ def run() -> dict[str, object]:
 
 
 if __name__ == "__main__":
-    emit(ROOT / "results/clean-reproduction.json", run())
+    emit(output_path(ROOT / "results/clean-reproduction.json"), run())

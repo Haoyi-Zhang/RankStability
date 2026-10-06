@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """Bounded exact oracle and negative controls; one worker, no subprocesses."""
-import sys,json,random,itertools,time,resource
+import sys,json,random,itertools,time
 from pathlib import Path
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]/"src"))
-from result_io import emit
+from result_io import emit, output_path, peak_rss_kib
 import certify,checker
 
 from oracle import solve as oracle
@@ -36,6 +36,6 @@ def run():
             try:checker.check(c,broken)
             except ValueError:negative+=1
             else:raise AssertionError("deleted branch accepted")
-    return {"cases":256,"seed":715,"oracle_subsets":nsubset,"status_counts":counts,"deleted_branch_rejections":negative,"producer":certify.COUNTERS,"checker_steps":checker.STEPS,"cpu_seconds":time.process_time()-start,"peak_rss_kib":resource.getrusage(resource.RUSAGE_SELF).ru_maxrss,"workers":1}
+    return {"cases":256,"seed":715,"oracle_subsets":nsubset,"status_counts":counts,"deleted_branch_rejections":negative,"producer":certify.COUNTERS,"checker_steps":checker.STEPS,"cpu_seconds":time.process_time()-start,"peak_rss_kib":peak_rss_kib(),"workers":1}
 if __name__=="__main__":
-    emit(Path(__file__).resolve().parents[1]/"results"/"pilot.json",run())
+    emit(output_path(Path(__file__).resolve().parents[1]/"results"/"pilot.json"),run())

@@ -4,13 +4,16 @@ from __future__ import annotations
 
 import csv
 import json
-import resource
+import argparse
+import sys
 import time
 from collections import Counter, defaultdict
 from functools import cmp_to_key
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT / "src"))
+from result_io import peak_rss_kib, write_json
 
 
 def require(condition: bool, message: object) -> None:
@@ -84,9 +87,12 @@ def solve_counts(case: dict[str, object]) -> dict[str, object]:
     }
 
 
-def run() -> dict[str, object]:
+def run(output_dir: Path | None = None, campaign_csv: Path | None = None) -> dict[str, object]:
     begin = time.process_time()
-    campaign = {row["id"]: row for row in csv.DictReader((ROOT / "results/campaign/primary.csv").open())}
+    output_dir = ROOT / "results" if output_dir is None else output_dir
+    output_dir.mkdir(parents=True, exist_ok=True)
+    campaign_csv = ROOT / "results/campaign/primary.csv" if campaign_csv is None else campaign_csv
+    campaign = {row["id"]: row for row in csv.DictReader(campaign_csv.open(encoding="utf-8"))}
     metadata = []
     rows = []
     family = defaultdict(Counter)
@@ -111,7 +117,7 @@ def run() -> dict[str, object]:
         metadata.append(meta)
         family[meta["family"]][result["status"]] += 1
     require(len(rows) == 200, "expected all 200 generated programs")
-    with (ROOT / "results/generated-oracle-audit.csv").open("w", newline="") as handle:
+    with (output_dir / "generated-oracle-audit.csv").open("w", newline="") as handle:
         writer = csv.DictWriter(handle, fieldnames=list(rows[0]))
         writer.writeheader()
         writer.writerows(rows)
@@ -132,12 +138,16 @@ def run() -> dict[str, object]:
             default=None,
         ),
         "cpu_seconds": time.process_time() - begin,
-        "peak_rss_kib": resource.getrusage(resource.RUSAGE_SELF).ru_maxrss,
+        "peak_rss_kib": peak_rss_kib(),
         "independence": "enumerates all masks and reimplements score, quota, tie, and top-set semantics without importing producer, checker, or oracle",
     }
-    (ROOT / "results/generated-oracle-audit.json").write_text(json.dumps(result, indent=2, sort_keys=True) + "\n")
+    write_json(output_dir / "generated-oracle-audit.json", result)
     return result
 
 
 if __name__ == "__main__":
-    print(json.dumps(run(), indent=2, sort_keys=True))
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--output-dir", type=Path, default=ROOT / "results")
+    parser.add_argument("--campaign-csv", type=Path, default=ROOT / "results/campaign/primary.csv")
+    args = parser.parse_args()
+    print(json.dumps(run(args.output_dir, args.campaign_csv), indent=2, sort_keys=True))

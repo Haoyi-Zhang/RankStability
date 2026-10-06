@@ -6,7 +6,6 @@ import copy
 import itertools
 import json
 import random
-import resource
 import sys
 import time
 from pathlib import Path
@@ -17,7 +16,7 @@ sys.path.insert(0, str(ROOT / "src"))
 import certify
 import checker
 import oracle
-from result_io import emit
+from result_io import emit, output_path, peak_rss_kib
 
 
 def rejected(function) -> bool:
@@ -45,7 +44,8 @@ def run() -> dict[str, object]:
                 for clause in selected
             )
 
-        sat = any(satisfied(assignment) for assignment in itertools.product([False, True], repeat=2))
+        assignment_results = [satisfied(assignment) for assignment in itertools.product([False, True], repeat=2)]
+        sat = any(assignment_results)
         case = {
             "id": "cnf-boundary",
             "fail": [1, 0],
@@ -76,6 +76,28 @@ def run() -> dict[str, object]:
     # Direct finite validation of the three-exact-partition reduction map.
     three_partition_instances = 0
     three_partition_selections = 0
+    well_formed_reduction_checks = 0
+    well_formed_reduction_selections = 0
+
+    def check_well_formed_reduction(q, triples, expected):
+        nonlocal well_formed_reduction_checks, well_formed_reduction_selections
+        if q == 0:
+            mapped_q, mapped = 1, [(0, 0, 0)]
+        elif len(triples) < q:
+            mapped_q, mapped = 2, [(0, 0, 0), (0, 1, 1)]
+        else:
+            mapped_q, mapped = q, triples
+        assert 1 <= mapped_q <= len(mapped)
+        assert all(0 <= label < mapped_q for triple in mapped for label in triple)
+        # Exact-one quotas and global size now obey the declared [0,n] bounds.
+        feasible = False
+        for choice in itertools.combinations(range(len(mapped)), mapped_q):
+            well_formed_reduction_selections += 1
+            if all(all(sum(mapped[i][d] == group for i in choice) == 1 for group in range(mapped_q)) for d in range(3)):
+                feasible = True
+                break
+        assert feasible == expected
+        well_formed_reduction_checks += 1
 
     def check_3dm(q, triples):
         nonlocal three_partition_instances, three_partition_selections
@@ -100,6 +122,7 @@ def run() -> dict[str, object]:
                 quota = True
                 break
         assert matching == quota
+        check_well_formed_reduction(q, triples, matching)
         three_partition_instances += 1
 
     universe2 = list(itertools.product(range(2), repeat=3))
@@ -109,6 +132,7 @@ def run() -> dict[str, object]:
     universe3 = list(itertools.product(range(3), repeat=3))
     for _ in range(64):
         check_3dm(3, [triple for triple in universe3 if rng.random() < 0.30])
+    check_well_formed_reduction(0, [], True)
 
     regression = json.loads((Path(__file__).parent / "zero-floor-tie.json").read_text())
     certificate = certify.produce(regression)
@@ -169,6 +193,8 @@ def run() -> dict[str, object]:
         "extended_samples_enumerated": formulas * 8,
         "three_partition_instances": three_partition_instances,
         "three_partition_selections_enumerated": three_partition_selections,
+        "well_formed_three_partition_reduction_checks": well_formed_reduction_checks,
+        "well_formed_reduction_selections_enumerated": well_formed_reduction_selections,
         "contract_invalid_inputs": len(contract_invalid),
         "contract_entry_rejections": contract_rejections,
         "strict_empty_vector_inputs": len(strict_inputs),
@@ -178,9 +204,9 @@ def run() -> dict[str, object]:
         "schema_rejections": strict_entry_rejections,
         "floor_regression": "stable",
         "cpu_seconds": time.process_time() - start,
-        "peak_rss_kib": resource.getrusage(resource.RUSAGE_SELF).ru_maxrss,
+        "peak_rss_kib": peak_rss_kib(),
     }
 
 
 if __name__ == "__main__":
-    emit(ROOT / "results/semantics.json", run())
+    emit(output_path(ROOT / "results/semantics.json"), run())

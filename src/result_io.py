@@ -8,8 +8,28 @@ scientific output and must match exactly.
 from __future__ import annotations
 
 import json
+import argparse
 from pathlib import Path
 from typing import Any
+
+
+def peak_rss_kib() -> int | None:
+    """Return the existing Unix process metric, or null when unavailable.
+
+    Windows has no standard-library resource module; do not substitute an
+    invented RSS value or imply that a Unix memory limit was applied there.
+    """
+    try:
+        import resource
+    except ImportError:
+        return None
+    return resource.getrusage(resource.RUSAGE_SELF).ru_maxrss
+
+
+def output_path(default: Path) -> Path:
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--output", type=Path, default=default)
+    return parser.parse_args().output
 
 
 def _runtime_only(key: str) -> bool:

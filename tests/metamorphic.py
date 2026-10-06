@@ -10,7 +10,6 @@ from __future__ import annotations
 import copy
 import json
 import random
-import resource
 import sys
 import time
 from pathlib import Path
@@ -22,6 +21,7 @@ import certify  # noqa: E402
 import checker  # noqa: E402
 import oracle  # noqa: E402
 from stress import make_case  # noqa: E402
+from result_io import output_path, peak_rss_kib, write_json
 
 SEED = 20260921
 CASES = 512
@@ -95,7 +95,7 @@ def outcome(c: dict) -> tuple[str, int | None]:
     return expected, minimum
 
 
-def run() -> dict:
+def run(output: Path | None = None) -> dict:
     begin = time.process_time()
     rng = random.Random(SEED)
     transformations = {
@@ -127,12 +127,12 @@ def run() -> dict:
         "status_counts": dict(sorted(status_counts.items())),
         "seed": SEED,
         "cpu_seconds": time.process_time() - begin,
-        "peak_rss_kib": resource.getrusage(resource.RUSAGE_SELF).ru_maxrss,
+        "peak_rss_kib": peak_rss_kib(),
         "scope": "representation-preserving metamorphic relations; not an independent proof of the algorithm",
     }
-    (ROOT / "results/metamorphic.json").write_text(json.dumps(result, indent=2, sort_keys=True) + "\n")
+    write_json(ROOT / "results/metamorphic.json" if output is None else output, result)
     return result
 
 
 if __name__ == "__main__":
-    print(json.dumps(run(), indent=2, sort_keys=True))
+    print(json.dumps(run(output_path(ROOT / "results/metamorphic.json")), indent=2, sort_keys=True))
