@@ -74,6 +74,44 @@ The October 6, 2026 Windows pass completed 7/7 commands in 17.469 seconds (17.45
 
 `.github/workflows/scientific-checks.yml` runs the finite campaign and owned C reconstruction as separate Linux steps, preserving raw outputs. In run 37414665654, the seven compiler-free stages completed in 24.080337995 wall seconds and matched the finite counts and 1,241 certificates. The separate reconstruction matched all 220 recompiled C schemas and 2,463 scientific files in 14.495884686 CPU seconds. Its CPU measurement is not included in, or directly additive to, the finite campaign's wall measurement. Reconstruction uses the runner's existing `cc`, installs no research dependencies, and does not execute external projects or TeX. This run does not establish all-citation entailment or validation beyond these owned inputs.
 
+## Matched secondary-query comparison
+
+The additional compiler-free comparison covers all 981 already frozen owned
+secondary queries, without changing the 260 primary rows or the public-matrix
+challenge. Primary filenames are sorted once; query seeds are `271828 + index`
+and shared across `relax_b`, `zero_floor`, `k2`, and `k3`. Random search retains
+the original limits of 64 admitted samples and 4,096 attempts. `zero_floor`
+keeps the supplied reference fixed; `k2`/`k3` refreeze the full-universe top-k
+reference using the original rule, independently checked by the checker.
+
+Run `python -B tests/test_secondary_baselines.py -v`, then
+`python -B tests/secondary_baselines.py check --evidence evidence/secondary-baselines`.
+To reproduce rather than overwrite saved evidence, use
+`python -B tests/secondary_campaign.py --out /path/to/new/secondary-evidence`.
+The ten fixed shards each have a 120-second limit, with a 420-second total
+budget and no automatic retries. CI explicitly runs the controls, saved-record
+check, and fresh comparison alongside all existing checks. The original twelve
+release commands and their historical accounting remain unchanged.
+
+The saved comparison contains 216 stable, 759 refutable, and six infeasible
+queries. Exact marginal intervals certify 215 stable queries and identify all
+six infeasible policies; random search observes 757 refuters. The single stable
+query beyond intervals is `fixture-00/zero_floor`; both random misses are the
+existing rare `fixture-03` under `relax_b` and `zero_floor`. Every program
+secondary refuter is observed by random search, and every stable program
+secondary query is certified by intervals. Random observed minima exceed the
+proved minimum in 25 program queries: ten `k2`, four `k3`, and eleven
+`zero_floor` queries. The last eleven repeat the primary sensitivity evidence;
+these are not 25 independent subjects. Thus the expanded comparison retains
+the negative coverage conclusion, not an accuracy or runtime gain.
+
+`evidence/secondary-baselines/` preserves the exact plan, ten raw outcome
+shards (including every result and operation counter), and the complete
+aggregate. The plan binds the frozen inputs, metadata, original certificate
+archive, and unchanged baseline/checker sources. Raw process logs and resource
+receipts are kept separately from scientific outcomes. This comparison is not
+a new C execution, external-project experiment, or full release campaign.
+
 ## Development/confirmation separation
 
 Variant 19 of each of the ten owned program templates is reserved as a development subject. The 200 confirmatory programs use variants 0–18 and 20; `tests/protocol_audit.py` recompiles all ten development subjects and rejects overlap. The confirmation set is still a controlled template corpus, not 200 independent projects.

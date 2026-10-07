@@ -25,8 +25,14 @@ jobs:
           python-version: '3.12'
       - name: Check portable finite tie-priority regression
         run: python -B tests/test_tie_priority.py -v
+      - name: Check independent secondary-baseline controls
+        run: python -B tests/test_secondary_baselines.py -v
+      - name: Check every saved secondary outcome and frozen binding
+        run: python -B tests/secondary_baselines.py check --evidence evidence/secondary-baselines
       - name: Run current finite authored-input campaign
         run: timeout --signal=TERM --kill-after=10s 300s python -B tests/local_campaign.py --out scientific-results
+      - name: Compare all frozen owned secondary queries with matched baselines
+        run: timeout --signal=TERM --kill-after=10s 420s python -B tests/secondary_campaign.py --out scientific-results/secondary-baselines
       - name: Recompile owned C schemas and compare retained scientific content
         run: timeout --signal=TERM --kill-after=10s 600s python -B src/limited.py tests/reproduce.py --output scientific-results/clean-reproduction.json
       - name: Upload actual finite and reconstruction evidence

@@ -1,0 +1,7824 @@
+{
+  "plan_sha256": "13a8b34560c2f06855036c4d8c51cc33aa9abfd84d7920981583e9600aee5048",
+  "rows": [
+    {
+      "category": "ambiguity",
+      "certificate": {
+        "base_sample": [
+          0,
+          4
+        ],
+        "branches": [
+          {
+            "branch": [
+              0,
+              1,
+              4
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              5
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              6
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              7
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          }
+        ],
+        "case_id": "ambiguity-00-relax_b",
+        "status": "stable"
+      },
+      "change": "relax_b",
+      "checker_steps": 92,
+      "family": "ambiguity",
+      "interval": {
+        "bounds": [
+          [
+            "1",
+            "1"
+          ],
+          [
+            "-1",
+            "1"
+          ]
+        ],
+        "cpu_seconds": 0.0,
+        "result": "stable"
+      },
+      "minimum": null,
+      "primary_id": "ambiguity-00",
+      "primary_index": 0,
+      "producer_counters": {
+        "augmentations": 18,
+        "edge_scans": 490,
+        "networks": 16,
+        "search_states": 122
+      },
+      "query_index": 0,
+      "random": {
+        "accepted": 64,
+        "attempts": 125,
+        "cpu_seconds": 0.0,
+        "observed_minimum": null,
+        "result": "unknown"
+      },
+      "seed": 271828,
+      "status": "stable"
+    },
+    {
+      "category": "ambiguity",
+      "certificate": {
+        "base_sample": [
+          0,
+          4
+        ],
+        "branches": [
+          {
+            "branch": [
+              0,
+              1,
+              4
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              5
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              6
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              7
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          }
+        ],
+        "case_id": "ambiguity-00-zero_floor",
+        "status": "stable"
+      },
+      "change": "zero_floor",
+      "checker_steps": 92,
+      "family": "ambiguity",
+      "interval": {
+        "bounds": [
+          [
+            "1",
+            "1"
+          ],
+          [
+            "18/19",
+            "1"
+          ]
+        ],
+        "cpu_seconds": 0.0,
+        "result": "stable"
+      },
+      "minimum": null,
+      "primary_id": "ambiguity-00",
+      "primary_index": 0,
+      "producer_counters": {
+        "augmentations": 12,
+        "edge_scans": 246,
+        "networks": 17,
+        "search_states": 71
+      },
+      "query_index": 1,
+      "random": {
+        "accepted": 64,
+        "attempts": 170,
+        "cpu_seconds": 0.0,
+        "observed_minimum": null,
+        "result": "unknown"
+      },
+      "seed": 271828,
+      "status": "stable"
+    },
+    {
+      "category": "ambiguity",
+      "certificate": {
+        "base_sample": [
+          0,
+          4
+        ],
+        "branches": [],
+        "case_id": "ambiguity-00-k2",
+        "status": "stable"
+      },
+      "change": "k2",
+      "checker_steps": 0,
+      "family": "ambiguity",
+      "interval": {
+        "bounds": [
+          [
+            "1",
+            "1"
+          ],
+          [
+            "18/19",
+            "1"
+          ]
+        ],
+        "cpu_seconds": 0.0,
+        "result": "stable"
+      },
+      "minimum": null,
+      "primary_id": "ambiguity-00",
+      "primary_index": 0,
+      "producer_counters": {
+        "augmentations": 12,
+        "edge_scans": 246,
+        "networks": 9,
+        "search_states": 71
+      },
+      "query_index": 2,
+      "random": {
+        "accepted": 64,
+        "attempts": 170,
+        "cpu_seconds": 0.0,
+        "observed_minimum": null,
+        "result": "unknown"
+      },
+      "seed": 271828,
+      "status": "stable"
+    },
+    {
+      "category": "ambiguity",
+      "certificate": {
+        "base_sample": [
+          0,
+          4
+        ],
+        "branches": [
+          {
+            "branch": [
+              0,
+              1,
+              4
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              5
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              6
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              7
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          }
+        ],
+        "case_id": "ambiguity-01-relax_b",
+        "status": "stable"
+      },
+      "change": "relax_b",
+      "checker_steps": 92,
+      "family": "ambiguity",
+      "interval": {
+        "bounds": [
+          [
+            "1",
+            "1"
+          ],
+          [
+            "-1",
+            "1"
+          ]
+        ],
+        "cpu_seconds": 0.0,
+        "result": "stable"
+      },
+      "minimum": null,
+      "primary_id": "ambiguity-01",
+      "primary_index": 1,
+      "producer_counters": {
+        "augmentations": 18,
+        "edge_scans": 490,
+        "networks": 16,
+        "search_states": 122
+      },
+      "query_index": 3,
+      "random": {
+        "accepted": 64,
+        "attempts": 130,
+        "cpu_seconds": 0.0,
+        "observed_minimum": null,
+        "result": "unknown"
+      },
+      "seed": 271829,
+      "status": "stable"
+    },
+    {
+      "category": "ambiguity",
+      "certificate": {
+        "base_sample": [
+          0,
+          4
+        ],
+        "branches": [
+          {
+            "branch": [
+              0,
+              1,
+              4
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              5
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              6
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              7
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          }
+        ],
+        "case_id": "ambiguity-01-zero_floor",
+        "status": "stable"
+      },
+      "change": "zero_floor",
+      "checker_steps": 92,
+      "family": "ambiguity",
+      "interval": {
+        "bounds": [
+          [
+            "1",
+            "1"
+          ],
+          [
+            "18/19",
+            "1"
+          ]
+        ],
+        "cpu_seconds": 0.0,
+        "result": "stable"
+      },
+      "minimum": null,
+      "primary_id": "ambiguity-01",
+      "primary_index": 1,
+      "producer_counters": {
+        "augmentations": 12,
+        "edge_scans": 246,
+        "networks": 17,
+        "search_states": 71
+      },
+      "query_index": 4,
+      "random": {
+        "accepted": 64,
+        "attempts": 170,
+        "cpu_seconds": 0.0,
+        "observed_minimum": null,
+        "result": "unknown"
+      },
+      "seed": 271829,
+      "status": "stable"
+    },
+    {
+      "category": "ambiguity",
+      "certificate": {
+        "base_sample": [
+          0,
+          4
+        ],
+        "branches": [],
+        "case_id": "ambiguity-01-k2",
+        "status": "stable"
+      },
+      "change": "k2",
+      "checker_steps": 0,
+      "family": "ambiguity",
+      "interval": {
+        "bounds": [
+          [
+            "1",
+            "1"
+          ],
+          [
+            "18/19",
+            "1"
+          ]
+        ],
+        "cpu_seconds": 0.0,
+        "result": "stable"
+      },
+      "minimum": null,
+      "primary_id": "ambiguity-01",
+      "primary_index": 1,
+      "producer_counters": {
+        "augmentations": 12,
+        "edge_scans": 246,
+        "networks": 9,
+        "search_states": 71
+      },
+      "query_index": 5,
+      "random": {
+        "accepted": 64,
+        "attempts": 170,
+        "cpu_seconds": 0.0,
+        "observed_minimum": null,
+        "result": "unknown"
+      },
+      "seed": 271829,
+      "status": "stable"
+    },
+    {
+      "category": "ambiguity",
+      "certificate": {
+        "base_sample": [
+          0,
+          4
+        ],
+        "branches": [
+          {
+            "branch": [
+              0,
+              1,
+              4
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              5
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              6
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              7
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          }
+        ],
+        "case_id": "ambiguity-02-relax_b",
+        "status": "stable"
+      },
+      "change": "relax_b",
+      "checker_steps": 92,
+      "family": "ambiguity",
+      "interval": {
+        "bounds": [
+          [
+            "1",
+            "1"
+          ],
+          [
+            "-1",
+            "1"
+          ]
+        ],
+        "cpu_seconds": 0.0,
+        "result": "stable"
+      },
+      "minimum": null,
+      "primary_id": "ambiguity-02",
+      "primary_index": 2,
+      "producer_counters": {
+        "augmentations": 18,
+        "edge_scans": 490,
+        "networks": 16,
+        "search_states": 122
+      },
+      "query_index": 6,
+      "random": {
+        "accepted": 64,
+        "attempts": 130,
+        "cpu_seconds": 0.015625,
+        "observed_minimum": null,
+        "result": "unknown"
+      },
+      "seed": 271830,
+      "status": "stable"
+    },
+    {
+      "category": "ambiguity",
+      "certificate": {
+        "base_sample": [
+          0,
+          4
+        ],
+        "branches": [
+          {
+            "branch": [
+              0,
+              1,
+              4
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              5
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              6
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              7
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          }
+        ],
+        "case_id": "ambiguity-02-zero_floor",
+        "status": "stable"
+      },
+      "change": "zero_floor",
+      "checker_steps": 92,
+      "family": "ambiguity",
+      "interval": {
+        "bounds": [
+          [
+            "1",
+            "1"
+          ],
+          [
+            "18/19",
+            "1"
+          ]
+        ],
+        "cpu_seconds": 0.0,
+        "result": "stable"
+      },
+      "minimum": null,
+      "primary_id": "ambiguity-02",
+      "primary_index": 2,
+      "producer_counters": {
+        "augmentations": 12,
+        "edge_scans": 246,
+        "networks": 17,
+        "search_states": 71
+      },
+      "query_index": 7,
+      "random": {
+        "accepted": 64,
+        "attempts": 173,
+        "cpu_seconds": 0.0,
+        "observed_minimum": null,
+        "result": "unknown"
+      },
+      "seed": 271830,
+      "status": "stable"
+    },
+    {
+      "category": "ambiguity",
+      "certificate": {
+        "base_sample": [
+          0,
+          4
+        ],
+        "branches": [],
+        "case_id": "ambiguity-02-k2",
+        "status": "stable"
+      },
+      "change": "k2",
+      "checker_steps": 0,
+      "family": "ambiguity",
+      "interval": {
+        "bounds": [
+          [
+            "1",
+            "1"
+          ],
+          [
+            "18/19",
+            "1"
+          ]
+        ],
+        "cpu_seconds": 0.0,
+        "result": "stable"
+      },
+      "minimum": null,
+      "primary_id": "ambiguity-02",
+      "primary_index": 2,
+      "producer_counters": {
+        "augmentations": 12,
+        "edge_scans": 246,
+        "networks": 9,
+        "search_states": 71
+      },
+      "query_index": 8,
+      "random": {
+        "accepted": 64,
+        "attempts": 173,
+        "cpu_seconds": 0.0,
+        "observed_minimum": null,
+        "result": "unknown"
+      },
+      "seed": 271830,
+      "status": "stable"
+    },
+    {
+      "category": "ambiguity",
+      "certificate": {
+        "base_sample": [
+          0,
+          4
+        ],
+        "branches": [
+          {
+            "branch": [
+              0,
+              1,
+              4
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              5
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              6
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              7
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          }
+        ],
+        "case_id": "ambiguity-03-relax_b",
+        "status": "stable"
+      },
+      "change": "relax_b",
+      "checker_steps": 92,
+      "family": "ambiguity",
+      "interval": {
+        "bounds": [
+          [
+            "1",
+            "1"
+          ],
+          [
+            "-1",
+            "1"
+          ]
+        ],
+        "cpu_seconds": 0.0,
+        "result": "stable"
+      },
+      "minimum": null,
+      "primary_id": "ambiguity-03",
+      "primary_index": 3,
+      "producer_counters": {
+        "augmentations": 18,
+        "edge_scans": 490,
+        "networks": 16,
+        "search_states": 122
+      },
+      "query_index": 9,
+      "random": {
+        "accepted": 64,
+        "attempts": 127,
+        "cpu_seconds": 0.0,
+        "observed_minimum": null,
+        "result": "unknown"
+      },
+      "seed": 271831,
+      "status": "stable"
+    },
+    {
+      "category": "ambiguity",
+      "certificate": {
+        "base_sample": [
+          0,
+          4
+        ],
+        "branches": [
+          {
+            "branch": [
+              0,
+              1,
+              4
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              5
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              6
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              7
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          }
+        ],
+        "case_id": "ambiguity-03-zero_floor",
+        "status": "stable"
+      },
+      "change": "zero_floor",
+      "checker_steps": 92,
+      "family": "ambiguity",
+      "interval": {
+        "bounds": [
+          [
+            "1",
+            "1"
+          ],
+          [
+            "18/19",
+            "1"
+          ]
+        ],
+        "cpu_seconds": 0.0,
+        "result": "stable"
+      },
+      "minimum": null,
+      "primary_id": "ambiguity-03",
+      "primary_index": 3,
+      "producer_counters": {
+        "augmentations": 12,
+        "edge_scans": 246,
+        "networks": 17,
+        "search_states": 71
+      },
+      "query_index": 10,
+      "random": {
+        "accepted": 64,
+        "attempts": 151,
+        "cpu_seconds": 0.0,
+        "observed_minimum": null,
+        "result": "unknown"
+      },
+      "seed": 271831,
+      "status": "stable"
+    },
+    {
+      "category": "ambiguity",
+      "certificate": {
+        "base_sample": [
+          0,
+          4
+        ],
+        "branches": [],
+        "case_id": "ambiguity-03-k2",
+        "status": "stable"
+      },
+      "change": "k2",
+      "checker_steps": 0,
+      "family": "ambiguity",
+      "interval": {
+        "bounds": [
+          [
+            "1",
+            "1"
+          ],
+          [
+            "18/19",
+            "1"
+          ]
+        ],
+        "cpu_seconds": 0.0,
+        "result": "stable"
+      },
+      "minimum": null,
+      "primary_id": "ambiguity-03",
+      "primary_index": 3,
+      "producer_counters": {
+        "augmentations": 12,
+        "edge_scans": 246,
+        "networks": 9,
+        "search_states": 71
+      },
+      "query_index": 11,
+      "random": {
+        "accepted": 64,
+        "attempts": 151,
+        "cpu_seconds": 0.0,
+        "observed_minimum": null,
+        "result": "unknown"
+      },
+      "seed": 271831,
+      "status": "stable"
+    },
+    {
+      "category": "ambiguity",
+      "certificate": {
+        "base_sample": [
+          0,
+          4
+        ],
+        "branches": [
+          {
+            "branch": [
+              0,
+              1,
+              4
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              5
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              6
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              7
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          }
+        ],
+        "case_id": "ambiguity-04-relax_b",
+        "status": "stable"
+      },
+      "change": "relax_b",
+      "checker_steps": 92,
+      "family": "ambiguity",
+      "interval": {
+        "bounds": [
+          [
+            "1",
+            "1"
+          ],
+          [
+            "-1",
+            "1"
+          ]
+        ],
+        "cpu_seconds": 0.0,
+        "result": "stable"
+      },
+      "minimum": null,
+      "primary_id": "ambiguity-04",
+      "primary_index": 4,
+      "producer_counters": {
+        "augmentations": 18,
+        "edge_scans": 490,
+        "networks": 16,
+        "search_states": 122
+      },
+      "query_index": 12,
+      "random": {
+        "accepted": 64,
+        "attempts": 125,
+        "cpu_seconds": 0.0,
+        "observed_minimum": null,
+        "result": "unknown"
+      },
+      "seed": 271832,
+      "status": "stable"
+    },
+    {
+      "category": "ambiguity",
+      "certificate": {
+        "base_sample": [
+          0,
+          4
+        ],
+        "branches": [
+          {
+            "branch": [
+              0,
+              1,
+              4
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              5
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              6
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              7
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          }
+        ],
+        "case_id": "ambiguity-04-zero_floor",
+        "status": "stable"
+      },
+      "change": "zero_floor",
+      "checker_steps": 92,
+      "family": "ambiguity",
+      "interval": {
+        "bounds": [
+          [
+            "1",
+            "1"
+          ],
+          [
+            "18/19",
+            "1"
+          ]
+        ],
+        "cpu_seconds": 0.0,
+        "result": "stable"
+      },
+      "minimum": null,
+      "primary_id": "ambiguity-04",
+      "primary_index": 4,
+      "producer_counters": {
+        "augmentations": 12,
+        "edge_scans": 246,
+        "networks": 17,
+        "search_states": 71
+      },
+      "query_index": 13,
+      "random": {
+        "accepted": 64,
+        "attempts": 166,
+        "cpu_seconds": 0.0,
+        "observed_minimum": null,
+        "result": "unknown"
+      },
+      "seed": 271832,
+      "status": "stable"
+    },
+    {
+      "category": "ambiguity",
+      "certificate": {
+        "base_sample": [
+          0,
+          4
+        ],
+        "branches": [],
+        "case_id": "ambiguity-04-k2",
+        "status": "stable"
+      },
+      "change": "k2",
+      "checker_steps": 0,
+      "family": "ambiguity",
+      "interval": {
+        "bounds": [
+          [
+            "1",
+            "1"
+          ],
+          [
+            "18/19",
+            "1"
+          ]
+        ],
+        "cpu_seconds": 0.0,
+        "result": "stable"
+      },
+      "minimum": null,
+      "primary_id": "ambiguity-04",
+      "primary_index": 4,
+      "producer_counters": {
+        "augmentations": 12,
+        "edge_scans": 246,
+        "networks": 9,
+        "search_states": 71
+      },
+      "query_index": 14,
+      "random": {
+        "accepted": 64,
+        "attempts": 166,
+        "cpu_seconds": 0.015625,
+        "observed_minimum": null,
+        "result": "unknown"
+      },
+      "seed": 271832,
+      "status": "stable"
+    },
+    {
+      "category": "ambiguity",
+      "certificate": {
+        "base_sample": [
+          0,
+          4
+        ],
+        "branches": [
+          {
+            "branch": [
+              0,
+              1,
+              4
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              5
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              6
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              7
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          }
+        ],
+        "case_id": "ambiguity-05-relax_b",
+        "status": "stable"
+      },
+      "change": "relax_b",
+      "checker_steps": 92,
+      "family": "ambiguity",
+      "interval": {
+        "bounds": [
+          [
+            "1",
+            "1"
+          ],
+          [
+            "-1",
+            "1"
+          ]
+        ],
+        "cpu_seconds": 0.0,
+        "result": "stable"
+      },
+      "minimum": null,
+      "primary_id": "ambiguity-05",
+      "primary_index": 5,
+      "producer_counters": {
+        "augmentations": 18,
+        "edge_scans": 490,
+        "networks": 16,
+        "search_states": 122
+      },
+      "query_index": 15,
+      "random": {
+        "accepted": 64,
+        "attempts": 118,
+        "cpu_seconds": 0.0,
+        "observed_minimum": null,
+        "result": "unknown"
+      },
+      "seed": 271833,
+      "status": "stable"
+    },
+    {
+      "category": "ambiguity",
+      "certificate": {
+        "base_sample": [
+          0,
+          4
+        ],
+        "branches": [
+          {
+            "branch": [
+              0,
+              1,
+              4
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              5
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              6
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              7
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          }
+        ],
+        "case_id": "ambiguity-05-zero_floor",
+        "status": "stable"
+      },
+      "change": "zero_floor",
+      "checker_steps": 92,
+      "family": "ambiguity",
+      "interval": {
+        "bounds": [
+          [
+            "1",
+            "1"
+          ],
+          [
+            "18/19",
+            "1"
+          ]
+        ],
+        "cpu_seconds": 0.0,
+        "result": "stable"
+      },
+      "minimum": null,
+      "primary_id": "ambiguity-05",
+      "primary_index": 5,
+      "producer_counters": {
+        "augmentations": 12,
+        "edge_scans": 246,
+        "networks": 17,
+        "search_states": 71
+      },
+      "query_index": 16,
+      "random": {
+        "accepted": 64,
+        "attempts": 155,
+        "cpu_seconds": 0.0,
+        "observed_minimum": null,
+        "result": "unknown"
+      },
+      "seed": 271833,
+      "status": "stable"
+    },
+    {
+      "category": "ambiguity",
+      "certificate": {
+        "base_sample": [
+          0,
+          4
+        ],
+        "branches": [],
+        "case_id": "ambiguity-05-k2",
+        "status": "stable"
+      },
+      "change": "k2",
+      "checker_steps": 0,
+      "family": "ambiguity",
+      "interval": {
+        "bounds": [
+          [
+            "1",
+            "1"
+          ],
+          [
+            "18/19",
+            "1"
+          ]
+        ],
+        "cpu_seconds": 0.0,
+        "result": "stable"
+      },
+      "minimum": null,
+      "primary_id": "ambiguity-05",
+      "primary_index": 5,
+      "producer_counters": {
+        "augmentations": 12,
+        "edge_scans": 246,
+        "networks": 9,
+        "search_states": 71
+      },
+      "query_index": 17,
+      "random": {
+        "accepted": 64,
+        "attempts": 155,
+        "cpu_seconds": 0.0,
+        "observed_minimum": null,
+        "result": "unknown"
+      },
+      "seed": 271833,
+      "status": "stable"
+    },
+    {
+      "category": "ambiguity",
+      "certificate": {
+        "base_sample": [
+          0,
+          4
+        ],
+        "branches": [
+          {
+            "branch": [
+              0,
+              1,
+              4
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              5
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              6
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              7
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          }
+        ],
+        "case_id": "ambiguity-06-relax_b",
+        "status": "stable"
+      },
+      "change": "relax_b",
+      "checker_steps": 92,
+      "family": "ambiguity",
+      "interval": {
+        "bounds": [
+          [
+            "1",
+            "1"
+          ],
+          [
+            "-1",
+            "1"
+          ]
+        ],
+        "cpu_seconds": 0.0,
+        "result": "stable"
+      },
+      "minimum": null,
+      "primary_id": "ambiguity-06",
+      "primary_index": 6,
+      "producer_counters": {
+        "augmentations": 18,
+        "edge_scans": 490,
+        "networks": 16,
+        "search_states": 122
+      },
+      "query_index": 18,
+      "random": {
+        "accepted": 64,
+        "attempts": 109,
+        "cpu_seconds": 0.0,
+        "observed_minimum": null,
+        "result": "unknown"
+      },
+      "seed": 271834,
+      "status": "stable"
+    },
+    {
+      "category": "ambiguity",
+      "certificate": {
+        "base_sample": [
+          0,
+          4
+        ],
+        "branches": [
+          {
+            "branch": [
+              0,
+              1,
+              4
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              5
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              6
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              7
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          }
+        ],
+        "case_id": "ambiguity-06-zero_floor",
+        "status": "stable"
+      },
+      "change": "zero_floor",
+      "checker_steps": 92,
+      "family": "ambiguity",
+      "interval": {
+        "bounds": [
+          [
+            "1",
+            "1"
+          ],
+          [
+            "18/19",
+            "1"
+          ]
+        ],
+        "cpu_seconds": 0.0,
+        "result": "stable"
+      },
+      "minimum": null,
+      "primary_id": "ambiguity-06",
+      "primary_index": 6,
+      "producer_counters": {
+        "augmentations": 12,
+        "edge_scans": 246,
+        "networks": 17,
+        "search_states": 71
+      },
+      "query_index": 19,
+      "random": {
+        "accepted": 64,
+        "attempts": 139,
+        "cpu_seconds": 0.0,
+        "observed_minimum": null,
+        "result": "unknown"
+      },
+      "seed": 271834,
+      "status": "stable"
+    },
+    {
+      "category": "ambiguity",
+      "certificate": {
+        "base_sample": [
+          0,
+          4
+        ],
+        "branches": [],
+        "case_id": "ambiguity-06-k2",
+        "status": "stable"
+      },
+      "change": "k2",
+      "checker_steps": 0,
+      "family": "ambiguity",
+      "interval": {
+        "bounds": [
+          [
+            "1",
+            "1"
+          ],
+          [
+            "18/19",
+            "1"
+          ]
+        ],
+        "cpu_seconds": 0.0,
+        "result": "stable"
+      },
+      "minimum": null,
+      "primary_id": "ambiguity-06",
+      "primary_index": 6,
+      "producer_counters": {
+        "augmentations": 12,
+        "edge_scans": 246,
+        "networks": 9,
+        "search_states": 71
+      },
+      "query_index": 20,
+      "random": {
+        "accepted": 64,
+        "attempts": 139,
+        "cpu_seconds": 0.0,
+        "observed_minimum": null,
+        "result": "unknown"
+      },
+      "seed": 271834,
+      "status": "stable"
+    },
+    {
+      "category": "ambiguity",
+      "certificate": {
+        "base_sample": [
+          0,
+          4
+        ],
+        "branches": [
+          {
+            "branch": [
+              0,
+              1,
+              4
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              5
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              6
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              7
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          }
+        ],
+        "case_id": "ambiguity-07-relax_b",
+        "status": "stable"
+      },
+      "change": "relax_b",
+      "checker_steps": 92,
+      "family": "ambiguity",
+      "interval": {
+        "bounds": [
+          [
+            "1",
+            "1"
+          ],
+          [
+            "-1",
+            "1"
+          ]
+        ],
+        "cpu_seconds": 0.0,
+        "result": "stable"
+      },
+      "minimum": null,
+      "primary_id": "ambiguity-07",
+      "primary_index": 7,
+      "producer_counters": {
+        "augmentations": 18,
+        "edge_scans": 490,
+        "networks": 16,
+        "search_states": 122
+      },
+      "query_index": 21,
+      "random": {
+        "accepted": 64,
+        "attempts": 118,
+        "cpu_seconds": 0.015625,
+        "observed_minimum": null,
+        "result": "unknown"
+      },
+      "seed": 271835,
+      "status": "stable"
+    },
+    {
+      "category": "ambiguity",
+      "certificate": {
+        "base_sample": [
+          0,
+          4
+        ],
+        "branches": [
+          {
+            "branch": [
+              0,
+              1,
+              4
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              5
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              6
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              7
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          }
+        ],
+        "case_id": "ambiguity-07-zero_floor",
+        "status": "stable"
+      },
+      "change": "zero_floor",
+      "checker_steps": 92,
+      "family": "ambiguity",
+      "interval": {
+        "bounds": [
+          [
+            "1",
+            "1"
+          ],
+          [
+            "18/19",
+            "1"
+          ]
+        ],
+        "cpu_seconds": 0.0,
+        "result": "stable"
+      },
+      "minimum": null,
+      "primary_id": "ambiguity-07",
+      "primary_index": 7,
+      "producer_counters": {
+        "augmentations": 12,
+        "edge_scans": 246,
+        "networks": 17,
+        "search_states": 71
+      },
+      "query_index": 22,
+      "random": {
+        "accepted": 64,
+        "attempts": 166,
+        "cpu_seconds": 0.0,
+        "observed_minimum": null,
+        "result": "unknown"
+      },
+      "seed": 271835,
+      "status": "stable"
+    },
+    {
+      "category": "ambiguity",
+      "certificate": {
+        "base_sample": [
+          0,
+          4
+        ],
+        "branches": [],
+        "case_id": "ambiguity-07-k2",
+        "status": "stable"
+      },
+      "change": "k2",
+      "checker_steps": 0,
+      "family": "ambiguity",
+      "interval": {
+        "bounds": [
+          [
+            "1",
+            "1"
+          ],
+          [
+            "18/19",
+            "1"
+          ]
+        ],
+        "cpu_seconds": 0.0,
+        "result": "stable"
+      },
+      "minimum": null,
+      "primary_id": "ambiguity-07",
+      "primary_index": 7,
+      "producer_counters": {
+        "augmentations": 12,
+        "edge_scans": 246,
+        "networks": 9,
+        "search_states": 71
+      },
+      "query_index": 23,
+      "random": {
+        "accepted": 64,
+        "attempts": 166,
+        "cpu_seconds": 0.0,
+        "observed_minimum": null,
+        "result": "unknown"
+      },
+      "seed": 271835,
+      "status": "stable"
+    },
+    {
+      "category": "ambiguity",
+      "certificate": {
+        "base_sample": [
+          0,
+          4
+        ],
+        "branches": [
+          {
+            "branch": [
+              0,
+              1,
+              4
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              5
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              6
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              7
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          }
+        ],
+        "case_id": "ambiguity-08-relax_b",
+        "status": "stable"
+      },
+      "change": "relax_b",
+      "checker_steps": 92,
+      "family": "ambiguity",
+      "interval": {
+        "bounds": [
+          [
+            "1",
+            "1"
+          ],
+          [
+            "-1",
+            "1"
+          ]
+        ],
+        "cpu_seconds": 0.0,
+        "result": "stable"
+      },
+      "minimum": null,
+      "primary_id": "ambiguity-08",
+      "primary_index": 8,
+      "producer_counters": {
+        "augmentations": 18,
+        "edge_scans": 490,
+        "networks": 16,
+        "search_states": 122
+      },
+      "query_index": 24,
+      "random": {
+        "accepted": 64,
+        "attempts": 119,
+        "cpu_seconds": 0.0,
+        "observed_minimum": null,
+        "result": "unknown"
+      },
+      "seed": 271836,
+      "status": "stable"
+    },
+    {
+      "category": "ambiguity",
+      "certificate": {
+        "base_sample": [
+          0,
+          4
+        ],
+        "branches": [
+          {
+            "branch": [
+              0,
+              1,
+              4
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              5
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              6
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              7
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          }
+        ],
+        "case_id": "ambiguity-08-zero_floor",
+        "status": "stable"
+      },
+      "change": "zero_floor",
+      "checker_steps": 92,
+      "family": "ambiguity",
+      "interval": {
+        "bounds": [
+          [
+            "1",
+            "1"
+          ],
+          [
+            "1",
+            "1"
+          ]
+        ],
+        "cpu_seconds": 0.0,
+        "result": "stable"
+      },
+      "minimum": null,
+      "primary_id": "ambiguity-08",
+      "primary_index": 8,
+      "producer_counters": {
+        "augmentations": 12,
+        "edge_scans": 241,
+        "networks": 17,
+        "search_states": 70
+      },
+      "query_index": 25,
+      "random": {
+        "accepted": 64,
+        "attempts": 154,
+        "cpu_seconds": 0.0,
+        "observed_minimum": null,
+        "result": "unknown"
+      },
+      "seed": 271836,
+      "status": "stable"
+    },
+    {
+      "category": "ambiguity",
+      "certificate": {
+        "base_sample": [
+          0,
+          4
+        ],
+        "branches": [],
+        "case_id": "ambiguity-08-k2",
+        "status": "stable"
+      },
+      "change": "k2",
+      "checker_steps": 0,
+      "family": "ambiguity",
+      "interval": {
+        "bounds": [
+          [
+            "1",
+            "1"
+          ],
+          [
+            "1",
+            "1"
+          ]
+        ],
+        "cpu_seconds": 0.0,
+        "result": "stable"
+      },
+      "minimum": null,
+      "primary_id": "ambiguity-08",
+      "primary_index": 8,
+      "producer_counters": {
+        "augmentations": 12,
+        "edge_scans": 241,
+        "networks": 9,
+        "search_states": 70
+      },
+      "query_index": 26,
+      "random": {
+        "accepted": 64,
+        "attempts": 154,
+        "cpu_seconds": 0.0,
+        "observed_minimum": null,
+        "result": "unknown"
+      },
+      "seed": 271836,
+      "status": "stable"
+    },
+    {
+      "category": "ambiguity",
+      "certificate": {
+        "base_sample": [
+          0,
+          4
+        ],
+        "branches": [
+          {
+            "branch": [
+              0,
+              1,
+              4
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              5
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              6
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              7
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          }
+        ],
+        "case_id": "ambiguity-09-relax_b",
+        "status": "stable"
+      },
+      "change": "relax_b",
+      "checker_steps": 92,
+      "family": "ambiguity",
+      "interval": {
+        "bounds": [
+          [
+            "1",
+            "1"
+          ],
+          [
+            "-1",
+            "1"
+          ]
+        ],
+        "cpu_seconds": 0.0,
+        "result": "stable"
+      },
+      "minimum": null,
+      "primary_id": "ambiguity-09",
+      "primary_index": 9,
+      "producer_counters": {
+        "augmentations": 18,
+        "edge_scans": 490,
+        "networks": 16,
+        "search_states": 122
+      },
+      "query_index": 27,
+      "random": {
+        "accepted": 64,
+        "attempts": 123,
+        "cpu_seconds": 0.0,
+        "observed_minimum": null,
+        "result": "unknown"
+      },
+      "seed": 271837,
+      "status": "stable"
+    },
+    {
+      "category": "ambiguity",
+      "certificate": {
+        "base_sample": [
+          0,
+          4
+        ],
+        "branches": [
+          {
+            "branch": [
+              0,
+              1,
+              4
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              5
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              6
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              7
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          }
+        ],
+        "case_id": "ambiguity-09-zero_floor",
+        "status": "stable"
+      },
+      "change": "zero_floor",
+      "checker_steps": 92,
+      "family": "ambiguity",
+      "interval": {
+        "bounds": [
+          [
+            "1",
+            "1"
+          ],
+          [
+            "1",
+            "1"
+          ]
+        ],
+        "cpu_seconds": 0.0,
+        "result": "stable"
+      },
+      "minimum": null,
+      "primary_id": "ambiguity-09",
+      "primary_index": 9,
+      "producer_counters": {
+        "augmentations": 12,
+        "edge_scans": 241,
+        "networks": 17,
+        "search_states": 70
+      },
+      "query_index": 28,
+      "random": {
+        "accepted": 64,
+        "attempts": 160,
+        "cpu_seconds": 0.015625,
+        "observed_minimum": null,
+        "result": "unknown"
+      },
+      "seed": 271837,
+      "status": "stable"
+    },
+    {
+      "category": "ambiguity",
+      "certificate": {
+        "base_sample": [
+          0,
+          4
+        ],
+        "branches": [],
+        "case_id": "ambiguity-09-k2",
+        "status": "stable"
+      },
+      "change": "k2",
+      "checker_steps": 0,
+      "family": "ambiguity",
+      "interval": {
+        "bounds": [
+          [
+            "1",
+            "1"
+          ],
+          [
+            "1",
+            "1"
+          ]
+        ],
+        "cpu_seconds": 0.0,
+        "result": "stable"
+      },
+      "minimum": null,
+      "primary_id": "ambiguity-09",
+      "primary_index": 9,
+      "producer_counters": {
+        "augmentations": 12,
+        "edge_scans": 241,
+        "networks": 9,
+        "search_states": 70
+      },
+      "query_index": 29,
+      "random": {
+        "accepted": 64,
+        "attempts": 160,
+        "cpu_seconds": 0.0,
+        "observed_minimum": null,
+        "result": "unknown"
+      },
+      "seed": 271837,
+      "status": "stable"
+    },
+    {
+      "category": "ambiguity",
+      "certificate": {
+        "base_sample": [
+          0,
+          4
+        ],
+        "branches": [
+          {
+            "branch": [
+              0,
+              1,
+              4
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              5
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              6
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              7
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          }
+        ],
+        "case_id": "ambiguity-10-relax_b",
+        "status": "stable"
+      },
+      "change": "relax_b",
+      "checker_steps": 92,
+      "family": "ambiguity",
+      "interval": {
+        "bounds": [
+          [
+            "1",
+            "1"
+          ],
+          [
+            "-1",
+            "1"
+          ]
+        ],
+        "cpu_seconds": 0.0,
+        "result": "stable"
+      },
+      "minimum": null,
+      "primary_id": "ambiguity-10",
+      "primary_index": 10,
+      "producer_counters": {
+        "augmentations": 18,
+        "edge_scans": 490,
+        "networks": 16,
+        "search_states": 122
+      },
+      "query_index": 30,
+      "random": {
+        "accepted": 64,
+        "attempts": 143,
+        "cpu_seconds": 0.0,
+        "observed_minimum": null,
+        "result": "unknown"
+      },
+      "seed": 271838,
+      "status": "stable"
+    },
+    {
+      "category": "ambiguity",
+      "certificate": {
+        "base_sample": [
+          0,
+          4
+        ],
+        "branches": [
+          {
+            "branch": [
+              0,
+              1,
+              4
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              5
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              6
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              7
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          }
+        ],
+        "case_id": "ambiguity-10-zero_floor",
+        "status": "stable"
+      },
+      "change": "zero_floor",
+      "checker_steps": 92,
+      "family": "ambiguity",
+      "interval": {
+        "bounds": [
+          [
+            "1",
+            "1"
+          ],
+          [
+            "1",
+            "1"
+          ]
+        ],
+        "cpu_seconds": 0.0,
+        "result": "stable"
+      },
+      "minimum": null,
+      "primary_id": "ambiguity-10",
+      "primary_index": 10,
+      "producer_counters": {
+        "augmentations": 12,
+        "edge_scans": 241,
+        "networks": 17,
+        "search_states": 70
+      },
+      "query_index": 31,
+      "random": {
+        "accepted": 64,
+        "attempts": 185,
+        "cpu_seconds": 0.0,
+        "observed_minimum": null,
+        "result": "unknown"
+      },
+      "seed": 271838,
+      "status": "stable"
+    },
+    {
+      "category": "ambiguity",
+      "certificate": {
+        "base_sample": [
+          0,
+          4
+        ],
+        "branches": [],
+        "case_id": "ambiguity-10-k2",
+        "status": "stable"
+      },
+      "change": "k2",
+      "checker_steps": 0,
+      "family": "ambiguity",
+      "interval": {
+        "bounds": [
+          [
+            "1",
+            "1"
+          ],
+          [
+            "1",
+            "1"
+          ]
+        ],
+        "cpu_seconds": 0.0,
+        "result": "stable"
+      },
+      "minimum": null,
+      "primary_id": "ambiguity-10",
+      "primary_index": 10,
+      "producer_counters": {
+        "augmentations": 12,
+        "edge_scans": 241,
+        "networks": 9,
+        "search_states": 70
+      },
+      "query_index": 32,
+      "random": {
+        "accepted": 64,
+        "attempts": 185,
+        "cpu_seconds": 0.0,
+        "observed_minimum": null,
+        "result": "unknown"
+      },
+      "seed": 271838,
+      "status": "stable"
+    },
+    {
+      "category": "ambiguity",
+      "certificate": {
+        "base_sample": [
+          0,
+          4
+        ],
+        "branches": [
+          {
+            "branch": [
+              0,
+              1,
+              4
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              5
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              6
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              7
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          }
+        ],
+        "case_id": "ambiguity-11-relax_b",
+        "status": "stable"
+      },
+      "change": "relax_b",
+      "checker_steps": 92,
+      "family": "ambiguity",
+      "interval": {
+        "bounds": [
+          [
+            "1",
+            "1"
+          ],
+          [
+            "-1",
+            "1"
+          ]
+        ],
+        "cpu_seconds": 0.0,
+        "result": "stable"
+      },
+      "minimum": null,
+      "primary_id": "ambiguity-11",
+      "primary_index": 11,
+      "producer_counters": {
+        "augmentations": 18,
+        "edge_scans": 490,
+        "networks": 16,
+        "search_states": 122
+      },
+      "query_index": 33,
+      "random": {
+        "accepted": 64,
+        "attempts": 142,
+        "cpu_seconds": 0.0,
+        "observed_minimum": null,
+        "result": "unknown"
+      },
+      "seed": 271839,
+      "status": "stable"
+    },
+    {
+      "category": "ambiguity",
+      "certificate": {
+        "base_sample": [
+          0,
+          4
+        ],
+        "branches": [
+          {
+            "branch": [
+              0,
+              1,
+              4
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              5
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              6
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              7
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          }
+        ],
+        "case_id": "ambiguity-11-zero_floor",
+        "status": "stable"
+      },
+      "change": "zero_floor",
+      "checker_steps": 92,
+      "family": "ambiguity",
+      "interval": {
+        "bounds": [
+          [
+            "1",
+            "1"
+          ],
+          [
+            "1",
+            "1"
+          ]
+        ],
+        "cpu_seconds": 0.0,
+        "result": "stable"
+      },
+      "minimum": null,
+      "primary_id": "ambiguity-11",
+      "primary_index": 11,
+      "producer_counters": {
+        "augmentations": 12,
+        "edge_scans": 241,
+        "networks": 17,
+        "search_states": 70
+      },
+      "query_index": 34,
+      "random": {
+        "accepted": 64,
+        "attempts": 171,
+        "cpu_seconds": 0.0,
+        "observed_minimum": null,
+        "result": "unknown"
+      },
+      "seed": 271839,
+      "status": "stable"
+    },
+    {
+      "category": "ambiguity",
+      "certificate": {
+        "base_sample": [
+          0,
+          4
+        ],
+        "branches": [],
+        "case_id": "ambiguity-11-k2",
+        "status": "stable"
+      },
+      "change": "k2",
+      "checker_steps": 0,
+      "family": "ambiguity",
+      "interval": {
+        "bounds": [
+          [
+            "1",
+            "1"
+          ],
+          [
+            "1",
+            "1"
+          ]
+        ],
+        "cpu_seconds": 0.0,
+        "result": "stable"
+      },
+      "minimum": null,
+      "primary_id": "ambiguity-11",
+      "primary_index": 11,
+      "producer_counters": {
+        "augmentations": 12,
+        "edge_scans": 241,
+        "networks": 9,
+        "search_states": 70
+      },
+      "query_index": 35,
+      "random": {
+        "accepted": 64,
+        "attempts": 171,
+        "cpu_seconds": 0.015625,
+        "observed_minimum": null,
+        "result": "unknown"
+      },
+      "seed": 271839,
+      "status": "stable"
+    },
+    {
+      "category": "ambiguity",
+      "certificate": {
+        "base_sample": [
+          0,
+          4
+        ],
+        "branches": [
+          {
+            "branch": [
+              0,
+              1,
+              4
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              5
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              6
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              7
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          }
+        ],
+        "case_id": "ambiguity-12-relax_b",
+        "status": "stable"
+      },
+      "change": "relax_b",
+      "checker_steps": 92,
+      "family": "ambiguity",
+      "interval": {
+        "bounds": [
+          [
+            "1",
+            "1"
+          ],
+          [
+            "-1",
+            "1"
+          ]
+        ],
+        "cpu_seconds": 0.0,
+        "result": "stable"
+      },
+      "minimum": null,
+      "primary_id": "ambiguity-12",
+      "primary_index": 12,
+      "producer_counters": {
+        "augmentations": 18,
+        "edge_scans": 490,
+        "networks": 16,
+        "search_states": 122
+      },
+      "query_index": 36,
+      "random": {
+        "accepted": 64,
+        "attempts": 143,
+        "cpu_seconds": 0.0,
+        "observed_minimum": null,
+        "result": "unknown"
+      },
+      "seed": 271840,
+      "status": "stable"
+    },
+    {
+      "category": "ambiguity",
+      "certificate": {
+        "base_sample": [
+          0,
+          4
+        ],
+        "branches": [
+          {
+            "branch": [
+              0,
+              1,
+              4
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              5
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              6
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              7
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          }
+        ],
+        "case_id": "ambiguity-12-zero_floor",
+        "status": "stable"
+      },
+      "change": "zero_floor",
+      "checker_steps": 92,
+      "family": "ambiguity",
+      "interval": {
+        "bounds": [
+          [
+            "1",
+            "1"
+          ],
+          [
+            "1",
+            "1"
+          ]
+        ],
+        "cpu_seconds": 0.0,
+        "result": "stable"
+      },
+      "minimum": null,
+      "primary_id": "ambiguity-12",
+      "primary_index": 12,
+      "producer_counters": {
+        "augmentations": 12,
+        "edge_scans": 241,
+        "networks": 17,
+        "search_states": 70
+      },
+      "query_index": 37,
+      "random": {
+        "accepted": 64,
+        "attempts": 169,
+        "cpu_seconds": 0.0,
+        "observed_minimum": null,
+        "result": "unknown"
+      },
+      "seed": 271840,
+      "status": "stable"
+    },
+    {
+      "category": "ambiguity",
+      "certificate": {
+        "base_sample": [
+          0,
+          4
+        ],
+        "branches": [],
+        "case_id": "ambiguity-12-k2",
+        "status": "stable"
+      },
+      "change": "k2",
+      "checker_steps": 0,
+      "family": "ambiguity",
+      "interval": {
+        "bounds": [
+          [
+            "1",
+            "1"
+          ],
+          [
+            "1",
+            "1"
+          ]
+        ],
+        "cpu_seconds": 0.0,
+        "result": "stable"
+      },
+      "minimum": null,
+      "primary_id": "ambiguity-12",
+      "primary_index": 12,
+      "producer_counters": {
+        "augmentations": 12,
+        "edge_scans": 241,
+        "networks": 9,
+        "search_states": 70
+      },
+      "query_index": 38,
+      "random": {
+        "accepted": 64,
+        "attempts": 169,
+        "cpu_seconds": 0.0,
+        "observed_minimum": null,
+        "result": "unknown"
+      },
+      "seed": 271840,
+      "status": "stable"
+    },
+    {
+      "category": "ambiguity",
+      "certificate": {
+        "base_sample": [
+          0,
+          4
+        ],
+        "branches": [
+          {
+            "branch": [
+              0,
+              1,
+              4
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              5
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              6
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              7
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          }
+        ],
+        "case_id": "ambiguity-13-relax_b",
+        "status": "stable"
+      },
+      "change": "relax_b",
+      "checker_steps": 92,
+      "family": "ambiguity",
+      "interval": {
+        "bounds": [
+          [
+            "1",
+            "1"
+          ],
+          [
+            "-1",
+            "1"
+          ]
+        ],
+        "cpu_seconds": 0.0,
+        "result": "stable"
+      },
+      "minimum": null,
+      "primary_id": "ambiguity-13",
+      "primary_index": 13,
+      "producer_counters": {
+        "augmentations": 18,
+        "edge_scans": 490,
+        "networks": 16,
+        "search_states": 122
+      },
+      "query_index": 39,
+      "random": {
+        "accepted": 64,
+        "attempts": 139,
+        "cpu_seconds": 0.0,
+        "observed_minimum": null,
+        "result": "unknown"
+      },
+      "seed": 271841,
+      "status": "stable"
+    },
+    {
+      "category": "ambiguity",
+      "certificate": {
+        "base_sample": [
+          0,
+          4
+        ],
+        "branches": [
+          {
+            "branch": [
+              0,
+              1,
+              4
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              5
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              6
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              7
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          }
+        ],
+        "case_id": "ambiguity-13-zero_floor",
+        "status": "stable"
+      },
+      "change": "zero_floor",
+      "checker_steps": 92,
+      "family": "ambiguity",
+      "interval": {
+        "bounds": [
+          [
+            "1",
+            "1"
+          ],
+          [
+            "1",
+            "1"
+          ]
+        ],
+        "cpu_seconds": 0.0,
+        "result": "stable"
+      },
+      "minimum": null,
+      "primary_id": "ambiguity-13",
+      "primary_index": 13,
+      "producer_counters": {
+        "augmentations": 12,
+        "edge_scans": 241,
+        "networks": 17,
+        "search_states": 70
+      },
+      "query_index": 40,
+      "random": {
+        "accepted": 64,
+        "attempts": 168,
+        "cpu_seconds": 0.0,
+        "observed_minimum": null,
+        "result": "unknown"
+      },
+      "seed": 271841,
+      "status": "stable"
+    },
+    {
+      "category": "ambiguity",
+      "certificate": {
+        "base_sample": [
+          0,
+          4
+        ],
+        "branches": [],
+        "case_id": "ambiguity-13-k2",
+        "status": "stable"
+      },
+      "change": "k2",
+      "checker_steps": 0,
+      "family": "ambiguity",
+      "interval": {
+        "bounds": [
+          [
+            "1",
+            "1"
+          ],
+          [
+            "1",
+            "1"
+          ]
+        ],
+        "cpu_seconds": 0.0,
+        "result": "stable"
+      },
+      "minimum": null,
+      "primary_id": "ambiguity-13",
+      "primary_index": 13,
+      "producer_counters": {
+        "augmentations": 12,
+        "edge_scans": 241,
+        "networks": 9,
+        "search_states": 70
+      },
+      "query_index": 41,
+      "random": {
+        "accepted": 64,
+        "attempts": 168,
+        "cpu_seconds": 0.0,
+        "observed_minimum": null,
+        "result": "unknown"
+      },
+      "seed": 271841,
+      "status": "stable"
+    },
+    {
+      "category": "ambiguity",
+      "certificate": {
+        "base_sample": [
+          0,
+          4
+        ],
+        "branches": [
+          {
+            "branch": [
+              0,
+              1,
+              4
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              5
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              6
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              7
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          }
+        ],
+        "case_id": "ambiguity-14-relax_b",
+        "status": "stable"
+      },
+      "change": "relax_b",
+      "checker_steps": 92,
+      "family": "ambiguity",
+      "interval": {
+        "bounds": [
+          [
+            "1",
+            "1"
+          ],
+          [
+            "-1",
+            "1"
+          ]
+        ],
+        "cpu_seconds": 0.0,
+        "result": "stable"
+      },
+      "minimum": null,
+      "primary_id": "ambiguity-14",
+      "primary_index": 14,
+      "producer_counters": {
+        "augmentations": 18,
+        "edge_scans": 490,
+        "networks": 16,
+        "search_states": 122
+      },
+      "query_index": 42,
+      "random": {
+        "accepted": 64,
+        "attempts": 135,
+        "cpu_seconds": 0.015625,
+        "observed_minimum": null,
+        "result": "unknown"
+      },
+      "seed": 271842,
+      "status": "stable"
+    },
+    {
+      "category": "ambiguity",
+      "certificate": {
+        "base_sample": [
+          0,
+          4
+        ],
+        "branches": [
+          {
+            "branch": [
+              0,
+              1,
+              4
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              5
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              6
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              7
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          }
+        ],
+        "case_id": "ambiguity-14-zero_floor",
+        "status": "stable"
+      },
+      "change": "zero_floor",
+      "checker_steps": 92,
+      "family": "ambiguity",
+      "interval": {
+        "bounds": [
+          [
+            "1",
+            "1"
+          ],
+          [
+            "1",
+            "1"
+          ]
+        ],
+        "cpu_seconds": 0.0,
+        "result": "stable"
+      },
+      "minimum": null,
+      "primary_id": "ambiguity-14",
+      "primary_index": 14,
+      "producer_counters": {
+        "augmentations": 12,
+        "edge_scans": 241,
+        "networks": 17,
+        "search_states": 70
+      },
+      "query_index": 43,
+      "random": {
+        "accepted": 64,
+        "attempts": 177,
+        "cpu_seconds": 0.0,
+        "observed_minimum": null,
+        "result": "unknown"
+      },
+      "seed": 271842,
+      "status": "stable"
+    },
+    {
+      "category": "ambiguity",
+      "certificate": {
+        "base_sample": [
+          0,
+          4
+        ],
+        "branches": [],
+        "case_id": "ambiguity-14-k2",
+        "status": "stable"
+      },
+      "change": "k2",
+      "checker_steps": 0,
+      "family": "ambiguity",
+      "interval": {
+        "bounds": [
+          [
+            "1",
+            "1"
+          ],
+          [
+            "1",
+            "1"
+          ]
+        ],
+        "cpu_seconds": 0.0,
+        "result": "stable"
+      },
+      "minimum": null,
+      "primary_id": "ambiguity-14",
+      "primary_index": 14,
+      "producer_counters": {
+        "augmentations": 12,
+        "edge_scans": 241,
+        "networks": 9,
+        "search_states": 70
+      },
+      "query_index": 44,
+      "random": {
+        "accepted": 64,
+        "attempts": 177,
+        "cpu_seconds": 0.0,
+        "observed_minimum": null,
+        "result": "unknown"
+      },
+      "seed": 271842,
+      "status": "stable"
+    },
+    {
+      "category": "ambiguity",
+      "certificate": {
+        "base_sample": [
+          0,
+          4
+        ],
+        "branches": [
+          {
+            "branch": [
+              0,
+              1,
+              4
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              5
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              6
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              7
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          }
+        ],
+        "case_id": "ambiguity-15-relax_b",
+        "status": "stable"
+      },
+      "change": "relax_b",
+      "checker_steps": 92,
+      "family": "ambiguity",
+      "interval": {
+        "bounds": [
+          [
+            "1",
+            "1"
+          ],
+          [
+            "-1",
+            "1"
+          ]
+        ],
+        "cpu_seconds": 0.0,
+        "result": "stable"
+      },
+      "minimum": null,
+      "primary_id": "ambiguity-15",
+      "primary_index": 15,
+      "producer_counters": {
+        "augmentations": 18,
+        "edge_scans": 490,
+        "networks": 16,
+        "search_states": 122
+      },
+      "query_index": 45,
+      "random": {
+        "accepted": 64,
+        "attempts": 139,
+        "cpu_seconds": 0.0,
+        "observed_minimum": null,
+        "result": "unknown"
+      },
+      "seed": 271843,
+      "status": "stable"
+    },
+    {
+      "category": "ambiguity",
+      "certificate": {
+        "base_sample": [
+          0,
+          4
+        ],
+        "branches": [
+          {
+            "branch": [
+              0,
+              1,
+              4
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              5
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              6
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              7
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          }
+        ],
+        "case_id": "ambiguity-15-zero_floor",
+        "status": "stable"
+      },
+      "change": "zero_floor",
+      "checker_steps": 92,
+      "family": "ambiguity",
+      "interval": {
+        "bounds": [
+          [
+            "1",
+            "1"
+          ],
+          [
+            "1",
+            "1"
+          ]
+        ],
+        "cpu_seconds": 0.0,
+        "result": "stable"
+      },
+      "minimum": null,
+      "primary_id": "ambiguity-15",
+      "primary_index": 15,
+      "producer_counters": {
+        "augmentations": 12,
+        "edge_scans": 241,
+        "networks": 17,
+        "search_states": 70
+      },
+      "query_index": 46,
+      "random": {
+        "accepted": 64,
+        "attempts": 181,
+        "cpu_seconds": 0.0,
+        "observed_minimum": null,
+        "result": "unknown"
+      },
+      "seed": 271843,
+      "status": "stable"
+    },
+    {
+      "category": "ambiguity",
+      "certificate": {
+        "base_sample": [
+          0,
+          4
+        ],
+        "branches": [],
+        "case_id": "ambiguity-15-k2",
+        "status": "stable"
+      },
+      "change": "k2",
+      "checker_steps": 0,
+      "family": "ambiguity",
+      "interval": {
+        "bounds": [
+          [
+            "1",
+            "1"
+          ],
+          [
+            "1",
+            "1"
+          ]
+        ],
+        "cpu_seconds": 0.0,
+        "result": "stable"
+      },
+      "minimum": null,
+      "primary_id": "ambiguity-15",
+      "primary_index": 15,
+      "producer_counters": {
+        "augmentations": 12,
+        "edge_scans": 241,
+        "networks": 9,
+        "search_states": 70
+      },
+      "query_index": 47,
+      "random": {
+        "accepted": 64,
+        "attempts": 181,
+        "cpu_seconds": 0.0,
+        "observed_minimum": null,
+        "result": "unknown"
+      },
+      "seed": 271843,
+      "status": "stable"
+    },
+    {
+      "category": "ambiguity",
+      "certificate": {
+        "base_sample": [
+          0,
+          4
+        ],
+        "branches": [
+          {
+            "branch": [
+              0,
+              1,
+              4
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              5
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              6
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              7
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          }
+        ],
+        "case_id": "ambiguity-16-relax_b",
+        "status": "stable"
+      },
+      "change": "relax_b",
+      "checker_steps": 92,
+      "family": "ambiguity",
+      "interval": {
+        "bounds": [
+          [
+            "1",
+            "1"
+          ],
+          [
+            "-1",
+            "1"
+          ]
+        ],
+        "cpu_seconds": 0.0,
+        "result": "stable"
+      },
+      "minimum": null,
+      "primary_id": "ambiguity-16",
+      "primary_index": 16,
+      "producer_counters": {
+        "augmentations": 18,
+        "edge_scans": 490,
+        "networks": 16,
+        "search_states": 122
+      },
+      "query_index": 48,
+      "random": {
+        "accepted": 64,
+        "attempts": 146,
+        "cpu_seconds": 0.0,
+        "observed_minimum": null,
+        "result": "unknown"
+      },
+      "seed": 271844,
+      "status": "stable"
+    },
+    {
+      "category": "ambiguity",
+      "certificate": {
+        "base_sample": [
+          0,
+          4
+        ],
+        "branches": [
+          {
+            "branch": [
+              0,
+              1,
+              4
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              5
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              6
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              7
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          }
+        ],
+        "case_id": "ambiguity-16-zero_floor",
+        "status": "stable"
+      },
+      "change": "zero_floor",
+      "checker_steps": 92,
+      "family": "ambiguity",
+      "interval": {
+        "bounds": [
+          [
+            "1",
+            "1"
+          ],
+          [
+            "1",
+            "1"
+          ]
+        ],
+        "cpu_seconds": 0.0,
+        "result": "stable"
+      },
+      "minimum": null,
+      "primary_id": "ambiguity-16",
+      "primary_index": 16,
+      "producer_counters": {
+        "augmentations": 12,
+        "edge_scans": 241,
+        "networks": 17,
+        "search_states": 70
+      },
+      "query_index": 49,
+      "random": {
+        "accepted": 64,
+        "attempts": 187,
+        "cpu_seconds": 0.015625,
+        "observed_minimum": null,
+        "result": "unknown"
+      },
+      "seed": 271844,
+      "status": "stable"
+    },
+    {
+      "category": "ambiguity",
+      "certificate": {
+        "base_sample": [
+          0,
+          4
+        ],
+        "branches": [],
+        "case_id": "ambiguity-16-k2",
+        "status": "stable"
+      },
+      "change": "k2",
+      "checker_steps": 0,
+      "family": "ambiguity",
+      "interval": {
+        "bounds": [
+          [
+            "1",
+            "1"
+          ],
+          [
+            "1",
+            "1"
+          ]
+        ],
+        "cpu_seconds": 0.0,
+        "result": "stable"
+      },
+      "minimum": null,
+      "primary_id": "ambiguity-16",
+      "primary_index": 16,
+      "producer_counters": {
+        "augmentations": 12,
+        "edge_scans": 241,
+        "networks": 9,
+        "search_states": 70
+      },
+      "query_index": 50,
+      "random": {
+        "accepted": 64,
+        "attempts": 187,
+        "cpu_seconds": 0.0,
+        "observed_minimum": null,
+        "result": "unknown"
+      },
+      "seed": 271844,
+      "status": "stable"
+    },
+    {
+      "category": "ambiguity",
+      "certificate": {
+        "base_sample": [
+          0,
+          4
+        ],
+        "branches": [
+          {
+            "branch": [
+              0,
+              1,
+              4
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              5
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              6
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              7
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          }
+        ],
+        "case_id": "ambiguity-17-relax_b",
+        "status": "stable"
+      },
+      "change": "relax_b",
+      "checker_steps": 92,
+      "family": "ambiguity",
+      "interval": {
+        "bounds": [
+          [
+            "1",
+            "1"
+          ],
+          [
+            "-1",
+            "1"
+          ]
+        ],
+        "cpu_seconds": 0.0,
+        "result": "stable"
+      },
+      "minimum": null,
+      "primary_id": "ambiguity-17",
+      "primary_index": 17,
+      "producer_counters": {
+        "augmentations": 18,
+        "edge_scans": 490,
+        "networks": 16,
+        "search_states": 122
+      },
+      "query_index": 51,
+      "random": {
+        "accepted": 64,
+        "attempts": 133,
+        "cpu_seconds": 0.0,
+        "observed_minimum": null,
+        "result": "unknown"
+      },
+      "seed": 271845,
+      "status": "stable"
+    },
+    {
+      "category": "ambiguity",
+      "certificate": {
+        "base_sample": [
+          0,
+          4
+        ],
+        "branches": [
+          {
+            "branch": [
+              0,
+              1,
+              4
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              5
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              6
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              7
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          }
+        ],
+        "case_id": "ambiguity-17-zero_floor",
+        "status": "stable"
+      },
+      "change": "zero_floor",
+      "checker_steps": 92,
+      "family": "ambiguity",
+      "interval": {
+        "bounds": [
+          [
+            "1",
+            "1"
+          ],
+          [
+            "1",
+            "1"
+          ]
+        ],
+        "cpu_seconds": 0.0,
+        "result": "stable"
+      },
+      "minimum": null,
+      "primary_id": "ambiguity-17",
+      "primary_index": 17,
+      "producer_counters": {
+        "augmentations": 12,
+        "edge_scans": 241,
+        "networks": 17,
+        "search_states": 70
+      },
+      "query_index": 52,
+      "random": {
+        "accepted": 64,
+        "attempts": 168,
+        "cpu_seconds": 0.0,
+        "observed_minimum": null,
+        "result": "unknown"
+      },
+      "seed": 271845,
+      "status": "stable"
+    },
+    {
+      "category": "ambiguity",
+      "certificate": {
+        "base_sample": [
+          0,
+          4
+        ],
+        "branches": [],
+        "case_id": "ambiguity-17-k2",
+        "status": "stable"
+      },
+      "change": "k2",
+      "checker_steps": 0,
+      "family": "ambiguity",
+      "interval": {
+        "bounds": [
+          [
+            "1",
+            "1"
+          ],
+          [
+            "1",
+            "1"
+          ]
+        ],
+        "cpu_seconds": 0.0,
+        "result": "stable"
+      },
+      "minimum": null,
+      "primary_id": "ambiguity-17",
+      "primary_index": 17,
+      "producer_counters": {
+        "augmentations": 12,
+        "edge_scans": 241,
+        "networks": 9,
+        "search_states": 70
+      },
+      "query_index": 53,
+      "random": {
+        "accepted": 64,
+        "attempts": 168,
+        "cpu_seconds": 0.0,
+        "observed_minimum": null,
+        "result": "unknown"
+      },
+      "seed": 271845,
+      "status": "stable"
+    },
+    {
+      "category": "ambiguity",
+      "certificate": {
+        "base_sample": [
+          0,
+          4
+        ],
+        "branches": [
+          {
+            "branch": [
+              0,
+              1,
+              4
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              5
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              6
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              7
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          }
+        ],
+        "case_id": "ambiguity-18-relax_b",
+        "status": "stable"
+      },
+      "change": "relax_b",
+      "checker_steps": 92,
+      "family": "ambiguity",
+      "interval": {
+        "bounds": [
+          [
+            "1",
+            "1"
+          ],
+          [
+            "-1",
+            "1"
+          ]
+        ],
+        "cpu_seconds": 0.0,
+        "result": "stable"
+      },
+      "minimum": null,
+      "primary_id": "ambiguity-18",
+      "primary_index": 18,
+      "producer_counters": {
+        "augmentations": 18,
+        "edge_scans": 490,
+        "networks": 15,
+        "search_states": 122
+      },
+      "query_index": 54,
+      "random": {
+        "accepted": 64,
+        "attempts": 113,
+        "cpu_seconds": 0.0,
+        "observed_minimum": null,
+        "result": "unknown"
+      },
+      "seed": 271846,
+      "status": "stable"
+    },
+    {
+      "category": "ambiguity",
+      "certificate": {
+        "base_sample": [
+          0,
+          4
+        ],
+        "branches": [
+          {
+            "branch": [
+              0,
+              1,
+              4
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              5
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              6
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              7
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          }
+        ],
+        "case_id": "ambiguity-18-zero_floor",
+        "status": "stable"
+      },
+      "change": "zero_floor",
+      "checker_steps": 92,
+      "family": "ambiguity",
+      "interval": {
+        "bounds": [
+          [
+            "1",
+            "1"
+          ],
+          [
+            "1",
+            "1"
+          ]
+        ],
+        "cpu_seconds": 0.0,
+        "result": "stable"
+      },
+      "minimum": null,
+      "primary_id": "ambiguity-18",
+      "primary_index": 18,
+      "producer_counters": {
+        "augmentations": 12,
+        "edge_scans": 241,
+        "networks": 16,
+        "search_states": 70
+      },
+      "query_index": 55,
+      "random": {
+        "accepted": 64,
+        "attempts": 165,
+        "cpu_seconds": 0.0,
+        "observed_minimum": null,
+        "result": "unknown"
+      },
+      "seed": 271846,
+      "status": "stable"
+    },
+    {
+      "category": "ambiguity",
+      "certificate": {
+        "base_sample": [
+          0,
+          4
+        ],
+        "branches": [],
+        "case_id": "ambiguity-18-k2",
+        "status": "stable"
+      },
+      "change": "k2",
+      "checker_steps": 0,
+      "family": "ambiguity",
+      "interval": {
+        "bounds": [
+          [
+            "1",
+            "1"
+          ],
+          [
+            "1",
+            "1"
+          ]
+        ],
+        "cpu_seconds": 0.0,
+        "result": "stable"
+      },
+      "minimum": null,
+      "primary_id": "ambiguity-18",
+      "primary_index": 18,
+      "producer_counters": {
+        "augmentations": 12,
+        "edge_scans": 241,
+        "networks": 8,
+        "search_states": 70
+      },
+      "query_index": 56,
+      "random": {
+        "accepted": 64,
+        "attempts": 165,
+        "cpu_seconds": 0.015625,
+        "observed_minimum": null,
+        "result": "unknown"
+      },
+      "seed": 271846,
+      "status": "stable"
+    },
+    {
+      "category": "ambiguity",
+      "certificate": {
+        "base_sample": [
+          0,
+          4
+        ],
+        "branches": [
+          {
+            "branch": [
+              0,
+              1,
+              4
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              5
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              6
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              7
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          }
+        ],
+        "case_id": "ambiguity-19-relax_b",
+        "status": "stable"
+      },
+      "change": "relax_b",
+      "checker_steps": 92,
+      "family": "ambiguity",
+      "interval": {
+        "bounds": [
+          [
+            "1",
+            "1"
+          ],
+          [
+            "-1",
+            "1"
+          ]
+        ],
+        "cpu_seconds": 0.0,
+        "result": "stable"
+      },
+      "minimum": null,
+      "primary_id": "ambiguity-19",
+      "primary_index": 19,
+      "producer_counters": {
+        "augmentations": 18,
+        "edge_scans": 490,
+        "networks": 15,
+        "search_states": 122
+      },
+      "query_index": 57,
+      "random": {
+        "accepted": 64,
+        "attempts": 124,
+        "cpu_seconds": 0.0,
+        "observed_minimum": null,
+        "result": "unknown"
+      },
+      "seed": 271847,
+      "status": "stable"
+    },
+    {
+      "category": "ambiguity",
+      "certificate": {
+        "base_sample": [
+          0,
+          4
+        ],
+        "branches": [
+          {
+            "branch": [
+              0,
+              1,
+              4
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              5
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              6
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              7
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          }
+        ],
+        "case_id": "ambiguity-19-zero_floor",
+        "status": "stable"
+      },
+      "change": "zero_floor",
+      "checker_steps": 92,
+      "family": "ambiguity",
+      "interval": {
+        "bounds": [
+          [
+            "1",
+            "1"
+          ],
+          [
+            "1",
+            "1"
+          ]
+        ],
+        "cpu_seconds": 0.0,
+        "result": "stable"
+      },
+      "minimum": null,
+      "primary_id": "ambiguity-19",
+      "primary_index": 19,
+      "producer_counters": {
+        "augmentations": 12,
+        "edge_scans": 241,
+        "networks": 16,
+        "search_states": 70
+      },
+      "query_index": 58,
+      "random": {
+        "accepted": 64,
+        "attempts": 173,
+        "cpu_seconds": 0.0,
+        "observed_minimum": null,
+        "result": "unknown"
+      },
+      "seed": 271847,
+      "status": "stable"
+    },
+    {
+      "category": "ambiguity",
+      "certificate": {
+        "base_sample": [
+          0,
+          4
+        ],
+        "branches": [],
+        "case_id": "ambiguity-19-k2",
+        "status": "stable"
+      },
+      "change": "k2",
+      "checker_steps": 0,
+      "family": "ambiguity",
+      "interval": {
+        "bounds": [
+          [
+            "1",
+            "1"
+          ],
+          [
+            "1",
+            "1"
+          ]
+        ],
+        "cpu_seconds": 0.0,
+        "result": "stable"
+      },
+      "minimum": null,
+      "primary_id": "ambiguity-19",
+      "primary_index": 19,
+      "producer_counters": {
+        "augmentations": 12,
+        "edge_scans": 241,
+        "networks": 8,
+        "search_states": 70
+      },
+      "query_index": 59,
+      "random": {
+        "accepted": 64,
+        "attempts": 173,
+        "cpu_seconds": 0.0,
+        "observed_minimum": null,
+        "result": "unknown"
+      },
+      "seed": 271847,
+      "status": "stable"
+    },
+    {
+      "category": "ambiguity",
+      "certificate": {
+        "base_sample": [
+          0,
+          4
+        ],
+        "branches": [
+          {
+            "branch": [
+              0,
+              1,
+              4
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              5
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              6
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              7
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          }
+        ],
+        "case_id": "ambiguity-20-relax_b",
+        "status": "stable"
+      },
+      "change": "relax_b",
+      "checker_steps": 92,
+      "family": "ambiguity",
+      "interval": {
+        "bounds": [
+          [
+            "1",
+            "1"
+          ],
+          [
+            "-1",
+            "1"
+          ]
+        ],
+        "cpu_seconds": 0.0,
+        "result": "stable"
+      },
+      "minimum": null,
+      "primary_id": "ambiguity-20",
+      "primary_index": 20,
+      "producer_counters": {
+        "augmentations": 18,
+        "edge_scans": 490,
+        "networks": 15,
+        "search_states": 122
+      },
+      "query_index": 60,
+      "random": {
+        "accepted": 64,
+        "attempts": 148,
+        "cpu_seconds": 0.0,
+        "observed_minimum": null,
+        "result": "unknown"
+      },
+      "seed": 271848,
+      "status": "stable"
+    },
+    {
+      "category": "ambiguity",
+      "certificate": {
+        "base_sample": [
+          0,
+          4
+        ],
+        "branches": [
+          {
+            "branch": [
+              0,
+              1,
+              4
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              5
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              6
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              7
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          }
+        ],
+        "case_id": "ambiguity-20-zero_floor",
+        "status": "stable"
+      },
+      "change": "zero_floor",
+      "checker_steps": 92,
+      "family": "ambiguity",
+      "interval": {
+        "bounds": [
+          [
+            "1",
+            "1"
+          ],
+          [
+            "1",
+            "1"
+          ]
+        ],
+        "cpu_seconds": 0.0,
+        "result": "stable"
+      },
+      "minimum": null,
+      "primary_id": "ambiguity-20",
+      "primary_index": 20,
+      "producer_counters": {
+        "augmentations": 12,
+        "edge_scans": 241,
+        "networks": 16,
+        "search_states": 70
+      },
+      "query_index": 61,
+      "random": {
+        "accepted": 64,
+        "attempts": 193,
+        "cpu_seconds": 0.0,
+        "observed_minimum": null,
+        "result": "unknown"
+      },
+      "seed": 271848,
+      "status": "stable"
+    },
+    {
+      "category": "ambiguity",
+      "certificate": {
+        "base_sample": [
+          0,
+          4
+        ],
+        "branches": [],
+        "case_id": "ambiguity-20-k2",
+        "status": "stable"
+      },
+      "change": "k2",
+      "checker_steps": 0,
+      "family": "ambiguity",
+      "interval": {
+        "bounds": [
+          [
+            "1",
+            "1"
+          ],
+          [
+            "1",
+            "1"
+          ]
+        ],
+        "cpu_seconds": 0.0,
+        "result": "stable"
+      },
+      "minimum": null,
+      "primary_id": "ambiguity-20",
+      "primary_index": 20,
+      "producer_counters": {
+        "augmentations": 12,
+        "edge_scans": 241,
+        "networks": 8,
+        "search_states": 70
+      },
+      "query_index": 62,
+      "random": {
+        "accepted": 64,
+        "attempts": 193,
+        "cpu_seconds": 0.0,
+        "observed_minimum": null,
+        "result": "unknown"
+      },
+      "seed": 271848,
+      "status": "stable"
+    },
+    {
+      "category": "ambiguity",
+      "certificate": {
+        "base_sample": [
+          0,
+          4
+        ],
+        "branches": [
+          {
+            "branch": [
+              0,
+              1,
+              4
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              5
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              6
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              7
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          }
+        ],
+        "case_id": "ambiguity-21-relax_b",
+        "status": "stable"
+      },
+      "change": "relax_b",
+      "checker_steps": 92,
+      "family": "ambiguity",
+      "interval": {
+        "bounds": [
+          [
+            "1",
+            "1"
+          ],
+          [
+            "-1",
+            "1"
+          ]
+        ],
+        "cpu_seconds": 0.0,
+        "result": "stable"
+      },
+      "minimum": null,
+      "primary_id": "ambiguity-21",
+      "primary_index": 21,
+      "producer_counters": {
+        "augmentations": 18,
+        "edge_scans": 490,
+        "networks": 15,
+        "search_states": 122
+      },
+      "query_index": 63,
+      "random": {
+        "accepted": 64,
+        "attempts": 113,
+        "cpu_seconds": 0.015625,
+        "observed_minimum": null,
+        "result": "unknown"
+      },
+      "seed": 271849,
+      "status": "stable"
+    },
+    {
+      "category": "ambiguity",
+      "certificate": {
+        "base_sample": [
+          0,
+          4
+        ],
+        "branches": [
+          {
+            "branch": [
+              0,
+              1,
+              4
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              5
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              6
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              7
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          }
+        ],
+        "case_id": "ambiguity-21-zero_floor",
+        "status": "stable"
+      },
+      "change": "zero_floor",
+      "checker_steps": 92,
+      "family": "ambiguity",
+      "interval": {
+        "bounds": [
+          [
+            "1",
+            "1"
+          ],
+          [
+            "1",
+            "1"
+          ]
+        ],
+        "cpu_seconds": 0.0,
+        "result": "stable"
+      },
+      "minimum": null,
+      "primary_id": "ambiguity-21",
+      "primary_index": 21,
+      "producer_counters": {
+        "augmentations": 12,
+        "edge_scans": 241,
+        "networks": 16,
+        "search_states": 70
+      },
+      "query_index": 64,
+      "random": {
+        "accepted": 64,
+        "attempts": 166,
+        "cpu_seconds": 0.0,
+        "observed_minimum": null,
+        "result": "unknown"
+      },
+      "seed": 271849,
+      "status": "stable"
+    },
+    {
+      "category": "ambiguity",
+      "certificate": {
+        "base_sample": [
+          0,
+          4
+        ],
+        "branches": [],
+        "case_id": "ambiguity-21-k2",
+        "status": "stable"
+      },
+      "change": "k2",
+      "checker_steps": 0,
+      "family": "ambiguity",
+      "interval": {
+        "bounds": [
+          [
+            "1",
+            "1"
+          ],
+          [
+            "1",
+            "1"
+          ]
+        ],
+        "cpu_seconds": 0.0,
+        "result": "stable"
+      },
+      "minimum": null,
+      "primary_id": "ambiguity-21",
+      "primary_index": 21,
+      "producer_counters": {
+        "augmentations": 12,
+        "edge_scans": 241,
+        "networks": 8,
+        "search_states": 70
+      },
+      "query_index": 65,
+      "random": {
+        "accepted": 64,
+        "attempts": 166,
+        "cpu_seconds": 0.0,
+        "observed_minimum": null,
+        "result": "unknown"
+      },
+      "seed": 271849,
+      "status": "stable"
+    },
+    {
+      "category": "ambiguity",
+      "certificate": {
+        "base_sample": [
+          0,
+          4
+        ],
+        "branches": [
+          {
+            "branch": [
+              0,
+              1,
+              4
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              5
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              6
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              7
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          }
+        ],
+        "case_id": "ambiguity-22-relax_b",
+        "status": "stable"
+      },
+      "change": "relax_b",
+      "checker_steps": 92,
+      "family": "ambiguity",
+      "interval": {
+        "bounds": [
+          [
+            "1",
+            "1"
+          ],
+          [
+            "-1",
+            "1"
+          ]
+        ],
+        "cpu_seconds": 0.0,
+        "result": "stable"
+      },
+      "minimum": null,
+      "primary_id": "ambiguity-22",
+      "primary_index": 22,
+      "producer_counters": {
+        "augmentations": 18,
+        "edge_scans": 490,
+        "networks": 15,
+        "search_states": 122
+      },
+      "query_index": 66,
+      "random": {
+        "accepted": 64,
+        "attempts": 122,
+        "cpu_seconds": 0.0,
+        "observed_minimum": null,
+        "result": "unknown"
+      },
+      "seed": 271850,
+      "status": "stable"
+    },
+    {
+      "category": "ambiguity",
+      "certificate": {
+        "base_sample": [
+          0,
+          4
+        ],
+        "branches": [
+          {
+            "branch": [
+              0,
+              1,
+              4
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              5
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              6
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              7
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          }
+        ],
+        "case_id": "ambiguity-22-zero_floor",
+        "status": "stable"
+      },
+      "change": "zero_floor",
+      "checker_steps": 92,
+      "family": "ambiguity",
+      "interval": {
+        "bounds": [
+          [
+            "1",
+            "1"
+          ],
+          [
+            "1",
+            "1"
+          ]
+        ],
+        "cpu_seconds": 0.0,
+        "result": "stable"
+      },
+      "minimum": null,
+      "primary_id": "ambiguity-22",
+      "primary_index": 22,
+      "producer_counters": {
+        "augmentations": 12,
+        "edge_scans": 241,
+        "networks": 16,
+        "search_states": 70
+      },
+      "query_index": 67,
+      "random": {
+        "accepted": 64,
+        "attempts": 150,
+        "cpu_seconds": 0.0,
+        "observed_minimum": null,
+        "result": "unknown"
+      },
+      "seed": 271850,
+      "status": "stable"
+    },
+    {
+      "category": "ambiguity",
+      "certificate": {
+        "base_sample": [
+          0,
+          4
+        ],
+        "branches": [],
+        "case_id": "ambiguity-22-k2",
+        "status": "stable"
+      },
+      "change": "k2",
+      "checker_steps": 0,
+      "family": "ambiguity",
+      "interval": {
+        "bounds": [
+          [
+            "1",
+            "1"
+          ],
+          [
+            "1",
+            "1"
+          ]
+        ],
+        "cpu_seconds": 0.0,
+        "result": "stable"
+      },
+      "minimum": null,
+      "primary_id": "ambiguity-22",
+      "primary_index": 22,
+      "producer_counters": {
+        "augmentations": 12,
+        "edge_scans": 241,
+        "networks": 8,
+        "search_states": 70
+      },
+      "query_index": 68,
+      "random": {
+        "accepted": 64,
+        "attempts": 150,
+        "cpu_seconds": 0.0,
+        "observed_minimum": null,
+        "result": "unknown"
+      },
+      "seed": 271850,
+      "status": "stable"
+    },
+    {
+      "category": "ambiguity",
+      "certificate": {
+        "base_sample": [
+          0,
+          4
+        ],
+        "branches": [
+          {
+            "branch": [
+              0,
+              1,
+              4
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              5
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              6
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              7
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          }
+        ],
+        "case_id": "ambiguity-23-relax_b",
+        "status": "stable"
+      },
+      "change": "relax_b",
+      "checker_steps": 92,
+      "family": "ambiguity",
+      "interval": {
+        "bounds": [
+          [
+            "1",
+            "1"
+          ],
+          [
+            "-1",
+            "1"
+          ]
+        ],
+        "cpu_seconds": 0.0,
+        "result": "stable"
+      },
+      "minimum": null,
+      "primary_id": "ambiguity-23",
+      "primary_index": 23,
+      "producer_counters": {
+        "augmentations": 18,
+        "edge_scans": 490,
+        "networks": 15,
+        "search_states": 122
+      },
+      "query_index": 69,
+      "random": {
+        "accepted": 64,
+        "attempts": 134,
+        "cpu_seconds": 0.0,
+        "observed_minimum": null,
+        "result": "unknown"
+      },
+      "seed": 271851,
+      "status": "stable"
+    },
+    {
+      "category": "ambiguity",
+      "certificate": {
+        "base_sample": [
+          0,
+          4
+        ],
+        "branches": [
+          {
+            "branch": [
+              0,
+              1,
+              4
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              5
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              6
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              7
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          }
+        ],
+        "case_id": "ambiguity-23-zero_floor",
+        "status": "stable"
+      },
+      "change": "zero_floor",
+      "checker_steps": 92,
+      "family": "ambiguity",
+      "interval": {
+        "bounds": [
+          [
+            "1",
+            "1"
+          ],
+          [
+            "1",
+            "1"
+          ]
+        ],
+        "cpu_seconds": 0.0,
+        "result": "stable"
+      },
+      "minimum": null,
+      "primary_id": "ambiguity-23",
+      "primary_index": 23,
+      "producer_counters": {
+        "augmentations": 12,
+        "edge_scans": 241,
+        "networks": 16,
+        "search_states": 70
+      },
+      "query_index": 70,
+      "random": {
+        "accepted": 64,
+        "attempts": 197,
+        "cpu_seconds": 0.015625,
+        "observed_minimum": null,
+        "result": "unknown"
+      },
+      "seed": 271851,
+      "status": "stable"
+    },
+    {
+      "category": "ambiguity",
+      "certificate": {
+        "base_sample": [
+          0,
+          4
+        ],
+        "branches": [],
+        "case_id": "ambiguity-23-k2",
+        "status": "stable"
+      },
+      "change": "k2",
+      "checker_steps": 0,
+      "family": "ambiguity",
+      "interval": {
+        "bounds": [
+          [
+            "1",
+            "1"
+          ],
+          [
+            "1",
+            "1"
+          ]
+        ],
+        "cpu_seconds": 0.0,
+        "result": "stable"
+      },
+      "minimum": null,
+      "primary_id": "ambiguity-23",
+      "primary_index": 23,
+      "producer_counters": {
+        "augmentations": 12,
+        "edge_scans": 241,
+        "networks": 8,
+        "search_states": 70
+      },
+      "query_index": 71,
+      "random": {
+        "accepted": 64,
+        "attempts": 197,
+        "cpu_seconds": 0.0,
+        "observed_minimum": null,
+        "result": "unknown"
+      },
+      "seed": 271851,
+      "status": "stable"
+    },
+    {
+      "category": "ambiguity",
+      "certificate": {
+        "base_sample": [
+          0,
+          4
+        ],
+        "branches": [
+          {
+            "branch": [
+              0,
+              1,
+              4
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              5
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              6
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              7
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          }
+        ],
+        "case_id": "ambiguity-24-relax_b",
+        "status": "stable"
+      },
+      "change": "relax_b",
+      "checker_steps": 92,
+      "family": "ambiguity",
+      "interval": {
+        "bounds": [
+          [
+            "1",
+            "1"
+          ],
+          [
+            "-1",
+            "1"
+          ]
+        ],
+        "cpu_seconds": 0.0,
+        "result": "stable"
+      },
+      "minimum": null,
+      "primary_id": "ambiguity-24",
+      "primary_index": 24,
+      "producer_counters": {
+        "augmentations": 18,
+        "edge_scans": 490,
+        "networks": 15,
+        "search_states": 122
+      },
+      "query_index": 72,
+      "random": {
+        "accepted": 64,
+        "attempts": 135,
+        "cpu_seconds": 0.0,
+        "observed_minimum": null,
+        "result": "unknown"
+      },
+      "seed": 271852,
+      "status": "stable"
+    },
+    {
+      "category": "ambiguity",
+      "certificate": {
+        "base_sample": [
+          0,
+          4
+        ],
+        "branches": [
+          {
+            "branch": [
+              0,
+              1,
+              4
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              5
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              6
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              7
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          }
+        ],
+        "case_id": "ambiguity-24-zero_floor",
+        "status": "stable"
+      },
+      "change": "zero_floor",
+      "checker_steps": 92,
+      "family": "ambiguity",
+      "interval": {
+        "bounds": [
+          [
+            "1",
+            "1"
+          ],
+          [
+            "1",
+            "1"
+          ]
+        ],
+        "cpu_seconds": 0.0,
+        "result": "stable"
+      },
+      "minimum": null,
+      "primary_id": "ambiguity-24",
+      "primary_index": 24,
+      "producer_counters": {
+        "augmentations": 12,
+        "edge_scans": 241,
+        "networks": 16,
+        "search_states": 70
+      },
+      "query_index": 73,
+      "random": {
+        "accepted": 64,
+        "attempts": 166,
+        "cpu_seconds": 0.0,
+        "observed_minimum": null,
+        "result": "unknown"
+      },
+      "seed": 271852,
+      "status": "stable"
+    },
+    {
+      "category": "ambiguity",
+      "certificate": {
+        "base_sample": [
+          0,
+          4
+        ],
+        "branches": [],
+        "case_id": "ambiguity-24-k2",
+        "status": "stable"
+      },
+      "change": "k2",
+      "checker_steps": 0,
+      "family": "ambiguity",
+      "interval": {
+        "bounds": [
+          [
+            "1",
+            "1"
+          ],
+          [
+            "1",
+            "1"
+          ]
+        ],
+        "cpu_seconds": 0.0,
+        "result": "stable"
+      },
+      "minimum": null,
+      "primary_id": "ambiguity-24",
+      "primary_index": 24,
+      "producer_counters": {
+        "augmentations": 12,
+        "edge_scans": 241,
+        "networks": 8,
+        "search_states": 70
+      },
+      "query_index": 74,
+      "random": {
+        "accepted": 64,
+        "attempts": 166,
+        "cpu_seconds": 0.0,
+        "observed_minimum": null,
+        "result": "unknown"
+      },
+      "seed": 271852,
+      "status": "stable"
+    },
+    {
+      "category": "ambiguity",
+      "certificate": {
+        "base_sample": [
+          0,
+          4
+        ],
+        "branches": [
+          {
+            "branch": [
+              0,
+              1,
+              4
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              5
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              6
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              7
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          }
+        ],
+        "case_id": "ambiguity-25-relax_b",
+        "status": "stable"
+      },
+      "change": "relax_b",
+      "checker_steps": 92,
+      "family": "ambiguity",
+      "interval": {
+        "bounds": [
+          [
+            "1",
+            "1"
+          ],
+          [
+            "-1",
+            "1"
+          ]
+        ],
+        "cpu_seconds": 0.0,
+        "result": "stable"
+      },
+      "minimum": null,
+      "primary_id": "ambiguity-25",
+      "primary_index": 25,
+      "producer_counters": {
+        "augmentations": 18,
+        "edge_scans": 490,
+        "networks": 15,
+        "search_states": 122
+      },
+      "query_index": 75,
+      "random": {
+        "accepted": 64,
+        "attempts": 140,
+        "cpu_seconds": 0.0,
+        "observed_minimum": null,
+        "result": "unknown"
+      },
+      "seed": 271853,
+      "status": "stable"
+    },
+    {
+      "category": "ambiguity",
+      "certificate": {
+        "base_sample": [
+          0,
+          4
+        ],
+        "branches": [
+          {
+            "branch": [
+              0,
+              1,
+              4
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              5
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              6
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              7
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          }
+        ],
+        "case_id": "ambiguity-25-zero_floor",
+        "status": "stable"
+      },
+      "change": "zero_floor",
+      "checker_steps": 92,
+      "family": "ambiguity",
+      "interval": {
+        "bounds": [
+          [
+            "1",
+            "1"
+          ],
+          [
+            "1",
+            "1"
+          ]
+        ],
+        "cpu_seconds": 0.0,
+        "result": "stable"
+      },
+      "minimum": null,
+      "primary_id": "ambiguity-25",
+      "primary_index": 25,
+      "producer_counters": {
+        "augmentations": 12,
+        "edge_scans": 241,
+        "networks": 16,
+        "search_states": 70
+      },
+      "query_index": 76,
+      "random": {
+        "accepted": 64,
+        "attempts": 177,
+        "cpu_seconds": 0.0,
+        "observed_minimum": null,
+        "result": "unknown"
+      },
+      "seed": 271853,
+      "status": "stable"
+    },
+    {
+      "category": "ambiguity",
+      "certificate": {
+        "base_sample": [
+          0,
+          4
+        ],
+        "branches": [],
+        "case_id": "ambiguity-25-k2",
+        "status": "stable"
+      },
+      "change": "k2",
+      "checker_steps": 0,
+      "family": "ambiguity",
+      "interval": {
+        "bounds": [
+          [
+            "1",
+            "1"
+          ],
+          [
+            "1",
+            "1"
+          ]
+        ],
+        "cpu_seconds": 0.0,
+        "result": "stable"
+      },
+      "minimum": null,
+      "primary_id": "ambiguity-25",
+      "primary_index": 25,
+      "producer_counters": {
+        "augmentations": 12,
+        "edge_scans": 241,
+        "networks": 8,
+        "search_states": 70
+      },
+      "query_index": 77,
+      "random": {
+        "accepted": 64,
+        "attempts": 177,
+        "cpu_seconds": 0.015625,
+        "observed_minimum": null,
+        "result": "unknown"
+      },
+      "seed": 271853,
+      "status": "stable"
+    },
+    {
+      "category": "ambiguity",
+      "certificate": {
+        "base_sample": [
+          0,
+          4
+        ],
+        "branches": [
+          {
+            "branch": [
+              0,
+              1,
+              4
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              5
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              6
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              7
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          }
+        ],
+        "case_id": "ambiguity-26-relax_b",
+        "status": "stable"
+      },
+      "change": "relax_b",
+      "checker_steps": 92,
+      "family": "ambiguity",
+      "interval": {
+        "bounds": [
+          [
+            "1",
+            "1"
+          ],
+          [
+            "-1",
+            "1"
+          ]
+        ],
+        "cpu_seconds": 0.0,
+        "result": "stable"
+      },
+      "minimum": null,
+      "primary_id": "ambiguity-26",
+      "primary_index": 26,
+      "producer_counters": {
+        "augmentations": 18,
+        "edge_scans": 490,
+        "networks": 15,
+        "search_states": 122
+      },
+      "query_index": 78,
+      "random": {
+        "accepted": 64,
+        "attempts": 126,
+        "cpu_seconds": 0.0,
+        "observed_minimum": null,
+        "result": "unknown"
+      },
+      "seed": 271854,
+      "status": "stable"
+    },
+    {
+      "category": "ambiguity",
+      "certificate": {
+        "base_sample": [
+          0,
+          4
+        ],
+        "branches": [
+          {
+            "branch": [
+              0,
+              1,
+              4
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              5
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              6
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              7
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          }
+        ],
+        "case_id": "ambiguity-26-zero_floor",
+        "status": "stable"
+      },
+      "change": "zero_floor",
+      "checker_steps": 92,
+      "family": "ambiguity",
+      "interval": {
+        "bounds": [
+          [
+            "1",
+            "1"
+          ],
+          [
+            "1",
+            "1"
+          ]
+        ],
+        "cpu_seconds": 0.0,
+        "result": "stable"
+      },
+      "minimum": null,
+      "primary_id": "ambiguity-26",
+      "primary_index": 26,
+      "producer_counters": {
+        "augmentations": 12,
+        "edge_scans": 241,
+        "networks": 16,
+        "search_states": 70
+      },
+      "query_index": 79,
+      "random": {
+        "accepted": 64,
+        "attempts": 174,
+        "cpu_seconds": 0.0,
+        "observed_minimum": null,
+        "result": "unknown"
+      },
+      "seed": 271854,
+      "status": "stable"
+    },
+    {
+      "category": "ambiguity",
+      "certificate": {
+        "base_sample": [
+          0,
+          4
+        ],
+        "branches": [],
+        "case_id": "ambiguity-26-k2",
+        "status": "stable"
+      },
+      "change": "k2",
+      "checker_steps": 0,
+      "family": "ambiguity",
+      "interval": {
+        "bounds": [
+          [
+            "1",
+            "1"
+          ],
+          [
+            "1",
+            "1"
+          ]
+        ],
+        "cpu_seconds": 0.0,
+        "result": "stable"
+      },
+      "minimum": null,
+      "primary_id": "ambiguity-26",
+      "primary_index": 26,
+      "producer_counters": {
+        "augmentations": 12,
+        "edge_scans": 241,
+        "networks": 8,
+        "search_states": 70
+      },
+      "query_index": 80,
+      "random": {
+        "accepted": 64,
+        "attempts": 174,
+        "cpu_seconds": 0.0,
+        "observed_minimum": null,
+        "result": "unknown"
+      },
+      "seed": 271854,
+      "status": "stable"
+    },
+    {
+      "category": "ambiguity",
+      "certificate": {
+        "base_sample": [
+          0,
+          4
+        ],
+        "branches": [
+          {
+            "branch": [
+              0,
+              1,
+              4
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              5
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              6
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              7
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          }
+        ],
+        "case_id": "ambiguity-27-relax_b",
+        "status": "stable"
+      },
+      "change": "relax_b",
+      "checker_steps": 92,
+      "family": "ambiguity",
+      "interval": {
+        "bounds": [
+          [
+            "1",
+            "1"
+          ],
+          [
+            "-1",
+            "1"
+          ]
+        ],
+        "cpu_seconds": 0.0,
+        "result": "stable"
+      },
+      "minimum": null,
+      "primary_id": "ambiguity-27",
+      "primary_index": 27,
+      "producer_counters": {
+        "augmentations": 18,
+        "edge_scans": 490,
+        "networks": 15,
+        "search_states": 122
+      },
+      "query_index": 81,
+      "random": {
+        "accepted": 64,
+        "attempts": 130,
+        "cpu_seconds": 0.0,
+        "observed_minimum": null,
+        "result": "unknown"
+      },
+      "seed": 271855,
+      "status": "stable"
+    },
+    {
+      "category": "ambiguity",
+      "certificate": {
+        "base_sample": [
+          0,
+          4
+        ],
+        "branches": [
+          {
+            "branch": [
+              0,
+              1,
+              4
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              5
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              6
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              7
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          }
+        ],
+        "case_id": "ambiguity-27-zero_floor",
+        "status": "stable"
+      },
+      "change": "zero_floor",
+      "checker_steps": 92,
+      "family": "ambiguity",
+      "interval": {
+        "bounds": [
+          [
+            "1",
+            "1"
+          ],
+          [
+            "1",
+            "1"
+          ]
+        ],
+        "cpu_seconds": 0.0,
+        "result": "stable"
+      },
+      "minimum": null,
+      "primary_id": "ambiguity-27",
+      "primary_index": 27,
+      "producer_counters": {
+        "augmentations": 12,
+        "edge_scans": 241,
+        "networks": 16,
+        "search_states": 70
+      },
+      "query_index": 82,
+      "random": {
+        "accepted": 64,
+        "attempts": 170,
+        "cpu_seconds": 0.0,
+        "observed_minimum": null,
+        "result": "unknown"
+      },
+      "seed": 271855,
+      "status": "stable"
+    },
+    {
+      "category": "ambiguity",
+      "certificate": {
+        "base_sample": [
+          0,
+          4
+        ],
+        "branches": [],
+        "case_id": "ambiguity-27-k2",
+        "status": "stable"
+      },
+      "change": "k2",
+      "checker_steps": 0,
+      "family": "ambiguity",
+      "interval": {
+        "bounds": [
+          [
+            "1",
+            "1"
+          ],
+          [
+            "1",
+            "1"
+          ]
+        ],
+        "cpu_seconds": 0.0,
+        "result": "stable"
+      },
+      "minimum": null,
+      "primary_id": "ambiguity-27",
+      "primary_index": 27,
+      "producer_counters": {
+        "augmentations": 12,
+        "edge_scans": 241,
+        "networks": 8,
+        "search_states": 70
+      },
+      "query_index": 83,
+      "random": {
+        "accepted": 64,
+        "attempts": 170,
+        "cpu_seconds": 0.0,
+        "observed_minimum": null,
+        "result": "unknown"
+      },
+      "seed": 271855,
+      "status": "stable"
+    },
+    {
+      "category": "ambiguity",
+      "certificate": {
+        "base_sample": [
+          0,
+          4
+        ],
+        "branches": [
+          {
+            "branch": [
+              0,
+              1,
+              4
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              5
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              6
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              7
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          }
+        ],
+        "case_id": "ambiguity-28-relax_b",
+        "status": "stable"
+      },
+      "change": "relax_b",
+      "checker_steps": 92,
+      "family": "ambiguity",
+      "interval": {
+        "bounds": [
+          [
+            "1",
+            "1"
+          ],
+          [
+            "-1",
+            "1"
+          ]
+        ],
+        "cpu_seconds": 0.0,
+        "result": "stable"
+      },
+      "minimum": null,
+      "primary_id": "ambiguity-28",
+      "primary_index": 28,
+      "producer_counters": {
+        "augmentations": 18,
+        "edge_scans": 490,
+        "networks": 15,
+        "search_states": 122
+      },
+      "query_index": 84,
+      "random": {
+        "accepted": 64,
+        "attempts": 130,
+        "cpu_seconds": 0.0,
+        "observed_minimum": null,
+        "result": "unknown"
+      },
+      "seed": 271856,
+      "status": "stable"
+    },
+    {
+      "category": "ambiguity",
+      "certificate": {
+        "base_sample": [
+          0,
+          4
+        ],
+        "branches": [
+          {
+            "branch": [
+              0,
+              1,
+              4
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              5
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              6
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              7
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          }
+        ],
+        "case_id": "ambiguity-28-zero_floor",
+        "status": "stable"
+      },
+      "change": "zero_floor",
+      "checker_steps": 92,
+      "family": "ambiguity",
+      "interval": {
+        "bounds": [
+          [
+            "1",
+            "1"
+          ],
+          [
+            "1",
+            "1"
+          ]
+        ],
+        "cpu_seconds": 0.0,
+        "result": "stable"
+      },
+      "minimum": null,
+      "primary_id": "ambiguity-28",
+      "primary_index": 28,
+      "producer_counters": {
+        "augmentations": 12,
+        "edge_scans": 241,
+        "networks": 16,
+        "search_states": 70
+      },
+      "query_index": 85,
+      "random": {
+        "accepted": 64,
+        "attempts": 171,
+        "cpu_seconds": 0.0,
+        "observed_minimum": null,
+        "result": "unknown"
+      },
+      "seed": 271856,
+      "status": "stable"
+    },
+    {
+      "category": "ambiguity",
+      "certificate": {
+        "base_sample": [
+          0,
+          4
+        ],
+        "branches": [],
+        "case_id": "ambiguity-28-k2",
+        "status": "stable"
+      },
+      "change": "k2",
+      "checker_steps": 0,
+      "family": "ambiguity",
+      "interval": {
+        "bounds": [
+          [
+            "1",
+            "1"
+          ],
+          [
+            "1",
+            "1"
+          ]
+        ],
+        "cpu_seconds": 0.0,
+        "result": "stable"
+      },
+      "minimum": null,
+      "primary_id": "ambiguity-28",
+      "primary_index": 28,
+      "producer_counters": {
+        "augmentations": 12,
+        "edge_scans": 241,
+        "networks": 8,
+        "search_states": 70
+      },
+      "query_index": 86,
+      "random": {
+        "accepted": 64,
+        "attempts": 171,
+        "cpu_seconds": 0.0,
+        "observed_minimum": null,
+        "result": "unknown"
+      },
+      "seed": 271856,
+      "status": "stable"
+    },
+    {
+      "category": "ambiguity",
+      "certificate": {
+        "base_sample": [
+          0,
+          4
+        ],
+        "branches": [
+          {
+            "branch": [
+              0,
+              1,
+              4
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              5
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              6
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              7
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          }
+        ],
+        "case_id": "ambiguity-29-relax_b",
+        "status": "stable"
+      },
+      "change": "relax_b",
+      "checker_steps": 92,
+      "family": "ambiguity",
+      "interval": {
+        "bounds": [
+          [
+            "1",
+            "1"
+          ],
+          [
+            "-1",
+            "1"
+          ]
+        ],
+        "cpu_seconds": 0.0,
+        "result": "stable"
+      },
+      "minimum": null,
+      "primary_id": "ambiguity-29",
+      "primary_index": 29,
+      "producer_counters": {
+        "augmentations": 18,
+        "edge_scans": 490,
+        "networks": 15,
+        "search_states": 122
+      },
+      "query_index": 87,
+      "random": {
+        "accepted": 64,
+        "attempts": 143,
+        "cpu_seconds": 0.0,
+        "observed_minimum": null,
+        "result": "unknown"
+      },
+      "seed": 271857,
+      "status": "stable"
+    },
+    {
+      "category": "ambiguity",
+      "certificate": {
+        "base_sample": [
+          0,
+          4
+        ],
+        "branches": [
+          {
+            "branch": [
+              0,
+              1,
+              4
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              5
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              6
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              7
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          }
+        ],
+        "case_id": "ambiguity-29-zero_floor",
+        "status": "stable"
+      },
+      "change": "zero_floor",
+      "checker_steps": 92,
+      "family": "ambiguity",
+      "interval": {
+        "bounds": [
+          [
+            "1",
+            "1"
+          ],
+          [
+            "1",
+            "1"
+          ]
+        ],
+        "cpu_seconds": 0.0,
+        "result": "stable"
+      },
+      "minimum": null,
+      "primary_id": "ambiguity-29",
+      "primary_index": 29,
+      "producer_counters": {
+        "augmentations": 12,
+        "edge_scans": 241,
+        "networks": 16,
+        "search_states": 70
+      },
+      "query_index": 88,
+      "random": {
+        "accepted": 64,
+        "attempts": 175,
+        "cpu_seconds": 0.0,
+        "observed_minimum": null,
+        "result": "unknown"
+      },
+      "seed": 271857,
+      "status": "stable"
+    },
+    {
+      "category": "ambiguity",
+      "certificate": {
+        "base_sample": [
+          0,
+          4
+        ],
+        "branches": [],
+        "case_id": "ambiguity-29-k2",
+        "status": "stable"
+      },
+      "change": "k2",
+      "checker_steps": 0,
+      "family": "ambiguity",
+      "interval": {
+        "bounds": [
+          [
+            "1",
+            "1"
+          ],
+          [
+            "1",
+            "1"
+          ]
+        ],
+        "cpu_seconds": 0.0,
+        "result": "stable"
+      },
+      "minimum": null,
+      "primary_id": "ambiguity-29",
+      "primary_index": 29,
+      "producer_counters": {
+        "augmentations": 12,
+        "edge_scans": 241,
+        "networks": 8,
+        "search_states": 70
+      },
+      "query_index": 89,
+      "random": {
+        "accepted": 64,
+        "attempts": 175,
+        "cpu_seconds": 0.0,
+        "observed_minimum": null,
+        "result": "unknown"
+      },
+      "seed": 271857,
+      "status": "stable"
+    },
+    {
+      "category": "ambiguity",
+      "certificate": {
+        "base_sample": [
+          0,
+          4
+        ],
+        "branches": [
+          {
+            "branch": [
+              0,
+              1,
+              4
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              5
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              6
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              7
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          }
+        ],
+        "case_id": "ambiguity-30-relax_b",
+        "status": "stable"
+      },
+      "change": "relax_b",
+      "checker_steps": 92,
+      "family": "ambiguity",
+      "interval": {
+        "bounds": [
+          [
+            "1",
+            "1"
+          ],
+          [
+            "-1",
+            "1"
+          ]
+        ],
+        "cpu_seconds": 0.0,
+        "result": "stable"
+      },
+      "minimum": null,
+      "primary_id": "ambiguity-30",
+      "primary_index": 30,
+      "producer_counters": {
+        "augmentations": 18,
+        "edge_scans": 490,
+        "networks": 15,
+        "search_states": 122
+      },
+      "query_index": 90,
+      "random": {
+        "accepted": 64,
+        "attempts": 166,
+        "cpu_seconds": 0.0,
+        "observed_minimum": null,
+        "result": "unknown"
+      },
+      "seed": 271858,
+      "status": "stable"
+    },
+    {
+      "category": "ambiguity",
+      "certificate": {
+        "base_sample": [
+          0,
+          4
+        ],
+        "branches": [
+          {
+            "branch": [
+              0,
+              1,
+              4
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              5
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              6
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              7
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          }
+        ],
+        "case_id": "ambiguity-30-zero_floor",
+        "status": "stable"
+      },
+      "change": "zero_floor",
+      "checker_steps": 92,
+      "family": "ambiguity",
+      "interval": {
+        "bounds": [
+          [
+            "1",
+            "1"
+          ],
+          [
+            "1",
+            "1"
+          ]
+        ],
+        "cpu_seconds": 0.0,
+        "result": "stable"
+      },
+      "minimum": null,
+      "primary_id": "ambiguity-30",
+      "primary_index": 30,
+      "producer_counters": {
+        "augmentations": 12,
+        "edge_scans": 241,
+        "networks": 16,
+        "search_states": 70
+      },
+      "query_index": 91,
+      "random": {
+        "accepted": 64,
+        "attempts": 217,
+        "cpu_seconds": 0.015625,
+        "observed_minimum": null,
+        "result": "unknown"
+      },
+      "seed": 271858,
+      "status": "stable"
+    },
+    {
+      "category": "ambiguity",
+      "certificate": {
+        "base_sample": [
+          0,
+          4
+        ],
+        "branches": [],
+        "case_id": "ambiguity-30-k2",
+        "status": "stable"
+      },
+      "change": "k2",
+      "checker_steps": 0,
+      "family": "ambiguity",
+      "interval": {
+        "bounds": [
+          [
+            "1",
+            "1"
+          ],
+          [
+            "1",
+            "1"
+          ]
+        ],
+        "cpu_seconds": 0.0,
+        "result": "stable"
+      },
+      "minimum": null,
+      "primary_id": "ambiguity-30",
+      "primary_index": 30,
+      "producer_counters": {
+        "augmentations": 12,
+        "edge_scans": 241,
+        "networks": 8,
+        "search_states": 70
+      },
+      "query_index": 92,
+      "random": {
+        "accepted": 64,
+        "attempts": 217,
+        "cpu_seconds": 0.0,
+        "observed_minimum": null,
+        "result": "unknown"
+      },
+      "seed": 271858,
+      "status": "stable"
+    },
+    {
+      "category": "ambiguity",
+      "certificate": {
+        "base_sample": [
+          0,
+          4
+        ],
+        "branches": [
+          {
+            "branch": [
+              0,
+              1,
+              4
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              5
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              6
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              7
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          }
+        ],
+        "case_id": "ambiguity-31-relax_b",
+        "status": "stable"
+      },
+      "change": "relax_b",
+      "checker_steps": 92,
+      "family": "ambiguity",
+      "interval": {
+        "bounds": [
+          [
+            "1",
+            "1"
+          ],
+          [
+            "-1",
+            "1"
+          ]
+        ],
+        "cpu_seconds": 0.0,
+        "result": "stable"
+      },
+      "minimum": null,
+      "primary_id": "ambiguity-31",
+      "primary_index": 31,
+      "producer_counters": {
+        "augmentations": 18,
+        "edge_scans": 490,
+        "networks": 15,
+        "search_states": 122
+      },
+      "query_index": 93,
+      "random": {
+        "accepted": 64,
+        "attempts": 138,
+        "cpu_seconds": 0.0,
+        "observed_minimum": null,
+        "result": "unknown"
+      },
+      "seed": 271859,
+      "status": "stable"
+    },
+    {
+      "category": "ambiguity",
+      "certificate": {
+        "base_sample": [
+          0,
+          4
+        ],
+        "branches": [
+          {
+            "branch": [
+              0,
+              1,
+              4
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              5
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              6
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              7
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          }
+        ],
+        "case_id": "ambiguity-31-zero_floor",
+        "status": "stable"
+      },
+      "change": "zero_floor",
+      "checker_steps": 92,
+      "family": "ambiguity",
+      "interval": {
+        "bounds": [
+          [
+            "1",
+            "1"
+          ],
+          [
+            "1",
+            "1"
+          ]
+        ],
+        "cpu_seconds": 0.0,
+        "result": "stable"
+      },
+      "minimum": null,
+      "primary_id": "ambiguity-31",
+      "primary_index": 31,
+      "producer_counters": {
+        "augmentations": 12,
+        "edge_scans": 241,
+        "networks": 16,
+        "search_states": 70
+      },
+      "query_index": 94,
+      "random": {
+        "accepted": 64,
+        "attempts": 174,
+        "cpu_seconds": 0.0,
+        "observed_minimum": null,
+        "result": "unknown"
+      },
+      "seed": 271859,
+      "status": "stable"
+    },
+    {
+      "category": "ambiguity",
+      "certificate": {
+        "base_sample": [
+          0,
+          4
+        ],
+        "branches": [],
+        "case_id": "ambiguity-31-k2",
+        "status": "stable"
+      },
+      "change": "k2",
+      "checker_steps": 0,
+      "family": "ambiguity",
+      "interval": {
+        "bounds": [
+          [
+            "1",
+            "1"
+          ],
+          [
+            "1",
+            "1"
+          ]
+        ],
+        "cpu_seconds": 0.0,
+        "result": "stable"
+      },
+      "minimum": null,
+      "primary_id": "ambiguity-31",
+      "primary_index": 31,
+      "producer_counters": {
+        "augmentations": 12,
+        "edge_scans": 241,
+        "networks": 8,
+        "search_states": 70
+      },
+      "query_index": 95,
+      "random": {
+        "accepted": 64,
+        "attempts": 174,
+        "cpu_seconds": 0.0,
+        "observed_minimum": null,
+        "result": "unknown"
+      },
+      "seed": 271859,
+      "status": "stable"
+    },
+    {
+      "category": "ambiguity",
+      "certificate": {
+        "base_sample": [
+          0,
+          4
+        ],
+        "branches": [
+          {
+            "branch": [
+              0,
+              1,
+              4
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              5
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              6
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              7
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          }
+        ],
+        "case_id": "ambiguity-32-relax_b",
+        "status": "stable"
+      },
+      "change": "relax_b",
+      "checker_steps": 92,
+      "family": "ambiguity",
+      "interval": {
+        "bounds": [
+          [
+            "1",
+            "1"
+          ],
+          [
+            "-1",
+            "1"
+          ]
+        ],
+        "cpu_seconds": 0.0,
+        "result": "stable"
+      },
+      "minimum": null,
+      "primary_id": "ambiguity-32",
+      "primary_index": 32,
+      "producer_counters": {
+        "augmentations": 18,
+        "edge_scans": 490,
+        "networks": 15,
+        "search_states": 122
+      },
+      "query_index": 96,
+      "random": {
+        "accepted": 64,
+        "attempts": 100,
+        "cpu_seconds": 0.0,
+        "observed_minimum": null,
+        "result": "unknown"
+      },
+      "seed": 271860,
+      "status": "stable"
+    },
+    {
+      "category": "ambiguity",
+      "certificate": {
+        "base_sample": [
+          0,
+          4
+        ],
+        "branches": [
+          {
+            "branch": [
+              0,
+              1,
+              4
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              5
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              6
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              7
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          }
+        ],
+        "case_id": "ambiguity-32-zero_floor",
+        "status": "stable"
+      },
+      "change": "zero_floor",
+      "checker_steps": 92,
+      "family": "ambiguity",
+      "interval": {
+        "bounds": [
+          [
+            "1",
+            "1"
+          ],
+          [
+            "1",
+            "1"
+          ]
+        ],
+        "cpu_seconds": 0.0,
+        "result": "stable"
+      },
+      "minimum": null,
+      "primary_id": "ambiguity-32",
+      "primary_index": 32,
+      "producer_counters": {
+        "augmentations": 12,
+        "edge_scans": 241,
+        "networks": 16,
+        "search_states": 70
+      },
+      "query_index": 97,
+      "random": {
+        "accepted": 64,
+        "attempts": 137,
+        "cpu_seconds": 0.0,
+        "observed_minimum": null,
+        "result": "unknown"
+      },
+      "seed": 271860,
+      "status": "stable"
+    },
+    {
+      "category": "ambiguity",
+      "certificate": {
+        "base_sample": [
+          0,
+          4
+        ],
+        "branches": [],
+        "case_id": "ambiguity-32-k2",
+        "status": "stable"
+      },
+      "change": "k2",
+      "checker_steps": 0,
+      "family": "ambiguity",
+      "interval": {
+        "bounds": [
+          [
+            "1",
+            "1"
+          ],
+          [
+            "1",
+            "1"
+          ]
+        ],
+        "cpu_seconds": 0.0,
+        "result": "stable"
+      },
+      "minimum": null,
+      "primary_id": "ambiguity-32",
+      "primary_index": 32,
+      "producer_counters": {
+        "augmentations": 12,
+        "edge_scans": 241,
+        "networks": 8,
+        "search_states": 70
+      },
+      "query_index": 98,
+      "random": {
+        "accepted": 64,
+        "attempts": 137,
+        "cpu_seconds": 0.0,
+        "observed_minimum": null,
+        "result": "unknown"
+      },
+      "seed": 271860,
+      "status": "stable"
+    },
+    {
+      "category": "ambiguity",
+      "certificate": {
+        "base_sample": [
+          0,
+          4
+        ],
+        "branches": [
+          {
+            "branch": [
+              0,
+              1,
+              4
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              5
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              6
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          },
+          {
+            "branch": [
+              0,
+              1,
+              7
+            ],
+            "proof": {
+              "edge": 4,
+              "kind": "interval"
+            }
+          }
+        ],
+        "case_id": "ambiguity-33-relax_b",
+        "status": "stable"
+      },
+      "change": "relax_b",
+      "checker_steps": 92,
+      "family": "ambiguity",
+      "interval": {
+        "bounds": [
+          [
+            "1",
+            "1"
+          ],
+          [
+            "-1",
+            "1"
+          ]
+        ],
+        "cpu_seconds": 0.0,
+        "result": "stable"
+      },
+      "minimum": null,
+      "primary_id": "ambiguity-33",
+      "primary_index": 33,
+      "producer_counters": {
+        "augmentations": 18,
+        "edge_scans": 490,
+        "networks": 15,
+        "search_states": 122
+      },
+      "query_index": 99,
+      "random": {
+        "accepted": 64,
+        "attempts": 128,
+        "cpu_seconds": 0.0,
+        "observed_minimum": null,
+        "result": "unknown"
+      },
+      "seed": 271861,
+      "status": "stable"
+    }
+  ],
+  "scope": "frozen owned inputs; no C or external execution",
+  "start": 0,
+  "stop": 100,
+  "wall_seconds": 0.9530000000086147
+}
