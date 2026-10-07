@@ -69,6 +69,11 @@ def sample_ok(c,seq):
             insist(low<=count<=high,"sample quota")
 
 def ranked(c,seq,ratios):
+    priority={}
+    def priority_of(location):
+        if location not in priority:
+            priority[location]=c["tie"].index(location)
+        return priority[location]
     vals=[(-1,1) if c["empty"]=="bottom" else (0,1) for _ in range(c["locations"])]
     for j in seq:
         loc=c["location"][j]
@@ -76,7 +81,7 @@ def ranked(c,seq,ratios):
             vals[loc]=ratios[j]
     def cmp(a,b):
         order=compare(vals[b],vals[a])
-        return order if order else c["tie"].index(a)-c["tie"].index(b)
+        return order if order else priority_of(a)-priority_of(b)
     return set(sorted(range(c["locations"]),key=cmp_to_key(cmp))[:len(c["reference"])])
 
 def verify_impossible(c,blocked,forced,upper,proof):
@@ -126,6 +131,7 @@ def verify_impossible(c,blocked,forced,upper,proof):
 def check(c,cert):
     global STEPS
     ratios=prepare(c)
+    priority={location:position for position,location in enumerate(c["tie"])}
     insist(isinstance(cert,dict) and cert.get("case_id")==c["id"],"certificate case id")
     status=cert.get("status")
     if status=="infeasible_policy":
@@ -152,20 +158,20 @@ def check(c,cert):
             if b in c["reference"]:
                 continue
             candidates=[]
-            if c["tie"].index(b)<c["tie"].index(a):
+            if priority[b]<priority[a]:
                 candidates.append(-1)
             candidates.extend(j for j in range(len(ratios)) if c["location"][j]==b)
             for m in candidates:
                 th=floor if m==-1 else ratios[m]
                 base_cmp=compare(floor,th)
-                if base_cmp>0 or base_cmp==0 and c["tie"].index(a)<c["tie"].index(b):
+                if base_cmp>0 or base_cmp==0 and priority[a]<priority[b]:
                     continue
                 blocks=[]
                 for j,loc in enumerate(c["location"]):
                     STEPS+=1
                     if loc!=a:continue
                     cmp=compare(ratios[j],th)
-                    if cmp>0 or cmp==0 and c["tie"].index(a)<c["tie"].index(b):
+                    if cmp>0 or cmp==0 and priority[a]<priority[b]:
                         blocks.append(j)
                 expected.append(([a,b,m],blocks,[] if m==-1 else [m]))
     insist(len(records)==len(expected),"missing or extra branch proof")

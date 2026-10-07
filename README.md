@@ -52,6 +52,16 @@ The retained historical Linux release pass reports:
 
 ## Portable owned-input replay
 
+The independent checker derives branch priorities locally from the validated
+tie permutation. Its public ranking helper reuses first-index lookups within
+each call, preserving lazy lookup behavior and avoiding cross-query state.
+This changes neither canonical branch order nor instrumented checker steps.
+Run the self-contained pure regression with
+`python -B tests/test_tie_priority.py -v`; CI runs it as a separate finite step.
+It uses direct subset/score semantics and a test-local index-scan reference,
+without prior-artifact or saved-result dependencies. Retained campaign/resource
+measurements below were not rerun for this lookup change; no speedup is claimed.
+
 From the standalone artifact root, choose a new output directory outside retained `results/`:
 
 ```text
