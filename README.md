@@ -130,7 +130,7 @@ Each project contributes twelve mutation columns and official failing-test label
 
 ## References and calibration
 
-`literature/references.bib`, `literature/reference-provenance.csv`, and `literature/reference-live-audit.csv` contain the 61 manuscript references. The audit enforces exact manuscript citation coverage, unique normalized titles and DOI identifiers, metadata/ledger consistency, no placeholders, a maximum citation cluster of seven, and exact 12 same-venue + 5 influential + 5 adjacent full-paper calibration counts. Two author lists were corrected during live resolution. Publisher services are not contacted during offline reproduction; the dated live-resolution record is frozen.
+`literature/references.bib`, `literature/reference-provenance.csv`, and `literature/reference-live-audit.csv` retain a 61-reference citation snapshot. The current manuscript cites 62 references. The audit enforces exact citation coverage within the retained snapshot, unique normalized titles and DOI identifiers, metadata/ledger consistency, no placeholders, a maximum citation cluster of seven, and exact 12 same-venue + 5 influential + 5 adjacent full-paper calibration counts. Two author lists were corrected during live resolution. Publisher services are not contacted during offline reproduction; the dated live-resolution record is frozen.
 
 ## Produce and check one certificate
 
