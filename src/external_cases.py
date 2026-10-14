@@ -29,9 +29,10 @@ def require(condition: bool, message: str) -> None:
 
 
 def _read_snapshot(meta_path: Path) -> tuple[dict[str, object], list[str], list[int], list[list[int]], list[str]]:
-    meta = json.loads(meta_path.read_text())
+    meta = json.loads(meta_path.read_text(encoding="utf-8"))
     csv_path = meta_path.with_suffix(".csv")
-    rows = list(csv.reader(csv_path.open(newline="")))
+    with csv_path.open(encoding="utf-8", newline="") as handle:
+        rows = list(csv.reader(handle))
     require(len(rows) >= 4, f"too few rows in {csv_path.name}")
     require(rows[0][:3] == ["test_type", "test_name", "bug"], f"bad header in {csv_path.name}")
     require(rows[1][:3] == ["operator", "-", "-"], f"missing operator row in {csv_path.name}")

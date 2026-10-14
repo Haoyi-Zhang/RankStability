@@ -1,0 +1,4433 @@
+[
+  {
+    "case": {
+      "a": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2
+      ],
+      "a_bounds": [
+        [
+          1,
+          3
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "b": [
+        1,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        0,
+        0,
+        0,
+        2,
+        0
+      ],
+      "b_bounds": [
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "empty": "bottom",
+      "fail": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "forbid": [],
+      "force": [],
+      "id": "defects4j-chart-24-balanced",
+      "kill": [
+        [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0
+        ]
+      ],
+      "location": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "locations": 12,
+      "reference": [
+        1,
+        0,
+        2
+      ],
+      "size": [
+        5,
+        8
+      ],
+      "tie": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    },
+    "metadata": {
+      "bug_id": 24,
+      "category": "external_matrix",
+      "id": "defects4j-chart-24-balanced",
+      "kill_counts": [
+        5,
+        2,
+        5,
+        5,
+        6,
+        6,
+        6,
+        0,
+        0,
+        0,
+        6,
+        1
+      ],
+      "location_semantics": "one location per selected mutant because source locations are absent from the public CSV",
+      "operator_order": [
+        "LVR",
+        "ROR",
+        "STD"
+      ],
+      "policy_seed_sample": [
+        0,
+        1,
+        4,
+        5,
+        7,
+        8
+      ],
+      "profile": "balanced",
+      "project": "Chart",
+      "second_partition_semantics": "three equal strata after sorting selected mutants by total kill count and identity",
+      "source_snapshot": "snapshots/defects4j-chart-24.csv",
+      "upstream_blob": "93e5e3f608e528f6fbc090bcb256781ed24b8bf8",
+      "upstream_commit": "f8d8376e0efe345161f26ff6483a404c8548fe1c",
+      "upstream_path": "resources/matrices/Chart/Chart.24f.big.all.Matrix.csv"
+    },
+    "selected_test_names": [
+      "dev__0__org.jfree.chart.renderer.junit.GrayPaintScaleTests::testConstructor",
+      "dev__0__org.jfree.chart.renderer.junit.GrayPaintScaleTests::testEquals",
+      "dev__0__org.jfree.chart.renderer.junit.GrayPaintScaleTests::testCloning",
+      "dev__0__org.jfree.chart.renderer.junit.GrayPaintScaleTests::testSerialization",
+      "dev__0__org.jfree.chart.renderer.xy.junit.XYBlockRendererTests::testEquals",
+      "dev__0__org.jfree.chart.renderer.xy.junit.XYBlockRendererTests::testHashcode",
+      "dev__0__org.jfree.chart.renderer.xy.junit.XYBlockRendererTests::testCloning",
+      "dev__0__org.jfree.chart.renderer.xy.junit.XYBlockRendererTests::testSerialization",
+      "dev__0__org.jfree.chart.renderer.junit.GrayPaintScaleTests::testGetPaint"
+    ]
+  },
+  {
+    "case": {
+      "a": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2
+      ],
+      "a_bounds": [
+        [
+          2,
+          2
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "b": [
+        1,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        0,
+        0,
+        0,
+        2,
+        0
+      ],
+      "b_bounds": [
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "empty": "bottom",
+      "fail": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "forbid": [],
+      "force": [],
+      "id": "defects4j-chart-24-exact",
+      "kill": [
+        [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0
+        ]
+      ],
+      "location": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "locations": 12,
+      "reference": [
+        1,
+        0,
+        2
+      ],
+      "size": [
+        6,
+        6
+      ],
+      "tie": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    },
+    "metadata": {
+      "bug_id": 24,
+      "category": "external_matrix",
+      "id": "defects4j-chart-24-exact",
+      "kill_counts": [
+        5,
+        2,
+        5,
+        5,
+        6,
+        6,
+        6,
+        0,
+        0,
+        0,
+        6,
+        1
+      ],
+      "location_semantics": "one location per selected mutant because source locations are absent from the public CSV",
+      "operator_order": [
+        "LVR",
+        "ROR",
+        "STD"
+      ],
+      "policy_seed_sample": [
+        0,
+        1,
+        4,
+        5,
+        7,
+        8
+      ],
+      "profile": "exact",
+      "project": "Chart",
+      "second_partition_semantics": "three equal strata after sorting selected mutants by total kill count and identity",
+      "source_snapshot": "snapshots/defects4j-chart-24.csv",
+      "upstream_blob": "93e5e3f608e528f6fbc090bcb256781ed24b8bf8",
+      "upstream_commit": "f8d8376e0efe345161f26ff6483a404c8548fe1c",
+      "upstream_path": "resources/matrices/Chart/Chart.24f.big.all.Matrix.csv"
+    },
+    "selected_test_names": [
+      "dev__0__org.jfree.chart.renderer.junit.GrayPaintScaleTests::testConstructor",
+      "dev__0__org.jfree.chart.renderer.junit.GrayPaintScaleTests::testEquals",
+      "dev__0__org.jfree.chart.renderer.junit.GrayPaintScaleTests::testCloning",
+      "dev__0__org.jfree.chart.renderer.junit.GrayPaintScaleTests::testSerialization",
+      "dev__0__org.jfree.chart.renderer.xy.junit.XYBlockRendererTests::testEquals",
+      "dev__0__org.jfree.chart.renderer.xy.junit.XYBlockRendererTests::testHashcode",
+      "dev__0__org.jfree.chart.renderer.xy.junit.XYBlockRendererTests::testCloning",
+      "dev__0__org.jfree.chart.renderer.xy.junit.XYBlockRendererTests::testSerialization",
+      "dev__0__org.jfree.chart.renderer.junit.GrayPaintScaleTests::testGetPaint"
+    ]
+  },
+  {
+    "case": {
+      "a": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2
+      ],
+      "a_bounds": [
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "b": [
+        1,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        0,
+        0,
+        0,
+        2,
+        0
+      ],
+      "b_bounds": [
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          4
+        ]
+      ],
+      "empty": "bottom",
+      "fail": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "forbid": [],
+      "force": [],
+      "id": "defects4j-chart-24-relaxed",
+      "kill": [
+        [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0
+        ]
+      ],
+      "location": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "locations": 12,
+      "reference": [
+        1,
+        0,
+        2
+      ],
+      "size": [
+        4,
+        9
+      ],
+      "tie": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    },
+    "metadata": {
+      "bug_id": 24,
+      "category": "external_matrix",
+      "id": "defects4j-chart-24-relaxed",
+      "kill_counts": [
+        5,
+        2,
+        5,
+        5,
+        6,
+        6,
+        6,
+        0,
+        0,
+        0,
+        6,
+        1
+      ],
+      "location_semantics": "one location per selected mutant because source locations are absent from the public CSV",
+      "operator_order": [
+        "LVR",
+        "ROR",
+        "STD"
+      ],
+      "policy_seed_sample": [
+        0,
+        1,
+        4,
+        5,
+        7,
+        8
+      ],
+      "profile": "relaxed",
+      "project": "Chart",
+      "second_partition_semantics": "three equal strata after sorting selected mutants by total kill count and identity",
+      "source_snapshot": "snapshots/defects4j-chart-24.csv",
+      "upstream_blob": "93e5e3f608e528f6fbc090bcb256781ed24b8bf8",
+      "upstream_commit": "f8d8376e0efe345161f26ff6483a404c8548fe1c",
+      "upstream_path": "resources/matrices/Chart/Chart.24f.big.all.Matrix.csv"
+    },
+    "selected_test_names": [
+      "dev__0__org.jfree.chart.renderer.junit.GrayPaintScaleTests::testConstructor",
+      "dev__0__org.jfree.chart.renderer.junit.GrayPaintScaleTests::testEquals",
+      "dev__0__org.jfree.chart.renderer.junit.GrayPaintScaleTests::testCloning",
+      "dev__0__org.jfree.chart.renderer.junit.GrayPaintScaleTests::testSerialization",
+      "dev__0__org.jfree.chart.renderer.xy.junit.XYBlockRendererTests::testEquals",
+      "dev__0__org.jfree.chart.renderer.xy.junit.XYBlockRendererTests::testHashcode",
+      "dev__0__org.jfree.chart.renderer.xy.junit.XYBlockRendererTests::testCloning",
+      "dev__0__org.jfree.chart.renderer.xy.junit.XYBlockRendererTests::testSerialization",
+      "dev__0__org.jfree.chart.renderer.junit.GrayPaintScaleTests::testGetPaint"
+    ]
+  },
+  {
+    "case": {
+      "a": [
+        0,
+        1,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2
+      ],
+      "a_bounds": [
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "b": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        2,
+        1,
+        2,
+        2,
+        2
+      ],
+      "b_bounds": [
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "empty": "bottom",
+      "fail": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "forbid": [],
+      "force": [],
+      "id": "defects4j-closure-28-balanced",
+      "kill": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          1,
+          1,
+          1
+        ]
+      ],
+      "location": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "locations": 12,
+      "reference": [
+        6,
+        7,
+        9
+      ],
+      "size": [
+        5,
+        8
+      ],
+      "tie": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    },
+    "metadata": {
+      "bug_id": 28,
+      "category": "external_matrix",
+      "id": "defects4j-closure-28-balanced",
+      "kill_counts": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        2,
+        1,
+        2,
+        2,
+        2
+      ],
+      "location_semantics": "one location per selected mutant because source locations are absent from the public CSV",
+      "operator_order": [
+        "STD",
+        "LVR",
+        "AOR"
+      ],
+      "policy_seed_sample": [
+        0,
+        1,
+        4,
+        5,
+        7,
+        9
+      ],
+      "profile": "balanced",
+      "project": "Closure",
+      "second_partition_semantics": "three equal strata after sorting selected mutants by total kill count and identity",
+      "source_snapshot": "snapshots/defects4j-closure-28.csv",
+      "upstream_blob": "4f84f0e30ba7fbdd52b2cf414c52f0d83a4de9b7",
+      "upstream_commit": "f8d8376e0efe345161f26ff6483a404c8548fe1c",
+      "upstream_path": "resources/matrices/Closure/Closure.28f.big.all.Matrix.csv"
+    },
+    "selected_test_names": [
+      "dev__0__com.google.javascript.jscomp.IntegrationTest::testBug1949424",
+      "dev__0__com.google.javascript.jscomp.IntegrationTest::testBug1949424_v2",
+      "dev__0__com.google.javascript.jscomp.IntegrationTest::testBug1956277",
+      "dev__0__com.google.javascript.jscomp.IntegrationTest::testBug1962380",
+      "dev__0__com.google.javascript.jscomp.IntegrationTest::testBug2410122",
+      "dev__0__com.google.javascript.jscomp.IntegrationTest::testIssue90",
+      "dev__0__com.google.javascript.jscomp.IntegrationTest::testClosurePassOff",
+      "dev__0__com.google.javascript.jscomp.IntegrationTest::testClosurePassOn",
+      "dev__0__com.google.javascript.jscomp.InlineCostEstimatorTest::testCost",
+      "dev__0__com.google.javascript.jscomp.InlineFunctionsTest::testIssue728"
+    ]
+  },
+  {
+    "case": {
+      "a": [
+        0,
+        1,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2
+      ],
+      "a_bounds": [
+        [
+          3,
+          3
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "b": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        2,
+        1,
+        2,
+        2,
+        2
+      ],
+      "b_bounds": [
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "empty": "bottom",
+      "fail": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "forbid": [],
+      "force": [],
+      "id": "defects4j-closure-28-exact",
+      "kill": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          1,
+          1,
+          1
+        ]
+      ],
+      "location": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "locations": 12,
+      "reference": [
+        6,
+        7,
+        9
+      ],
+      "size": [
+        6,
+        6
+      ],
+      "tie": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    },
+    "metadata": {
+      "bug_id": 28,
+      "category": "external_matrix",
+      "id": "defects4j-closure-28-exact",
+      "kill_counts": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        2,
+        1,
+        2,
+        2,
+        2
+      ],
+      "location_semantics": "one location per selected mutant because source locations are absent from the public CSV",
+      "operator_order": [
+        "STD",
+        "LVR",
+        "AOR"
+      ],
+      "policy_seed_sample": [
+        0,
+        1,
+        4,
+        5,
+        7,
+        9
+      ],
+      "profile": "exact",
+      "project": "Closure",
+      "second_partition_semantics": "three equal strata after sorting selected mutants by total kill count and identity",
+      "source_snapshot": "snapshots/defects4j-closure-28.csv",
+      "upstream_blob": "4f84f0e30ba7fbdd52b2cf414c52f0d83a4de9b7",
+      "upstream_commit": "f8d8376e0efe345161f26ff6483a404c8548fe1c",
+      "upstream_path": "resources/matrices/Closure/Closure.28f.big.all.Matrix.csv"
+    },
+    "selected_test_names": [
+      "dev__0__com.google.javascript.jscomp.IntegrationTest::testBug1949424",
+      "dev__0__com.google.javascript.jscomp.IntegrationTest::testBug1949424_v2",
+      "dev__0__com.google.javascript.jscomp.IntegrationTest::testBug1956277",
+      "dev__0__com.google.javascript.jscomp.IntegrationTest::testBug1962380",
+      "dev__0__com.google.javascript.jscomp.IntegrationTest::testBug2410122",
+      "dev__0__com.google.javascript.jscomp.IntegrationTest::testIssue90",
+      "dev__0__com.google.javascript.jscomp.IntegrationTest::testClosurePassOff",
+      "dev__0__com.google.javascript.jscomp.IntegrationTest::testClosurePassOn",
+      "dev__0__com.google.javascript.jscomp.InlineCostEstimatorTest::testCost",
+      "dev__0__com.google.javascript.jscomp.InlineFunctionsTest::testIssue728"
+    ]
+  },
+  {
+    "case": {
+      "a": [
+        0,
+        1,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2
+      ],
+      "a_bounds": [
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          4
+        ]
+      ],
+      "b": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        2,
+        1,
+        2,
+        2,
+        2
+      ],
+      "b_bounds": [
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          4
+        ]
+      ],
+      "empty": "bottom",
+      "fail": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "forbid": [],
+      "force": [],
+      "id": "defects4j-closure-28-relaxed",
+      "kill": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          1,
+          1,
+          1
+        ]
+      ],
+      "location": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "locations": 12,
+      "reference": [
+        6,
+        7,
+        9
+      ],
+      "size": [
+        4,
+        9
+      ],
+      "tie": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    },
+    "metadata": {
+      "bug_id": 28,
+      "category": "external_matrix",
+      "id": "defects4j-closure-28-relaxed",
+      "kill_counts": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        2,
+        1,
+        2,
+        2,
+        2
+      ],
+      "location_semantics": "one location per selected mutant because source locations are absent from the public CSV",
+      "operator_order": [
+        "STD",
+        "LVR",
+        "AOR"
+      ],
+      "policy_seed_sample": [
+        0,
+        1,
+        4,
+        5,
+        7,
+        9
+      ],
+      "profile": "relaxed",
+      "project": "Closure",
+      "second_partition_semantics": "three equal strata after sorting selected mutants by total kill count and identity",
+      "source_snapshot": "snapshots/defects4j-closure-28.csv",
+      "upstream_blob": "4f84f0e30ba7fbdd52b2cf414c52f0d83a4de9b7",
+      "upstream_commit": "f8d8376e0efe345161f26ff6483a404c8548fe1c",
+      "upstream_path": "resources/matrices/Closure/Closure.28f.big.all.Matrix.csv"
+    },
+    "selected_test_names": [
+      "dev__0__com.google.javascript.jscomp.IntegrationTest::testBug1949424",
+      "dev__0__com.google.javascript.jscomp.IntegrationTest::testBug1949424_v2",
+      "dev__0__com.google.javascript.jscomp.IntegrationTest::testBug1956277",
+      "dev__0__com.google.javascript.jscomp.IntegrationTest::testBug1962380",
+      "dev__0__com.google.javascript.jscomp.IntegrationTest::testBug2410122",
+      "dev__0__com.google.javascript.jscomp.IntegrationTest::testIssue90",
+      "dev__0__com.google.javascript.jscomp.IntegrationTest::testClosurePassOff",
+      "dev__0__com.google.javascript.jscomp.IntegrationTest::testClosurePassOn",
+      "dev__0__com.google.javascript.jscomp.InlineCostEstimatorTest::testCost",
+      "dev__0__com.google.javascript.jscomp.InlineFunctionsTest::testIssue728"
+    ]
+  },
+  {
+    "case": {
+      "a": [
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "a_bounds": [
+        [
+          4,
+          6
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "b": [
+        2,
+        0,
+        2,
+        0,
+        0,
+        1,
+        1,
+        2,
+        0,
+        1,
+        2,
+        1
+      ],
+      "b_bounds": [
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "empty": "bottom",
+      "fail": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "forbid": [],
+      "force": [],
+      "id": "defects4j-lang-54-balanced",
+      "kill": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          1,
+          0,
+          0,
+          1,
+          1,
+          1,
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "location": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "locations": 12,
+      "reference": [
+        0,
+        2,
+        1
+      ],
+      "size": [
+        5,
+        8
+      ],
+      "tie": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    },
+    "metadata": {
+      "bug_id": 54,
+      "category": "external_matrix",
+      "id": "defects4j-lang-54-balanced",
+      "kill_counts": [
+        4,
+        1,
+        4,
+        1,
+        1,
+        2,
+        2,
+        2,
+        1,
+        1,
+        2,
+        1
+      ],
+      "location_semantics": "one location per selected mutant because source locations are absent from the public CSV",
+      "operator_order": [
+        "ROR",
+        "LVR"
+      ],
+      "policy_seed_sample": [
+        1,
+        3,
+        7,
+        9,
+        10,
+        11
+      ],
+      "profile": "balanced",
+      "project": "Lang",
+      "second_partition_semantics": "three equal strata after sorting selected mutants by total kill count and identity",
+      "source_snapshot": "snapshots/defects4j-lang-54.csv",
+      "upstream_blob": "d52ab7f04c855578cee6e7764f73da4a33485ce2",
+      "upstream_commit": "f8d8376e0efe345161f26ff6483a404c8548fe1c",
+      "upstream_path": "resources/matrices/Lang/Lang.54f.big.all.Matrix.csv"
+    },
+    "selected_test_names": [
+      "dev__0__org.apache.commons.lang.LocaleUtilsTest::testConstructor",
+      "dev__0__org.apache.commons.lang.LocaleUtilsTest::testToLocale_1Part",
+      "dev__0__org.apache.commons.lang.LocaleUtilsTest::testToLocale_2Part",
+      "dev__0__org.apache.commons.lang.LocaleUtilsTest::testToLocale_3Part",
+      "dev__0__org.apache.commons.lang.LocaleUtilsTest::testLocaleLookupList_Locale",
+      "dev__0__org.apache.commons.lang.LocaleUtilsTest::testLocaleLookupList_LocaleLocale",
+      "dev__0__org.apache.commons.lang.LocaleUtilsTest::testAvailableLocaleList",
+      "dev__0__org.apache.commons.lang.LocaleUtilsTest::testAvailableLocaleSet",
+      "dev__0__org.apache.commons.lang.LocaleUtilsTest::testLang328"
+    ]
+  },
+  {
+    "case": {
+      "a": [
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "a_bounds": [
+        [
+          5,
+          5
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "b": [
+        2,
+        0,
+        2,
+        0,
+        0,
+        1,
+        1,
+        2,
+        0,
+        1,
+        2,
+        1
+      ],
+      "b_bounds": [
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "empty": "bottom",
+      "fail": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "forbid": [],
+      "force": [],
+      "id": "defects4j-lang-54-exact",
+      "kill": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          1,
+          0,
+          0,
+          1,
+          1,
+          1,
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "location": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "locations": 12,
+      "reference": [
+        0,
+        2,
+        1
+      ],
+      "size": [
+        6,
+        6
+      ],
+      "tie": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    },
+    "metadata": {
+      "bug_id": 54,
+      "category": "external_matrix",
+      "id": "defects4j-lang-54-exact",
+      "kill_counts": [
+        4,
+        1,
+        4,
+        1,
+        1,
+        2,
+        2,
+        2,
+        1,
+        1,
+        2,
+        1
+      ],
+      "location_semantics": "one location per selected mutant because source locations are absent from the public CSV",
+      "operator_order": [
+        "ROR",
+        "LVR"
+      ],
+      "policy_seed_sample": [
+        1,
+        3,
+        7,
+        9,
+        10,
+        11
+      ],
+      "profile": "exact",
+      "project": "Lang",
+      "second_partition_semantics": "three equal strata after sorting selected mutants by total kill count and identity",
+      "source_snapshot": "snapshots/defects4j-lang-54.csv",
+      "upstream_blob": "d52ab7f04c855578cee6e7764f73da4a33485ce2",
+      "upstream_commit": "f8d8376e0efe345161f26ff6483a404c8548fe1c",
+      "upstream_path": "resources/matrices/Lang/Lang.54f.big.all.Matrix.csv"
+    },
+    "selected_test_names": [
+      "dev__0__org.apache.commons.lang.LocaleUtilsTest::testConstructor",
+      "dev__0__org.apache.commons.lang.LocaleUtilsTest::testToLocale_1Part",
+      "dev__0__org.apache.commons.lang.LocaleUtilsTest::testToLocale_2Part",
+      "dev__0__org.apache.commons.lang.LocaleUtilsTest::testToLocale_3Part",
+      "dev__0__org.apache.commons.lang.LocaleUtilsTest::testLocaleLookupList_Locale",
+      "dev__0__org.apache.commons.lang.LocaleUtilsTest::testLocaleLookupList_LocaleLocale",
+      "dev__0__org.apache.commons.lang.LocaleUtilsTest::testAvailableLocaleList",
+      "dev__0__org.apache.commons.lang.LocaleUtilsTest::testAvailableLocaleSet",
+      "dev__0__org.apache.commons.lang.LocaleUtilsTest::testLang328"
+    ]
+  },
+  {
+    "case": {
+      "a": [
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "a_bounds": [
+        [
+          0,
+          10
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "b": [
+        2,
+        0,
+        2,
+        0,
+        0,
+        1,
+        1,
+        2,
+        0,
+        1,
+        2,
+        1
+      ],
+      "b_bounds": [
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          4
+        ]
+      ],
+      "empty": "bottom",
+      "fail": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "forbid": [],
+      "force": [],
+      "id": "defects4j-lang-54-relaxed",
+      "kill": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          1,
+          0,
+          0,
+          1,
+          1,
+          1,
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "location": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "locations": 12,
+      "reference": [
+        0,
+        2,
+        1
+      ],
+      "size": [
+        4,
+        9
+      ],
+      "tie": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    },
+    "metadata": {
+      "bug_id": 54,
+      "category": "external_matrix",
+      "id": "defects4j-lang-54-relaxed",
+      "kill_counts": [
+        4,
+        1,
+        4,
+        1,
+        1,
+        2,
+        2,
+        2,
+        1,
+        1,
+        2,
+        1
+      ],
+      "location_semantics": "one location per selected mutant because source locations are absent from the public CSV",
+      "operator_order": [
+        "ROR",
+        "LVR"
+      ],
+      "policy_seed_sample": [
+        1,
+        3,
+        7,
+        9,
+        10,
+        11
+      ],
+      "profile": "relaxed",
+      "project": "Lang",
+      "second_partition_semantics": "three equal strata after sorting selected mutants by total kill count and identity",
+      "source_snapshot": "snapshots/defects4j-lang-54.csv",
+      "upstream_blob": "d52ab7f04c855578cee6e7764f73da4a33485ce2",
+      "upstream_commit": "f8d8376e0efe345161f26ff6483a404c8548fe1c",
+      "upstream_path": "resources/matrices/Lang/Lang.54f.big.all.Matrix.csv"
+    },
+    "selected_test_names": [
+      "dev__0__org.apache.commons.lang.LocaleUtilsTest::testConstructor",
+      "dev__0__org.apache.commons.lang.LocaleUtilsTest::testToLocale_1Part",
+      "dev__0__org.apache.commons.lang.LocaleUtilsTest::testToLocale_2Part",
+      "dev__0__org.apache.commons.lang.LocaleUtilsTest::testToLocale_3Part",
+      "dev__0__org.apache.commons.lang.LocaleUtilsTest::testLocaleLookupList_Locale",
+      "dev__0__org.apache.commons.lang.LocaleUtilsTest::testLocaleLookupList_LocaleLocale",
+      "dev__0__org.apache.commons.lang.LocaleUtilsTest::testAvailableLocaleList",
+      "dev__0__org.apache.commons.lang.LocaleUtilsTest::testAvailableLocaleSet",
+      "dev__0__org.apache.commons.lang.LocaleUtilsTest::testLang328"
+    ]
+  },
+  {
+    "case": {
+      "a": [
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1
+      ],
+      "a_bounds": [
+        [
+          0,
+          2
+        ],
+        [
+          4,
+          6
+        ]
+      ],
+      "b": [
+        1,
+        0,
+        2,
+        1,
+        0,
+        2,
+        2,
+        1,
+        2,
+        0,
+        1,
+        0
+      ],
+      "b_bounds": [
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "empty": "bottom",
+      "fail": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "forbid": [],
+      "force": [],
+      "id": "defects4j-math-32-balanced",
+      "kill": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          1,
+          0,
+          0,
+          1,
+          1,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          1,
+          1,
+          0,
+          1,
+          1,
+          1,
+          1,
+          0,
+          1,
+          0
+        ]
+      ],
+      "location": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "locations": 12,
+      "reference": [
+        1,
+        3,
+        7
+      ],
+      "size": [
+        5,
+        8
+      ],
+      "tie": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    },
+    "metadata": {
+      "bug_id": 32,
+      "category": "external_matrix",
+      "id": "defects4j-math-32-balanced",
+      "kill_counts": [
+        2,
+        1,
+        2,
+        1,
+        0,
+        2,
+        2,
+        1,
+        2,
+        0,
+        1,
+        0
+      ],
+      "location_semantics": "one location per selected mutant because source locations are absent from the public CSV",
+      "operator_order": [
+        "LVR",
+        "ROR"
+      ],
+      "policy_seed_sample": [
+        2,
+        3,
+        4,
+        5,
+        7,
+        9
+      ],
+      "profile": "balanced",
+      "project": "Math",
+      "second_partition_semantics": "three equal strata after sorting selected mutants by total kill count and identity",
+      "source_snapshot": "snapshots/defects4j-math-32.csv",
+      "upstream_blob": "c62d1d1bd2efd28ebd80673cb8b09936752897f6",
+      "upstream_commit": "f8d8376e0efe345161f26ff6483a404c8548fe1c",
+      "upstream_path": "resources/matrices/Math/Math.32f.big.all.Matrix.csv"
+    },
+    "selected_test_names": [
+      "dev__0__org.apache.commons.math3.geometry.euclidean.twod.PolygonsSetTest::testSimplyConnected",
+      "dev__0__org.apache.commons.math3.geometry.euclidean.twod.PolygonsSetTest::testStair",
+      "dev__0__org.apache.commons.math3.geometry.euclidean.twod.PolygonsSetTest::testHole",
+      "dev__0__org.apache.commons.math3.geometry.euclidean.twod.PolygonsSetTest::testDisjointPolygons",
+      "dev__0__org.apache.commons.math3.geometry.euclidean.twod.PolygonsSetTest::testOppositeHyperplanes",
+      "dev__0__org.apache.commons.math3.geometry.euclidean.twod.PolygonsSetTest::testSingularPoint",
+      "dev__0__org.apache.commons.math3.geometry.euclidean.twod.PolygonsSetTest::testLineIntersection",
+      "dev__0__org.apache.commons.math3.geometry.euclidean.twod.PolygonsSetTest::testUnlimitedSubHyperplane",
+      "dev__0__org.apache.commons.math3.geometry.euclidean.threed.PolyhedronsSetTest::testIssue780"
+    ]
+  },
+  {
+    "case": {
+      "a": [
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1
+      ],
+      "a_bounds": [
+        [
+          1,
+          1
+        ],
+        [
+          5,
+          5
+        ]
+      ],
+      "b": [
+        1,
+        0,
+        2,
+        1,
+        0,
+        2,
+        2,
+        1,
+        2,
+        0,
+        1,
+        0
+      ],
+      "b_bounds": [
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "empty": "bottom",
+      "fail": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "forbid": [],
+      "force": [],
+      "id": "defects4j-math-32-exact",
+      "kill": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          1,
+          0,
+          0,
+          1,
+          1,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          1,
+          1,
+          0,
+          1,
+          1,
+          1,
+          1,
+          0,
+          1,
+          0
+        ]
+      ],
+      "location": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "locations": 12,
+      "reference": [
+        1,
+        3,
+        7
+      ],
+      "size": [
+        6,
+        6
+      ],
+      "tie": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    },
+    "metadata": {
+      "bug_id": 32,
+      "category": "external_matrix",
+      "id": "defects4j-math-32-exact",
+      "kill_counts": [
+        2,
+        1,
+        2,
+        1,
+        0,
+        2,
+        2,
+        1,
+        2,
+        0,
+        1,
+        0
+      ],
+      "location_semantics": "one location per selected mutant because source locations are absent from the public CSV",
+      "operator_order": [
+        "LVR",
+        "ROR"
+      ],
+      "policy_seed_sample": [
+        2,
+        3,
+        4,
+        5,
+        7,
+        9
+      ],
+      "profile": "exact",
+      "project": "Math",
+      "second_partition_semantics": "three equal strata after sorting selected mutants by total kill count and identity",
+      "source_snapshot": "snapshots/defects4j-math-32.csv",
+      "upstream_blob": "c62d1d1bd2efd28ebd80673cb8b09936752897f6",
+      "upstream_commit": "f8d8376e0efe345161f26ff6483a404c8548fe1c",
+      "upstream_path": "resources/matrices/Math/Math.32f.big.all.Matrix.csv"
+    },
+    "selected_test_names": [
+      "dev__0__org.apache.commons.math3.geometry.euclidean.twod.PolygonsSetTest::testSimplyConnected",
+      "dev__0__org.apache.commons.math3.geometry.euclidean.twod.PolygonsSetTest::testStair",
+      "dev__0__org.apache.commons.math3.geometry.euclidean.twod.PolygonsSetTest::testHole",
+      "dev__0__org.apache.commons.math3.geometry.euclidean.twod.PolygonsSetTest::testDisjointPolygons",
+      "dev__0__org.apache.commons.math3.geometry.euclidean.twod.PolygonsSetTest::testOppositeHyperplanes",
+      "dev__0__org.apache.commons.math3.geometry.euclidean.twod.PolygonsSetTest::testSingularPoint",
+      "dev__0__org.apache.commons.math3.geometry.euclidean.twod.PolygonsSetTest::testLineIntersection",
+      "dev__0__org.apache.commons.math3.geometry.euclidean.twod.PolygonsSetTest::testUnlimitedSubHyperplane",
+      "dev__0__org.apache.commons.math3.geometry.euclidean.threed.PolyhedronsSetTest::testIssue780"
+    ]
+  },
+  {
+    "case": {
+      "a": [
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1
+      ],
+      "a_bounds": [
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          9
+        ]
+      ],
+      "b": [
+        1,
+        0,
+        2,
+        1,
+        0,
+        2,
+        2,
+        1,
+        2,
+        0,
+        1,
+        0
+      ],
+      "b_bounds": [
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          4
+        ]
+      ],
+      "empty": "bottom",
+      "fail": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "forbid": [],
+      "force": [],
+      "id": "defects4j-math-32-relaxed",
+      "kill": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          1,
+          0,
+          0,
+          1,
+          1,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          1,
+          1,
+          0,
+          1,
+          1,
+          1,
+          1,
+          0,
+          1,
+          0
+        ]
+      ],
+      "location": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "locations": 12,
+      "reference": [
+        1,
+        3,
+        7
+      ],
+      "size": [
+        4,
+        9
+      ],
+      "tie": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    },
+    "metadata": {
+      "bug_id": 32,
+      "category": "external_matrix",
+      "id": "defects4j-math-32-relaxed",
+      "kill_counts": [
+        2,
+        1,
+        2,
+        1,
+        0,
+        2,
+        2,
+        1,
+        2,
+        0,
+        1,
+        0
+      ],
+      "location_semantics": "one location per selected mutant because source locations are absent from the public CSV",
+      "operator_order": [
+        "LVR",
+        "ROR"
+      ],
+      "policy_seed_sample": [
+        2,
+        3,
+        4,
+        5,
+        7,
+        9
+      ],
+      "profile": "relaxed",
+      "project": "Math",
+      "second_partition_semantics": "three equal strata after sorting selected mutants by total kill count and identity",
+      "source_snapshot": "snapshots/defects4j-math-32.csv",
+      "upstream_blob": "c62d1d1bd2efd28ebd80673cb8b09936752897f6",
+      "upstream_commit": "f8d8376e0efe345161f26ff6483a404c8548fe1c",
+      "upstream_path": "resources/matrices/Math/Math.32f.big.all.Matrix.csv"
+    },
+    "selected_test_names": [
+      "dev__0__org.apache.commons.math3.geometry.euclidean.twod.PolygonsSetTest::testSimplyConnected",
+      "dev__0__org.apache.commons.math3.geometry.euclidean.twod.PolygonsSetTest::testStair",
+      "dev__0__org.apache.commons.math3.geometry.euclidean.twod.PolygonsSetTest::testHole",
+      "dev__0__org.apache.commons.math3.geometry.euclidean.twod.PolygonsSetTest::testDisjointPolygons",
+      "dev__0__org.apache.commons.math3.geometry.euclidean.twod.PolygonsSetTest::testOppositeHyperplanes",
+      "dev__0__org.apache.commons.math3.geometry.euclidean.twod.PolygonsSetTest::testSingularPoint",
+      "dev__0__org.apache.commons.math3.geometry.euclidean.twod.PolygonsSetTest::testLineIntersection",
+      "dev__0__org.apache.commons.math3.geometry.euclidean.twod.PolygonsSetTest::testUnlimitedSubHyperplane",
+      "dev__0__org.apache.commons.math3.geometry.euclidean.threed.PolyhedronsSetTest::testIssue780"
+    ]
+  },
+  {
+    "case": {
+      "a": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "a_bounds": [
+        [
+          3,
+          5
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "b": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2
+      ],
+      "b_bounds": [
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "empty": "bottom",
+      "fail": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "forbid": [],
+      "force": [],
+      "id": "defects4j-time-10-balanced",
+      "kill": [
+        [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "location": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "locations": 12,
+      "reference": [
+        0,
+        1,
+        2
+      ],
+      "size": [
+        5,
+        8
+      ],
+      "tie": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    },
+    "metadata": {
+      "bug_id": 10,
+      "category": "external_matrix",
+      "id": "defects4j-time-10-balanced",
+      "kill_counts": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "location_semantics": "one location per selected mutant because source locations are absent from the public CSV",
+      "operator_order": [
+        "ROR",
+        "COR"
+      ],
+      "policy_seed_sample": [
+        0,
+        1,
+        4,
+        5,
+        8,
+        9
+      ],
+      "profile": "balanced",
+      "project": "Time",
+      "second_partition_semantics": "three equal strata after sorting selected mutants by total kill count and identity",
+      "source_snapshot": "snapshots/defects4j-time-10.csv",
+      "upstream_blob": "2413a65b4f7b0490baa4f794ca9f88b41445114c",
+      "upstream_commit": "f8d8376e0efe345161f26ff6483a404c8548fe1c",
+      "upstream_path": "resources/matrices/Time/Time.10f.big.all.Matrix.csv"
+    },
+    "selected_test_names": [
+      "dev__0__org.joda.time.TestBaseSingleFieldPeriod::testFactory_between_RInstant",
+      "dev__0__org.joda.time.TestBaseSingleFieldPeriod::testFactory_between_RPartial",
+      "dev__0__org.joda.time.TestBaseSingleFieldPeriod::testFactory_standardPeriodIn_RPeriod",
+      "dev__0__org.joda.time.TestBaseSingleFieldPeriod::testValueIndexMethods",
+      "dev__0__org.joda.time.TestBaseSingleFieldPeriod::testFieldTypeIndexMethods",
+      "dev__0__org.joda.time.TestBaseSingleFieldPeriod::testIsSupported",
+      "dev__0__org.joda.time.TestBaseSingleFieldPeriod::testGet",
+      "dev__0__org.joda.time.TestBaseSingleFieldPeriod::testEqualsHashCode",
+      "dev__0__org.joda.time.TestDays::testFactory_daysBetween_RPartial_MonthDay",
+      "dev__0__org.joda.time.TestMonths::testFactory_monthsBetween_RPartial_MonthDay"
+    ]
+  },
+  {
+    "case": {
+      "a": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "a_bounds": [
+        [
+          4,
+          4
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "b": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2
+      ],
+      "b_bounds": [
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "empty": "bottom",
+      "fail": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "forbid": [],
+      "force": [],
+      "id": "defects4j-time-10-exact",
+      "kill": [
+        [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "location": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "locations": 12,
+      "reference": [
+        0,
+        1,
+        2
+      ],
+      "size": [
+        6,
+        6
+      ],
+      "tie": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    },
+    "metadata": {
+      "bug_id": 10,
+      "category": "external_matrix",
+      "id": "defects4j-time-10-exact",
+      "kill_counts": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "location_semantics": "one location per selected mutant because source locations are absent from the public CSV",
+      "operator_order": [
+        "ROR",
+        "COR"
+      ],
+      "policy_seed_sample": [
+        0,
+        1,
+        4,
+        5,
+        8,
+        9
+      ],
+      "profile": "exact",
+      "project": "Time",
+      "second_partition_semantics": "three equal strata after sorting selected mutants by total kill count and identity",
+      "source_snapshot": "snapshots/defects4j-time-10.csv",
+      "upstream_blob": "2413a65b4f7b0490baa4f794ca9f88b41445114c",
+      "upstream_commit": "f8d8376e0efe345161f26ff6483a404c8548fe1c",
+      "upstream_path": "resources/matrices/Time/Time.10f.big.all.Matrix.csv"
+    },
+    "selected_test_names": [
+      "dev__0__org.joda.time.TestBaseSingleFieldPeriod::testFactory_between_RInstant",
+      "dev__0__org.joda.time.TestBaseSingleFieldPeriod::testFactory_between_RPartial",
+      "dev__0__org.joda.time.TestBaseSingleFieldPeriod::testFactory_standardPeriodIn_RPeriod",
+      "dev__0__org.joda.time.TestBaseSingleFieldPeriod::testValueIndexMethods",
+      "dev__0__org.joda.time.TestBaseSingleFieldPeriod::testFieldTypeIndexMethods",
+      "dev__0__org.joda.time.TestBaseSingleFieldPeriod::testIsSupported",
+      "dev__0__org.joda.time.TestBaseSingleFieldPeriod::testGet",
+      "dev__0__org.joda.time.TestBaseSingleFieldPeriod::testEqualsHashCode",
+      "dev__0__org.joda.time.TestDays::testFactory_daysBetween_RPartial_MonthDay",
+      "dev__0__org.joda.time.TestMonths::testFactory_monthsBetween_RPartial_MonthDay"
+    ]
+  },
+  {
+    "case": {
+      "a": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "a_bounds": [
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          6
+        ]
+      ],
+      "b": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2
+      ],
+      "b_bounds": [
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          4
+        ]
+      ],
+      "empty": "bottom",
+      "fail": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "forbid": [],
+      "force": [],
+      "id": "defects4j-time-10-relaxed",
+      "kill": [
+        [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "location": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "locations": 12,
+      "reference": [
+        0,
+        1,
+        2
+      ],
+      "size": [
+        4,
+        9
+      ],
+      "tie": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    },
+    "metadata": {
+      "bug_id": 10,
+      "category": "external_matrix",
+      "id": "defects4j-time-10-relaxed",
+      "kill_counts": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "location_semantics": "one location per selected mutant because source locations are absent from the public CSV",
+      "operator_order": [
+        "ROR",
+        "COR"
+      ],
+      "policy_seed_sample": [
+        0,
+        1,
+        4,
+        5,
+        8,
+        9
+      ],
+      "profile": "relaxed",
+      "project": "Time",
+      "second_partition_semantics": "three equal strata after sorting selected mutants by total kill count and identity",
+      "source_snapshot": "snapshots/defects4j-time-10.csv",
+      "upstream_blob": "2413a65b4f7b0490baa4f794ca9f88b41445114c",
+      "upstream_commit": "f8d8376e0efe345161f26ff6483a404c8548fe1c",
+      "upstream_path": "resources/matrices/Time/Time.10f.big.all.Matrix.csv"
+    },
+    "selected_test_names": [
+      "dev__0__org.joda.time.TestBaseSingleFieldPeriod::testFactory_between_RInstant",
+      "dev__0__org.joda.time.TestBaseSingleFieldPeriod::testFactory_between_RPartial",
+      "dev__0__org.joda.time.TestBaseSingleFieldPeriod::testFactory_standardPeriodIn_RPeriod",
+      "dev__0__org.joda.time.TestBaseSingleFieldPeriod::testValueIndexMethods",
+      "dev__0__org.joda.time.TestBaseSingleFieldPeriod::testFieldTypeIndexMethods",
+      "dev__0__org.joda.time.TestBaseSingleFieldPeriod::testIsSupported",
+      "dev__0__org.joda.time.TestBaseSingleFieldPeriod::testGet",
+      "dev__0__org.joda.time.TestBaseSingleFieldPeriod::testEqualsHashCode",
+      "dev__0__org.joda.time.TestDays::testFactory_daysBetween_RPartial_MonthDay",
+      "dev__0__org.joda.time.TestMonths::testFactory_monthsBetween_RPartial_MonthDay"
+    ]
+  }
+]

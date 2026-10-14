@@ -1,0 +1,235 @@
+{
+  "commands": [
+    {
+      "command": [
+        "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "D:\\CodexProjects\\wg-check\\substantive-library\\P014\\artifact\\tests\\secondary_baselines.py",
+        "plan",
+        "--output",
+        "D:\\CodexProjects\\wg-check\\substantive-library\\P014\\artifact\\evidence\\phase-local-secondary\\plan.json"
+      ],
+      "exit_code": 0,
+      "wall_seconds": 1.375,
+      "limit_seconds": 120
+    },
+    {
+      "command": [
+        "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "D:\\CodexProjects\\wg-check\\substantive-library\\P014\\artifact\\tests\\secondary_baselines.py",
+        "shard",
+        "--plan",
+        "D:\\CodexProjects\\wg-check\\substantive-library\\P014\\artifact\\evidence\\phase-local-secondary\\plan.json",
+        "--start",
+        "0",
+        "--stop",
+        "100",
+        "--output",
+        "D:\\CodexProjects\\wg-check\\substantive-library\\P014\\artifact\\evidence\\phase-local-secondary\\shard-000.json"
+      ],
+      "exit_code": 0,
+      "wall_seconds": 1.9060000000172295,
+      "limit_seconds": 120
+    },
+    {
+      "command": [
+        "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "D:\\CodexProjects\\wg-check\\substantive-library\\P014\\artifact\\tests\\secondary_baselines.py",
+        "shard",
+        "--plan",
+        "D:\\CodexProjects\\wg-check\\substantive-library\\P014\\artifact\\evidence\\phase-local-secondary\\plan.json",
+        "--start",
+        "100",
+        "--stop",
+        "200",
+        "--output",
+        "D:\\CodexProjects\\wg-check\\substantive-library\\P014\\artifact\\evidence\\phase-local-secondary\\shard-100.json"
+      ],
+      "exit_code": 0,
+      "wall_seconds": 2.1719999999913853,
+      "limit_seconds": 120
+    },
+    {
+      "command": [
+        "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "D:\\CodexProjects\\wg-check\\substantive-library\\P014\\artifact\\tests\\secondary_baselines.py",
+        "shard",
+        "--plan",
+        "D:\\CodexProjects\\wg-check\\substantive-library\\P014\\artifact\\evidence\\phase-local-secondary\\plan.json",
+        "--start",
+        "200",
+        "--stop",
+        "300",
+        "--output",
+        "D:\\CodexProjects\\wg-check\\substantive-library\\P014\\artifact\\evidence\\phase-local-secondary\\shard-200.json"
+      ],
+      "exit_code": 0,
+      "wall_seconds": 2.9689999999827705,
+      "limit_seconds": 120
+    },
+    {
+      "command": [
+        "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "D:\\CodexProjects\\wg-check\\substantive-library\\P014\\artifact\\tests\\secondary_baselines.py",
+        "shard",
+        "--plan",
+        "D:\\CodexProjects\\wg-check\\substantive-library\\P014\\artifact\\evidence\\phase-local-secondary\\plan.json",
+        "--start",
+        "300",
+        "--stop",
+        "400",
+        "--output",
+        "D:\\CodexProjects\\wg-check\\substantive-library\\P014\\artifact\\evidence\\phase-local-secondary\\shard-300.json"
+      ],
+      "exit_code": 0,
+      "wall_seconds": 3.1560000000172295,
+      "limit_seconds": 120
+    },
+    {
+      "command": [
+        "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "D:\\CodexProjects\\wg-check\\substantive-library\\P014\\artifact\\tests\\secondary_baselines.py",
+        "shard",
+        "--plan",
+        "D:\\CodexProjects\\wg-check\\substantive-library\\P014\\artifact\\evidence\\phase-local-secondary\\plan.json",
+        "--start",
+        "400",
+        "--stop",
+        "500",
+        "--output",
+        "D:\\CodexProjects\\wg-check\\substantive-library\\P014\\artifact\\evidence\\phase-local-secondary\\shard-400.json"
+      ],
+      "exit_code": 0,
+      "wall_seconds": 2.9839999999967404,
+      "limit_seconds": 120
+    },
+    {
+      "command": [
+        "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "D:\\CodexProjects\\wg-check\\substantive-library\\P014\\artifact\\tests\\secondary_baselines.py",
+        "shard",
+        "--plan",
+        "D:\\CodexProjects\\wg-check\\substantive-library\\P014\\artifact\\evidence\\phase-local-secondary\\plan.json",
+        "--start",
+        "500",
+        "--stop",
+        "600",
+        "--output",
+        "D:\\CodexProjects\\wg-check\\substantive-library\\P014\\artifact\\evidence\\phase-local-secondary\\shard-500.json"
+      ],
+      "exit_code": 0,
+      "wall_seconds": 3.0469999999913853,
+      "limit_seconds": 120
+    },
+    {
+      "command": [
+        "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "D:\\CodexProjects\\wg-check\\substantive-library\\P014\\artifact\\tests\\secondary_baselines.py",
+        "shard",
+        "--plan",
+        "D:\\CodexProjects\\wg-check\\substantive-library\\P014\\artifact\\evidence\\phase-local-secondary\\plan.json",
+        "--start",
+        "600",
+        "--stop",
+        "700",
+        "--output",
+        "D:\\CodexProjects\\wg-check\\substantive-library\\P014\\artifact\\evidence\\phase-local-secondary\\shard-600.json"
+      ],
+      "exit_code": 0,
+      "wall_seconds": 2.9690000000118744,
+      "limit_seconds": 120
+    },
+    {
+      "command": [
+        "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "D:\\CodexProjects\\wg-check\\substantive-library\\P014\\artifact\\tests\\secondary_baselines.py",
+        "shard",
+        "--plan",
+        "D:\\CodexProjects\\wg-check\\substantive-library\\P014\\artifact\\evidence\\phase-local-secondary\\plan.json",
+        "--start",
+        "700",
+        "--stop",
+        "800",
+        "--output",
+        "D:\\CodexProjects\\wg-check\\substantive-library\\P014\\artifact\\evidence\\phase-local-secondary\\shard-700.json"
+      ],
+      "exit_code": 0,
+      "wall_seconds": 3.0,
+      "limit_seconds": 120
+    },
+    {
+      "command": [
+        "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "D:\\CodexProjects\\wg-check\\substantive-library\\P014\\artifact\\tests\\secondary_baselines.py",
+        "shard",
+        "--plan",
+        "D:\\CodexProjects\\wg-check\\substantive-library\\P014\\artifact\\evidence\\phase-local-secondary\\plan.json",
+        "--start",
+        "800",
+        "--stop",
+        "900",
+        "--output",
+        "D:\\CodexProjects\\wg-check\\substantive-library\\P014\\artifact\\evidence\\phase-local-secondary\\shard-800.json"
+      ],
+      "exit_code": 0,
+      "wall_seconds": 3.062999999994645,
+      "limit_seconds": 120
+    },
+    {
+      "command": [
+        "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "D:\\CodexProjects\\wg-check\\substantive-library\\P014\\artifact\\tests\\secondary_baselines.py",
+        "shard",
+        "--plan",
+        "D:\\CodexProjects\\wg-check\\substantive-library\\P014\\artifact\\evidence\\phase-local-secondary\\plan.json",
+        "--start",
+        "900",
+        "--stop",
+        "981",
+        "--output",
+        "D:\\CodexProjects\\wg-check\\substantive-library\\P014\\artifact\\evidence\\phase-local-secondary\\shard-900.json"
+      ],
+      "exit_code": 0,
+      "wall_seconds": 2.812000000005355,
+      "limit_seconds": 120
+    },
+    {
+      "command": [
+        "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "-B",
+        "D:\\CodexProjects\\wg-check\\substantive-library\\P014\\artifact\\tests\\secondary_baselines.py",
+        "aggregate",
+        "--plan",
+        "D:\\CodexProjects\\wg-check\\substantive-library\\P014\\artifact\\evidence\\phase-local-secondary\\plan.json",
+        "--shards",
+        "D:\\CodexProjects\\wg-check\\substantive-library\\P014\\artifact\\evidence\\phase-local-secondary\\shard-000.json",
+        "D:\\CodexProjects\\wg-check\\substantive-library\\P014\\artifact\\evidence\\phase-local-secondary\\shard-100.json",
+        "D:\\CodexProjects\\wg-check\\substantive-library\\P014\\artifact\\evidence\\phase-local-secondary\\shard-200.json",
+        "D:\\CodexProjects\\wg-check\\substantive-library\\P014\\artifact\\evidence\\phase-local-secondary\\shard-300.json",
+        "D:\\CodexProjects\\wg-check\\substantive-library\\P014\\artifact\\evidence\\phase-local-secondary\\shard-400.json",
+        "D:\\CodexProjects\\wg-check\\substantive-library\\P014\\artifact\\evidence\\phase-local-secondary\\shard-500.json",
+        "D:\\CodexProjects\\wg-check\\substantive-library\\P014\\artifact\\evidence\\phase-local-secondary\\shard-600.json",
+        "D:\\CodexProjects\\wg-check\\substantive-library\\P014\\artifact\\evidence\\phase-local-secondary\\shard-700.json",
+        "D:\\CodexProjects\\wg-check\\substantive-library\\P014\\artifact\\evidence\\phase-local-secondary\\shard-800.json",
+        "D:\\CodexProjects\\wg-check\\substantive-library\\P014\\artifact\\evidence\\phase-local-secondary\\shard-900.json",
+        "--output",
+        "D:\\CodexProjects\\wg-check\\substantive-library\\P014\\artifact\\evidence\\phase-local-secondary\\all-outcomes.json"
+      ],
+      "exit_code": 0,
+      "wall_seconds": 2.125,
+      "limit_seconds": 120
+    }
+  ],
+  "complete": true,
+  "wall_seconds": 31.578000000008615
+}

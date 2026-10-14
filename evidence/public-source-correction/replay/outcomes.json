@@ -1,0 +1,6818 @@
+[
+  {
+    "bug_id": 24,
+    "certificate": {
+      "branches": [
+        {
+          "branch": [
+            0,
+            3,
+            3
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            0,
+            4,
+            4
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            0,
+            5,
+            5
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            0,
+            6,
+            6
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            0,
+            7,
+            7
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            0,
+            8,
+            8
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            0,
+            9,
+            9
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            0,
+            10,
+            10
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            0,
+            11,
+            11
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            1,
+            3,
+            3
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            1,
+            4,
+            4
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            1,
+            5,
+            5
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            1,
+            6,
+            6
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            1,
+            7,
+            7
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            1,
+            8,
+            8
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            1,
+            9,
+            9
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            1,
+            10,
+            10
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            1,
+            11,
+            11
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            2,
+            3,
+            3
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            2,
+            4,
+            4
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            2,
+            5,
+            5
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            2,
+            6,
+            6
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            2,
+            7,
+            7
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            2,
+            8,
+            8
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            2,
+            9,
+            9
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            2,
+            10,
+            10
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            2,
+            11,
+            11
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        }
+      ],
+      "case_id": "defects4j-chart-24-balanced",
+      "sample": [
+        1,
+        3,
+        4,
+        5,
+        7
+      ],
+      "size": 5,
+      "status": "counterexample"
+    },
+    "direct": {
+      "distinct_top_sets": 84,
+      "feasible_samples": 2044,
+      "minimum": 5,
+      "refuting_samples": 1898,
+      "status": "counterexample",
+      "subsets": 4096
+    },
+    "historical_population": {
+      "feasible_samples": 2044,
+      "minimum": 5,
+      "refuting_samples": 1898,
+      "status": "counterexample"
+    },
+    "id": "defects4j-chart-24-balanced",
+    "interval": {
+      "bounds": [
+        [
+          "-1",
+          "1/5"
+        ],
+        [
+          "-1",
+          "1/2"
+        ],
+        [
+          "-1",
+          "1/5"
+        ],
+        [
+          "-1",
+          "1/5"
+        ],
+        [
+          "-1",
+          "1/6"
+        ],
+        [
+          "-1",
+          "1/6"
+        ],
+        [
+          "-1",
+          "1/6"
+        ],
+        [
+          "-1",
+          "0"
+        ],
+        [
+          "-1",
+          "0"
+        ],
+        [
+          "-1",
+          "0"
+        ],
+        [
+          "-1",
+          "1/6"
+        ],
+        [
+          "-1",
+          "0"
+        ]
+      ],
+      "cpu_seconds": 0.0,
+      "result": "unknown"
+    },
+    "minimum": 5,
+    "profile": "balanced",
+    "project": "Chart",
+    "random": {
+      "accepted": 64,
+      "attempts": 90,
+      "cpu_seconds": 0.015625,
+      "observed_minimum": 5,
+      "result": "observed_counterexample"
+    },
+    "source_input": "external/snapshots/defects4j-chart-24.json",
+    "status": "counterexample"
+  },
+  {
+    "bug_id": 24,
+    "certificate": {
+      "branches": [
+        {
+          "branch": [
+            0,
+            3,
+            3
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            0,
+            4,
+            4
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            0,
+            5,
+            5
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            0,
+            6,
+            6
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            0,
+            7,
+            7
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            0,
+            8,
+            8
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            0,
+            9,
+            9
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            0,
+            10,
+            10
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            0,
+            11,
+            11
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            1,
+            3,
+            3
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            1,
+            4,
+            4
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            1,
+            5,
+            5
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            1,
+            6,
+            6
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            1,
+            7,
+            7
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            1,
+            8,
+            8
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            1,
+            9,
+            9
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            1,
+            10,
+            10
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            1,
+            11,
+            11
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            2,
+            3,
+            3
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            2,
+            4,
+            4
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            2,
+            5,
+            5
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            2,
+            6,
+            6
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            2,
+            7,
+            7
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            2,
+            8,
+            8
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            2,
+            9,
+            9
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            2,
+            10,
+            10
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            2,
+            11,
+            11
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        }
+      ],
+      "case_id": "defects4j-chart-24-exact",
+      "sample": [
+        1,
+        3,
+        4,
+        5,
+        7,
+        8
+      ],
+      "size": 6,
+      "status": "counterexample"
+    },
+    "direct": {
+      "distinct_top_sets": 18,
+      "feasible_samples": 108,
+      "minimum": 6,
+      "refuting_samples": 108,
+      "status": "counterexample",
+      "subsets": 4096
+    },
+    "historical_population": {
+      "feasible_samples": 108,
+      "minimum": 6,
+      "refuting_samples": 108,
+      "status": "counterexample"
+    },
+    "id": "defects4j-chart-24-exact",
+    "interval": {
+      "bounds": [
+        [
+          "-1",
+          "1/5"
+        ],
+        [
+          "-1",
+          "1/2"
+        ],
+        [
+          "-1",
+          "1/5"
+        ],
+        [
+          "-1",
+          "1/5"
+        ],
+        [
+          "-1",
+          "1/6"
+        ],
+        [
+          "-1",
+          "1/6"
+        ],
+        [
+          "-1",
+          "1/6"
+        ],
+        [
+          "-1",
+          "0"
+        ],
+        [
+          "-1",
+          "0"
+        ],
+        [
+          "-1",
+          "0"
+        ],
+        [
+          "-1",
+          "1/6"
+        ],
+        [
+          "-1",
+          "-1"
+        ]
+      ],
+      "cpu_seconds": 0.0,
+      "result": "unknown"
+    },
+    "minimum": 6,
+    "profile": "exact",
+    "project": "Chart",
+    "random": {
+      "accepted": 64,
+      "attempts": 591,
+      "cpu_seconds": 0.0,
+      "observed_minimum": 6,
+      "result": "observed_counterexample"
+    },
+    "source_input": "external/snapshots/defects4j-chart-24.json",
+    "status": "counterexample"
+  },
+  {
+    "bug_id": 24,
+    "certificate": {
+      "branches": [
+        {
+          "branch": [
+            0,
+            3,
+            3
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            0,
+            4,
+            4
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            0,
+            5,
+            5
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            0,
+            6,
+            6
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            0,
+            7,
+            7
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            0,
+            8,
+            8
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            0,
+            9,
+            9
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            0,
+            10,
+            10
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            0,
+            11,
+            11
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            1,
+            3,
+            3
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            1,
+            4,
+            4
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            1,
+            5,
+            5
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            1,
+            6,
+            6
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            1,
+            7,
+            7
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            1,
+            8,
+            8
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            1,
+            9,
+            9
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            1,
+            10,
+            10
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            1,
+            11,
+            11
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            2,
+            3,
+            3
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            2,
+            4,
+            4
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            2,
+            5,
+            5
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            2,
+            6,
+            6
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            2,
+            7,
+            7
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            2,
+            8,
+            8
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            2,
+            9,
+            9
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            2,
+            10,
+            10
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            2,
+            11,
+            11
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        }
+      ],
+      "case_id": "defects4j-chart-24-relaxed",
+      "sample": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "size": 4,
+      "status": "counterexample"
+    },
+    "direct": {
+      "distinct_top_sets": 165,
+      "feasible_samples": 3718,
+      "minimum": 4,
+      "refuting_samples": 3253,
+      "status": "counterexample",
+      "subsets": 4096
+    },
+    "historical_population": {
+      "feasible_samples": 3718,
+      "minimum": 4,
+      "refuting_samples": 3253,
+      "status": "counterexample"
+    },
+    "id": "defects4j-chart-24-relaxed",
+    "interval": {
+      "bounds": [
+        [
+          "-1",
+          "1/5"
+        ],
+        [
+          "-1",
+          "1/2"
+        ],
+        [
+          "-1",
+          "1/5"
+        ],
+        [
+          "-1",
+          "1/5"
+        ],
+        [
+          "-1",
+          "1/6"
+        ],
+        [
+          "-1",
+          "1/6"
+        ],
+        [
+          "-1",
+          "1/6"
+        ],
+        [
+          "-1",
+          "0"
+        ],
+        [
+          "-1",
+          "0"
+        ],
+        [
+          "-1",
+          "0"
+        ],
+        [
+          "-1",
+          "1/6"
+        ],
+        [
+          "-1",
+          "0"
+        ]
+      ],
+      "cpu_seconds": 0.0,
+      "result": "unknown"
+    },
+    "minimum": 4,
+    "profile": "relaxed",
+    "project": "Chart",
+    "random": {
+      "accepted": 64,
+      "attempts": 64,
+      "cpu_seconds": 0.0,
+      "observed_minimum": 4,
+      "result": "observed_counterexample"
+    },
+    "source_input": "external/snapshots/defects4j-chart-24.json",
+    "status": "counterexample"
+  },
+  {
+    "bug_id": 28,
+    "certificate": {
+      "branches": [
+        {
+          "branch": [
+            6,
+            0,
+            -1
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            6,
+            0,
+            0
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            6,
+            1,
+            -1
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            6,
+            1,
+            1
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            6,
+            2,
+            -1
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            6,
+            2,
+            2
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            6,
+            3,
+            -1
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            6,
+            3,
+            3
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            6,
+            4,
+            -1
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            6,
+            4,
+            4
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            6,
+            5,
+            -1
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            6,
+            5,
+            5
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            6,
+            8,
+            8
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            6,
+            10,
+            10
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            6,
+            11,
+            11
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            7,
+            0,
+            -1
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            7,
+            0,
+            0
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            7,
+            1,
+            -1
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            7,
+            1,
+            1
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            7,
+            2,
+            -1
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            7,
+            2,
+            2
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            7,
+            3,
+            -1
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            7,
+            3,
+            3
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            7,
+            4,
+            -1
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            7,
+            4,
+            4
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            7,
+            5,
+            -1
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            7,
+            5,
+            5
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            7,
+            8,
+            8
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            7,
+            10,
+            10
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            7,
+            11,
+            11
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            9,
+            0,
+            -1
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            9,
+            0,
+            0
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            9,
+            1,
+            -1
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            9,
+            1,
+            1
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            9,
+            2,
+            -1
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            9,
+            2,
+            2
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            9,
+            3,
+            -1
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            9,
+            3,
+            3
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            9,
+            4,
+            -1
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            9,
+            4,
+            4
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            9,
+            5,
+            -1
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            9,
+            5,
+            5
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            9,
+            8,
+            -1
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            9,
+            8,
+            8
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            9,
+            10,
+            10
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            9,
+            11,
+            11
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        }
+      ],
+      "case_id": "defects4j-closure-28-balanced",
+      "sample": [
+        0,
+        1,
+        4,
+        5,
+        7
+      ],
+      "size": 5,
+      "status": "counterexample"
+    },
+    "direct": {
+      "distinct_top_sets": 86,
+      "feasible_samples": 808,
+      "minimum": 5,
+      "refuting_samples": 755,
+      "status": "counterexample",
+      "subsets": 4096
+    },
+    "historical_population": {
+      "feasible_samples": 808,
+      "minimum": 5,
+      "refuting_samples": 755,
+      "status": "counterexample"
+    },
+    "id": "defects4j-closure-28-balanced",
+    "interval": {
+      "bounds": [
+        [
+          "-1",
+          "1/2"
+        ],
+        [
+          "-1",
+          "1/2"
+        ],
+        [
+          "-1",
+          "1/2"
+        ],
+        [
+          "-1",
+          "1/2"
+        ],
+        [
+          "-1",
+          "1/2"
+        ],
+        [
+          "-1",
+          "1/2"
+        ],
+        [
+          "-1",
+          "1"
+        ],
+        [
+          "-1",
+          "1"
+        ],
+        [
+          "-1",
+          "1/2"
+        ],
+        [
+          "-1",
+          "1"
+        ],
+        [
+          "-1",
+          "1"
+        ],
+        [
+          "-1",
+          "1"
+        ]
+      ],
+      "cpu_seconds": 0.0,
+      "result": "unknown"
+    },
+    "minimum": 5,
+    "profile": "balanced",
+    "project": "Closure",
+    "random": {
+      "accepted": 64,
+      "attempts": 221,
+      "cpu_seconds": 0.0,
+      "observed_minimum": 5,
+      "result": "observed_counterexample"
+    },
+    "source_input": "external/snapshots/defects4j-closure-28.json",
+    "status": "counterexample"
+  },
+  {
+    "bug_id": 28,
+    "certificate": {
+      "branches": [
+        {
+          "branch": [
+            6,
+            0,
+            -1
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            6,
+            0,
+            0
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            6,
+            1,
+            -1
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            6,
+            1,
+            1
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            6,
+            2,
+            -1
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            6,
+            2,
+            2
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            6,
+            3,
+            -1
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            6,
+            3,
+            3
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            6,
+            4,
+            -1
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            6,
+            4,
+            4
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            6,
+            5,
+            -1
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            6,
+            5,
+            5
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            6,
+            8,
+            8
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            6,
+            10,
+            10
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            6,
+            11,
+            11
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            7,
+            0,
+            -1
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            7,
+            0,
+            0
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            7,
+            1,
+            -1
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            7,
+            1,
+            1
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            7,
+            2,
+            -1
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            7,
+            2,
+            2
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            7,
+            3,
+            -1
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            7,
+            3,
+            3
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            7,
+            4,
+            -1
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            7,
+            4,
+            4
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            7,
+            5,
+            -1
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            7,
+            5,
+            5
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            7,
+            8,
+            8
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            7,
+            10,
+            10
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            7,
+            11,
+            11
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            9,
+            0,
+            -1
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            9,
+            0,
+            0
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            9,
+            1,
+            -1
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            9,
+            1,
+            1
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            9,
+            2,
+            -1
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            9,
+            2,
+            2
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            9,
+            3,
+            -1
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            9,
+            3,
+            3
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            9,
+            4,
+            -1
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            9,
+            4,
+            4
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            9,
+            5,
+            -1
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            9,
+            5,
+            5
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            9,
+            8,
+            -1
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            9,
+            8,
+            8
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            9,
+            10,
+            10
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            9,
+            11,
+            11
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        }
+      ],
+      "case_id": "defects4j-closure-28-exact",
+      "sample": [
+        0,
+        1,
+        4,
+        5,
+        7,
+        9
+      ],
+      "size": 6,
+      "status": "counterexample"
+    },
+    "direct": {
+      "distinct_top_sets": 3,
+      "feasible_samples": 9,
+      "minimum": 6,
+      "refuting_samples": 9,
+      "status": "counterexample",
+      "subsets": 4096
+    },
+    "historical_population": {
+      "feasible_samples": 9,
+      "minimum": 6,
+      "refuting_samples": 9,
+      "status": "counterexample"
+    },
+    "id": "defects4j-closure-28-exact",
+    "interval": {
+      "bounds": [
+        [
+          "1/2",
+          "1/2"
+        ],
+        [
+          "-1",
+          "1/2"
+        ],
+        [
+          "-1",
+          "1/2"
+        ],
+        [
+          "-1",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1/2"
+        ],
+        [
+          "-1",
+          "-1"
+        ],
+        [
+          "1",
+          "1"
+        ],
+        [
+          "-1",
+          "-1"
+        ],
+        [
+          "-1",
+          "1"
+        ],
+        [
+          "-1",
+          "1"
+        ],
+        [
+          "-1",
+          "1"
+        ]
+      ],
+      "cpu_seconds": 0.0,
+      "result": "unknown"
+    },
+    "minimum": 6,
+    "profile": "exact",
+    "project": "Closure",
+    "random": {
+      "accepted": 38,
+      "attempts": 4096,
+      "cpu_seconds": 0.015625,
+      "observed_minimum": 6,
+      "result": "observed_counterexample"
+    },
+    "source_input": "external/snapshots/defects4j-closure-28.json",
+    "status": "counterexample"
+  },
+  {
+    "bug_id": 28,
+    "certificate": {
+      "branches": [
+        {
+          "branch": [
+            6,
+            0,
+            -1
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            6,
+            0,
+            0
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            6,
+            1,
+            -1
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            6,
+            1,
+            1
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            6,
+            2,
+            -1
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            6,
+            2,
+            2
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            6,
+            3,
+            -1
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            6,
+            3,
+            3
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            6,
+            4,
+            -1
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            6,
+            4,
+            4
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            6,
+            5,
+            -1
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            6,
+            5,
+            5
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            6,
+            8,
+            8
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            6,
+            10,
+            10
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            6,
+            11,
+            11
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            7,
+            0,
+            -1
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            7,
+            0,
+            0
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            7,
+            1,
+            -1
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            7,
+            1,
+            1
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            7,
+            2,
+            -1
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            7,
+            2,
+            2
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            7,
+            3,
+            -1
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            7,
+            3,
+            3
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            7,
+            4,
+            -1
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            7,
+            4,
+            4
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            7,
+            5,
+            -1
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            7,
+            5,
+            5
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            7,
+            8,
+            8
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            7,
+            10,
+            10
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            7,
+            11,
+            11
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            9,
+            0,
+            -1
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            9,
+            0,
+            0
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            9,
+            1,
+            -1
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            9,
+            1,
+            1
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            9,
+            2,
+            -1
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            9,
+            2,
+            2
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            9,
+            3,
+            -1
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            9,
+            3,
+            3
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            9,
+            4,
+            -1
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            9,
+            4,
+            4
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            9,
+            5,
+            -1
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            9,
+            5,
+            5
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            9,
+            8,
+            -1
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            9,
+            8,
+            8
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            9,
+            10,
+            10
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            9,
+            11,
+            11
+          ],
+          "proof": {
+            "edge": 18,
+            "kind": "interval"
+          }
+        }
+      ],
+      "case_id": "defects4j-closure-28-relaxed",
+      "sample": [
+        0,
+        1,
+        4,
+        5
+      ],
+      "size": 4,
+      "status": "counterexample"
+    },
+    "direct": {
+      "distinct_top_sets": 165,
+      "feasible_samples": 3718,
+      "minimum": 4,
+      "refuting_samples": 3253,
+      "status": "counterexample",
+      "subsets": 4096
+    },
+    "historical_population": {
+      "feasible_samples": 3718,
+      "minimum": 4,
+      "refuting_samples": 3253,
+      "status": "counterexample"
+    },
+    "id": "defects4j-closure-28-relaxed",
+    "interval": {
+      "bounds": [
+        [
+          "-1",
+          "1/2"
+        ],
+        [
+          "-1",
+          "1/2"
+        ],
+        [
+          "-1",
+          "1/2"
+        ],
+        [
+          "-1",
+          "1/2"
+        ],
+        [
+          "-1",
+          "1/2"
+        ],
+        [
+          "-1",
+          "1/2"
+        ],
+        [
+          "-1",
+          "1"
+        ],
+        [
+          "-1",
+          "1"
+        ],
+        [
+          "-1",
+          "1/2"
+        ],
+        [
+          "-1",
+          "1"
+        ],
+        [
+          "-1",
+          "1"
+        ],
+        [
+          "-1",
+          "1"
+        ]
+      ],
+      "cpu_seconds": 0.0,
+      "result": "unknown"
+    },
+    "minimum": 4,
+    "profile": "relaxed",
+    "project": "Closure",
+    "random": {
+      "accepted": 64,
+      "attempts": 64,
+      "cpu_seconds": 0.0,
+      "observed_minimum": 4,
+      "result": "observed_counterexample"
+    },
+    "source_input": "external/snapshots/defects4j-closure-28.json",
+    "status": "counterexample"
+  },
+  {
+    "bug_id": 54,
+    "certificate": {
+      "branches": [
+        {
+          "branch": [
+            0,
+            3,
+            3
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            0,
+            4,
+            4
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            0,
+            5,
+            5
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            0,
+            6,
+            6
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            0,
+            7,
+            7
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            0,
+            8,
+            8
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            0,
+            9,
+            9
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            0,
+            10,
+            10
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            0,
+            11,
+            11
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            1,
+            3,
+            3
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            1,
+            4,
+            4
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            1,
+            5,
+            5
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            1,
+            6,
+            6
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            1,
+            7,
+            7
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            1,
+            8,
+            8
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            1,
+            9,
+            9
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            1,
+            10,
+            10
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            1,
+            11,
+            11
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            2,
+            3,
+            3
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            2,
+            4,
+            4
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            2,
+            5,
+            5
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            2,
+            6,
+            6
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            2,
+            7,
+            7
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            2,
+            8,
+            8
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            2,
+            9,
+            9
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            2,
+            10,
+            10
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            2,
+            11,
+            11
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        }
+      ],
+      "case_id": "defects4j-lang-54-balanced",
+      "sample": [
+        1,
+        2,
+        3,
+        5,
+        6
+      ],
+      "size": 5,
+      "status": "counterexample"
+    },
+    "direct": {
+      "distinct_top_sets": 109,
+      "feasible_samples": 1992,
+      "minimum": 5,
+      "refuting_samples": 1806,
+      "status": "counterexample",
+      "subsets": 4096
+    },
+    "historical_population": {
+      "feasible_samples": 1992,
+      "minimum": 5,
+      "refuting_samples": 1806,
+      "status": "counterexample"
+    },
+    "id": "defects4j-lang-54-balanced",
+    "interval": {
+      "bounds": [
+        [
+          "-1",
+          "1/4"
+        ],
+        [
+          "-1",
+          "0"
+        ],
+        [
+          "-1",
+          "1/4"
+        ],
+        [
+          "-1",
+          "0"
+        ],
+        [
+          "-1",
+          "0"
+        ],
+        [
+          "-1",
+          "0"
+        ],
+        [
+          "-1",
+          "0"
+        ],
+        [
+          "-1",
+          "0"
+        ],
+        [
+          "-1",
+          "0"
+        ],
+        [
+          "-1",
+          "0"
+        ],
+        [
+          "-1",
+          "0"
+        ],
+        [
+          "-1",
+          "0"
+        ]
+      ],
+      "cpu_seconds": 0.0,
+      "result": "unknown"
+    },
+    "minimum": 5,
+    "profile": "balanced",
+    "project": "Lang",
+    "random": {
+      "accepted": 64,
+      "attempts": 103,
+      "cpu_seconds": 0.015625,
+      "observed_minimum": 5,
+      "result": "observed_counterexample"
+    },
+    "source_input": "external/snapshots/defects4j-lang-54.json",
+    "status": "counterexample"
+  },
+  {
+    "bug_id": 54,
+    "certificate": {
+      "branches": [
+        {
+          "branch": [
+            0,
+            3,
+            3
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            0,
+            4,
+            4
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            0,
+            5,
+            5
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            0,
+            6,
+            6
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            0,
+            7,
+            7
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            0,
+            8,
+            8
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            0,
+            9,
+            9
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            0,
+            10,
+            10
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            0,
+            11,
+            11
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            1,
+            3,
+            3
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            1,
+            4,
+            4
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            1,
+            5,
+            5
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            1,
+            6,
+            6
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            1,
+            7,
+            7
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            1,
+            8,
+            8
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            1,
+            9,
+            9
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            1,
+            10,
+            10
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            1,
+            11,
+            11
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            2,
+            3,
+            3
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            2,
+            4,
+            4
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            2,
+            5,
+            5
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            2,
+            6,
+            6
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            2,
+            7,
+            7
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            2,
+            8,
+            8
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            2,
+            9,
+            9
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            2,
+            10,
+            10
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            2,
+            11,
+            11
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        }
+      ],
+      "case_id": "defects4j-lang-54-exact",
+      "sample": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7
+      ],
+      "size": 6,
+      "status": "counterexample"
+    },
+    "direct": {
+      "distinct_top_sets": 37,
+      "feasible_samples": 144,
+      "minimum": 6,
+      "refuting_samples": 132,
+      "status": "counterexample",
+      "subsets": 4096
+    },
+    "historical_population": {
+      "feasible_samples": 144,
+      "minimum": 6,
+      "refuting_samples": 132,
+      "status": "counterexample"
+    },
+    "id": "defects4j-lang-54-exact",
+    "interval": {
+      "bounds": [
+        [
+          "-1",
+          "1/4"
+        ],
+        [
+          "-1",
+          "0"
+        ],
+        [
+          "-1",
+          "1/4"
+        ],
+        [
+          "-1",
+          "0"
+        ],
+        [
+          "-1",
+          "0"
+        ],
+        [
+          "-1",
+          "0"
+        ],
+        [
+          "-1",
+          "0"
+        ],
+        [
+          "-1",
+          "0"
+        ],
+        [
+          "-1",
+          "0"
+        ],
+        [
+          "-1",
+          "0"
+        ],
+        [
+          "-1",
+          "0"
+        ],
+        [
+          "-1",
+          "0"
+        ]
+      ],
+      "cpu_seconds": 0.0,
+      "result": "unknown"
+    },
+    "minimum": 6,
+    "profile": "exact",
+    "project": "Lang",
+    "random": {
+      "accepted": 64,
+      "attempts": 360,
+      "cpu_seconds": 0.0,
+      "observed_minimum": 6,
+      "result": "observed_counterexample"
+    },
+    "source_input": "external/snapshots/defects4j-lang-54.json",
+    "status": "counterexample"
+  },
+  {
+    "bug_id": 54,
+    "certificate": {
+      "branches": [
+        {
+          "branch": [
+            0,
+            3,
+            3
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            0,
+            4,
+            4
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            0,
+            5,
+            5
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            0,
+            6,
+            6
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            0,
+            7,
+            7
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            0,
+            8,
+            8
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            0,
+            9,
+            9
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            0,
+            10,
+            10
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            0,
+            11,
+            11
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            1,
+            3,
+            3
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            1,
+            4,
+            4
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            1,
+            5,
+            5
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            1,
+            6,
+            6
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            1,
+            7,
+            7
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            1,
+            8,
+            8
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            1,
+            9,
+            9
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            1,
+            10,
+            10
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            1,
+            11,
+            11
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            2,
+            3,
+            3
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            2,
+            4,
+            4
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            2,
+            5,
+            5
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            2,
+            6,
+            6
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            2,
+            7,
+            7
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            2,
+            8,
+            8
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            2,
+            9,
+            9
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            2,
+            10,
+            10
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            2,
+            11,
+            11
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        }
+      ],
+      "case_id": "defects4j-lang-54-relaxed",
+      "sample": [
+        1,
+        2,
+        3,
+        5
+      ],
+      "size": 4,
+      "status": "counterexample"
+    },
+    "direct": {
+      "distinct_top_sets": 165,
+      "feasible_samples": 3718,
+      "minimum": 4,
+      "refuting_samples": 3253,
+      "status": "counterexample",
+      "subsets": 4096
+    },
+    "historical_population": {
+      "feasible_samples": 3718,
+      "minimum": 4,
+      "refuting_samples": 3253,
+      "status": "counterexample"
+    },
+    "id": "defects4j-lang-54-relaxed",
+    "interval": {
+      "bounds": [
+        [
+          "-1",
+          "1/4"
+        ],
+        [
+          "-1",
+          "0"
+        ],
+        [
+          "-1",
+          "1/4"
+        ],
+        [
+          "-1",
+          "0"
+        ],
+        [
+          "-1",
+          "0"
+        ],
+        [
+          "-1",
+          "0"
+        ],
+        [
+          "-1",
+          "0"
+        ],
+        [
+          "-1",
+          "0"
+        ],
+        [
+          "-1",
+          "0"
+        ],
+        [
+          "-1",
+          "0"
+        ],
+        [
+          "-1",
+          "0"
+        ],
+        [
+          "-1",
+          "0"
+        ]
+      ],
+      "cpu_seconds": 0.0,
+      "result": "unknown"
+    },
+    "minimum": 4,
+    "profile": "relaxed",
+    "project": "Lang",
+    "random": {
+      "accepted": 64,
+      "attempts": 64,
+      "cpu_seconds": 0.0,
+      "observed_minimum": 4,
+      "result": "observed_counterexample"
+    },
+    "source_input": "external/snapshots/defects4j-lang-54.json",
+    "status": "counterexample"
+  },
+  {
+    "bug_id": 32,
+    "certificate": {
+      "branches": [
+        {
+          "branch": [
+            1,
+            0,
+            -1
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            1,
+            0,
+            0
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            1,
+            2,
+            2
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            1,
+            4,
+            4
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            1,
+            5,
+            5
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            1,
+            6,
+            6
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            1,
+            8,
+            8
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            1,
+            9,
+            9
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            1,
+            10,
+            10
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            1,
+            11,
+            11
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            3,
+            0,
+            -1
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            3,
+            0,
+            0
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            3,
+            2,
+            -1
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            3,
+            2,
+            2
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            3,
+            4,
+            4
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            3,
+            5,
+            5
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            3,
+            6,
+            6
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            3,
+            8,
+            8
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            3,
+            9,
+            9
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            3,
+            10,
+            10
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            3,
+            11,
+            11
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            7,
+            0,
+            -1
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            7,
+            0,
+            0
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            7,
+            2,
+            -1
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            7,
+            2,
+            2
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            7,
+            4,
+            -1
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            7,
+            4,
+            4
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            7,
+            5,
+            -1
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            7,
+            5,
+            5
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            7,
+            6,
+            -1
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            7,
+            6,
+            6
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            7,
+            8,
+            8
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            7,
+            9,
+            9
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            7,
+            10,
+            10
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            7,
+            11,
+            11
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        }
+      ],
+      "case_id": "defects4j-math-32-balanced",
+      "sample": [
+        0,
+        2,
+        3,
+        4,
+        5
+      ],
+      "size": 5,
+      "status": "counterexample"
+    },
+    "direct": {
+      "distinct_top_sets": 85,
+      "feasible_samples": 1766,
+      "minimum": 5,
+      "refuting_samples": 1560,
+      "status": "counterexample",
+      "subsets": 4096
+    },
+    "historical_population": {
+      "feasible_samples": 1766,
+      "minimum": 5,
+      "refuting_samples": 1560,
+      "status": "counterexample"
+    },
+    "id": "defects4j-math-32-balanced",
+    "interval": {
+      "bounds": [
+        [
+          "-1",
+          "1/2"
+        ],
+        [
+          "-1",
+          "1"
+        ],
+        [
+          "-1",
+          "1/2"
+        ],
+        [
+          "-1",
+          "1"
+        ],
+        [
+          "-1",
+          "0"
+        ],
+        [
+          "-1",
+          "1/2"
+        ],
+        [
+          "-1",
+          "1/2"
+        ],
+        [
+          "-1",
+          "1"
+        ],
+        [
+          "-1",
+          "1/2"
+        ],
+        [
+          "-1",
+          "0"
+        ],
+        [
+          "-1",
+          "1"
+        ],
+        [
+          "-1",
+          "0"
+        ]
+      ],
+      "cpu_seconds": 0.0,
+      "result": "unknown"
+    },
+    "minimum": 5,
+    "profile": "balanced",
+    "project": "Math",
+    "random": {
+      "accepted": 64,
+      "attempts": 130,
+      "cpu_seconds": 0.0,
+      "observed_minimum": 5,
+      "result": "observed_counterexample"
+    },
+    "source_input": "external/snapshots/defects4j-math-32.json",
+    "status": "counterexample"
+  },
+  {
+    "bug_id": 32,
+    "certificate": {
+      "branches": [
+        {
+          "branch": [
+            1,
+            0,
+            -1
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            1,
+            0,
+            0
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            1,
+            2,
+            2
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            1,
+            4,
+            4
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            1,
+            5,
+            5
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            1,
+            6,
+            6
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            1,
+            8,
+            8
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            1,
+            9,
+            9
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            1,
+            10,
+            10
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            1,
+            11,
+            11
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            3,
+            0,
+            -1
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            3,
+            0,
+            0
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            3,
+            2,
+            -1
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            3,
+            2,
+            2
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            3,
+            4,
+            4
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            3,
+            5,
+            5
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            3,
+            6,
+            6
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            3,
+            8,
+            8
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            3,
+            9,
+            9
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            3,
+            10,
+            10
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            3,
+            11,
+            11
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            7,
+            0,
+            -1
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            7,
+            0,
+            0
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            7,
+            2,
+            -1
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            7,
+            2,
+            2
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            7,
+            4,
+            -1
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            7,
+            4,
+            4
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            7,
+            5,
+            -1
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            7,
+            5,
+            5
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            7,
+            6,
+            -1
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            7,
+            6,
+            6
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            7,
+            8,
+            8
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            7,
+            9,
+            9
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            7,
+            10,
+            10
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            7,
+            11,
+            11
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        }
+      ],
+      "case_id": "defects4j-math-32-exact",
+      "sample": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        11
+      ],
+      "size": 6,
+      "status": "counterexample"
+    },
+    "direct": {
+      "distinct_top_sets": 21,
+      "feasible_samples": 90,
+      "minimum": 6,
+      "refuting_samples": 78,
+      "status": "counterexample",
+      "subsets": 4096
+    },
+    "historical_population": {
+      "feasible_samples": 90,
+      "minimum": 6,
+      "refuting_samples": 78,
+      "status": "counterexample"
+    },
+    "id": "defects4j-math-32-exact",
+    "interval": {
+      "bounds": [
+        [
+          "-1",
+          "1/2"
+        ],
+        [
+          "-1",
+          "1"
+        ],
+        [
+          "-1",
+          "1/2"
+        ],
+        [
+          "-1",
+          "1"
+        ],
+        [
+          "-1",
+          "0"
+        ],
+        [
+          "-1",
+          "1/2"
+        ],
+        [
+          "-1",
+          "1/2"
+        ],
+        [
+          "-1",
+          "1"
+        ],
+        [
+          "-1",
+          "1/2"
+        ],
+        [
+          "-1",
+          "0"
+        ],
+        [
+          "-1",
+          "1"
+        ],
+        [
+          "-1",
+          "0"
+        ]
+      ],
+      "cpu_seconds": 0.0,
+      "result": "unknown"
+    },
+    "minimum": 6,
+    "profile": "exact",
+    "project": "Math",
+    "random": {
+      "accepted": 64,
+      "attempts": 825,
+      "cpu_seconds": 0.015625,
+      "observed_minimum": 6,
+      "result": "observed_counterexample"
+    },
+    "source_input": "external/snapshots/defects4j-math-32.json",
+    "status": "counterexample"
+  },
+  {
+    "bug_id": 32,
+    "certificate": {
+      "branches": [
+        {
+          "branch": [
+            1,
+            0,
+            -1
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            1,
+            0,
+            0
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            1,
+            2,
+            2
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            1,
+            4,
+            4
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            1,
+            5,
+            5
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            1,
+            6,
+            6
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            1,
+            8,
+            8
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            1,
+            9,
+            9
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            1,
+            10,
+            10
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            1,
+            11,
+            11
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            3,
+            0,
+            -1
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            3,
+            0,
+            0
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            3,
+            2,
+            -1
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            3,
+            2,
+            2
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            3,
+            4,
+            4
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            3,
+            5,
+            5
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            3,
+            6,
+            6
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            3,
+            8,
+            8
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            3,
+            9,
+            9
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            3,
+            10,
+            10
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            3,
+            11,
+            11
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            7,
+            0,
+            -1
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            7,
+            0,
+            0
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            7,
+            2,
+            -1
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            7,
+            2,
+            2
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            7,
+            4,
+            -1
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            7,
+            4,
+            4
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            7,
+            5,
+            -1
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            7,
+            5,
+            5
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            7,
+            6,
+            -1
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            7,
+            6,
+            6
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            7,
+            8,
+            8
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            7,
+            9,
+            9
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            7,
+            10,
+            10
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            7,
+            11,
+            11
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        }
+      ],
+      "case_id": "defects4j-math-32-relaxed",
+      "sample": [
+        0,
+        2,
+        3,
+        9
+      ],
+      "size": 4,
+      "status": "counterexample"
+    },
+    "direct": {
+      "distinct_top_sets": 165,
+      "feasible_samples": 3718,
+      "minimum": 4,
+      "refuting_samples": 3253,
+      "status": "counterexample",
+      "subsets": 4096
+    },
+    "historical_population": {
+      "feasible_samples": 3718,
+      "minimum": 4,
+      "refuting_samples": 3253,
+      "status": "counterexample"
+    },
+    "id": "defects4j-math-32-relaxed",
+    "interval": {
+      "bounds": [
+        [
+          "-1",
+          "1/2"
+        ],
+        [
+          "-1",
+          "1"
+        ],
+        [
+          "-1",
+          "1/2"
+        ],
+        [
+          "-1",
+          "1"
+        ],
+        [
+          "-1",
+          "0"
+        ],
+        [
+          "-1",
+          "1/2"
+        ],
+        [
+          "-1",
+          "1/2"
+        ],
+        [
+          "-1",
+          "1"
+        ],
+        [
+          "-1",
+          "1/2"
+        ],
+        [
+          "-1",
+          "0"
+        ],
+        [
+          "-1",
+          "1"
+        ],
+        [
+          "-1",
+          "0"
+        ]
+      ],
+      "cpu_seconds": 0.0,
+      "result": "unknown"
+    },
+    "minimum": 4,
+    "profile": "relaxed",
+    "project": "Math",
+    "random": {
+      "accepted": 64,
+      "attempts": 64,
+      "cpu_seconds": 0.0,
+      "observed_minimum": 4,
+      "result": "observed_counterexample"
+    },
+    "source_input": "external/snapshots/defects4j-math-32.json",
+    "status": "counterexample"
+  },
+  {
+    "bug_id": 10,
+    "certificate": {
+      "branches": [
+        {
+          "branch": [
+            0,
+            3,
+            3
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            0,
+            4,
+            4
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            0,
+            5,
+            5
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            0,
+            6,
+            6
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            0,
+            7,
+            7
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            0,
+            8,
+            8
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            0,
+            9,
+            9
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            0,
+            10,
+            10
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            0,
+            11,
+            11
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            1,
+            3,
+            3
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            1,
+            4,
+            4
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            1,
+            5,
+            5
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            1,
+            6,
+            6
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            1,
+            7,
+            7
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            1,
+            8,
+            8
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            1,
+            9,
+            9
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            1,
+            10,
+            10
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            1,
+            11,
+            11
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            2,
+            3,
+            3
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            2,
+            4,
+            4
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            2,
+            5,
+            5
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            2,
+            6,
+            6
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            2,
+            7,
+            7
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            2,
+            8,
+            8
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            2,
+            9,
+            9
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            2,
+            10,
+            10
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            2,
+            11,
+            11
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        }
+      ],
+      "case_id": "defects4j-time-10-balanced",
+      "sample": [
+        1,
+        2,
+        3,
+        4,
+        8
+      ],
+      "size": 5,
+      "status": "counterexample"
+    },
+    "direct": {
+      "distinct_top_sets": 20,
+      "feasible_samples": 1268,
+      "minimum": 5,
+      "refuting_samples": 1134,
+      "status": "counterexample",
+      "subsets": 4096
+    },
+    "historical_population": {
+      "feasible_samples": 1764,
+      "minimum": 5,
+      "refuting_samples": 1724,
+      "status": "counterexample"
+    },
+    "id": "defects4j-time-10-balanced",
+    "interval": {
+      "bounds": [
+        [
+          "-1",
+          "0"
+        ],
+        [
+          "-1",
+          "0"
+        ],
+        [
+          "-1",
+          "0"
+        ],
+        [
+          "-1",
+          "0"
+        ],
+        [
+          "-1",
+          "0"
+        ],
+        [
+          "-1",
+          "0"
+        ],
+        [
+          "-1",
+          "0"
+        ],
+        [
+          "-1",
+          "0"
+        ],
+        [
+          "-1",
+          "0"
+        ],
+        [
+          "-1",
+          "0"
+        ],
+        [
+          "-1",
+          "0"
+        ],
+        [
+          "-1",
+          "0"
+        ]
+      ],
+      "cpu_seconds": 0.0,
+      "result": "unknown"
+    },
+    "minimum": 5,
+    "profile": "balanced",
+    "project": "Time",
+    "random": {
+      "accepted": 64,
+      "attempts": 210,
+      "cpu_seconds": 0.0,
+      "observed_minimum": 5,
+      "result": "observed_counterexample"
+    },
+    "source_input": "evidence/public-source-correction/input/defects4j-time-10.json",
+    "status": "counterexample"
+  },
+  {
+    "bug_id": 10,
+    "certificate": {
+      "branches": [
+        {
+          "branch": [
+            0,
+            3,
+            3
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            0,
+            4,
+            4
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            0,
+            5,
+            5
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            0,
+            6,
+            6
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            0,
+            7,
+            7
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            0,
+            8,
+            8
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            0,
+            9,
+            9
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            0,
+            10,
+            10
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            0,
+            11,
+            11
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            1,
+            3,
+            3
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            1,
+            4,
+            4
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            1,
+            5,
+            5
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            1,
+            6,
+            6
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            1,
+            7,
+            7
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            1,
+            8,
+            8
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            1,
+            9,
+            9
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            1,
+            10,
+            10
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            1,
+            11,
+            11
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            2,
+            3,
+            3
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            2,
+            4,
+            4
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            2,
+            5,
+            5
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            2,
+            6,
+            6
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            2,
+            7,
+            7
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            2,
+            8,
+            8
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            2,
+            9,
+            9
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            2,
+            10,
+            10
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            2,
+            11,
+            11
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        }
+      ],
+      "case_id": "defects4j-time-10-exact",
+      "sample": [
+        1,
+        3,
+        4,
+        5,
+        8,
+        9
+      ],
+      "size": 6,
+      "status": "counterexample"
+    },
+    "direct": {
+      "distinct_top_sets": 6,
+      "feasible_samples": 36,
+      "minimum": 6,
+      "refuting_samples": 36,
+      "status": "counterexample",
+      "subsets": 4096
+    },
+    "historical_population": {
+      "feasible_samples": 108,
+      "minimum": 6,
+      "refuting_samples": 108,
+      "status": "counterexample"
+    },
+    "id": "defects4j-time-10-exact",
+    "interval": {
+      "bounds": [
+        [
+          "-1",
+          "0"
+        ],
+        [
+          "-1",
+          "0"
+        ],
+        [
+          "-1",
+          "0"
+        ],
+        [
+          "-1",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "-1",
+          "-1"
+        ],
+        [
+          "-1",
+          "-1"
+        ],
+        [
+          "-1",
+          "0"
+        ],
+        [
+          "-1",
+          "0"
+        ],
+        [
+          "-1",
+          "0"
+        ],
+        [
+          "-1",
+          "0"
+        ]
+      ],
+      "cpu_seconds": 0.0,
+      "result": "unknown"
+    },
+    "minimum": 6,
+    "profile": "exact",
+    "project": "Time",
+    "random": {
+      "accepted": 64,
+      "attempts": 1760,
+      "cpu_seconds": 0.015625,
+      "observed_minimum": 6,
+      "result": "observed_counterexample"
+    },
+    "source_input": "evidence/public-source-correction/input/defects4j-time-10.json",
+    "status": "counterexample"
+  },
+  {
+    "bug_id": 10,
+    "certificate": {
+      "branches": [
+        {
+          "branch": [
+            0,
+            3,
+            3
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            0,
+            4,
+            4
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            0,
+            5,
+            5
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            0,
+            6,
+            6
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            0,
+            7,
+            7
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            0,
+            8,
+            8
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            0,
+            9,
+            9
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            0,
+            10,
+            10
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            0,
+            11,
+            11
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            1,
+            3,
+            3
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            1,
+            4,
+            4
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            1,
+            5,
+            5
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            1,
+            6,
+            6
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            1,
+            7,
+            7
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            1,
+            8,
+            8
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            1,
+            9,
+            9
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            1,
+            10,
+            10
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            1,
+            11,
+            11
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            2,
+            3,
+            3
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            2,
+            4,
+            4
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            2,
+            5,
+            5
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            2,
+            6,
+            6
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            2,
+            7,
+            7
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            2,
+            8,
+            8
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            2,
+            9,
+            9
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            2,
+            10,
+            10
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        },
+        {
+          "branch": [
+            2,
+            11,
+            11
+          ],
+          "proof": {
+            "edge": 17,
+            "kind": "interval"
+          }
+        }
+      ],
+      "case_id": "defects4j-time-10-relaxed",
+      "sample": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "size": 4,
+      "status": "counterexample"
+    },
+    "direct": {
+      "distinct_top_sets": 165,
+      "feasible_samples": 3718,
+      "minimum": 4,
+      "refuting_samples": 3253,
+      "status": "counterexample",
+      "subsets": 4096
+    },
+    "historical_population": {
+      "feasible_samples": 3718,
+      "minimum": 4,
+      "refuting_samples": 3253,
+      "status": "counterexample"
+    },
+    "id": "defects4j-time-10-relaxed",
+    "interval": {
+      "bounds": [
+        [
+          "-1",
+          "0"
+        ],
+        [
+          "-1",
+          "0"
+        ],
+        [
+          "-1",
+          "0"
+        ],
+        [
+          "-1",
+          "0"
+        ],
+        [
+          "-1",
+          "0"
+        ],
+        [
+          "-1",
+          "0"
+        ],
+        [
+          "-1",
+          "0"
+        ],
+        [
+          "-1",
+          "0"
+        ],
+        [
+          "-1",
+          "0"
+        ],
+        [
+          "-1",
+          "0"
+        ],
+        [
+          "-1",
+          "0"
+        ],
+        [
+          "-1",
+          "0"
+        ]
+      ],
+      "cpu_seconds": 0.0,
+      "result": "unknown"
+    },
+    "minimum": 4,
+    "profile": "relaxed",
+    "project": "Time",
+    "random": {
+      "accepted": 64,
+      "attempts": 64,
+      "cpu_seconds": 0.015625,
+      "observed_minimum": 4,
+      "result": "observed_counterexample"
+    },
+    "source_input": "evidence/public-source-correction/input/defects4j-time-10.json",
+    "status": "counterexample"
+  }
+]

@@ -16,9 +16,12 @@ Full reconstruction requires Linux, Python 3.11 or later, and a C11 compiler ava
 
 Do not invoke Python with `-O` or `PYTHONOPTIMIZE`; the limiter rejects optimized execution.
 
-## Complete validation
+## Historical release reconstruction
 
-The authoritative public-command list is `public_commands.json`. Run the twelve commands individually:
+`public_commands.json` retains the original twelve-command reconstruction.
+Its external step reproduces the historical Time-10 slice, not the current
+source correction below. Do not use reconstruction of that slice to certify
+upstream source correspondence. Run those historical commands individually:
 
 ```sh
 python src/limited.py tests/pilot.py
@@ -127,6 +130,56 @@ The `zero_floor` sensitivity changes only the empty-location convention and keep
 `external/` freezes license-compatible slices from `donghwan-shin/Diversity-aware-Mutation-Testing` at commit `f8d8376e0efe345161f26ff6483a404c8548fe1c`. The cases cover Chart-24, Closure-28, Lang-54, Math-32, and Time-10. Selection follows `external/selection-protocol.md` and does not inspect certification outcomes.
 
 Each project contributes twelve mutation columns and official failing-test labels. Because the source archive does not provide mutant-to-source-location mappings in the CSVs, every mutant is treated as a surrogate location. This is a mutant-level specialization of the model, not a line-localization evaluation. Three predeclared policy profiles produce fifteen cases. All fifteen are refutable; exact marginal intervals certify none and random search observes every refuter. The negative outcome is retained rather than filtered.
+
+### Source-corrected public replay
+
+`evidence/public-source-correction/` records immutable upstream blob checks and
+the actual corrected Time-10 slice. Four old slices match all retained test
+rows. In Time-10, six passing-test names are absent from the bound source,
+one failure row differs, and the operator row differs: the actual first twelve
+operators are six ROR followed by six COR. The replacement uses the original
+first-eight-passing and official-trigger rule; it does not tune scores or quotas.
+Historical `external/` and `results/` bytes remain unchanged.
+
+The upstream generator combines fixed-version Major mutation kill logs with
+separate faulty-version trigger labels. This does not reconstruct output
+differences from mutants of the faulty program. The numerical ranking contract
+can still audit the supplied bits; native mutation semantics remain separate.
+
+```sh
+python -B tests/public_source_replay.py --out evidence/new-public-replay
+python -B tests/test_public_source_correction.py -v
+```
+
+All fifteen corrected queries remain refutable with minima 4--6 and random
+coverage 15/15. Current totals are 26,855 feasible and 23,781 refuting subsets
+over 61,440 masks, replacing the historical slice's 27,423/24,443 counts for
+the current paper table. Direct enumeration agrees on every status and minimum.
+No public program, compiler or binary is executed.
+
+### Same-information decision and work accounting
+
+`python -B tests/contract_comparison.py --out evidence/new-contract-comparison`
+uses every frozen case with at most fifteen mutants: 200 generated programs,
+40 paired ambiguity worlds, 18 fixtures and fifteen historical matrix queries.
+The two forty-mutant fixtures are excluded before comparison. Direct enumeration
+uses no producer/checker semantics and matches all 273 statuses and minima over
+6,625,406 masks. Historical Time queries are labelled as such, not promoted to
+source-corrected observations. No additional decisions are established; portable
+cut proofs are a different output obligation.
+
+The secondary recorder now snapshots `producer_counters` before intervals.
+It separately saves `interval_counters`, `combined_flow_counters` and an explicit
+`counter_scope`, checking component sums. Older shards' field named
+`producer_counters` actually includes interval work and remains unchanged.
+The saved-record check reports that legacy scope; mixed scopes are rejected.
+`evidence/phase-local-secondary/` contains a fresh complete 981-query run with
+unchanged results and seeds. Use `tests/test_work_accounting.py -v` for five
+owned regression methods. The 273-query comparison records 7,107 producer and
+4,568 interval circulation calls separately; partial checker steps and direct
+mask visits are different units, not a speedup or complete primitive-work total.
+Ten templates, twenty paired controls, five project-version snapshots and
+their policy profiles are not independent time-ordered sampling histories.
 
 ## References and calibration
 

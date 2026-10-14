@@ -1,0 +1,307 @@
+{
+  "schema": "p014-public-snapshot-static-source-audit-v1",
+  "commit": "f8d8376e0efe345161f26ff6483a404c8548fe1c",
+  "records": [
+    {
+      "id": "defects4j-chart-24",
+      "url": "https://raw.githubusercontent.com/donghwan-shin/Diversity-aware-Mutation-Testing/f8d8376e0efe345161f26ff6483a404c8548fe1c/resources/matrices/Chart/Chart.24f.big.all.Matrix.csv",
+      "git_blob_expected": "93e5e3f608e528f6fbc090bcb256781ed24b8bf8",
+      "git_blob_actual": "93e5e3f608e528f6fbc090bcb256781ed24b8bf8",
+      "blob_matches": true,
+      "upstream_sha256": "aa7e341616df89245ffc11e75b8fd990d48791dc6ca93f6d8cdd75d93190ef5d",
+      "local_selected_rows": 9,
+      "exact_selected_rows": 9,
+      "rows": [
+        {
+          "test": "dev__0__org.jfree.chart.renderer.junit.GrayPaintScaleTests::testConstructor",
+          "upstream_name_matches": 1,
+          "exact_selected_row_match": true
+        },
+        {
+          "test": "dev__0__org.jfree.chart.renderer.junit.GrayPaintScaleTests::testEquals",
+          "upstream_name_matches": 1,
+          "exact_selected_row_match": true
+        },
+        {
+          "test": "dev__0__org.jfree.chart.renderer.junit.GrayPaintScaleTests::testCloning",
+          "upstream_name_matches": 1,
+          "exact_selected_row_match": true
+        },
+        {
+          "test": "dev__0__org.jfree.chart.renderer.junit.GrayPaintScaleTests::testSerialization",
+          "upstream_name_matches": 1,
+          "exact_selected_row_match": true
+        },
+        {
+          "test": "dev__0__org.jfree.chart.renderer.xy.junit.XYBlockRendererTests::testEquals",
+          "upstream_name_matches": 1,
+          "exact_selected_row_match": true
+        },
+        {
+          "test": "dev__0__org.jfree.chart.renderer.xy.junit.XYBlockRendererTests::testHashcode",
+          "upstream_name_matches": 1,
+          "exact_selected_row_match": true
+        },
+        {
+          "test": "dev__0__org.jfree.chart.renderer.xy.junit.XYBlockRendererTests::testCloning",
+          "upstream_name_matches": 1,
+          "exact_selected_row_match": true
+        },
+        {
+          "test": "dev__0__org.jfree.chart.renderer.xy.junit.XYBlockRendererTests::testSerialization",
+          "upstream_name_matches": 1,
+          "exact_selected_row_match": true
+        },
+        {
+          "test": "dev__0__org.jfree.chart.renderer.junit.GrayPaintScaleTests::testGetPaint",
+          "upstream_name_matches": 1,
+          "exact_selected_row_match": true
+        }
+      ],
+      "native_execution": false
+    },
+    {
+      "id": "defects4j-closure-28",
+      "url": "https://raw.githubusercontent.com/donghwan-shin/Diversity-aware-Mutation-Testing/f8d8376e0efe345161f26ff6483a404c8548fe1c/resources/matrices/Closure/Closure.28f.big.all.Matrix.csv",
+      "git_blob_expected": "4f84f0e30ba7fbdd52b2cf414c52f0d83a4de9b7",
+      "git_blob_actual": "4f84f0e30ba7fbdd52b2cf414c52f0d83a4de9b7",
+      "blob_matches": true,
+      "upstream_sha256": "530bea103cecc3cfad8310c0fc2b8eb4530e4d15b8b3048cd1f77ff5615f00c0",
+      "local_selected_rows": 10,
+      "exact_selected_rows": 10,
+      "rows": [
+        {
+          "test": "dev__0__com.google.javascript.jscomp.IntegrationTest::testBug1949424",
+          "upstream_name_matches": 1,
+          "exact_selected_row_match": true
+        },
+        {
+          "test": "dev__0__com.google.javascript.jscomp.IntegrationTest::testBug1949424_v2",
+          "upstream_name_matches": 1,
+          "exact_selected_row_match": true
+        },
+        {
+          "test": "dev__0__com.google.javascript.jscomp.IntegrationTest::testBug1956277",
+          "upstream_name_matches": 1,
+          "exact_selected_row_match": true
+        },
+        {
+          "test": "dev__0__com.google.javascript.jscomp.IntegrationTest::testBug1962380",
+          "upstream_name_matches": 1,
+          "exact_selected_row_match": true
+        },
+        {
+          "test": "dev__0__com.google.javascript.jscomp.IntegrationTest::testBug2410122",
+          "upstream_name_matches": 1,
+          "exact_selected_row_match": true
+        },
+        {
+          "test": "dev__0__com.google.javascript.jscomp.IntegrationTest::testIssue90",
+          "upstream_name_matches": 1,
+          "exact_selected_row_match": true
+        },
+        {
+          "test": "dev__0__com.google.javascript.jscomp.IntegrationTest::testClosurePassOff",
+          "upstream_name_matches": 1,
+          "exact_selected_row_match": true
+        },
+        {
+          "test": "dev__0__com.google.javascript.jscomp.IntegrationTest::testClosurePassOn",
+          "upstream_name_matches": 1,
+          "exact_selected_row_match": true
+        },
+        {
+          "test": "dev__0__com.google.javascript.jscomp.InlineCostEstimatorTest::testCost",
+          "upstream_name_matches": 1,
+          "exact_selected_row_match": true
+        },
+        {
+          "test": "dev__0__com.google.javascript.jscomp.InlineFunctionsTest::testIssue728",
+          "upstream_name_matches": 1,
+          "exact_selected_row_match": true
+        }
+      ],
+      "native_execution": false
+    },
+    {
+      "id": "defects4j-lang-54",
+      "url": "https://raw.githubusercontent.com/donghwan-shin/Diversity-aware-Mutation-Testing/f8d8376e0efe345161f26ff6483a404c8548fe1c/resources/matrices/Lang/Lang.54f.big.all.Matrix.csv",
+      "git_blob_expected": "d52ab7f04c855578cee6e7764f73da4a33485ce2",
+      "git_blob_actual": "d52ab7f04c855578cee6e7764f73da4a33485ce2",
+      "blob_matches": true,
+      "upstream_sha256": "7ce00d8e29bf3fdc5993b17e8f36e18e08744887f59b801ee0b9c38ac41c6273",
+      "local_selected_rows": 9,
+      "exact_selected_rows": 9,
+      "rows": [
+        {
+          "test": "dev__0__org.apache.commons.lang.LocaleUtilsTest::testConstructor",
+          "upstream_name_matches": 1,
+          "exact_selected_row_match": true
+        },
+        {
+          "test": "dev__0__org.apache.commons.lang.LocaleUtilsTest::testToLocale_1Part",
+          "upstream_name_matches": 1,
+          "exact_selected_row_match": true
+        },
+        {
+          "test": "dev__0__org.apache.commons.lang.LocaleUtilsTest::testToLocale_2Part",
+          "upstream_name_matches": 1,
+          "exact_selected_row_match": true
+        },
+        {
+          "test": "dev__0__org.apache.commons.lang.LocaleUtilsTest::testToLocale_3Part",
+          "upstream_name_matches": 1,
+          "exact_selected_row_match": true
+        },
+        {
+          "test": "dev__0__org.apache.commons.lang.LocaleUtilsTest::testLocaleLookupList_Locale",
+          "upstream_name_matches": 1,
+          "exact_selected_row_match": true
+        },
+        {
+          "test": "dev__0__org.apache.commons.lang.LocaleUtilsTest::testLocaleLookupList_LocaleLocale",
+          "upstream_name_matches": 1,
+          "exact_selected_row_match": true
+        },
+        {
+          "test": "dev__0__org.apache.commons.lang.LocaleUtilsTest::testAvailableLocaleList",
+          "upstream_name_matches": 1,
+          "exact_selected_row_match": true
+        },
+        {
+          "test": "dev__0__org.apache.commons.lang.LocaleUtilsTest::testAvailableLocaleSet",
+          "upstream_name_matches": 1,
+          "exact_selected_row_match": true
+        },
+        {
+          "test": "dev__0__org.apache.commons.lang.LocaleUtilsTest::testLang328",
+          "upstream_name_matches": 1,
+          "exact_selected_row_match": true
+        }
+      ],
+      "native_execution": false
+    },
+    {
+      "id": "defects4j-math-32",
+      "url": "https://raw.githubusercontent.com/donghwan-shin/Diversity-aware-Mutation-Testing/f8d8376e0efe345161f26ff6483a404c8548fe1c/resources/matrices/Math/Math.32f.big.all.Matrix.csv",
+      "git_blob_expected": "c62d1d1bd2efd28ebd80673cb8b09936752897f6",
+      "git_blob_actual": "c62d1d1bd2efd28ebd80673cb8b09936752897f6",
+      "blob_matches": true,
+      "upstream_sha256": "81defaccf6e2378d4afe2efa85cc5d928f4aed1b223233a9d58c5d91aa55918d",
+      "local_selected_rows": 9,
+      "exact_selected_rows": 9,
+      "rows": [
+        {
+          "test": "dev__0__org.apache.commons.math3.geometry.euclidean.twod.PolygonsSetTest::testSimplyConnected",
+          "upstream_name_matches": 1,
+          "exact_selected_row_match": true
+        },
+        {
+          "test": "dev__0__org.apache.commons.math3.geometry.euclidean.twod.PolygonsSetTest::testStair",
+          "upstream_name_matches": 1,
+          "exact_selected_row_match": true
+        },
+        {
+          "test": "dev__0__org.apache.commons.math3.geometry.euclidean.twod.PolygonsSetTest::testHole",
+          "upstream_name_matches": 1,
+          "exact_selected_row_match": true
+        },
+        {
+          "test": "dev__0__org.apache.commons.math3.geometry.euclidean.twod.PolygonsSetTest::testDisjointPolygons",
+          "upstream_name_matches": 1,
+          "exact_selected_row_match": true
+        },
+        {
+          "test": "dev__0__org.apache.commons.math3.geometry.euclidean.twod.PolygonsSetTest::testOppositeHyperplanes",
+          "upstream_name_matches": 1,
+          "exact_selected_row_match": true
+        },
+        {
+          "test": "dev__0__org.apache.commons.math3.geometry.euclidean.twod.PolygonsSetTest::testSingularPoint",
+          "upstream_name_matches": 1,
+          "exact_selected_row_match": true
+        },
+        {
+          "test": "dev__0__org.apache.commons.math3.geometry.euclidean.twod.PolygonsSetTest::testLineIntersection",
+          "upstream_name_matches": 1,
+          "exact_selected_row_match": true
+        },
+        {
+          "test": "dev__0__org.apache.commons.math3.geometry.euclidean.twod.PolygonsSetTest::testUnlimitedSubHyperplane",
+          "upstream_name_matches": 1,
+          "exact_selected_row_match": true
+        },
+        {
+          "test": "dev__0__org.apache.commons.math3.geometry.euclidean.threed.PolyhedronsSetTest::testIssue780",
+          "upstream_name_matches": 1,
+          "exact_selected_row_match": true
+        }
+      ],
+      "native_execution": false
+    },
+    {
+      "id": "defects4j-time-10",
+      "url": "https://raw.githubusercontent.com/donghwan-shin/Diversity-aware-Mutation-Testing/f8d8376e0efe345161f26ff6483a404c8548fe1c/resources/matrices/Time/Time.10f.big.all.Matrix.csv",
+      "git_blob_expected": "2413a65b4f7b0490baa4f794ca9f88b41445114c",
+      "git_blob_actual": "2413a65b4f7b0490baa4f794ca9f88b41445114c",
+      "blob_matches": true,
+      "upstream_sha256": "7218b6b37658c500411fde42f6287b5881573d9c2eb8f5c86e8e96b42e2713eb",
+      "local_selected_rows": 10,
+      "exact_selected_rows": 3,
+      "rows": [
+        {
+          "test": "dev__0__org.joda.time.TestBaseSingleFieldPeriod::testFactory_between_RInstant",
+          "upstream_name_matches": 1,
+          "exact_selected_row_match": true
+        },
+        {
+          "test": "dev__0__org.joda.time.TestBaseSingleFieldPeriod::testFactory_between_RPartial",
+          "upstream_name_matches": 1,
+          "exact_selected_row_match": true
+        },
+        {
+          "test": "dev__0__org.joda.time.TestBaseSingleFieldPeriod::testFactory_standardSecondsIn_RInterval",
+          "upstream_name_matches": 0,
+          "exact_selected_row_match": false
+        },
+        {
+          "test": "dev__0__org.joda.time.TestBaseSingleFieldPeriod::testFactory_standardMinutesIn_RInterval",
+          "upstream_name_matches": 0,
+          "exact_selected_row_match": false
+        },
+        {
+          "test": "dev__0__org.joda.time.TestBaseSingleFieldPeriod::testFactory_standardHoursIn_RInterval",
+          "upstream_name_matches": 0,
+          "exact_selected_row_match": false
+        },
+        {
+          "test": "dev__0__org.joda.time.TestBaseSingleFieldPeriod::testFactory_standardDaysIn_RInterval",
+          "upstream_name_matches": 0,
+          "exact_selected_row_match": false
+        },
+        {
+          "test": "dev__0__org.joda.time.TestBaseSingleFieldPeriod::testFactory_standardWeeksIn_RInterval",
+          "upstream_name_matches": 0,
+          "exact_selected_row_match": false
+        },
+        {
+          "test": "dev__0__org.joda.time.TestBaseSingleFieldPeriod::testConstants",
+          "upstream_name_matches": 0,
+          "exact_selected_row_match": false
+        },
+        {
+          "test": "dev__0__org.joda.time.TestDays::testFactory_daysBetween_RPartial_MonthDay",
+          "upstream_name_matches": 1,
+          "exact_selected_row_match": true
+        },
+        {
+          "test": "dev__0__org.joda.time.TestMonths::testFactory_monthsBetween_RPartial_MonthDay",
+          "upstream_name_matches": 1,
+          "exact_selected_row_match": false
+        }
+      ],
+      "native_execution": false
+    }
+  ],
+  "method": "GET immutable upstream CSV bytes; recompute Git blob ID and compare all retained test rows and first twelve mutant columns. No source/binary execution."
+}

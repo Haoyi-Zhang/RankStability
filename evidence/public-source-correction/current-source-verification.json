@@ -1,0 +1,123 @@
+{
+  "schema": "p014-current-source-verification-v1",
+  "records": [
+    {
+      "id": "defects4j-chart-24",
+      "source_url": "https://raw.githubusercontent.com/donghwan-shin/Diversity-aware-Mutation-Testing/f8d8376e0efe345161f26ff6483a404c8548fe1c/resources/matrices/Chart/Chart.24f.big.all.Matrix.csv",
+      "historical_operator_row_matches": true,
+      "actual_operators": [
+        "LVR",
+        "LVR",
+        "LVR",
+        "LVR",
+        "ROR",
+        "ROR",
+        "ROR",
+        "ROR",
+        "ROR",
+        "ROR",
+        "ROR",
+        "STD"
+      ],
+      "current_operator_row_matches": true,
+      "current_selected_rows_verified": 9,
+      "current_csv": "external/snapshots/defects4j-chart-24.csv",
+      "current_csv_sha256": "cff8ed87df28ec91aa22de310be265906ff39cce2e9576f56fe55d181b500ac6"
+    },
+    {
+      "id": "defects4j-closure-28",
+      "source_url": "https://raw.githubusercontent.com/donghwan-shin/Diversity-aware-Mutation-Testing/f8d8376e0efe345161f26ff6483a404c8548fe1c/resources/matrices/Closure/Closure.28f.big.all.Matrix.csv",
+      "historical_operator_row_matches": true,
+      "actual_operators": [
+        "STD",
+        "LVR",
+        "LVR",
+        "LVR",
+        "STD",
+        "STD",
+        "LVR",
+        "LVR",
+        "AOR",
+        "AOR",
+        "AOR",
+        "AOR"
+      ],
+      "current_operator_row_matches": true,
+      "current_selected_rows_verified": 10,
+      "current_csv": "external/snapshots/defects4j-closure-28.csv",
+      "current_csv_sha256": "f7d065b9a1406f11a8ba18e59fdc73de1d9a212408abb34344ab64dab5dc71ba"
+    },
+    {
+      "id": "defects4j-lang-54",
+      "source_url": "https://raw.githubusercontent.com/donghwan-shin/Diversity-aware-Mutation-Testing/f8d8376e0efe345161f26ff6483a404c8548fe1c/resources/matrices/Lang/Lang.54f.big.all.Matrix.csv",
+      "historical_operator_row_matches": true,
+      "actual_operators": [
+        "ROR",
+        "ROR",
+        "ROR",
+        "LVR",
+        "LVR",
+        "ROR",
+        "ROR",
+        "ROR",
+        "ROR",
+        "ROR",
+        "ROR",
+        "ROR"
+      ],
+      "current_operator_row_matches": true,
+      "current_selected_rows_verified": 9,
+      "current_csv": "external/snapshots/defects4j-lang-54.csv",
+      "current_csv_sha256": "5bae37763cb040dc5e573f5d8a7778072f6560ba693a796950d195cc14ad9d90"
+    },
+    {
+      "id": "defects4j-math-32",
+      "source_url": "https://raw.githubusercontent.com/donghwan-shin/Diversity-aware-Mutation-Testing/f8d8376e0efe345161f26ff6483a404c8548fe1c/resources/matrices/Math/Math.32f.big.all.Matrix.csv",
+      "historical_operator_row_matches": true,
+      "actual_operators": [
+        "LVR",
+        "LVR",
+        "ROR",
+        "ROR",
+        "ROR",
+        "ROR",
+        "ROR",
+        "ROR",
+        "ROR",
+        "LVR",
+        "ROR",
+        "ROR"
+      ],
+      "current_operator_row_matches": true,
+      "current_selected_rows_verified": 9,
+      "current_csv": "external/snapshots/defects4j-math-32.csv",
+      "current_csv_sha256": "81a40fa15fa7e2f32104abd47c87a7fcf0a6425a77dfab31ccd1f8b4a0d3997c"
+    },
+    {
+      "id": "defects4j-time-10",
+      "source_url": "https://raw.githubusercontent.com/donghwan-shin/Diversity-aware-Mutation-Testing/f8d8376e0efe345161f26ff6483a404c8548fe1c/resources/matrices/Time/Time.10f.big.all.Matrix.csv",
+      "historical_operator_row_matches": false,
+      "actual_operators": [
+        "ROR",
+        "ROR",
+        "ROR",
+        "ROR",
+        "ROR",
+        "ROR",
+        "COR",
+        "COR",
+        "COR",
+        "COR",
+        "COR",
+        "COR"
+      ],
+      "current_operator_row_matches": true,
+      "current_selected_rows_verified": 10,
+      "current_csv": "evidence/public-source-correction/input/defects4j-time-10.csv",
+      "current_csv_sha256": "c7163cd6dc0f3d3dcd6f7e8a04836a4b1e0a1258a16c62af15c697cde8ae385a"
+    }
+  ],
+  "verified_current_test_rows": 47,
+  "semantics_source": "https://github.com/donghwan-shin/Diversity-aware-Mutation-Testing/blob/f8d8376e0efe345161f26ff6483a404c8548fe1c/src/Matrix/InitMatrix.java",
+  "scope": "Static immutable-blob/selected-row/operator correspondence, not native program execution or a time-ordered sampling history."
+}

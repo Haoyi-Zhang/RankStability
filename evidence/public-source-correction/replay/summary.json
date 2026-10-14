@@ -1,0 +1,45 @@
+{
+  "cases": 15,
+  "changed_source_slice": "Time-10: six absent test names, one changed failure row and a differing operator row in the historical slice.",
+  "direct_agreement": 15,
+  "mutation_semantics": "Upstream fixed-version Major kill logs; separate faulty-version trigger labels. Not mutations or output differences of the faulty program.",
+  "native_execution": false,
+  "profiles": {
+    "balanced": {
+      "cases": 5,
+      "counterexample": 5,
+      "feasible": 7878,
+      "masks": 20480,
+      "random_hits": 5,
+      "refuters": 7153
+    },
+    "exact": {
+      "cases": 5,
+      "counterexample": 5,
+      "feasible": 387,
+      "masks": 20480,
+      "random_hits": 5,
+      "refuters": 363
+    },
+    "relaxed": {
+      "cases": 5,
+      "counterexample": 5,
+      "feasible": 18590,
+      "masks": 20480,
+      "random_hits": 5,
+      "refuters": 16265
+    }
+  },
+  "projects": 5,
+  "source_location_maps_available": false,
+  "time_ordered_sampling_histories_observed": 0,
+  "totals": {
+    "cases": 15,
+    "counterexample": 15,
+    "feasible": 26855,
+    "masks": 61440,
+    "random_hits": 15,
+    "refuters": 23781
+  },
+  "upstream_program_execution": false
+}

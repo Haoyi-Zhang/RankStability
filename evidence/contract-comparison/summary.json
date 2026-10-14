@@ -1,0 +1,84 @@
+{
+  "agreement": 273,
+  "ambiguity_source_pairs": 20,
+  "direct_scope": "Same full finite inputs and status/global-minimum obligation; no portable cut certificate is produced by direct enumeration.",
+  "disagreements": 0,
+  "excluded": [
+    {
+      "id": "fixture-03",
+      "mutants": 40,
+      "reason": "predeclared direct-enumeration cap 15"
+    },
+    {
+      "id": "fixture-17",
+      "mutants": 40,
+      "reason": "predeclared direct-enumeration cap 15"
+    }
+  ],
+  "generated_program_templates": 10,
+  "groups": {
+    "ambiguity": {
+      "direct_masks": 10240,
+      "interval_stable": 40,
+      "queries": 40,
+      "random_minimum_larger": 0,
+      "random_refuters": 0,
+      "stable": 40
+    },
+    "fixture": {
+      "counterexample": 6,
+      "direct_masks": 126,
+      "infeasible_policy": 2,
+      "interval_stable": 9,
+      "queries": 18,
+      "random_minimum_larger": 0,
+      "random_refuters": 6,
+      "stable": 10
+    },
+    "program": {
+      "counterexample": 155,
+      "direct_masks": 6553600,
+      "interval_stable": 45,
+      "queries": 200,
+      "random_minimum_larger": 11,
+      "random_refuters": 155,
+      "stable": 45
+    },
+    "public": {
+      "counterexample": 15,
+      "direct_masks": 61440,
+      "interval_stable": 0,
+      "queries": 15,
+      "random_minimum_larger": 0,
+      "random_refuters": 15
+    }
+  },
+  "interval_flow_counters": {
+    "augmentations": 22952,
+    "edge_scans": 890689,
+    "networks": 4568,
+    "search_states": 186369
+  },
+  "native_execution": false,
+  "producer_flow_counters": {
+    "augmentations": 9062,
+    "edge_scans": 411950,
+    "networks": 7107,
+    "search_states": 85497
+  },
+  "public_project_version_snapshots": 5,
+  "queries": 273,
+  "time_ordered_sampling_histories_observed": 0,
+  "totals": {
+    "counterexample": 176,
+    "direct_masks": 6625406,
+    "infeasible_policy": 2,
+    "interval_stable": 94,
+    "queries": 273,
+    "random_minimum_larger": 11,
+    "random_refuters": 176,
+    "stable": 95
+  },
+  "upstream_program_execution": false,
+  "work_scope": "Flow counters, partial checker steps and direct-mask visits are different units, not a speedup ratio or complete primitive-work accounting."
+}

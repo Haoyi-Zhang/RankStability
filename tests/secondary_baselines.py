@@ -23,6 +23,7 @@ import checker
 from result_io import scientific_view
 
 CHANGES = ("relax_b", "zero_floor", "k2", "k3")
+COUNTER_SCOPE = "producer-only-and-interval-only-v1"
 PROTOCOL = dict(primary_order="sorted data/cases/*.json filenames", changes=list(CHANGES),
                 seed="271828 + zero-based sorted primary index; same for all transformations",
                 accepted_limit=64, attempts_limit=4096, secondary_queries=981,
@@ -31,6 +32,16 @@ PROTOCOL = dict(primary_order="sorted data/cases/*.json filenames", changes=list
 def require(ok, message):
     if not ok:
         raise ValueError(message)
+
+def validate_counter_accounting(row):
+    require(row.get("counter_scope") == COUNTER_SCOPE, "unknown flow counter scope")
+    names = set(certify.COUNTERS)
+    for field in ("producer_counters", "interval_counters", "combined_flow_counters"):
+        value = row.get(field)
+        require(type(value) is dict and set(value) == names and
+                all(type(x) is int and x >= 0 for x in value.values()), "invalid phase counters")
+    require(all(row["combined_flow_counters"][key] == row["producer_counters"][key] +
+                row["interval_counters"][key] for key in names), "flow counter components do not add")
 
 def digest(path):
     return hashlib.sha256(path.read_bytes()).hexdigest()
@@ -159,15 +170,23 @@ def run_shard(plan, plan_sha, start, stop):
         certificate = certify.produce(case)
         status = checker.check(case, certificate)
         require((status, certificate.get("size")) == (row["status"], row["minimum"]), "fresh exact answer mismatch")
+        producer_counters = dict(certify.COUNTERS)
         interval = baselines.marginal(case)
+        combined_counters = dict(certify.COUNTERS)
+        interval_counters = {key: combined_counters[key] - producer_counters[key]
+                             for key in producer_counters}
         sampled = baselines.random_samples(case, row["seed"])
         require(interval["result"] != "stable" or status == "stable", "unsound marginal decision")
         require(interval["result"] != "infeasible_policy" or status == "infeasible_policy", "policy mismatch")
         require(sampled["accepted"] <= 64 and sampled["attempts"] <= 4096, "random budget changed")
         require(sampled["observed_minimum"] is None or (status == "counterexample" and sampled["observed_minimum"] >= row["minimum"]), "random answer mismatch")
-        output.append(dict(**{k: v for k, v in row.items() if k != "case"},
+        measured = dict(**{k: v for k, v in row.items() if k != "case"},
                            certificate=certificate, interval=interval, random=sampled,
-                           producer_counters=dict(certify.COUNTERS), checker_steps=checker.STEPS))
+                           producer_counters=producer_counters, interval_counters=interval_counters,
+                           combined_flow_counters=combined_counters, counter_scope=COUNTER_SCOPE,
+                           checker_steps=checker.STEPS)
+        validate_counter_accounting(measured)
+        output.append(measured)
     elapsed = time.monotonic() - begin
     require(elapsed <= 120, "shard exceeded deadline")
     return dict(plan_sha256=plan_sha, start=start, stop=stop, rows=output,
@@ -181,8 +200,15 @@ def reconcile(plan, plan_sha, shards):
         require(len(shard["rows"]) == shard["stop"] - shard["start"] and shard["wall_seconds"] <= 120, "incomplete/unbounded shard")
         rows.extend(shard["rows"])
     require(len(rows) == 981, "all 981 outcomes required")
+    scoped = ["counter_scope" in row for row in rows]
+    require(all(scoped) or not any(scoped), "mixed legacy and phase-local flow accounting")
     totals, grouped = Counter(), {}
     for expected, actual in zip(plan["rows"], rows):
+        if "counter_scope" in actual:
+            validate_counter_accounting(actual)
+        else:
+            require("interval_counters" not in actual and "combined_flow_counters" not in actual,
+                    "partial flow counter schema")
         require({k: actual[k] for k in expected if k != "case"} == {k: v for k, v in expected.items() if k != "case"}, "changed row identity")
         require(checker.check(expected["case"], actual["certificate"]) == expected["status"], "invalid exact certificate")
         interval, sampled = actual["interval"], actual["random"]
@@ -226,7 +252,9 @@ def main():
         result = reconcile(read_json(plan_path), digest(plan_path),
                            [read_json(p) for p in sorted(a.evidence.glob("shard-*.json"))])
         require(scientific_view(result) == scientific_view(read_json(a.evidence / "all-outcomes.json")), "stored aggregate mismatch")
-        print(json.dumps(dict(complete=True, totals=result["totals"], checked_queries=981), sort_keys=True))
+        scope = COUNTER_SCOPE if "counter_scope" in result["rows"][0] else "legacy-producer-field-includes-interval"
+        print(json.dumps(dict(complete=True, totals=result["totals"], checked_queries=981,
+                             flow_accounting_scope=scope), sort_keys=True))
         return
     if a.action == "plan":
         result = make_plan()

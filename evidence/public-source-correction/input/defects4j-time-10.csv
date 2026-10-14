@@ -1,0 +1,12 @@
+test_type,test_name,bug,mutant_1,mutant_2,mutant_3,mutant_4,mutant_5,mutant_6,mutant_7,mutant_8,mutant_9,mutant_10,mutant_11,mutant_12
+operator,-,-,ROR,ROR,ROR,ROR,ROR,ROR,COR,COR,COR,COR,COR,COR
+dev,dev__0__org.joda.time.TestBaseSingleFieldPeriod::testFactory_between_RInstant,0,1,1,1,1,1,1,1,1,1,1,1,1
+dev,dev__0__org.joda.time.TestBaseSingleFieldPeriod::testFactory_between_RPartial,0,0,0,0,0,0,0,0,0,0,0,0,0
+dev,dev__0__org.joda.time.TestBaseSingleFieldPeriod::testFactory_standardPeriodIn_RPeriod,0,0,0,0,0,0,0,0,0,0,0,0,0
+dev,dev__0__org.joda.time.TestBaseSingleFieldPeriod::testValueIndexMethods,0,0,0,0,0,0,0,0,0,0,0,0,0
+dev,dev__0__org.joda.time.TestBaseSingleFieldPeriod::testFieldTypeIndexMethods,0,0,0,0,0,0,0,0,0,0,0,0,0
+dev,dev__0__org.joda.time.TestBaseSingleFieldPeriod::testIsSupported,0,0,0,0,0,0,0,0,0,0,0,0,0
+dev,dev__0__org.joda.time.TestBaseSingleFieldPeriod::testGet,0,0,0,0,0,0,0,0,0,0,0,0,0
+dev,dev__0__org.joda.time.TestBaseSingleFieldPeriod::testEqualsHashCode,0,0,0,0,0,0,0,0,0,0,0,0,0
+dev,dev__0__org.joda.time.TestDays::testFactory_daysBetween_RPartial_MonthDay,1,0,0,0,0,0,0,0,0,0,0,0,0
+dev,dev__0__org.joda.time.TestMonths::testFactory_monthsBetween_RPartial_MonthDay,1,0,0,0,0,0,0,0,0,0,0,0,0

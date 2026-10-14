@@ -1,0 +1,35 @@
+{
+  "command": [
+    "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "-B",
+    "tests/public_source_replay.py",
+    "--out",
+    "evidence/public-source-correction/replay"
+  ],
+  "input_and_source_sha256": {
+    "evidence/public-source-correction/historical-source-audit.json": "c20f5aabfcf01c3b9c4b4812d65533677b542a8149cd14c66dff3e7f49202a32",
+    "evidence/public-source-correction/input/defects4j-time-10.csv": "c7163cd6dc0f3d3dcd6f7e8a04836a4b1e0a1258a16c62af15c697cde8ae385a",
+    "evidence/public-source-correction/input/defects4j-time-10.json": "d802fd4f5b10948f5a8c3282d674747b1274a5918ca188295aa6b5d2ba107be2",
+    "external/snapshots/defects4j-chart-24.csv": "cff8ed87df28ec91aa22de310be265906ff39cce2e9576f56fe55d181b500ac6",
+    "external/snapshots/defects4j-chart-24.json": "fad35d1ceb8f53413f8799127e55421f80988f349528f2508ba4443dd7fed269",
+    "external/snapshots/defects4j-closure-28.csv": "f7d065b9a1406f11a8ba18e59fdc73de1d9a212408abb34344ab64dab5dc71ba",
+    "external/snapshots/defects4j-closure-28.json": "8cdc7132de8d0176ea387c900968be907ea8689306cd72f8d0233edbfc443804",
+    "external/snapshots/defects4j-lang-54.csv": "5bae37763cb040dc5e573f5d8a7778072f6560ba693a796950d195cc14ad9d90",
+    "external/snapshots/defects4j-lang-54.json": "55cfe23deff7fd46a526a7490ff42f67e07749e9a1f3f8ce2442ee11d01c1909",
+    "external/snapshots/defects4j-math-32.csv": "81a40fa15fa7e2f32104abd47c87a7fcf0a6425a77dfab31ccd1f8b4a0d3997c",
+    "external/snapshots/defects4j-math-32.json": "4ac39d6cc4c1a5b7509e7137f20272846e3d08282be76ee1b04d103c883e52ef",
+    "results/external-matrices.json": "ad0aaba4490037bf2c8224e34ef8e4806c318ecd607aae9dceebdfdb0ab4907a",
+    "src/baselines.py": "9a7438051d8e0a0327d12ac9650e0c2b1c2de4215181dbaf820e63aba24e42cc",
+    "src/certify.py": "dcca842496bcb7e8b9d719ebaab334d50a0e92389059e281a1fecee4cf605fea",
+    "src/checker.py": "755af3e4f26c5b0822dbee75cb7d3a13ac57d3841808a8d716cb8dbc9da04cff",
+    "src/external_cases.py": "609f3725b25d3dc4f4663d253f7d0dd4fcc23ea01eb32401e6621c579d9bfc26",
+    "tests/generated_oracle_audit.py": "bde6f11de58d6524062d105a194c7966cb35ccc407a9bf0caf6b5ae7d772d75c",
+    "tests/public_source_replay.py": "41b153780d2d0e1cd39bd577d2017fe2b981a76e7f2d5819919ca1cfe16edf5d"
+  },
+  "native_execution": false,
+  "platform": "Windows-11-10.0.28000-SP0",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "upstream_program_execution": false,
+  "wall_seconds": 0.4220000000204891,
+  "workers": 1
+}
