@@ -208,3 +208,13 @@ The JSON input schema and all three certificate objects are documented in the se
 ## Scope and limitations
 
 The certificate concerns robustness to mutant selection under one declared policy. It does not prove that the reference ranking is accurate, that a reported location caused the fault, that a developer benefits, or that mutation executions are saved. The public challenge contains only five purposively selected versions and surrogate mutant locations. The checker is independently implemented but not mechanically verified. Targeted corruptions and finite enumeration are strong implementation evidence, not exhaustive hostile-input assurance or external peer review.
+
+## Manuscript diagrams
+
+The model and protocol schematics are drawn directly in Python as vector PDFs
+with embedded STIX fonts. They encode the stated relationships, not measured
+performance. To regenerate them with Python 3.9+ and Matplotlib:
+
+```sh
+python -B figures/draw_schematics.py --output figures
+```
