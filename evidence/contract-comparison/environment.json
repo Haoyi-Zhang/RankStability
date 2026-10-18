@@ -1,6 +1,6 @@
 {
   "command": [
-    "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "<PYTHON_ROOT>\\python.exe",
     "-B",
     "tests/contract_comparison.py",
     "--out",
